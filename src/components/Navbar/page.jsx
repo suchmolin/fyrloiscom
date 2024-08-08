@@ -29,7 +29,7 @@ export default function Navbar() {
         </li>
         <li className="hover:text-[#bb29b9] transition-all duration-300">
           <a href="#" className="">
-            Contactanos
+            Contáctanos
           </a>
         </li>
       </ul>

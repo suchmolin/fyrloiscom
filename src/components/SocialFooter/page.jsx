@@ -8,7 +8,7 @@ export default function SocialFooter() {
         href="#0"
         className="text-sm md:text-base flex gap-2 justify-end hover:text-[#bb29b9] transition-all duration-300 "
       >
-        Fyrlois Instagram{" "}
+        @fyrlois{" "}
         <div className="relative w-[20px] h-[20px] md:w-[24px] md:h-[24px] overflow-hidden">
           <Image
             className="hover:scale-110 transition-all duration-300"
@@ -23,7 +23,7 @@ export default function SocialFooter() {
         href="#0"
         className="text-sm md:text-base flex gap-2 justify-end hover:text-[#bb29b9] transition-all duration-300"
       >
-        Fyrlois Facebook{" "}
+        Fyr Lois English Institute{" "}
         <div className="relative w-[20px] h-[20px] md:w-[24px] md:h-[24px] overflow-hidden">
           <Image
             className="hover:scale-110 transition-all duration-300"
@@ -38,7 +38,7 @@ export default function SocialFooter() {
         href="#0"
         className="text-sm md:text-base flex gap-2 justify-end hover:text-[#bb29b9] transition-all duration-300"
       >
-        Fyrlois LinkedIn{" "}
+        Fyr Lois{" "}
         <div className="relative w-[20px] h-[20px] md:w-[24px] md:h-[24px] overflow-hidden">
           <Image
             className="hover:scale-110 transition-all duration-300"

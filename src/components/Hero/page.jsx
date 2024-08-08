@@ -13,7 +13,7 @@ export default function Hero() {
         <div className=" mb-4">
           <h4 className="text-sm sm:text-base md:text-lg font-bold text-center py-2 px-4 bg-white rounded-full text-[#000b7a] shadow-xl flex flex-col">
             Cursos de idiomas para niños, jovenes
-            <span>y adolescentes</span>
+            <span>y adultos</span>
           </h4>
         </div>
         <div className="flex gap-4">
