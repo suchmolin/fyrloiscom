@@ -2,9 +2,9 @@ import Image from "next/image"
 
 export default function Customers() {
   return (
-    <div className="bottomCustomer relative flex flex-col bg-gray-100 min-h-[200px] w-full pb-20 overflow-hidden">
+    <div className="bottomCustomer relative flex flex-col items-center bg-gray-100 min-h-[200px] w-full pb-20 overflow-hidden">
       <Image
-        className="absolute -rotate-45 md:-top-16 scale-130 md:scale-100"
+        className="absolute -rotate-45 md:-top-16 left-0 scale-130 md:scale-100"
         src="/img/contrato.webp"
         width={400}
         height={500}
@@ -30,9 +30,12 @@ export default function Customers() {
           <Image src="/img/empresa6.png" objectFit="cover" fill alt="client" />
         </div>
       </div>
-      <h2 className="text-center text-3xl text-[#000b7a] font-bold z-10">
+      <h2 className="text-center text-3xl text-[#000b7a] font-bold z-10 mb-4">
         Nuestros Clientes
       </h2>
+      <p className="z-10 w-10/12 sm:w-6/12 text-center text-lg text-gray-500 mb-10">
+        Con más de 20 años impulsando el crecimiento de las empresas
+      </p>
     </div>
   )
 }
