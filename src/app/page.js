@@ -3,6 +3,7 @@ import Diferenciadores from "@/components/Diferenciadores/page"
 import Footer from "@/components/Footer/page"
 import Hero from "@/components/Hero/page"
 import Navbar from "@/components/Navbar/page"
+import SedePrincipal from "@/components/SedePrincipal/page"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Diferenciadores />
+      <SedePrincipal />
       <Customers />
       <Footer />
     </main>

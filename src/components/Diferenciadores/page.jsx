@@ -3,7 +3,7 @@ import { data } from "@/data/diferenciadores"
 
 export default function Diferenciadores() {
   return (
-    <div className="relative topCustomer pb-[80px] w-full flex flex-col items-center justify-center overflow-hidden">
+    <div className="relative top2 pb-10 sm:pb-[80px] w-full flex flex-col items-center justify-center overflow-hidden">
       <h2 className="text-3xl font-bold text-[#000b7a] text-center mt-10 mb-2">
         ¿Porqué elegirnos?
       </h2>

@@ -27,10 +27,16 @@
 	background-position: 0 0, 0 0, 100px 175px, 100px 175px, 0 0, 100px 175px;
 	background-color: #CCCEE4;
 }
-  
+
+.gradient{
+  mask-image: linear-gradient(90deg, rgba(0,0,0,1) 80%, transparent);
+}
   
 .textShadow{
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.textShadowWhite{
+  text-shadow: 1px 1px 1px rgba(255,255,255,1);
 }
 .textShadowBold{
   text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
@@ -39,6 +45,14 @@
 .textBorder {
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: #000b7a;
+}
+
+.top2 {
+  clip-path: polygon(0 0,100% 0,100% calc(100% - 70px),0 100%);
+}
+.bottom2 {
+  clip-path: polygon(0 70px,100% 0,100% 100%,0 100%);
+  margin-top: -60px;
 }
 
 .topCustomer {
@@ -57,5 +71,8 @@
 
     .textBorder {
       -webkit-text-stroke-width: 2px;
+    }
+    .gradient{
+      mask-image: linear-gradient(90deg, rgba(0,0,0,1) 100%, transparent);
     }
   }

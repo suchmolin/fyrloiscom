@@ -2,9 +2,9 @@ import Image from "next/image"
 
 export default function Customers() {
   return (
-    <div className="bottomCustomer relative flex flex-col items-center bg-gray-100 min-h-[200px] w-full pb-20 overflow-hidden">
+    <div className="bottomCustomer relative flex flex-col items-center bg-gray-100 min-h-[200px] w-full pb-20 overflow-hidden pt-10">
       <Image
-        className="absolute -rotate-45 md:-top-16 left-0 scale-130 md:scale-100"
+        className="absolute -rotate-45 left-20 md:-top-5 scale-130 md:scale-[130%]"
         src="/img/contrato.webp"
         width={400}
         height={500}
