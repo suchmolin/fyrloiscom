@@ -11,10 +11,10 @@ export default function Hero() {
           manera de comunicarte
         </h2>
         <div className=" mb-4">
-          <h4 className="text-sm sm:text-base md:text-lg font-bold text-center py-2 px-4 bg-white rounded-full text-[#000b7a] shadow-xl flex flex-col">
+          <h3 className="text-sm sm:text-base md:text-lg font-bold text-center py-2 px-4 bg-white rounded-full text-[#000b7a] shadow-xl flex flex-col">
             Cursos de idiomas para niños, jovenes
             <span>y adultos</span>
-          </h4>
+          </h3>
         </div>
         <div className="flex gap-4">
           <button className="px-4 py-2 text-white bg-[#000b7a] rounded-lg hover:bg-[#bb29b9] transition-all duration-300">
