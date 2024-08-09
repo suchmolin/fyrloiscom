@@ -4,6 +4,11 @@ import Image from "next/image"
 export default function IdiomasSelector() {
   return (
     <Dropdown label="Idiomas" inline>
+      <Dropdown.Header className="w-[240px]">
+        <span className="block text-sm text-[#000b7a]">
+          ¿Qué idioma deseas estudiar?
+        </span>
+      </Dropdown.Header>
       <Dropdown.Item className="flex gap-2 mr-4">
         <Image src="/img/spanish.png" width={20} height={20} alt="spanish" />
         {"   "}
