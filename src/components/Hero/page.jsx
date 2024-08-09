@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Hero() {
   return (
-    <div className="flex items-center justify-center md:justify-start w-full h-screen bg-[url('/img/headerAdolescentes.jpg')] bg-cover bg-left md:bg-center">
+    <div className="flex items-center justify-center md:justify-start w-full h-screen bg-[url('/img/headerAdolescentes.webp')] bg-cover bg-left md:bg-center">
       <div className="flex flex-col justify-center items-center px-2 sm:px-10 md:px-28 pt-[70px]">
         <h1 className="textBorder textShadowBold font-[eastmanromanblack] text-4xl sm:text-4xl md:text-5xl text-white text-center mb-2">
           Aprende una nueva

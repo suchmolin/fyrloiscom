@@ -29,9 +29,7 @@ export default function Diferenciadores() {
             <h1 className="text-lg font-bold text-[#000b7a] text-center">
               {item.title}
             </h1>
-            <h4 className="text-sm text-gray-500 text-center">
-              {item.subtitle}
-            </h4>
+            <p className="text-sm text-gray-500 text-center">{item.subtitle}</p>
           </div>
         ))}
       </div>
