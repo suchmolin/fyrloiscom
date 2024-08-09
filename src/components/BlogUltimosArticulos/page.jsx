@@ -15,7 +15,7 @@ export default function BlogUltimosArticulos() {
                 layout="fill"
                 objectFit="cover"
                 src={`/img/${item.tarjeta.img}`}
-                alt={`Teacher who wrote the article`}
+                alt={`article ${item.tarjeta.titulo}`}
               />
               <div className="absolute right-0 py-2 px-3 mt-2 mr-2  bg-[#000b7a] rounded-full flex justify-center items-center text-white">
                 <p>{item.tarjeta.categoria}</p>
@@ -34,7 +34,7 @@ export default function BlogUltimosArticulos() {
                     layout="fill"
                     objectFit="cover"
                     src={`/img/${item.tarjeta.fotoAutor}`}
-                    alt={item.tarjeta.autor}
+                    alt={`teacher ${item.tarjeta.autor}`}
                   />
                 </span>
                 {item.tarjeta.autor}
