@@ -1,8 +1,10 @@
 import Customers from "@/components/Customers/page"
 import Diferenciadores from "@/components/Diferenciadores/page"
+import FAQSection from "@/components/FAQSection/page"
 import Footer from "@/components/Footer/page"
 import Hero from "@/components/Hero/page"
 import Navbar from "@/components/Navbar/page"
+import SeccionBlog from "@/components/SeccionBlog/page"
 import SedePrincipal from "@/components/SedePrincipal/page"
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
       <Diferenciadores />
       <SedePrincipal />
       <Customers />
+      <FAQSection />
+      <SeccionBlog />
       <Footer />
     </main>
   )
