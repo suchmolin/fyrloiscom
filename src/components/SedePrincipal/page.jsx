@@ -20,7 +20,7 @@ export default function SedePrincipal() {
           </span>{" "}
           +1 (305) 5105259
         </p>
-        <button className="shadow-xl py-2 px-4 rounded-lg bg-[#9ee701] text-[#000b7a] my-4">
+        <button className="shadow-xl py-2 px-4 rounded-lg bg-[#9ee701] text-[#000b7a] my-4 hover:text-white hover:bg-[#000b7a] transition-all duration-300 hover:shadow-2xl">
           Todas las Sedes
         </button>
       </div>
