@@ -1,4 +1,4 @@
-import BlogUltimosArticulos from "../BlogUltimosArticulos/page";
+import BlogUltimosArticulos from "../BlogUltimosArticulos/page"
 
 export default function SeccionBlog() {
   return (
@@ -13,5 +13,5 @@ export default function SeccionBlog() {
         <BlogUltimosArticulos />
       </div>
     </div>
-  );
+  )
 }

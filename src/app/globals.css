@@ -76,3 +76,21 @@
       mask-image: linear-gradient(90deg, rgba(0,0,0,1) 100%, transparent);
     }
   }
+
+  .website-divider-container-812536 {
+    overflow:hidden;
+    position: relative;
+    height: 100%;
+  }
+  
+  .divider-img-812536
+  {
+    position: absolute;
+    width: 278%;
+    height: 132px;
+    
+    transform: scale(1, -1);
+    top:0px;
+    left: 0px;
+    fill: rgb(255, 255, 255)
+  }
