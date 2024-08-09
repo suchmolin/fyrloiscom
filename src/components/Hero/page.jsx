@@ -7,7 +7,7 @@ export default function Hero() {
         <h1 className="textBorder textShadowBold font-[eastmanromanblack] text-4xl sm:text-4xl md:text-5xl text-white text-center mb-2">
           Aprende una nueva
         </h1>
-        <h2 className="text-2xl sm:text-4xl md:text-5xl italic font-bold textShadow text-white py-2 px-5 rounded-3xl bg-[#9ee701] mb-2">
+        <h2 className="text-2xl sm:text-4xl md:text-5xl italic font-bold textShadow text-gray-100 py-2 px-5 rounded-3xl bg-[#9ee701] mb-2">
           manera de comunicarte
         </h2>
         <div className=" mb-4">

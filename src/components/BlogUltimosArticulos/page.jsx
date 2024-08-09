@@ -22,9 +22,9 @@ export default function BlogUltimosArticulos() {
               </div>
             </div>
             <div className="mx-5 py-3 ">
-              <h4 className="text-xl font-bold text-[#000b7a] py-2">
+              <h3 className="text-xl font-bold text-[#000b7a] py-2">
                 {item.tarjeta.titulo}
-              </h4>
+              </h3>
               <p className="text-gray-500 pb-6">{item.tarjeta.descripcion}</p>
             </div>
             <div className="mx-4 py-5 text-xl text-[#000b7a] font-bold border-t-[1px] border-gray-500">
