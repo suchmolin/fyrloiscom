@@ -1,6 +1,8 @@
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 
 export default function Customers() {
+  const t = useTranslations("Customers")
   return (
     <div className="bottomCustomer relative flex flex-col items-center bg-gray-100 min-h-[200px] w-full pb-20 overflow-hidden pt-10">
       <Image
@@ -31,10 +33,10 @@ export default function Customers() {
         </div>
       </div>
       <h2 className="text-center text-3xl text-[#000b7a] font-bold z-10 mb-4">
-        Nuestros Clientes
+        {t("h2")}
       </h2>
       <p className="z-10 w-10/12 sm:w-6/12 text-center text-lg text-gray-500 mb-10">
-        Con más de 20 años impulsando el crecimiento de las empresas
+        {t("p")}
       </p>
     </div>
   )

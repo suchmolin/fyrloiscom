@@ -1,9 +1,11 @@
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 
 export default function SocialFooter() {
+  const t = useTranslations("Footer")
   return (
     <div className="flex flex-col sm:flex-row lg:flex-col justify-center items-center lg:justify-end lg:items-end gap-5 sm:mt-20 text-[#000b7a]">
-      <h2 className="text-3xl text-[#000b7a] font-bold">Visítanos</h2>
+      <h2 className="text-3xl text-[#000b7a] font-bold">{t("h2")}</h2>
       <a
         href="#0"
         className="text-sm md:text-base flex gap-2 justify-end hover:text-[#bb29b9] transition-all duration-300 "

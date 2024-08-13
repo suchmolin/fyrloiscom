@@ -3,6 +3,7 @@ import { TfiWorld } from "react-icons/tfi"
 
 import { Dropdown } from "flowbite-react"
 import Image from "next/image"
+import Link from "next/link"
 
 export function LanguageSelector() {
   return (
@@ -13,21 +14,30 @@ export function LanguageSelector() {
             Selecciona un idioma
           </span>
         </Dropdown.Header>
-        <Dropdown.Item className="flex gap-2 mr-4">
-          <Image src="/img/spanish.png" width={20} height={20} alt="spanish" />
-          {"   "}
-          Español
-        </Dropdown.Item>
-        <Dropdown.Item className="flex gap-2 mr-4">
-          {" "}
-          <Image
-            src="/img/united-states.png"
-            width={20}
-            height={20}
-            alt="spanish"
-          />
-          English
-        </Dropdown.Item>
+        <Link href="/es" locale="es">
+          <Dropdown.Item className="flex gap-2 mr-4">
+            <Image
+              src="/img/spanish.png"
+              width={20}
+              height={20}
+              alt="spanish"
+            />
+            {"   "}
+            Español
+          </Dropdown.Item>
+        </Link>
+        <Link href="/en" locale="en">
+          <Dropdown.Item className="flex gap-2 mr-4">
+            {" "}
+            <Image
+              src="/img/united-states.png"
+              width={20}
+              height={20}
+              alt="spanish"
+            />
+            English
+          </Dropdown.Item>
+        </Link>
       </Dropdown>
     </div>
   )

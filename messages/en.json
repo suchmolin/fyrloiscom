@@ -1,0 +1,58 @@
+{
+  "navbarMenu":{
+    "dropDown":"Languages",
+    "ddTitle":"What language do you want to study?",
+    "ddItem1":"Spanish",
+    "ddItem2":"English",
+    "item2":"Online",
+    "item3":"Presential",
+    "item4":"About us",
+    "item5":"Contact us"
+  },
+  "hero": {
+    "h1": "Learn a new",
+    "h2": "way to comunicate",
+    "h3": "Languages courses for child, youngs",
+    "h3Span": " and adults",
+    "button1": "Presential",
+    "button2": "Online"
+  },
+  "Diferenciadores":{
+    "h2": "Why choose us?",
+    "p":"We designed a unique methodology that provides a complete language learning experience to the student, as a tool to achieve their life project",
+    "data":"dataEN"
+  },
+  "SedePrincipal":{
+    "h2":"Headquarters",
+    "button":"See all"
+  },
+  "Customers":{
+    "h2":"Our Customers",
+    "p":"With more than 20 years promoting the growth of companies"
+  },
+  "FAQSection":{
+    "h2":"FAQ",
+    "p":"Frequenty asked questions",
+    "data":"dataEN"
+  },
+  "SeccionBlog":{
+    "h2":"Blog",
+    "p":"Learn about essential topics to improve your English.",
+    "data":"dataEN"
+  },
+  "Footer":{
+    "li":"Online",
+    "li2":"Presential",
+    "li3":"About us",
+    "li4":"Contact us",
+    "p":"Fyr Lois ® All rights reserved.",
+    "form":{
+      "input":"Name",
+      "input2":"Cellphone",
+      "input3":"Email",
+      "input4":"Message",
+      "button":"Send"
+    },
+    "h2":"Visit us"
+  }
+}

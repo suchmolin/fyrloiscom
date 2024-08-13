@@ -1,14 +1,17 @@
 import Image from "next/image"
 import FormFooter from "../FormFooter/page"
 import SocialFooter from "../SocialFooter/page"
+import { useTranslations } from "next-intl"
 
 export default function Footer() {
+  const t = useTranslations("Footer")
+
   return (
     <>
-      <div id="divider_id" class="website-divider-container-812536">
+      <div id="divider_id" className="website-divider-container-812536">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="divider-img-812536"
+          className="divider-img-812536"
           viewBox="0 0 1080 137"
           preserveAspectRatio="none"
         >
@@ -38,21 +41,21 @@ export default function Footer() {
                   />
                   <ul className="py-2 flex flex-col items-center sm:items-start gap-2  pl-5">
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <a href="#0">Online</a>
+                      <a href="#0">{t("li")}</a>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <a href="#0">Presencial</a>
+                      <a href="#0">{t("li2")}</a>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <a href="#0">Conócenos</a>
+                      <a href="#0">{t("li3")}</a>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <a href="#0">Contactanos</a>
+                      <a href="#0">{t("li4")}</a>
                     </li>
                   </ul>
                 </div>
                 <p className="pl-5 md:pl-0 py-4 sm:py-0 text-center">
-                  Fyr Lois ® Todos los derechos reservados.
+                  {t("p")}
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-w-[300px] w-12/12 sm:w-fit">

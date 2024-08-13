@@ -1,0 +1,59 @@
+{
+  "navbarMenu":{
+    "dropDown":"Idiomas",
+    "ddTitle":"¿Qué idioma deseas estudiar?",
+    "ddItem1":"Español",
+    "ddItem2":"Inglés",
+    "item2":"En Linea",
+    "item3":"Presencial",
+    "item4":"Conócenos",
+    "item5":"Contáctanos"
+  },
+  "hero": {
+    "h1": "Aprende una nueva",
+    "h2": "manera de comunicarte",
+    "h3": "Cursos de idiomas para niños, jovenes y adultos",
+    "h3Span": "y adultos",
+    "button1": "Presencial",
+    "button2": "En Linea"
+  },
+  "Diferenciadores":{
+    "h2": "¿Porqué elegirnos?",
+    "p":"Diseñamos una metodología única que brinda una experiencia completa de aprendizaje del idioma al estudiante, como una herramienta para lograr su proyecto de vida",
+    "data":"data"
+  },
+  "SedePrincipal":{
+    "h2":"Sede Principal",
+    "button":"Todas las Sedes"
+  },
+  "Customers":{
+    "h2":"Nuestros Clientes",
+    "p":"Con más de 20 años impulsando el crecimiento de las empresas"
+  },
+  "FAQSection":{
+    "h2":"FAQ",
+    "p":"Pregutas y respuestas frecuentes",
+    "data":"data"
+  },
+  "SeccionBlog":{
+    "h2":"Blog",
+    "p":"Aprende acerca de temas imprescindibles para mejorar tu inglés.",
+    "data":"dataEN"
+  },
+  "Footer":{
+    "li":"En Linea",
+    "li2":"Presencial",
+    "li3":"Conócenos",
+    "li4":"Contactanos",
+    "p":"Fyr Lois ® Todos los derechos reservados.",
+    "form":{
+      "input":"Nombre",
+      "input2":"Teléfono",
+      "input3":"Correo Electrónico",
+      "input4":"Mensaje",
+      "button":"Enviar"
+    },
+    "h2":"Visítanos"
+  }
+
+}

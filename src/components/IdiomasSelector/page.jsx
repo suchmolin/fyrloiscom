@@ -1,18 +1,18 @@
 import { Dropdown } from "flowbite-react"
 import Image from "next/image"
+import { useTranslations } from "next-intl"
 
 export default function IdiomasSelector() {
+  const t = useTranslations("navbarMenu")
   return (
-    <Dropdown label="Idiomas" inline>
+    <Dropdown label={t("dropDown")} inline>
       <Dropdown.Header className="w-[240px]">
-        <span className="block text-sm text-[#000b7a]">
-          ¿Qué idioma deseas estudiar?
-        </span>
+        <span className="block text-sm text-[#000b7a]">{t("ddTitle")}</span>
       </Dropdown.Header>
       <Dropdown.Item className="flex gap-2 mr-4">
         <Image src="/img/spanish.png" width={20} height={20} alt="spanish" />
         {"   "}
-        Español
+        {t("ddItem1")}
       </Dropdown.Item>
       <Dropdown.Item className="flex gap-2 mr-4">
         {" "}
@@ -22,7 +22,7 @@ export default function IdiomasSelector() {
           height={20}
           alt="spanish"
         />
-        Inglés
+        {t("ddItem2")}
       </Dropdown.Item>
     </Dropdown>
   )
