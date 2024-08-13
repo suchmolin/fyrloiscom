@@ -1,19 +1,14 @@
 import Image from "next/image"
-import { FaFacebookF } from "react-icons/fa"
-import { FaTwitter } from "react-icons/fa"
-import { FaInstagram } from "react-icons/fa"
-import { FaLinkedinIn } from "react-icons/fa6"
+import { useTranslations } from "next-intl"
+
 export default function MasInfoContactUs() {
+  const t = useTranslations("contactUs.MasInfoContactUs")
+
   return (
     <>
       <div className="pb-10 text-center flex flex-col items-center">
-        <h2 className="text-[#000b7a] text-4xl font-bold py-4">
-          ¿Necesitas más información?
-        </h2>
-        <p className="text-gray-500 w-8/12">
-          Si quieres contactarnos directamente, puedes hacerlo através de estas
-          vías.
-        </p>
+        <h2 className="text-[#000b7a] text-4xl font-bold py-4">{t("h2")}</h2>
+        <p className="text-gray-500 w-8/12">{t("p")}</p>
       </div>
       <div className="w-11/12 flex flex-wrap gap-10 justify-center pb-20">
         <div className="w-full sm:w-fit flex flex-col md:flex-row items-center gap-4 rounded-2xl shadow-xl py-5 px-10">

@@ -113,6 +113,10 @@
       },
       "button":" Enviar Mensaje",
       "sended":"Correo Enviado Exitosamente, muy pronto un agente autorizado se contactara al telefono y correo proporcionado"
+    },
+    "MasInfoContactUs":{
+      "h2":"¿Necesitas más información?",
+      "p":"Si quieres contactarnos directamente, puedes hacerlo através de estas vías."
     }
   }
 

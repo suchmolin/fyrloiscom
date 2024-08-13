@@ -113,6 +113,10 @@
       },
       "button":" Send Message",
       "sended":"Email Sent Successfully, very soon an authorized agent will contact the phone number and email provided"
+    },
+    "MasInfoContactUs":{
+      "h2":"Do you need more information?",
+      "p":"If you want to contact us directly, you can do so through these channels."
     }
   }
 
