@@ -1,6 +1,7 @@
 import { Slide } from "react-awesome-reveal"
 import IdiomasSelector from "../IdiomasSelector/page"
 import { useTranslations } from "next-intl"
+import Link from "next/link"
 
 export default function NavbarMenu({ lang }) {
   const t = useTranslations("navbarMenu")
@@ -11,24 +12,24 @@ export default function NavbarMenu({ lang }) {
           <IdiomasSelector />
         </li>
         <li className="hover:text-[#bb29b9] transition-all duration-300">
-          <a href="#" className="">
+          <Link href="#" className="">
             {t("item2")}
-          </a>
+          </Link>
         </li>
         <li className="hover:text-[#bb29b9] transition-all duration-300">
-          <a href="#" className="">
+          <Link href="#" className="">
             {t("item3")}
-          </a>
+          </Link>
         </li>
         <li className="hidden md:block hover:text-[#bb29b9] transition-all duration-300">
-          <a href={`/${lang}/aboutUs`} className="">
+          <Link href={`/${lang}/aboutUs`} className="">
             {t("item4")}
-          </a>
+          </Link>
         </li>
         <li className="hover:text-[#bb29b9] transition-all duration-300">
-          <a href={`/${lang}/contactUs`} className="">
+          <Link href={`/${lang}/contactUs`} className="">
             {t("item5")}
-          </a>
+          </Link>
         </li>
       </ul>
     </Slide>

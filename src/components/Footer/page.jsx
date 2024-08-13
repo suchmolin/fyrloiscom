@@ -2,6 +2,7 @@ import Image from "next/image"
 import FormFooter from "../FormFooter/page"
 import SocialFooter from "../SocialFooter/page"
 import { useTranslations } from "next-intl"
+import Link from "next/link"
 
 export default function Footer({ lang }) {
   const t = useTranslations("Footer")
@@ -41,16 +42,16 @@ export default function Footer({ lang }) {
                   />
                   <ul className="py-2 flex flex-col items-center sm:items-start gap-2  pl-5">
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <a href="#0">{t("li")}</a>
+                      <Link href="#0">{t("li")}</Link>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <a href="#0">{t("li2")}</a>
+                      <Link href="#0">{t("li2")}</Link>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <a href={`/${lang}/aboutUs`}>{t("li3")}</a>
+                      <Link href={`/${lang}/aboutUs`}>{t("li3")}</Link>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <a href={`/${lang}/contactUs`}>{t("li4")}</a>
+                      <Link href={`/${lang}/contactUs`}>{t("li4")}</Link>
                     </li>
                   </ul>
                 </div>
