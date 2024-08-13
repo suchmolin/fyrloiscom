@@ -38,7 +38,7 @@
   "SeccionBlog":{
     "h2":"Blog",
     "p":"Aprende acerca de temas imprescindibles para mejorar tu inglés.",
-    "data":"dataEN"
+    "data":"data"
   },
   "Footer":{
     "li":"En Linea",
@@ -53,7 +53,68 @@
       "input4":"Mensaje",
       "button":"Enviar"
     },
-    "h2":"Visítanos"
+    "h2":"Visítanos",
+    "h2b":"Escríbenos"
+  },
+  "AboutUs":{
+    "HeroAboutUs":{
+      "h1":"25 años ",
+      "h1Span":"de trayectoria",
+      "p":"Nuestra meta: Hacer realidad proyectos de vida",
+      "p2":"Generar más y mejores oportunidades de crecimiento personal y profesional para quien esta decidido a construir su proyecto de vida",
+      "button":"Conoce más",
+      "counter":{
+        "p":"Egresados",
+        "p2":"Años de experiencia",
+        "p3":"Profesores certificados CELTA"
+      }
+    },
+    "NuestraHistoriaPage":{
+      "h2":"Nuestra Historia",
+      "p":"Fyr Lois es un proyecto de vida que nace en La Florida, tras consolidar una metodología desarrollada luego de 20 años de experiencia en los que habíamos ofrecido nuestros cursos en países como Venezuela, México, Colombia y Costa Rica.",
+      "p2":"A través de la tecnología, los cambios y evolución del mundo, desarrollamos un Curso Online (disponible para todo el mundo) con las características estrellas de nuestra forma de enseñanza: práctica, divertida, exclusiva y efectiva; a través de clases en vivo, en las que cada estudiante cuenta con acompañamiento durante todo su proceso de aprendizaje. Un aprendizaje útil, disfrutable y efectivo, en eso nos basamos para hacer realidad nuestra misión diaria: generar más y mejores oportunidades de crecimiento personal para quien está decidido a construir su proyecto de vida con nosotros."
+    },
+    "NuestrosTeachers":{
+      "data": "data",
+      "h2":"Conoce a nuestros teachers",
+      "p":"Aprender inglés es sencillo si cuentas con la ayuda adecuada.",
+      "verPerfil":"VER PERFIL"
+    }
+  },
+  "contactUs":{
+    "FormContactUs":{
+      "h2":"Contáctanos",
+      "p":"Si quieres saber más información acerca de nuestros cursos, completa tus datos y responderemos todas tus dudas.",
+      "fullname":"Nombre y Apellido",
+      "email":"Email",
+      "tellphone":"Numero Telefónico",
+      "porqueAprender":{
+        "title":"¿Por qué motivo quieres aprender inglés?",
+        "opt1":"Seleccione",
+        "opt2":"Social",
+        "opt3":"Personal",
+        "opt4":"Familiar",
+        "opt5":"Laboral"
+      },
+      "comoNosConociste":{
+        "title":"¿Cómo nos conociste?",
+        "opt1":"Seleccione",
+        "opt2":"Un amigo/Familiar",
+        "opt3":"Facebook",
+        "opt4":"Instagram",
+        "opt5":"Google",
+        "opt6":"Google ads"
+      },
+      "hasEstudiadoAntes":{
+        "title":"¿Has estudiado el idioma antes?",
+        "opt1":"Seleccione",
+        "opt2":"Si",
+        "opt3":"No"
+      },
+      "button":" Enviar Mensaje",
+      "sended":"Correo Enviado Exitosamente, muy pronto un agente autorizado se contactara al telefono y correo proporcionado"
+    }
   }
+
 
 }

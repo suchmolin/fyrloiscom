@@ -60,7 +60,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col gap-2 min-w-[300px] w-12/12 sm:w-fit">
                 <h2 className="text-2xl text-[#000b7a] text-center sm:text-start">
-                  Escríbenos
+                  {t("h2b")}
                 </h2>
                 <FormFooter />
               </div>

@@ -53,6 +53,67 @@
       "input4":"Message",
       "button":"Send"
     },
-    "h2":"Visit us"
+    "h2":"Visit us",
+    "h2b":"Write to us"
+  },
+  "AboutUs":{
+    "HeroAboutUs":{
+      "h1":"25 years ",
+      "h1Span":"of experience",
+      "p":"Our goal: Make life projects come true",
+      "p2":"Generate more and better opportunities for personal and professional growth for those who are determined to build their life project.",
+      "button":"Learn more",
+      "counter":{
+        "p":"Graduates",
+        "p2":"Years of experience",
+        "p3":"CELTA certified teachers"
+      }
+    },
+    "NuestraHistoriaPage":{
+      "h2":"Our history",
+      "p":"Fyr Lois is a life project that was born in La Florida, after consolidating a methodology developed after 20 years of experience in which we had offered our courses in countries such as Venezuela, Mexico, Colombia and Costa Rica.",
+      "p2":"Through technology, changes and evolution of the world, we develop an Online Course (available to everyone) with the star characteristics of our way of teaching: practical, fun, exclusive and effective; through live classes, in which each student has support throughout their learning process. Useful, enjoyable and effective learning is what we base our daily mission on: generating more and better opportunities for personal growth for those who are determined to build their life project with us."
+    },
+    "NuestrosTeachers":{
+      "data": "dataEN",
+      "h2":"Meet our teachers",
+      "p":"Learning English is easy if you have the right help.",
+      "verPerfil":"SEE PROFILE"
+    }
+  },
+  "contactUs":{
+    "FormContactUs":{
+      "h2":"Contact us",
+      "p":"If you want to know more information about our courses, complete your information and we will answer all your questions.",
+      "fullname":"First and Last Name",
+      "email":"Email",
+      "tellphone":"Telephone Number",
+      "porqueAprender":{
+        "title":"Why do you want to learn English?",
+        "opt1":"Select",
+        "opt2":"Social",
+        "opt3":"Personal",
+        "opt4":"Familiar",
+        "opt5":"Labor"
+      },
+      "comoNosConociste":{
+        "title":"How did you know us?",
+        "opt1":"Select",
+        "opt2":"A friend/family member",
+        "opt3":"Facebook",
+        "opt4":"Instagram",
+        "opt5":"Google",
+        "opt6":"Google ads"
+      },
+      "hasEstudiadoAntes":{
+        "title":"¿Has estudiado el idioma antes?",
+        "opt1":"Select",
+        "opt2":"Yes",
+        "opt3":"No"
+      },
+      "button":" Send Message",
+      "sended":"Email Sent Successfully, very soon an authorized agent will contact the phone number and email provided"
+    }
   }
+
 }

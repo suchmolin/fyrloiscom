@@ -19,6 +19,9 @@
   src: url('/fonts/EastmanRomanTrial-Black.otf');
 }
 
+*{
+  scroll-behavior: smooth;
+}
 
 
 .textureFooter{
@@ -58,14 +61,14 @@
 .topCustomer {
     clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 80px));
   }
-  .bottomCustomer {
-    clip-path: polygon(0 0,100% 80px,100% 100%,0 100%);
-    margin-top: -80px;
-  }
+.bottomCustomer {
+  clip-path: polygon(0 0,100% 80px,100% 100%,0 100%);
+  margin-top: -80px;
+}
 
-  .top2 {
-    clip-path: polygon(0 0,100% 0,100% calc(100% - 80px),0 100%);
-  }
+.top2 {
+  clip-path: polygon(0 0,100% 0,100% calc(100% - 80px),0 100%);
+}
 
   @media (min-width: 1px) and (max-width: 768px)  { 
 
