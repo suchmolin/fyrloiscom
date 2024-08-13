@@ -32,7 +32,7 @@ export default function CountersAboutUs() {
           end={100}
           duration={5}
         />
-        <p className="text-sm md:text-xl px-2">{t("p2")}</p>
+        <p className="text-sm md:text-xl px-2">{t("p3")}</p>
       </div>
     </div>
   )
