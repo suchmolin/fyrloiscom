@@ -3,7 +3,7 @@ import FormFooter from "../FormFooter/page"
 import SocialFooter from "../SocialFooter/page"
 import { useTranslations } from "next-intl"
 
-export default function Footer() {
+export default function Footer({ lang }) {
   const t = useTranslations("Footer")
 
   return (
@@ -47,10 +47,10 @@ export default function Footer() {
                       <a href="#0">{t("li2")}</a>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <a href="#0">{t("li3")}</a>
+                      <a href={`/${lang}/aboutUs`}>{t("li3")}</a>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <a href="#0">{t("li4")}</a>
+                      <a href={`/${lang}/contactUs`}>{t("li4")}</a>
                     </li>
                   </ul>
                 </div>

@@ -1,6 +1,6 @@
 import HeroAboutUs from "@/components/HeroAboutUs/page"
 import NuestraHistoriaPage from "@/components/NuestraHistoriaPage/page"
-import NuestrosTeachers from "@/components/NuestrosTeachers.page"
+import NuestrosTeachers from "@/components/NuestrosTeachers/page"
 import SedePrincipal from "@/components/SedePrincipal/page"
 
 export default function aboutUs() {
