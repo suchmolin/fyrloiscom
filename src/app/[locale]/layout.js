@@ -19,9 +19,9 @@ export default async function RootLayout({ children, params: { locale } }) {
     <html lang={locale}>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
-          <Navbar lang={locale} />
+          <Navbar />
           {children}
-          <Footer lang={locale} />
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

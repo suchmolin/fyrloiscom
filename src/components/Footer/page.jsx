@@ -1,12 +1,12 @@
 import Image from "next/image"
 import FormFooter from "../FormFooter/page"
 import SocialFooter from "../SocialFooter/page"
-import { useTranslations } from "next-intl"
+import { useTranslations, useLocale } from "next-intl"
 import Link from "next/link"
 
-export default function Footer({ lang }) {
+export default function Footer() {
   const t = useTranslations("Footer")
-
+  const locale = useLocale()
   return (
     <>
       <div id="divider_id" className="website-divider-container-812536">
@@ -45,13 +45,13 @@ export default function Footer({ lang }) {
                       <Link href="#0">{t("li")}</Link>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <Link href="#0">{t("li2")}</Link>
+                      <Link href={`/${locale}/sedes`}>{t("li2")}</Link>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <Link href={`/${lang}/aboutUs`}>{t("li3")}</Link>
+                      <Link href={`/${locale}/aboutUs`}>{t("li3")}</Link>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <Link href={`/${lang}/contactUs`}>{t("li4")}</Link>
+                      <Link href={`/${locale}/contactUs`}>{t("li4")}</Link>
                     </li>
                   </ul>
                 </div>

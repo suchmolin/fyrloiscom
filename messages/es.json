@@ -118,7 +118,12 @@
       "h2":"¿Necesitas más información?",
       "p":"Si quieres contactarnos directamente, puedes hacerlo através de estas vías."
     }
+  },
+  "sedes":{
+    "h1":"Nuestras Sedes",
+    "p":"Seleciona la sede donde deseas estudiar",
+    "SedesList":{
+      "aCards":"Visitar"
+    }
   }
-
-
 }

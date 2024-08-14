@@ -118,6 +118,13 @@
       "h2":"Do you need more information?",
       "p":"If you want to contact us directly, you can do so through these channels."
     }
+  },
+  "sedes":{
+    "h1":"Our Headquarters",
+    "p":"Select the location where you want to study",
+    "SedesList":{
+      "aCards":"Visit"
+    }
   }
 
 }
