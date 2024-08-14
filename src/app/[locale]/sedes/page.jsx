@@ -1,7 +1,7 @@
 import SedesList from "@/components/SedesList/page"
 import { useTranslations } from "next-intl"
 
-export default function sedes() {
+export default function Sedes() {
   const t = useTranslations("sedes")
   return (
     <div className="w-full pt-40 flex flex-col items-center justify-center">
