@@ -26,7 +26,7 @@ export const data = [
   },
   {
     id: "4",
-    src: "/img/ccsgpe.jpeg",
+    src: "/img/ccsgpe.webp",
     href: "",
     title: "Caracas (Prados del Este)",
     direccion: "Centro Comercial Galerías Prados del Este, Mezzanina, local M2",
@@ -42,7 +42,7 @@ export const data = [
   },
   {
     id: "6",
-    src: "/img/maturin.jpeg",
+    src: "/img/maturin.jpg",
     href: "",
     title: "Maturín",
     direccion: "Centro Comercial Servimas Monterrey, piso 1, oficina 08.",
