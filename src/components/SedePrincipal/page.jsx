@@ -1,8 +1,9 @@
 import { FiMapPin } from "react-icons/fi"
 import { FiPhone } from "react-icons/fi"
-import { useTranslations } from "next-intl"
+import { useTranslations, useLocale } from "next-intl"
 
 export default function SedePrincipal() {
+  const locale = useLocale()
   const t = useTranslations("SedePrincipal")
   return (
     <div className="relative bottom2 min-h-[500px] bg-[url('/img/kissimmee1.webp')] bg-cover bg-center">
@@ -21,9 +22,12 @@ export default function SedePrincipal() {
           </span>{" "}
           +1 (305) 5105259
         </p>
-        <button className="shadow-xl py-2 px-4 rounded-lg bg-[#9ee701] text-[#000b7a] my-4 hover:text-white hover:bg-[#000b7a] transition-all duration-300 hover:shadow-2xl">
+        <a
+          href={`/${locale}/sedes`}
+          className="shadow-xl py-2 px-4 rounded-lg bg-[#9ee701] text-[#000b7a] my-4 hover:text-white hover:bg-[#000b7a] transition-all duration-300 hover:shadow-2xl"
+        >
           {t("button")}
-        </button>
+        </a>
       </div>
     </div>
   )

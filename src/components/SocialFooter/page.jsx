@@ -7,7 +7,8 @@ export default function SocialFooter() {
     <div className="flex flex-col sm:flex-row lg:flex-col justify-center items-center lg:justify-end lg:items-end gap-5 sm:mt-20 text-[#000b7a]">
       <h2 className="text-3xl text-[#000b7a] font-bold">{t("h2")}</h2>
       <a
-        href="#0"
+        href="https://www.instagram.com/fyrlois"
+        target="_blank"
         className="text-sm md:text-base flex gap-2 justify-end hover:text-[#bb29b9] transition-all duration-300 "
       >
         @fyrlois{" "}
@@ -22,7 +23,8 @@ export default function SocialFooter() {
         </div>
       </a>
       <a
-        href="#0"
+        href="https://www.facebook.com/fyrlois.oficial"
+        target="_blank"
         className="text-sm md:text-base flex gap-2 justify-end hover:text-[#bb29b9] transition-all duration-300"
       >
         Fyr Lois English Institute{" "}
@@ -37,7 +39,8 @@ export default function SocialFooter() {
         </div>
       </a>
       <a
-        href="#0"
+        href="https://www.linkedin.com/company/fyr-lois-language-institute"
+        target="_blank"
         className="text-sm md:text-base flex gap-2 justify-end hover:text-[#bb29b9] transition-all duration-300"
       >
         Fyr Lois{" "}

@@ -6,6 +6,7 @@ import Hero from "@/components/Hero/page"
 
 import SeccionBlog from "@/components/SeccionBlog/page"
 import SedePrincipal from "@/components/SedePrincipal/page"
+import WhatsappButton from "@/components/WhatsappButton/page"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Customers />
       <FAQSection />
       <SeccionBlog />
+      <WhatsappButton />
     </main>
   )
 }
