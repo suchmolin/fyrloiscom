@@ -1,10 +1,10 @@
 import { FiMapPin } from "react-icons/fi"
 import Image from "next/image"
-import { useTranslations } from "next-intl"
-
+import { useTranslations, useLocale } from "next-intl"
 import { data } from "@/data/sedes"
 
 export default function SedesList() {
+  const locale = useLocale()
   const t = useTranslations("sedes.SedesList")
 
   return (
@@ -48,7 +48,7 @@ export default function SedesList() {
               )}
             </div>
             <a
-              href="#"
+              href={`/${locale}/sedes/${card.href}`}
               className="py-2 px-16 text-white bg-[#000b7a] rounded-lg hover:bg-[#bb29b9] transition-all duration-300"
             >
               {t("aCards")}

@@ -4,6 +4,10 @@
     "ddTitle":"¿Qué idioma deseas estudiar?",
     "ddItem1":"Español",
     "ddItem2":"Inglés",
+    "dropDown2":"Presencial",
+    "dd2Title":"Selecciona un país",
+    "dd2Item1":"USA",
+    "dd2Item2":"Venezuela",
     "item2":"En Linea",
     "item3":"Presencial",
     "item4":"Conócenos",
@@ -12,7 +16,7 @@
   "hero": {
     "h1": "Aprende una nueva",
     "h2": "manera de comunicarte",
-    "h3": "Cursos de idiomas para niños, jovenes y adultos",
+    "h3": "Cursos de idiomas para niños, jovenes",
     "h3Span": "y adultos",
     "button1": "Presencial",
     "button2": "En Linea"

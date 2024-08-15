@@ -2,6 +2,7 @@ export const data = [
   {
     id: "1",
     src: "/img/kissimmee.webp",
+    href: "kissimmee",
     title: "Kissimmee",
     direccion: "928 East Osceola Parkway, Kissimmee, FL 34744",
     language: ["en", "es"],
@@ -9,6 +10,7 @@ export const data = [
   {
     id: "2",
     src: "/img/ccsccct.png",
+    href: "",
     title: "Caracas (CCCT)",
     direccion:
       "Centro Ciudad Comercial Tamanaco (CCCT), Sector Yarey, planta baja, local PB 005.",
@@ -17,6 +19,7 @@ export const data = [
   {
     id: "3",
     src: "/img/ccsucab.jpg",
+    href: "",
     title: "Caracas (UCAB)",
     direccion: "Ucab Montalbán, módulo 1, piso 5, oficina A1-53.",
     language: ["en"],
@@ -24,6 +27,7 @@ export const data = [
   {
     id: "4",
     src: "/img/ccsgpe.jpeg",
+    href: "",
     title: "Caracas (Prados del Este)",
     direccion: "Centro Comercial Galerías Prados del Este, Mezzanina, local M2",
     language: ["en"],
@@ -31,6 +35,7 @@ export const data = [
   {
     id: "5",
     src: "/img/poz.jpg",
+    href: "",
     title: "Puerto Ordaz",
     direccion: "Centro Comercial Naraya, piso 1, Local 123.",
     language: ["en"],
@@ -38,6 +43,7 @@ export const data = [
   {
     id: "6",
     src: "/img/maturin.jpeg",
+    href: "",
     title: "Maturín",
     direccion: "Centro Comercial Servimas Monterrey, piso 1, oficina 08.",
     language: ["en"],
@@ -45,6 +51,7 @@ export const data = [
   {
     id: "7",
     src: "/img/barquisimeto.jpg",
+    href: "",
     title: "Barquisimeto",
     direccion:
       "Av Terepaima, Multicentro Empresarial Crystal Plaza, Torre B, 1er piso, Local 1-B",

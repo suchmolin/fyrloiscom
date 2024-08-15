@@ -3,8 +3,8 @@ import { TfiWorld } from "react-icons/tfi"
 import { Dropdown } from "flowbite-react"
 
 import Image from "next/image"
-import Link from "next/link"
-import { redirect, usePathname } from "next/navigation"
+
+import { usePathname } from "next/navigation"
 
 export function LanguageSelector() {
   const path = usePathname()
