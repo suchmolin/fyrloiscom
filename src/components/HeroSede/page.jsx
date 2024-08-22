@@ -9,7 +9,7 @@ export default function HeroSede({ sedeData }) {
   return (
     <div
       style={{ backgroundImage: `url('${sedeData.src}')` }}
-      className={"relative bottom2 min-h-[500px] bg-cover bg-center"}
+      className={"w-full relative bottom2 min-h-[500px] bg-cover bg-center"}
     >
       <div className="w-12/12 md:w-8/12 lg:w-6/12 gradient h-[500px] flex flex-col justify-center items-center text-white text-lg bg-white/60 md:bg-white/80">
         <h2 className="text-4xl text-[#000b7a] font-bold mb-3">Sede</h2>

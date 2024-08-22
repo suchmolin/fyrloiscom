@@ -5,6 +5,7 @@ export const data = [
     href: "kissimmee",
     title: "Kissimmee",
     direccion: "928 East Osceola Parkway, Kissimmee, FL 34744",
+    direccionhref: "#",
     language: ["en", "es"],
     telefono: "+1 (305) 5105259",
     cursos: [
@@ -13,6 +14,13 @@ export const data = [
       "adults-online",
       "curso-de-ciudadania-online",
     ],
+    email: "info@fyrlois.com",
+    social: {
+      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "#" },
+      instagram: { tag: "@fyrlois", href: "#" },
+      linkedin: { tag: "Fyr Lois", href: "#" },
+    },
   },
   {
     id: "2",
@@ -29,6 +37,13 @@ export const data = [
       "adults-online",
       "curso-de-ciudadania-online",
     ],
+    email: "info@fyrlois.com",
+    social: {
+      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "#" },
+      instagram: { tag: "@fyrlois", href: "#" },
+      linkedin: { tag: "Fyr Lois", href: "#" },
+    },
   },
   {
     id: "3",
@@ -44,6 +59,13 @@ export const data = [
       "adults-online",
       "curso-de-ciudadania-online",
     ],
+    email: "info@fyrlois.com",
+    social: {
+      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "#" },
+      instagram: { tag: "@fyrlois", href: "#" },
+      linkedin: { tag: "Fyr Lois", href: "#" },
+    },
   },
   {
     id: "4",
@@ -59,6 +81,13 @@ export const data = [
       "adults-online",
       "curso-de-ciudadania-online",
     ],
+    email: "info@fyrlois.com",
+    social: {
+      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "#" },
+      instagram: { tag: "@fyrlois", href: "#" },
+      linkedin: { tag: "Fyr Lois", href: "#" },
+    },
   },
   {
     id: "5",
@@ -74,6 +103,13 @@ export const data = [
       "adults-online",
       "curso-de-ciudadania-online",
     ],
+    email: "info@fyrlois.com",
+    social: {
+      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "#" },
+      instagram: { tag: "@fyrlois", href: "#" },
+      linkedin: { tag: "Fyr Lois", href: "#" },
+    },
   },
   {
     id: "6",
@@ -89,6 +125,13 @@ export const data = [
       "adults-online",
       "curso-de-ciudadania-online",
     ],
+    email: "info@fyrlois.com",
+    social: {
+      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "#" },
+      instagram: { tag: "@fyrlois", href: "#" },
+      linkedin: { tag: "Fyr Lois", href: "#" },
+    },
   },
   {
     id: "7",
@@ -105,5 +148,12 @@ export const data = [
       "adults-online",
       "curso-de-ciudadania-online",
     ],
+    email: "info@fyrlois.com",
+    social: {
+      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "#" },
+      instagram: { tag: "@fyrlois", href: "#" },
+      linkedin: { tag: "Fyr Lois", href: "#" },
+    },
   },
 ]
