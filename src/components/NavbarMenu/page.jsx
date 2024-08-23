@@ -13,7 +13,7 @@ export default function NavbarMenu({ setOpen }) {
         <IdiomasSelector />
       </li>
       <li className="hover:text-[#bb29b9] transition-all duration-300">
-        <Link href="#" className="">
+        <Link href="https://fyrlois.us" className="">
           {t("item2")}
         </Link>
       </li>
