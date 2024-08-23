@@ -4,6 +4,7 @@ import { Inter } from "next/font/google"
 import Navbar from "@/components/Navbar/page"
 import Footer from "@/components/Footer/page"
 import "./globals.css"
+import WhatsappButton from "@/components/WhatsappButton/page"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -21,6 +22,7 @@ export default async function RootLayout({ children, params: { locale } }) {
         <NextIntlClientProvider messages={messages}>
           <Navbar />
           {children}
+          <WhatsappButton />
           <Footer />
         </NextIntlClientProvider>
       </body>

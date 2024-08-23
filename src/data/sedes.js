@@ -8,12 +8,7 @@ export const data = [
     direccionhref: "#",
     language: ["en", "es"],
     telefono: "+1 (305) 5105259",
-    cursos: [
-      "elementary-online",
-      "high-school-online",
-      "adults-online",
-      "curso-de-ciudadania-online",
-    ],
+    cursos: ["elementary", "high-school", "adults", "curso-de-ciudadania"],
     email: "info@fyrlois.com",
     social: {
       facebook: { tag: "Fyr Lois English Institute", href: "#" },
@@ -31,12 +26,7 @@ export const data = [
       "Centro Ciudad Comercial Tamanaco (CCCT), Sector Yarey, planta baja, local PB 005.",
     language: ["en"],
     telefono: "+58 212 959 3681",
-    cursos: [
-      "elementary-online",
-      "high-school-online",
-      "adults-online",
-      "curso-de-ciudadania-online",
-    ],
+    cursos: ["elementary", "high-school", "adults", "curso-de-ciudadania"],
     email: "info@fyrlois.com",
     social: {
       facebook: { tag: "Fyr Lois English Institute", href: "#" },
@@ -53,12 +43,7 @@ export const data = [
     direccion: "Ucab Montalbán, módulo 1, piso 5, oficina A1-53.",
     language: ["en"],
     telefono: "+58 412 230 0496",
-    cursos: [
-      "elementary-online",
-      "high-school-online",
-      "adults-online",
-      "curso-de-ciudadania-online",
-    ],
+    cursos: ["elementary", "high-school", "adults", "curso-de-ciudadania"],
     email: "info@fyrlois.com",
     social: {
       facebook: { tag: "Fyr Lois English Institute", href: "#" },
@@ -75,12 +60,7 @@ export const data = [
     direccion: "Centro Comercial Galerías Prados del Este, Mezzanina, local M2",
     language: ["en"],
     telefono: "+58 412 922 6868",
-    cursos: [
-      "elementary-online",
-      "high-school-online",
-      "adults-online",
-      "curso-de-ciudadania-online",
-    ],
+    cursos: ["elementary", "high-school", "adults", "curso-de-ciudadania"],
     email: "info@fyrlois.com",
     social: {
       facebook: { tag: "Fyr Lois English Institute", href: "#" },
@@ -97,12 +77,7 @@ export const data = [
     direccion: "Centro Comercial Naraya, piso 1, Local 123.",
     language: ["en"],
     telefono: "+58 286 962 68 03",
-    cursos: [
-      "elementary-online",
-      "high-school-online",
-      "adults-online",
-      "curso-de-ciudadania-online",
-    ],
+    cursos: ["elementary", "high-school", "adults", "curso-de-ciudadania"],
     email: "info@fyrlois.com",
     social: {
       facebook: { tag: "Fyr Lois English Institute", href: "#" },
@@ -119,12 +94,7 @@ export const data = [
     direccion: "Centro Comercial Servimas Monterrey, piso 1, oficina 08.",
     language: ["en"],
     telefono: "+58 412 534 9199",
-    cursos: [
-      "elementary-online",
-      "high-school-online",
-      "adults-online",
-      "curso-de-ciudadania-online",
-    ],
+    cursos: ["elementary", "high-school", "adults", "curso-de-ciudadania"],
     email: "info@fyrlois.com",
     social: {
       facebook: { tag: "Fyr Lois English Institute", href: "#" },
@@ -142,12 +112,7 @@ export const data = [
       "Av Terepaima, Multicentro Empresarial Crystal Plaza, Torre B, 1er piso, Local 1-B",
     language: ["en"],
     telefono: "+58 251 254 87 55",
-    cursos: [
-      "elementary-online",
-      "high-school-online",
-      "adults-online",
-      "curso-de-ciudadania-online",
-    ],
+    cursos: ["elementary", "high-school", "adults", "curso-de-ciudadania"],
     email: "info@fyrlois.com",
     social: {
       facebook: { tag: "Fyr Lois English Institute", href: "#" },
