@@ -13,7 +13,7 @@ export default function Sedes({ params }) {
       <CursosSedes sedeData={sedeData} />
       <TestNivelacion />
 
-      <div className="w-10/12 flex flex-col items-center py-10">
+      <div className="w-10/12 flex flex-col items-center pt-10">
         <MasInfoContactUs
           titulo={"Contactanos"}
           subtitulo={

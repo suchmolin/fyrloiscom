@@ -7,7 +7,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data }) {
         <h2 className="text-[#000b7a] text-5xl font-bold py-4">{titulo}</h2>
         <p className="text-gray-500 w-8/12">{subtitulo}</p>
       </div>
-      <div className="w-11/12 flex flex-wrap gap-10 justify-center pb-20">
+      <div className="w-11/12 flex flex-wrap gap-10 justify-center pb-10">
         <a
           href="#"
           className="w-full sm:w-fit flex flex-col md:flex-row items-center gap-4 rounded-2xl shadow-xl py-5 px-10 hover:bg-[#bb29b9]/10 transition-all duration-300"
