@@ -1,7 +1,10 @@
 import Image from "next/image";
 import "./page.css";
 import Link from "next/link";
+import { useLocale } from "next-intl";
+
 export default function SeccionMiss() {
+  const locale = useLocale();
   return (
     <div className="w-full">
       <div className="area1">
@@ -34,7 +37,7 @@ export default function SeccionMiss() {
             </p>
             <div className="flex h-[70px] items-center justify-center lg:justify-start mt-5 pb-10 lg:pb-0">
               <Link
-                href="/about-us"
+                href={`${locale}/aboutUs`}
                 aria-label="Acerca de nosotros"
                 className=" py-4 px-7 bg-[#90d400] hover:bg-transparent hover:mb-1 rounded-md text-bold text-[#000b7a] hover:text-white border-2 border-[#90d400] hover:border-[#fff] transition-all duration-200 font-bold z-20"
               >

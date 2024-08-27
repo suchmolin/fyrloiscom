@@ -13,7 +13,7 @@ export default function NavbarMenu({ setOpen }) {
         <IdiomasSelector />
       </li>
       <li className="hover:text-[#bb29b9] transition-all duration-300">
-        <Link href="https://fyrlois.us" className="">
+        <Link href="https://fyrloisonline.vercel.app" className="">
           {t("item2")}
         </Link>
       </li>

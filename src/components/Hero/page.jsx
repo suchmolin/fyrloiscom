@@ -1,11 +1,11 @@
-"use client"
-import { useLocale, useTranslations } from "next-intl"
+"use client";
+import { useLocale, useTranslations } from "next-intl";
 
-import PresencialSelectorButton from "../PresencialSelectorButton/page"
+import PresencialSelectorButton from "../PresencialSelectorButton/page";
 
 export default function Hero() {
-  const t = useTranslations("hero")
-  const locale = useLocale()
+  const t = useTranslations("hero");
+  const locale = useLocale();
   return (
     <div className="flex items-center justify-center md:justify-start w-full h-screen bg-[url('/img/headerAdolescentes.webp')] bg-cover bg-left md:bg-center">
       <div className="flex flex-col justify-center items-center px-2 sm:px-10 md:px-28 pt-[70px]">
@@ -23,11 +23,14 @@ export default function Hero() {
         </div>
         <div className="flex gap-4">
           <PresencialSelectorButton />
-          <button className="px-4 py-2 text-white bg-[#000b7a] rounded-lg hover:bg-[#bb29b9] transition-all duration-300">
+          <a
+            href="https://fyrloisonline.vercel.app"
+            className="px-4 py-2 text-white bg-[#000b7a] rounded-lg hover:bg-[#bb29b9] transition-all duration-300"
+          >
             {t("button2")}
-          </button>
+          </a>
         </div>
       </div>
     </div>
-  )
+  );
 }
