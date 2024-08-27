@@ -1,12 +1,12 @@
-import Image from "next/image"
-import FormFooter from "../FormFooter/page"
-import SocialFooter from "../SocialFooter/page"
-import { useTranslations, useLocale } from "next-intl"
-import Link from "next/link"
+import Image from "next/image";
+import FormFooter from "../FormFooter/page";
+import SocialFooter from "../SocialFooter/page";
+import { useTranslations, useLocale } from "next-intl";
+import Link from "next/link";
 
 export default function Footer() {
-  const t = useTranslations("Footer")
-  const locale = useLocale()
+  const t = useTranslations("Footer");
+  const locale = useLocale();
   return (
     <>
       <div id="divider_id" className="website-divider-container-812536">
@@ -53,6 +53,14 @@ export default function Footer() {
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
                       <Link href={`/${locale}/contactUs`}>{t("li4")}</Link>
                     </li>
+                    <li className="hover:text-[#bb29b9] transition-all duration-300">
+                      <Link href={`/${locale}/blog`}>Blog</Link>
+                    </li>
+                    <li className="hover:text-[#bb29b9] transition-all duration-300">
+                      <Link href={`/${locale}/privacy-policies`}>
+                        Politicas de privacidad
+                      </Link>
+                    </li>
                   </ul>
                 </div>
                 <p className="pl-5 md:pl-0 py-4 sm:py-0 text-center">
@@ -73,5 +81,5 @@ export default function Footer() {
         </div>
       </div>
     </>
-  )
+  );
 }
