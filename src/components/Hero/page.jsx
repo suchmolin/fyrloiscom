@@ -24,7 +24,7 @@ export default function Hero() {
         <div className="flex gap-4">
           <PresencialSelectorButton />
           <a
-            href="https://fyrlois.us"
+            href="https://fyrloisonline.vercel.app"
             className="px-4 py-2 text-white bg-[#000b7a] rounded-lg hover:bg-[#bb29b9] transition-all duration-300"
           >
             {t("button2")}

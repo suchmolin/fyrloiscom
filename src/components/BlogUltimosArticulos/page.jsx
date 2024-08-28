@@ -1,23 +1,24 @@
-"use client"
-import Image from "next/image"
-import { useTranslations } from "next-intl"
-import { useEffect, useState } from "react"
+"use client";
+import Image from "next/image";
+import { useLocale, useTranslations } from "next-intl";
+import { useEffect, useState } from "react";
 
 export default function BlogUltimosArticulos() {
-  const [data, setData] = useState([])
-  const t = useTranslations("Diferenciadores")
+  const [data, setData] = useState([]);
+  const t = useTranslations("Diferenciadores");
+  const locale = useLocale();
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const { data } = await import(`/src/${t("data")}/blog`)
-        setData(data)
+        const { data } = await import(`/src/${t("data")}/blog`);
+        setData(data);
       } catch (error) {
-        console.log("Error importing data", error)
+        console.log("Error importing data", error);
       }
-    }
-    fetchData()
-  }, [t])
+    };
+    fetchData();
+  }, [t]);
 
   return (
     <div className="w-full justify-center flex flex-wrap gap-10">
@@ -25,7 +26,7 @@ export default function BlogUltimosArticulos() {
         return (
           <a
             key={item.id}
-            href={`/blog/${item.id}`}
+            href={`/${locale}/blog/${item.id}`}
             className={`flex flex-col justify-between min-h-[400px]  rounded-lg shadow-2xl overflow-hidden hover:scale-[0.98] transition-all duration-300 w-11/12 sm:w-8/12 md:w-5/12 lg:w-3/12`}
           >
             <div className="relative w-full min-h-[300px]">
@@ -59,8 +60,8 @@ export default function BlogUltimosArticulos() {
               </p>
             </div>
           </a>
-        )
+        );
       })}
     </div>
-  )
+  );
 }

@@ -4,7 +4,7 @@ export const data = [
     title: "Elementary",
     description:
       "6-11 años. Pon todas las oportunidades a su alcance. A través de un aprendizaje divertido, con el que se enamorará del idioma.",
-    img: "elementaryOnline.png",
+    img: "elementaryCourse.jpg",
     price: 195,
   },
   {
@@ -12,7 +12,7 @@ export const data = [
     title: "High School",
     description:
       "12-16 años. Prepara tu hijo para el futuro,con un curso pensado para adolescentes: una perfecta combinación de los retos (que les encanta asumir) y temas adaptados a sus intereses.",
-    img: "highSchoolOnline.png",
+    img: "highSchoolCourse.jpg",
     price: 195,
   },
   {
@@ -20,7 +20,7 @@ export const data = [
     title: "Adults",
     description:
       "A partir de 17 años. Comunícate en inglés como siempre has querido, a través de herramientas prácticas y efectivas para que hables con fluidez.",
-    img: "adultsOnline.png",
+    img: "adultsCourse.jpg",
     price: 195,
   },
   {
@@ -31,4 +31,4 @@ export const data = [
     img: "cursodeCiudadaniaOnline.png",
     price: 40,
   },
-]
+];
