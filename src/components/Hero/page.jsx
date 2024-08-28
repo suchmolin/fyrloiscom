@@ -23,9 +23,12 @@ export default function Hero() {
         </div>
         <div className="flex gap-4">
           <PresencialSelectorButton />
-          <button className="px-4 py-2 text-white bg-[#000b7a] rounded-lg hover:bg-[#bb29b9] transition-all duration-300">
+          <a
+            href="https://fyrlois.us"
+            className="px-4 py-2 text-white bg-[#000b7a] rounded-lg hover:bg-[#bb29b9] transition-all duration-300"
+          >
             {t("button2")}
-          </button>
+          </a>
         </div>
       </div>
     </div>

@@ -42,7 +42,7 @@ export default function Footer() {
                   />
                   <ul className="py-2 flex flex-col items-center sm:items-start gap-2  pl-5">
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
-                      <Link href="#0">{t("li")}</Link>
+                      <Link href="https://fyrlois.us">{t("li")}</Link>
                     </li>
                     <li className="hover:text-[#bb29b9] transition-all duration-300">
                       <Link href={`/${locale}/sedes`}>{t("li2")}</Link>
