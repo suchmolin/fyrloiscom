@@ -43,7 +43,7 @@ export const data = [
     direccion: "Ucab Montalbán, módulo 1, piso 5, oficina A1-53.",
     language: ["en"],
     telefono: "+58 412 230 0496",
-    cursos: ["elementary", "high-school", "adults", "curso-de-ciudadania"],
+    cursos: ["elementary", "high-school", "adults"],
     email: "info@fyrlois.com",
     social: {
       facebook: { tag: "Fyr Lois English Institute", href: "#" },

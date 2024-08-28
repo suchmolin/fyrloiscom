@@ -1,7 +1,7 @@
 import { useLocale } from "next-intl"
 import Image from "next/image"
 
-export default function SingleCourse({ key, item, comprar }) {
+export default function SingleCourse({ key, item, comprar, sede }) {
   const locale = useLocale()
   return (
     <div
@@ -23,7 +23,7 @@ export default function SingleCourse({ key, item, comprar }) {
         </div>
         {comprar && (
           <a
-            href={`/${locale}/courses/${item.id}`}
+            href={`/${locale}/courses/${item.id}?s=${sede}`}
             className="mx-auto w-full bg-[#000b7a] text-center py-2 text-white rounded-md"
           >
             Comprar

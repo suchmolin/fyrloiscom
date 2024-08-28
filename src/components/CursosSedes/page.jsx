@@ -14,7 +14,12 @@ export default function CursosSedes({ sedeData }) {
       </p>
       <div className="w-10/12 flex gap-4 justify-center flex-wrap lg:flex-nowrap">
         {dataCursos.map((item) => (
-          <SingleCourse key={item.id} item={item} comprar={true} />
+          <SingleCourse
+            key={item.id}
+            item={item}
+            sede={sedeData.id}
+            comprar={true}
+          />
         ))}
       </div>
     </div>
