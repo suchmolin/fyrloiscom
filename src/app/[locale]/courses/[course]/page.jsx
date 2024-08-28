@@ -16,11 +16,11 @@ export default function CoursePage({ params }) {
   return (
     <>
       <HeroSingleCourse courseData={courseData} />
-      <div className="w-full flex justify-center">
+      <div className="w-full h-fit flex justify-center">
         <DiferenciadoresList data={dataDif} />
       </div>
-      <div className="w-full flex justify-center">
-        <div className="w-7/12 min-h-[500px]">
+      <div className="w-full h-fit flex justify-center">
+        <div className="w-7/12 h-fit]">
           <h2 className="text-3xl font-bold text-[#000b7a] text-center mt-10 mb-10">
             ¿Porqué elegir Fyrlois?
           </h2>
@@ -33,7 +33,7 @@ export default function CoursePage({ params }) {
       </div>
       <div className="w-full flex justify-center">
         <div className="w-8/12">
-          <h2 className="text-3xl font-bold text-[#000b7a] text-center mt-20">
+          <h2 className="text-3xl font-bold text-[#000b7a] text-center mt-10">
             Opiniones
           </h2>
           <CarruselReviews />

@@ -1,7 +1,7 @@
 export default function VideoYoutube({ href }) {
   return (
     <iframe
-      className="w-full h-full rounded-lg"
+      className="aspect-video w-full rounded-lg"
       src={href}
       title="YouTube video player"
       frameborder="0"
