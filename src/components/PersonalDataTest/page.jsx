@@ -30,9 +30,9 @@ export default function PersonalDataTest({ setPersonal }) {
       <form
         onSubmit={(e) => handleSubmit(e)}
         action=""
-        className="relative h-full flex gap-x-10 flex-wrap"
+        className="relative h-full flex flex-col sm:flex-row gap-y-7 sm:gap-y-0 gap-x-10 flex-wrap"
       >
-        <div className="relative z-0 w-[300px]">
+        <div className="relative z-0 w-[200px] sm:w-[300px]">
           <input
             required
             type="email"
@@ -44,7 +44,7 @@ export default function PersonalDataTest({ setPersonal }) {
             Correo Electrónico
           </label>
         </div>
-        <div className="relative z-0 w-[300px]">
+        <div className="relative z-0 w-[200px] sm:w-[300px]">
           <input
             required
             type="text"
@@ -56,7 +56,7 @@ export default function PersonalDataTest({ setPersonal }) {
             Nombre y Apellido
           </label>
         </div>
-        <div className="relative z-0 w-[300px]">
+        <div className="relative z-0 w-[200px] sm:w-[300px]">
           <input
             required
             type="text"
@@ -68,7 +68,7 @@ export default function PersonalDataTest({ setPersonal }) {
             Ciudad de Residencia
           </label>
         </div>
-        <div className="relative z-0 w-[300px]">
+        <div className="relative z-0 w-[200px] sm:w-[300px]">
           <input
             required
             type="date"
@@ -80,7 +80,7 @@ export default function PersonalDataTest({ setPersonal }) {
             Fecha de Nacimiento
           </label>
         </div>
-        <div className="relative z-0 w-[300px]">
+        <div className="relative z-0 w-[200px] sm:w-[300px]">
           <input
             required
             type="number"
