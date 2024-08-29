@@ -1,19 +1,19 @@
 "use client"
 import { TfiWorld } from "react-icons/tfi"
 import { Dropdown } from "flowbite-react"
-
 import Image from "next/image"
-
-import { usePathname } from "next/navigation"
+import { usePathname, useSearchParams } from "next/navigation"
 
 export function LanguageSelector() {
   const path = usePathname()
+  const searchParams = useSearchParams()
+  const sede = searchParams.get("s")
 
   const handleRedirect = (locale) => {
     const subs = path.split("/")
     subs[1] = locale
 
-    location.href = subs.join("/")
+    location.href = sede ? subs.join("/") + "?s=" + sede : subs.join("/")
   }
 
   return (

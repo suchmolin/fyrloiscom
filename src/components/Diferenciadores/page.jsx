@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image"
 import { useState, useEffect } from "react"
-
 import { useTranslations } from "next-intl"
 import DiferenciadoresList from "../DiferenciadoresList/page"
 

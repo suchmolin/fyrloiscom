@@ -129,5 +129,50 @@
     "SedesList":{
       "aCards":"Visitar"
     }
+  },
+  "SeccionMiss":{
+    "h3":"Fyr Lois fue una pieza clave en mi formación como Miss World.",
+    "p":"Durante mi camino al Miss Mundo mi mayor miedo era que no sabía hablar inglés tan fluido, por eso comencé con Fyr Lois y en pocos meses pude fortalecer mis conocimientos y adquirir mayor confianza en el idioma. Estoy feliz porque avance mucho y logré mi reto, de presentarme en cada momento en inglés.",
+    "p2": "Alejandra Conde - Miss Venezuela World 2020",
+    "link":"ACERCA DE NOSOTROS"
+  },
+  "aboutUs":{
+    "h2":"Nuestra Misión",
+    "item1":{
+      "h4":"Hacer realidad proyectos de vida",
+      "p":"Generar más y mejores oportunidades de crecimiento personal y profesional para quien está decidido a construir su proyecto de vida."
+    },
+    "item2":{
+      "h4":"Ofrecer un aprendizaje práctico",
+      "p":"Sólo a través de la generación de resultados generamos valor para nosotros mismos y nuestra comunidad."
+    },
+    "item3":{
+      "h4":"Enseñar de forma divertida",
+      "p":"Creemos en la diversión y el entretenimiento como la vía para integrar el aprendizaje."
+    }
+  },
+  "TestNivelacion":{
+    "h2":"Presenta el Examen de nivelacion",
+    "h2Span":"gratis",
+    "button":"Aquí"
+  },
+  "CursosSedes":{
+    "h2":"Cursos dictados en ",
+    "p":"Elige el curso que mas se adapte a tus necesidades",
+    "data":"data"
+  },
+  "MasInfoContactUs":{
+    "titulo":"Contactanos",
+    "subtitulo":"Si quieres contactarnos directamente, puedes hacerlo através de estas vías."
+
+  },
+  "CoursePage":{
+    "h2":"¿Porqué elegir Fyrlois?",
+    "h2b":"Opiniones",
+    "h2c":"Cursos Relacionados",
+    "data":"data"
+  },
+  "SimilarCourses":{
+    "data":"data"
   }
 }

@@ -2,7 +2,7 @@
 import { Avatar, Blockquote, Rating } from "flowbite-react"
 export default function ReviewCourse() {
   return (
-    <figure className="max-w-screen-md">
+    <figure className="max-w-screen-md pl-16 pr-10">
       <div className="mb-4 flex items-center">
         <Rating size="md">
           <Rating.Star />
@@ -13,7 +13,7 @@ export default function ReviewCourse() {
         </Rating>
       </div>
       <Blockquote>
-        <p className="text-2xl font-semibold text-gray-900 dark:text-white">
+        <p className="text-sm sm:text-lg md:text-xl lg:text-2xl font-semibold text-gray-900 dark:text-white">
           {
             '"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."'
           }
