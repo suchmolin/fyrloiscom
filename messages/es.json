@@ -174,5 +174,28 @@
   },
   "SimilarCourses":{
     "data":"data"
+  },
+  "Test":{
+    "h1":"Find out your level of English with us",
+    "p":"Remember to answer the exam according to your knowledge, so that you can know the real results of your English level.",
+    "pb":"You have obtained a score: ",
+    "pb2":" of ",
+    "h4":"Answer the following questions",
+    "pc":"Ask",
+    "pc2":" of ",
+    "PersonalDataTest":{
+      "email":"Correo Electrónico",
+      "name":"Nombre y Apellido",
+      "city":"Ciudad de Residencia",
+      "bithday":"Fecha de Nacimiento",
+      "cel":"Número Telefónico",
+      "start":"Comenzar"
+    },
+    "QuestionsTest":{
+      "prev":"Anterior",
+      "next":"Siguiente",
+      "end":"Finalizar",
+      "error":"Debe seleccionar una respuesta para avanzar."
+    }
   }
 }

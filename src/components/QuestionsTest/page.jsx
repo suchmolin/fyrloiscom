@@ -1,7 +1,9 @@
 import { testdata } from "@/data/testdata"
+import { useTranslations } from "next-intl"
 import { useState } from "react"
 
 export default function QuestionsTest(props) {
+  const t = useTranslations("Test.QuestionsTest")
   const { position, setPosition, answer, setAnswer, setResult } = props
   const [next, setNext] = useState(false)
   const [previo, setPrevio] = useState(false)
@@ -109,14 +111,10 @@ export default function QuestionsTest(props) {
             onClick={() => handlePosition("prev")}
             className="absolute left-5 bottom-7 py-2 px-4 rounded-xl bg-[#90d400] text-[#000b7a] transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
           >
-            Anterior
+            {t("prev")}
           </button>
         )}
-        {isSelected && (
-          <p className="text-red-500 text-center">
-            Debe seleccionar una respuesta para avanzar.
-          </p>
-        )}
+        {isSelected && <p className="text-red-500 text-center">{t("error")}</p>}
         {position !== testdata.length - 1 && (
           <button
             id="next"
@@ -124,7 +122,7 @@ export default function QuestionsTest(props) {
             onClick={() => handlePosition("next")}
             className="absolute right-5 bottom-12 py-2 px-4 rounded-xl bg-[#000b7a] text-white transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
           >
-            Siguiente
+            {t("next")}
           </button>
         )}
         {position === testdata.length - 1 && (
@@ -133,7 +131,7 @@ export default function QuestionsTest(props) {
             onClick={handleFinal}
             className="absolute right-5 bottom-12 py-2 px-4 rounded-xl bg-[#000b7a] text-white transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
           >
-            Finalizar
+            {t("end")}
           </button>
         )}
       </div>

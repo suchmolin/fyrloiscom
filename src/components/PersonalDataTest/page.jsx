@@ -1,6 +1,8 @@
 import { useState } from "react"
+import { useTranslations } from "next-intl"
 
 export default function PersonalDataTest({ setPersonal }) {
+  const t = useTranslations("Test.PersonalDataTest")
   const [submited, setSubmited] = useState(false)
   const inputClass =
     "block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-[#000b7a] peer"
@@ -41,7 +43,7 @@ export default function PersonalDataTest({ setPersonal }) {
             placeholder=" "
           />
           <label htmlFor="email" className={labelClass}>
-            Correo Electrónico
+            {t("email")}
           </label>
         </div>
         <div className="relative z-0 w-[200px] sm:w-[300px]">
@@ -53,7 +55,7 @@ export default function PersonalDataTest({ setPersonal }) {
             placeholder=" "
           />
           <label htmlFor="name" className={labelClass}>
-            Nombre y Apellido
+            {t("name")}
           </label>
         </div>
         <div className="relative z-0 w-[200px] sm:w-[300px]">
@@ -65,7 +67,7 @@ export default function PersonalDataTest({ setPersonal }) {
             placeholder=" "
           />
           <label htmlFor="city" className={labelClass}>
-            Ciudad de Residencia
+            {t("city")}
           </label>
         </div>
         <div className="relative z-0 w-[200px] sm:w-[300px]">
@@ -77,7 +79,7 @@ export default function PersonalDataTest({ setPersonal }) {
             placeholder=" "
           />
           <label htmlFor="date" className={labelClass}>
-            Fecha de Nacimiento
+            {t("bithdate")}
           </label>
         </div>
         <div className="relative z-0 w-[200px] sm:w-[300px]">
@@ -89,14 +91,14 @@ export default function PersonalDataTest({ setPersonal }) {
             placeholder=" "
           />
           <label htmlFor="city" className={labelClass}>
-            Número Telefónico
+            {t("cel")}
           </label>
         </div>
         <button
           className=" absolute right-5 bottom-3 py-2 px-4 rounded-xl bg-[#000b7a] text-white hover:bg-[#90d400] hover:text-[#000b7a] transition-all duration-300"
           type="submit"
         >
-          Comenzar
+          {t("start")}
         </button>
       </form>
     </div>
