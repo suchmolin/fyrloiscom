@@ -14,7 +14,7 @@ export default function HeroSede({ sedeData }) {
       <div className="w-12/12 md:w-8/12 lg:w-6/12 gradient h-[500px] flex flex-col justify-center items-center text-white text-lg bg-white/60 md:bg-white/80">
         <h2 className="text-4xl text-[#000b7a] font-bold mb-3">Sede</h2>
         <h2 className="text-4xl text-[#000b7a] font-bold">{sedeData.title}</h2>
-        <p className="text-sm sm:text-xl text-[#000b7a] flex py-2 px-28 text-center">
+        <p className="text-sm sm:text-xl text-[#000b7a] flex py-2 px-5 sm:px-28 text-center">
           <span className="text-[#bb29b9] font-bold mt-1">
             <FiMapPin />
           </span>{" "}
