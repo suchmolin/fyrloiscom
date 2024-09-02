@@ -1,15 +1,20 @@
+"use client"
 import { FiMapPin } from "react-icons/fi"
 import Image from "next/image"
 import { useTranslations, useLocale } from "next-intl"
 import { data } from "@/data/sedes"
+import { useSearchParams } from "next/navigation"
 
 export default function SedesList() {
+  const searchParams = useSearchParams()
+  const lang = searchParams.get("lang")
   const locale = useLocale()
   const t = useTranslations("sedes.SedesList")
+  const sedes = data.filter((sede) => sede.language.includes(lang))
 
   return (
     <div className="w-full flex gap-6 justify-center flex-wrap pb-20">
-      {data.map((card) => (
+      {sedes.map((card) => (
         <div
           key={`card${card.id}`}
           className="w-10/12  sm:w-5/12 md:w-9/12 min-h-[300px] lg:w-5/12 hover:scale-[101%] transition-all duration-300 overflow-hidden rounded-xl flex flex-col md:flex-row shadow-lg border border-gray-100"
