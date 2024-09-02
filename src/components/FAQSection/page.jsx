@@ -1,4 +1,5 @@
 "use client"
+import { Spinner } from "flowbite-react"
 import { useTranslations } from "next-intl"
 import { useEffect, useState } from "react"
 export default function FAQSection() {
@@ -29,36 +30,42 @@ export default function FAQSection() {
             <p className="mt-3 text-lg text-neutral-500 md:text-xl">{t("p")}</p>
           </div>
           <div className=" mt-8 grid divide-y divide-neutral-200">
-            {data?.map((item) => (
-              <div key={item.id} className="py-5">
-                <details className="group">
-                  <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
-                    <span className="text-[#000b7a] font-bold">
-                      {" "}
-                      {item.ask}
-                    </span>
-                    <span className="transition group-open:rotate-180">
-                      <svg
-                        fill="none"
-                        height="24"
-                        shapeRendering="geometricPrecision"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="1.5"
-                        viewBox="0 0 24 24"
-                        width="24"
-                      >
-                        <path d="M6 9l6 6 6-6"></path>
-                      </svg>
-                    </span>
-                  </summary>
-                  <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                    {item.ans}
-                  </p>
-                </details>
+            {data.length !== 0 ? (
+              data?.map((item) => (
+                <div key={item.id} className="py-5">
+                  <details className="group">
+                    <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
+                      <span className="text-[#000b7a] font-bold">
+                        {" "}
+                        {item.ask}
+                      </span>
+                      <span className="transition group-open:rotate-180">
+                        <svg
+                          fill="none"
+                          height="24"
+                          shapeRendering="geometricPrecision"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
+                          viewBox="0 0 24 24"
+                          width="24"
+                        >
+                          <path d="M6 9l6 6 6-6"></path>
+                        </svg>
+                      </span>
+                    </summary>
+                    <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
+                      {item.ans}
+                    </p>
+                  </details>
+                </div>
+              ))
+            ) : (
+              <div className="w-full flex justify-center">
+                <Spinner aria-label="Extra large spinner example" size="xl" />
               </div>
-            ))}
+            )}
           </div>
         </div>
       </div>
