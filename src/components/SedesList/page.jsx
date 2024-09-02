@@ -10,7 +10,9 @@ export default function SedesList() {
   const lang = searchParams.get("lang")
   const locale = useLocale()
   const t = useTranslations("sedes.SedesList")
-  const sedes = data.filter((sede) => sede.language.includes(lang))
+  const sedes = lang
+    ? data.filter((sede) => sede.language.includes(lang))
+    : data
 
   return (
     <div className="w-full flex gap-6 justify-center flex-wrap pb-20">
