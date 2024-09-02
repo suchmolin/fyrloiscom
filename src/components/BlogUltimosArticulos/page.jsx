@@ -21,8 +21,6 @@ export default function BlogUltimosArticulos() {
     fetchData()
   }, [t])
 
-  console.log(data.length)
-
   return (
     <div className="w-full justify-center flex flex-wrap gap-10">
       {data.length !== 0 ? (
