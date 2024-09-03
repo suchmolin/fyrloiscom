@@ -17,7 +17,7 @@ export default function IdiomasSelector() {
           <span className="block text-sm text-[#000b7a]">{t("ddTitle")}</span>
         </Dropdown.Header>
         <Dropdown.Item
-          className="flex gap-3 ml-2"
+          className="flex gap-3"
           onClick={() => {
             setOpenModal(true)
             setSelected("es")
@@ -28,7 +28,7 @@ export default function IdiomasSelector() {
           {t("ddItem1")}
         </Dropdown.Item>
         <Dropdown.Item
-          className="flex gap-3 ml-2"
+          className="flex gap-3"
           onClick={() => {
             setOpenModal(true)
             setSelected("en")
