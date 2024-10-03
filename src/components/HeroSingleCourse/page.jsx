@@ -6,7 +6,7 @@ export default function HeroSingleCourse({ courseData }) {
   return courseData ? (
     <div className="w-full flex flex-col lg:flex-row pt-44 pb-20">
       <div className="w-full sm:w-11/12 lg:w-8/12 flex flex-col items-center px-3 sm:px-0">
-        <h1 className="text-center text-5xl text-[#000b7a] font-bold pb-4">
+        <h1 className="text-center text-5xl text-[#001A70] font-bold pb-4">
           {courseData.title}
         </h1>
         <p className="text-gray-500 text-sm pt-1 pb-4 text-center">
@@ -56,7 +56,7 @@ export default function HeroSingleCourse({ courseData }) {
           <button className="bg-[#ffa101] text-white px-4 py-2 rounded-md text-sm sm:text-base">
             Comprar
           </button>
-          <button className="bg-[#000b7a] text-white px-4 py-2 rounded-md text-sm sm:text-base">
+          <button className="bg-[#001A70] text-white px-4 py-2 rounded-md text-sm sm:text-base">
             Agregar al carrito
           </button>
         </div>
@@ -77,7 +77,7 @@ export default function HeroSingleCourse({ courseData }) {
           <div className="w-full flex flex-col">
             <div className="w-full flex justify-center">
               <div className="w-10/12 flex justify-between py-2 border-b border-gray-100">
-                <h2 className="text-xl font-bold text-[#000b7a] pl-2">
+                <h2 className="text-xl font-bold text-[#001A70] pl-2">
                   {courseData.title}
                 </h2>
                 <p className="text-[#bb29b9]">{courseData.price}</p>

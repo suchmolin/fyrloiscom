@@ -21,7 +21,7 @@ export default function Test() {
 
   return (
     <div className="w-full flex flex-col items-center pb-10 pt-44 min-h-screen">
-      <h1 className="text-2xl font-bold text-[#000b7a] text-center px-1">
+      <h1 className="text-2xl font-bold text-[#001A70] text-center px-1">
         {t("h1")}
       </h1>
       <p className="text-lg text-gray-500 text-center px-1">{t("p")}</p>
@@ -33,7 +33,7 @@ export default function Test() {
       )}
       {result < 0 && (
         <div className="w-11/12 md:w-10/12 lg:w-8/12 xl:w-6/12 h-[500px] sm:h-[400px] relative rounded-md border shadow-xl my-10 pl-2 py-7 sm:p-7 overflow-hidden">
-          <h4 className="text-lg text-[#000b7a] text center">{t("h4")}</h4>
+          <h4 className="text-lg text-[#001A70] text center">{t("h4")}</h4>
           {personal.email === "" && (
             <PersonalDataTest setPersonal={setPersonal} />
           )}

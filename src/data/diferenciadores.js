@@ -1,7 +1,7 @@
 export const data = [
   {
     id: "1",
-    src: "/img/25aniversary.png",
+    src: "/img/dif25.png",
     width: 60,
     height: 60,
     alt: "Diferenciador",
@@ -11,7 +11,7 @@ export const data = [
   },
   {
     id: "2",
-    src: "/img/gruposReducidos.png",
+    src: "/img/difGrupo.png",
     width: 55,
     height: 55,
     alt: "Diferenciador",
@@ -21,7 +21,7 @@ export const data = [
   },
   {
     id: "3",
-    src: "/img/horarioPersonalizable.png",
+    src: "/img/difReloj.png",
     width: 70,
     height: 70,
     alt: "Diferenciador",
@@ -31,7 +31,7 @@ export const data = [
   },
   {
     id: "4",
-    src: "/img/cerebro.png",
+    src: "/img/difCerebro.png",
     width: 60,
     height: 60,
     alt: "Diferenciador",
@@ -41,7 +41,7 @@ export const data = [
   },
   {
     id: "5",
-    src: "/img/profesoresCertificados.jpeg",
+    src: "/img/difBirrete.png",
     width: 60,
     height: 60,
     alt: "Diferenciador",

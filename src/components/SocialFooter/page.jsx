@@ -4,8 +4,8 @@ import { useTranslations } from "next-intl"
 export default function SocialFooter() {
   const t = useTranslations("Footer")
   return (
-    <div className="flex flex-col sm:flex-row lg:flex-col justify-center items-center lg:justify-end lg:items-end gap-5 sm:mt-20 text-[#000b7a]">
-      <h2 className="text-3xl text-[#000b7a] font-bold">{t("h2")}</h2>
+    <div className="flex flex-col sm:flex-row lg:flex-col justify-center items-center lg:justify-end lg:items-end gap-5 sm:mt-20 text-[#001A70]">
+      <h2 className="text-3xl text-[#001A70] font-bold">{t("h2")}</h2>
       <a
         href="https://www.instagram.com/fyrlois"
         target="_blank"

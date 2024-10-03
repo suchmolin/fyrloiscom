@@ -93,7 +93,7 @@ export default function QuestionsTest(props) {
             type="radio"
             value={option}
             name="default-radio"
-            className="w-4 h-4 text-[#000b7a] bg-gray-100 border-gray-300 focus:ring-[#000b7a] focus:ring-2 hover:cursor-pointer"
+            className="w-4 h-4 text-[#001A70] bg-gray-100 border-gray-300 focus:ring-[#001A70] focus:ring-2 hover:cursor-pointer"
           />
           <label
             htmlFor={`default-radio-${index}`}
@@ -109,7 +109,7 @@ export default function QuestionsTest(props) {
             id="prev"
             disabled={previo}
             onClick={() => handlePosition("prev")}
-            className="absolute left-5 bottom-7 py-2 px-4 rounded-xl bg-[#90d400] text-[#000b7a] transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
+            className="absolute left-5 bottom-7 py-2 px-4 rounded-xl bg-[#90d400] text-[#001A70] transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
           >
             {t("prev")}
           </button>
@@ -120,7 +120,7 @@ export default function QuestionsTest(props) {
             id="next"
             disabled={next}
             onClick={() => handlePosition("next")}
-            className="absolute right-5 bottom-12 py-2 px-4 rounded-xl bg-[#000b7a] text-white transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
+            className="absolute right-5 bottom-12 py-2 px-4 rounded-xl bg-[#001A70] text-white transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
           >
             {t("next")}
           </button>
@@ -129,7 +129,7 @@ export default function QuestionsTest(props) {
           <button
             id="finalizar"
             onClick={handleFinal}
-            className="absolute right-5 bottom-12 py-2 px-4 rounded-xl bg-[#000b7a] text-white transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
+            className="absolute right-5 bottom-12 py-2 px-4 rounded-xl bg-[#001A70] text-white transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
           >
             {t("end")}
           </button>

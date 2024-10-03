@@ -5,9 +5,9 @@ export default function PersonalDataTest({ setPersonal }) {
   const t = useTranslations("Test.PersonalDataTest")
   const [submited, setSubmited] = useState(false)
   const inputClass =
-    "block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-[#000b7a] peer"
+    "block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-[#001A70] peer"
   const labelClass =
-    "absolute text-sm text-gray-500 duration-300 transform -translate-y-7 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-[#000b7a] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-7 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
+    "absolute text-sm text-gray-500 duration-300 transform -translate-y-7 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-[#001A70] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-7 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -95,7 +95,7 @@ export default function PersonalDataTest({ setPersonal }) {
           </label>
         </div>
         <button
-          className=" absolute right-5 bottom-3 py-2 px-4 rounded-xl bg-[#000b7a] text-white hover:bg-[#90d400] hover:text-[#000b7a] transition-all duration-300"
+          className=" absolute right-5 bottom-3 py-2 px-4 rounded-xl bg-[#001A70] text-white hover:bg-[#90d400] hover:text-[#001A70] transition-all duration-300"
           type="submit"
         >
           {t("start")}

@@ -29,7 +29,7 @@ export default function NuestrosTeachers() {
   return (
     <div className="w-11/12 flex flex-col items-center py-20">
       <div className="w-11/12 text-center">
-        <h2 className="text-3xl font-bold text-[#000b7a] py-4">{t("h2")}</h2>
+        <h2 className="text-3xl font-bold text-[#001A70] py-4">{t("h2")}</h2>
         <p className="text-gray-500 text-xl">{t("p")}</p>
       </div>
       <div className="w-11/12 flex justify-center flex-wrap gap-20 pt-28">
@@ -48,17 +48,17 @@ export default function NuestrosTeachers() {
             </div>
             <div className="w-10/12 h-full text-center flex flex-col items-center justify-between">
               <div className="">
-                <h4 className="text-[#000b7a] text-2xl font-bold py-2 cursor-pointer hover:text-[#90d400] transition-all duration-300">
+                <h4 className="text-[#001A70] text-2xl font-bold py-2 cursor-pointer hover:text-[#90d400] transition-all duration-300">
                   <Link href={item.redir}> {item.nombre}</Link>
                 </h4>
-                <h5 className="text-[#000b7a] text-xl pb-4">{item.cargo}</h5>
+                <h5 className="text-[#001A70] text-xl pb-4">{item.cargo}</h5>
                 <p className="text-gray-500 text-lg">{item.descripcion}</p>
               </div>
               <div className="flex gap-10 h-[60px] items-center justify-center md:justify-start mt-5">
                 <a
                   href={item.redir}
                   aria-label="Acerca de Nosotros"
-                  className=" py-4 px-7 bg-[#fff] hover:bg-[#90d400] hover:mb-1 rounded-md text-bold text-[#000b7a] hover:text-white border-2 border-[#000b7a] hover:border-[#90d400] transition-all duration-100 font-bold text-xs md:text-base"
+                  className=" py-4 px-7 bg-[#fff] hover:bg-[#90d400] hover:mb-1 rounded-md text-bold text-[#001A70] hover:text-white border-2 border-[#001A70] hover:border-[#90d400] transition-all duration-100 font-bold text-xs md:text-base"
                 >
                   {t("verPerfil")}
                 </a>

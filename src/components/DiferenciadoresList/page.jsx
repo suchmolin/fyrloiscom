@@ -3,14 +3,14 @@ import Image from "next/image"
 
 export default function DiferenciadoresList({ data }) {
   return (
-    <div className="w-10/12 flex justify-center flex-wrap lg:flex-nowrap">
+    <div className="w-11/12 flex justify-center flex-wrap gap-5">
       {data.length !== 0 ? (
         data?.map((item) => (
           <div
             key={item.id}
-            className="w-10/12 sm:w-6/12 md:w-4/12 lg:w-3/12 flex flex-col items-center px-5 mb-10 mih-h-[200px] lg:min-h-[294px]"
+            className="w-[400px] bg-white flex flex-col items-center px-12 rounded-2xl py-5 hover:scale-[101%] transition-all duration-300"
           >
-            <div className="w-[90px] h-[90px] rounded-full border-2 border-[#000b7a] flex justify-center items-center mb-4">
+            <div className="w-[90px] h-[90px] rounded-full bg-gray-100 flex justify-center items-center mb-4">
               <Image
                 src={item.src}
                 width={item.width}
@@ -18,10 +18,10 @@ export default function DiferenciadoresList({ data }) {
                 alt={item.alt}
               />
             </div>
-            <h1 className="text-lg font-bold text-[#000b7a] text-center">
+            <h1 className="text-2xl font-bold text-[#001A70] text-center">
               {item.title}
             </h1>
-            <p className="text-sm text-gray-500 text-center">{item.subtitle}</p>
+            <p className="text-xl text-gray-500 text-center">{item.subtitle}</p>
           </div>
         ))
       ) : (

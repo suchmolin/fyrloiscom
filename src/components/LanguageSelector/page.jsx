@@ -4,7 +4,7 @@ import { Dropdown } from "flowbite-react"
 import Image from "next/image"
 import { usePathname, useSearchParams } from "next/navigation"
 
-export function LanguageSelector() {
+export function LanguageSelector({ locale }) {
   const path = usePathname()
   const searchParams = useSearchParams()
   const sede = searchParams.get("s")
@@ -15,12 +15,17 @@ export function LanguageSelector() {
 
     location.href = sede ? subs.join("/") + "?s=" + sede : subs.join("/")
   }
-
+  const mundo = (
+    <span className="flex gap-2 items-center">
+      <TfiWorld />
+      {locale.toUpperCase()}
+    </span>
+  )
   return (
-    <div className="absolute top-5 right-5 sm:right-10 text-[#000b7a] text-xl">
-      <Dropdown label={<TfiWorld />} inline>
+    <div className="fixed sm:absolute bottom-5 sm:top-2 lg:top-5 left-5 md:left-auto md:right-5 xl:right-10 text-[#001A70] text-xl z-10">
+      <Dropdown label={mundo} inline>
         <Dropdown.Header className="w-[200px]">
-          <span className="block text-sm text-[#000b7a]">
+          <span className="block text-sm text-[#001A70]">
             Selecciona un idioma
           </span>
         </Dropdown.Header>

@@ -32,7 +32,7 @@ export default function Customers() {
           <Image src="/img/empresa6.png" objectFit="cover" fill alt="client" />
         </div>
       </div>
-      <h2 className="text-center text-3xl text-[#000b7a] font-bold z-10 mb-4">
+      <h2 className="text-center text-3xl text-[#001A70] font-bold z-10 mb-4">
         {t("h2")}
       </h2>
       <p className="z-10 w-10/12 sm:w-6/12 text-center text-lg text-gray-500 mb-10">

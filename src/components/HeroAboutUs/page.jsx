@@ -9,7 +9,7 @@ export default function HeroAboutUs() {
       <div className="flex flex-col-reverse md:flex-row items-center justify-center md:justify-start w-full h-screen font-[lato]">
         <div className="w-11/12 md:w-5/12 flex flex-col justify-center items-center md:pt-[70px] text-center px-3 xl:px-20 z-10 mb-10 md:mb-0">
           <div className="w-full h-full lg:ml-44">
-            <h1 className="flex flex-col text-[#000b7a] text-5xl lg:text-7xl font-bold mb-4">
+            <h1 className="flex flex-col text-[#001A70] text-5xl lg:text-7xl font-bold mb-4">
               {t("h1")}
               <span className="text-4xl">{t("h1Span")}</span>
             </h1>
@@ -22,7 +22,7 @@ export default function HeroAboutUs() {
 
             <a
               href="#nuestraHistoria"
-              className="px-20 py-2 text-white bg-[#000b7a] rounded-lg hover:bg-[#bb29b9] hover:shadow-xl transition-all duration-300"
+              className="px-20 py-2 text-white bg-[#001A70] rounded-lg hover:bg-[#bb29b9] hover:shadow-xl transition-all duration-300"
             >
               {t("button")}
             </a>

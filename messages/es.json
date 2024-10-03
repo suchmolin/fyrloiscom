@@ -4,7 +4,7 @@
     "ddTitle":"¿Qué idioma deseas estudiar?",
     "ddItem1":"Español",
     "ddItem2":"Inglés",
-    "dropDown2":"Presencial",
+    "dropDown2":"Elige el país",
     "dd2Title":"Selecciona un país",
     "dd2Item1":"USA",
     "dd2Item2":"Venezuela",
@@ -15,9 +15,12 @@
   },
   "hero": {
     "h1": "Aprende una nueva",
-    "h2": "manera de comunicarte",
-    "h3": "Cursos de idiomas para niños, jóvenes",
-    "h3Span": "y adultos",
+    "h1a": "Aprende",
+    "h1a2": "una nueva",
+    "h1b": "manera de comunicarte",
+    
+    "h2": "Cursos de idiomas para niños, jóvenes y adultos",
+    
     "button1": "Presencial",
     "button2": "En Linea"
   },
@@ -152,8 +155,9 @@
     }
   },
   "TestNivelacion":{
-    "h2":"Presenta el Examen de nivelacion",
-    "h2Span":"gratis",
+    "h2":"Presenta el ",
+    "h2b":"Examen de nivelacion gratis",
+    
     "button":"Aquí"
   },
   "CursosSedes":{

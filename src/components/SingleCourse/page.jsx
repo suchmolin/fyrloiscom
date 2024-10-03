@@ -16,7 +16,7 @@ export default function SingleCourse({ key, item, comprar, sede }) {
       >
         <div className="flex flex-col gap-5 py-3">
           <div className="flex justify-between border-b border-gray-200 pb-3">
-            <h4 className="text-[#000b7a]">{item.title}</h4>
+            <h4 className="text-[#001A70]">{item.title}</h4>
             <p className="text-[#bb29b9]">${item.price}</p>
           </div>
           <p className="text-gray-500 text-sm">{item.description}</p>
@@ -24,7 +24,7 @@ export default function SingleCourse({ key, item, comprar, sede }) {
         {comprar && (
           <a
             href={`/${locale}/courses/${item.id}?s=${sede}`}
-            className="mx-auto w-full bg-[#000b7a] text-center py-2 text-white rounded-md"
+            className="mx-auto w-full bg-[#001A70] text-center py-2 text-white rounded-md"
           >
             Comprar
           </a>

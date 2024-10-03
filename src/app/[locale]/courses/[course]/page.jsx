@@ -46,7 +46,7 @@ export default function CoursePage({ params }) {
       </div>
       <div className="w-full h-fit flex justify-center">
         <div className="w-11/12 sm:w-10/12 md:w-9/12 lg:w-7/12 h-fit]">
-          <h2 className="text-3xl font-bold text-[#000b7a] text-center my-3 sm:my-10">
+          <h2 className="text-3xl font-bold text-[#001A70] text-center my-3 sm:my-10">
             {t("h2")}
           </h2>
           <VideoYoutube
@@ -58,7 +58,7 @@ export default function CoursePage({ params }) {
       </div>
       <div className="w-full flex justify-center">
         <div className="w-full sm:w-11/12 lg:w-10/12 xl:w-8/12">
-          <h2 className="text-3xl font-bold text-[#000b7a] text-center mt-10 mb-2">
+          <h2 className="text-3xl font-bold text-[#001A70] text-center mt-10 mb-2">
             {t("h2b")}
           </h2>
           <CarruselReviews />
@@ -66,7 +66,7 @@ export default function CoursePage({ params }) {
       </div>
       <div className="w-full flex justify-center py-10">
         <div className="w-10/12 flex flex-col gap-2">
-          <h2 className="text-3xl font bold text-[#000b7a] pb-2 text-center font-bold">
+          <h2 className="text-3xl font bold text-[#001A70] pb-2 text-center font-bold">
             {t("h2c")}
           </h2>
           <div className="w-full flex gap-2 justify-center">

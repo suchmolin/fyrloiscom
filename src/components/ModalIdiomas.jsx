@@ -13,7 +13,7 @@ export default function ModalIdiomas({ openModal, setOpenModal, selected }) {
       <Modal.Body className="">
         <>
           <div className="flex gap-5 w-full text-center justify-center items-center">
-            <h2 className="text-lg sm:text-2xl text-[#000b7a] text-center font-bold">
+            <h2 className="text-lg sm:text-2xl text-[#001A70] text-center font-bold">
               Selecciona el modo de estudio
             </h2>
             <Image
@@ -36,7 +36,7 @@ export default function ModalIdiomas({ openModal, setOpenModal, selected }) {
               </div>
               <a
                 href="https://fyrloisonline.vercel.app"
-                className="text-center py-1 sm:py-2 px-5 bg-[#000b7a] text-white rounded-md hover:bg-[#9ee701] w-11/12 transition-all duration-300"
+                className="text-center py-1 sm:py-2 px-5 bg-[#001A70] text-white rounded-md hover:bg-[#9ee701] w-11/12 transition-all duration-300"
               >
                 ONLINE
               </a>

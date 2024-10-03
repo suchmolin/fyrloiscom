@@ -3,33 +3,45 @@ import Image from "next/image"
 import { Slide } from "react-awesome-reveal"
 import NavbarMenu from "../NavbarMenu/page"
 import { LanguageSelector } from "../LanguageSelector/page"
-import { IoIosArrowUp } from "react-icons/io"
+import { TfiClose } from "react-icons/tfi"
 import { GrMenu } from "react-icons/gr"
 import Link from "next/link"
 import { useState } from "react"
+import { useLocale } from "next-intl"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const locale = useLocale()
   return (
-    <nav className="absolute flex flex-col md:flex-row items-center justify-center md:justify-end pr-0 md:pr-10 xl:mr-0 xl:justify-center w-full h-40 z-10 font-[lato]">
-      <LanguageSelector />
-      <Slide className="w-[160px] h-[60px] mt-6 md:w-[200px] md:h-[77px] relative md:absolute md:left-16 2xl:left-28 flex items-center mb-3 md:mb-0">
+    <nav className="absolute flex flex-col-reverse md:flex-row items-start lg:items-center justify-end  xl:mr-0  w-full h-32 xl:h-40 z-10 font-[lato]  sm:pt-10 md:pt-3 lg:pt-0">
+      <div className="hidden sm:block">
+        <LanguageSelector locale={locale} />
+      </div>
+      <Slide
+        triggerOnce
+        className="w-[200px] sm:w-[260px] h-[75px] sm:h-[100px] lg:w-[200px] lg:h-[77px] mt-3 sm:mt-20 lg:mt-0 xl:mt-6 absolute left-3 sm:left-3 md:left-16 xl:left-28 flex items-center mb-3 md:mb-0"
+      >
         <Link href="/" aria-label="imagen fyrlois">
           <Image src="/img/1.png" fill objectFit="cover" alt="" />
         </Link>
       </Slide>
       {open && (
-        <button
-          onClick={() => setOpen(false)}
-          className="absolute top-5 right-5 text-[#000b7a] bg-white text-lg font-extralight p-1 rounded-full border border-gray-200 shadow-md z-10"
-        >
-          <IoIosArrowUp />
-        </button>
+        <>
+          <button
+            onClick={() => setOpen(false)}
+            className="absolute top-5 right-5 bg-white text- font-extralight p-2 rounded-full border border-gray-200 shadow-md z-10"
+          >
+            <TfiClose />
+          </button>
+          <div className="sm:hidden block">
+            <LanguageSelector locale={locale} />
+          </div>
+        </>
       )}
       {!open && (
         <button
           onClick={() => setOpen(true)}
-          className="absolute block sm:hidden top-3 right-20 text-[#000b7a] text-lg font-extralight p-2 rounded-full z-10"
+          className="absolute block sm:hidden top-7 right-7 text-gray-700 text-lg p-2 rounded-full z-10 bg-white shadow-md"
         >
           <GrMenu />
         </button>

@@ -8,8 +8,17 @@ module.exports = {
     flowbite.content(),
   ],
   theme: {
+    screens: {
+      xs: "375px",
+      sm: "640px",
+      md: "768px",
+      lg: "1050px",
+      xl: "1280px",
+      xxl: "1536px",
+      xxxl: "2000px",
+    },
     fontFamily: {
-      customFont: ["lato", "eastmanromanblack"],
+      customFont: ["lato", "latoblack", "eastmanromanblack"],
       // Add more custom font families as needed
     },
   },

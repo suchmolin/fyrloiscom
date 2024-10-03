@@ -1,12 +1,12 @@
-import Image from "next/image";
-import FormFooter from "../FormFooter/page";
-import SocialFooter from "../SocialFooter/page";
-import { useTranslations, useLocale } from "next-intl";
-import Link from "next/link";
+import Image from "next/image"
+import FormFooter from "../FormFooter/page"
+import SocialFooter from "../SocialFooter/page"
+import { useTranslations, useLocale } from "next-intl"
+import Link from "next/link"
 
 export default function Footer() {
-  const t = useTranslations("Footer");
-  const locale = useLocale();
+  const t = useTranslations("Footer")
+  const locale = useLocale()
   return (
     <>
       <div id="divider_id" className="website-divider-container-812536">
@@ -29,10 +29,10 @@ export default function Footer() {
             style={{ opacity: "0.25" }}
           ></path>
         </svg>
-        <div className="textureFooter pt-36 w-full min-h-[450px] flex justify-center bg-[#000b7a]/20 py-10">
+        <div className="textureFooter pt-36 w-full min-h-[450px] flex justify-center bg-[#001A70]/20 py-10">
           <div className="w-11/12 lg:w-10/12 flex flex-col lg:flex-row gap-10 justify-between">
             <div className="flex flex-col sm:flex-row w-full lg:w-8/12 justify-between">
-              <div className="flex flex-col justify-between items-center sm:items-start text-[#000b7a] sm:mt-20 mb-10 sm:mb-0">
+              <div className="flex flex-col justify-between items-center sm:items-start text-[#001A70] sm:mt-20 mb-10 sm:mb-0">
                 <div>
                   <Image
                     src="/img/1.png"
@@ -68,7 +68,7 @@ export default function Footer() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-w-[300px] w-12/12 sm:w-fit">
-                <h2 className="text-2xl text-[#000b7a] text-center sm:text-start">
+                <h2 className="text-2xl text-[#001A70] text-center sm:text-start">
                   {t("h2b")}
                 </h2>
                 <FormFooter />
@@ -81,5 +81,5 @@ export default function Footer() {
         </div>
       </div>
     </>
-  );
+  )
 }

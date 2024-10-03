@@ -15,8 +15,8 @@
   src: url('/fonts/Lato-Bold.ttf');
 }
 @font-face {
-  font-family: 'eastmanromanblack';
-  src: url('/fonts/EastmanRomanTrial-Black.otf');
+  font-family: 'latoblack';
+  src: url('/fonts/Lato-Black.ttf');
 }
 
 *{
@@ -47,16 +47,13 @@
 
 .textBorder {
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #000b7a;
+  -webkit-text-stroke-color: #001A70;
 }
 
 .top2 {
   clip-path: polygon(0 0,100% 0,100% calc(100% - 70px),0 100%);
 }
-.bottom2 {
-  clip-path: polygon(0 70px,100% 0,100% 100%,0 100%);
-  margin-top: -60px;
-}
+
 
 .topCustomer {
     clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 80px));

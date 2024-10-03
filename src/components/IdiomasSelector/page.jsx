@@ -2,10 +2,10 @@ import { Dropdown } from "flowbite-react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 import ModalIdiomas from "../ModalIdiomas"
-import { Button } from "flowbite-react"
+
 import { useState } from "react"
 
-export default function IdiomasSelector() {
+export default function IdiomasSelector({}) {
   const t = useTranslations("navbarMenu")
   const [openModal, setOpenModal] = useState(false)
   const [selected, setSelected] = useState("")
@@ -14,7 +14,7 @@ export default function IdiomasSelector() {
     <>
       <Dropdown label={t("dropDown")} inline>
         <Dropdown.Header className="w-[240px]">
-          <span className="block text-sm text-[#000b7a]">{t("ddTitle")}</span>
+          <span className="block text-sm text-[#001A70]">{t("ddTitle")}</span>
         </Dropdown.Header>
         <Dropdown.Item
           className="flex gap-3"

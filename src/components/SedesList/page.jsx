@@ -30,7 +30,7 @@ export default function SedesList() {
             />
           </div>
           <div className="w-full md:w-7/12 md:h-full flex flex-col justify-center items-center text-center gap-3 px-4 py-3">
-            <h5 className="text-xl md:text-2xl font-bold tracking-tight text-[#000b7a]">
+            <h5 className="text-xl md:text-2xl font-bold tracking-tight text-[#001A70]">
               {card.title}
             </h5>
             <p className="text-sm md:text-base w-full font-normal text-gray-500 flex">
@@ -56,7 +56,7 @@ export default function SedesList() {
             </div>
             <a
               href={`/${locale}/sedes/${card.href}`}
-              className="py-2 px-16 text-white bg-[#000b7a] rounded-lg hover:bg-[#bb29b9] transition-all duration-300"
+              className="py-2 px-16 text-white bg-[#001A70] rounded-lg hover:bg-[#bb29b9] transition-all duration-300"
             >
               {t("aCards")}
             </a>

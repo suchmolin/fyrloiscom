@@ -4,7 +4,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data }) {
   return (
     <>
       <div className="pb-10 text-center flex flex-col items-center">
-        <h2 className="text-[#000b7a] text-5xl font-bold py-4">{titulo}</h2>
+        <h2 className="text-[#001A70] text-5xl font-bold py-4">{titulo}</h2>
         <p className="text-gray-500 w-8/12">{subtitulo}</p>
       </div>
       <div className="w-11/12 flex flex-wrap gap-10 justify-center pb-10">
@@ -15,7 +15,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data }) {
           <div className="relative w-[60px] h-[60px]">
             <Image src="/img/maps.png" fill objectFit="contain" alt="icono" />
           </div>
-          <p className="text-xl text-[#000b7a]">{data.direccion}</p>
+          <p className="text-xl text-[#001A70]">{data.direccion}</p>
         </a>
         <a
           href="#"
@@ -24,7 +24,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data }) {
           <div className="relative w-[60px] h-[60px]">
             <Image src="/img/telphone.jpg" fill objectFit="" alt="icono" />
           </div>
-          <p className="text-xl text-[#000b7a]">{data.telefono}</p>
+          <p className="text-xl text-[#001A70]">{data.telefono}</p>
         </a>
         <a
           href="#"
@@ -33,7 +33,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data }) {
           <div className="relative w-[60px] h-[60px]">
             <Image src="/img/mail.jpg" fill objectFit="contain" alt="icono" />
           </div>
-          <p className="text-xl text-[#000b7a]">{data.email}</p>
+          <p className="text-xl text-[#001A70]">{data.email}</p>
         </a>
 
         <a
@@ -48,7 +48,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data }) {
               alt="icono"
             />
           </div>
-          <p className="text-xl text-[#000b7a]">{data.social.facebook.tag}</p>
+          <p className="text-xl text-[#001A70]">{data.social.facebook.tag}</p>
         </a>
         <a
           href="#"
@@ -57,7 +57,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data }) {
           <div className="relative w-[60px] h-[60px]">
             <Image src="/img/x.png" fill objectFit="contain" alt="icono" />
           </div>
-          <p className="text-xl text-[#000b7a]">{data.social.x.tag}</p>
+          <p className="text-xl text-[#001A70]">{data.social.x.tag}</p>
         </a>
         <a
           href="#"
@@ -71,7 +71,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data }) {
               alt="icono"
             />
           </div>
-          <p className="text-xl text-[#000b7a]">{data.social.instagram.tag}</p>
+          <p className="text-xl text-[#001A70]">{data.social.instagram.tag}</p>
         </a>
         <a
           href="#"
@@ -85,7 +85,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data }) {
               alt="icono"
             />
           </div>
-          <p className="text-xl text-[#000b7a]">{data.social.linkedin.tag}</p>
+          <p className="text-xl text-[#001A70]">{data.social.linkedin.tag}</p>
         </a>
       </div>
     </>
