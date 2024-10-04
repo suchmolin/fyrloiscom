@@ -1,12 +1,11 @@
-import Customers from "@/components/Customers/page";
-import Diferenciadores from "@/components/Diferenciadores/page";
-import FAQSection from "@/components/FAQSection/page";
-import Hero from "@/components/Hero/page";
-import SeccionBlog from "@/components/SeccionBlog/page";
-import SeccionMiss from "@/components/SeccionMiss/page";
-import SedePrincipal from "@/components/SedePrincipal/page";
-import TestNivelacion from "@/components/TestNivelacion/page";
-import WhatsappButton from "@/components/WhatsappButton/page";
+import Customers from "@/components/Customers/page"
+import Diferenciadores from "@/components/Diferenciadores/page"
+import FAQSection from "@/components/FAQSection/page"
+import Hero from "@/components/Hero/page"
+import SeccionBlog from "@/components/SeccionBlog/page"
+import SeccionMiss from "@/components/SeccionMiss/page"
+import SedePrincipal from "@/components/SedePrincipal/page"
+import TestNivelacion from "@/components/TestNivelacion/page"
 
 export default function Home() {
   return (
@@ -20,5 +19,5 @@ export default function Home() {
       <SeccionMiss />
       <SeccionBlog />
     </main>
-  );
+  )
 }

@@ -16,7 +16,7 @@ export function LanguageSelector({ locale }) {
     location.href = sede ? subs.join("/") + "?s=" + sede : subs.join("/")
   }
   const mundo = (
-    <span className="flex gap-2 items-center">
+    <span className="flex gap-2 items-center bg-transparent">
       <TfiWorld />
       {locale.toUpperCase()}
     </span>

@@ -1,63 +1,50 @@
+import { Label, TextInput } from "flowbite-react"
 import { useTranslations } from "next-intl"
+import { IoIosArrowDown } from "react-icons/io"
 export default function FormFooter() {
   const t = useTranslations("Footer.form")
 
   return (
     <div>
-      <div className="relative z-0 my-6">
-        <input
-          type="text"
-          id="Nombre"
-          className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#001A70]/50 appearance-none focus:outline-none focus:ring-0 focus:border-[#9ee701] peer"
-          placeholder=" "
-        />
-        <label
-          htmlFor="Nombre"
-          className="absolute text-sm text-[#001A70]/40 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-[#9ee701]  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
-        >
+      <div class="mb-3">
+        <label for="nombre" class="block mb-1 text-sm text-gray-600">
           {t("input")}
         </label>
-      </div>
-      <div className="relative z-0 my-4">
         <input
-          type="number"
-          id="Teléfono"
-          className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-[#001A70]/50 appearance-none focus:outline-none focus:ring-0 focus:border-[#9ee701] peer"
-          placeholder=" "
+          type="text"
+          id="nombre"
+          class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+          required
         />
-        <label
-          htmlFor="Teléfono"
-          className="absolute text-sm text-[#001A70]/40 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-[#9ee701]  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
-        >
-          {t("input2")}
-        </label>
       </div>
-      <div className="relative z-0 my-4">
-        <input
-          type="mail"
-          id="Correo Electrónico"
-          className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-
-          0 border-b-2 border-[#001A70]/50 appearance-none focus:outline-none focus:ring-0 focus:border-[#9ee701] peer"
-          placeholder=" "
-        />
-        <label
-          htmlFor="Correo Electrónico"
-          className="absolute text-sm text-[#001A70]/40 duration-300 transform -translate-y-
-          6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 peer-focus:text-[#9ee701]  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto"
-        >
+      <div class="mb-3">
+        <label for="email" class="block mb-1 text-sm text-gray-600">
           {t("input3")}
         </label>
+        <input
+          type="email"
+          id="email"
+          class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+          required
+        />
       </div>
-      <textarea
-        id={t("input4")}
-        rows="4"
-        className="block p-2.5 w-full text-sm text-gray-900 rounded-lg  bg-[#001A70]/5 focus:outline-none focus:ring-0 ring-0 focus:border-[#9ee701] transition-all duration-300 placeholder-[#001A70]/40"
-        placeholder="Escribenos tu mensaje ..."
-      ></textarea>
-
-      <button className="w-full py-2.5 text-sm text-white bg-[#001A70] rounded-lg hover:bg-[#9ee701] transition-all duration-300 mt-4">
-        {t("button")}
-      </button>
+      <div class="mb-3">
+        <textarea
+          placeholder={t("input4")}
+          rows="3"
+          id="mensaje"
+          class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-lg block w-full p-2.5 "
+          required
+        />
+      </div>
+      <div className="w-full flex justify-end">
+        <button className="dropShadow3 pr-1 pl-4 py-1 bg-white/70 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit">
+          {t("button")}
+          <span className="p-2 rounded-full bg-[#9ee701]">
+            <IoIosArrowDown className="text-gray-800" />
+          </span>
+        </button>
+      </div>
     </div>
   )
 }

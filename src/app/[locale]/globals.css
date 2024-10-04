@@ -23,12 +23,8 @@
   scroll-behavior: smooth;
 }
 
-
-.textureFooter{
-	background-image:  linear-gradient(30deg, #C6C8DE 12%, transparent 12.5%, transparent 87%, #C6C8DE 87.5%, #C6C8DE), linear-gradient(150deg, #C6C8DE 12%, transparent 12.5%, transparent 87%, #C6C8DE 87.5%, #C6C8DE), linear-gradient(30deg, #C6C8DE 12%, transparent 12.5%, transparent 87%, #C6C8DE 87.5%, #C6C8DE), linear-gradient(150deg, #C6C8DE 12%, transparent 12.5%, transparent 87%, #C6C8DE 87.5%, #C6C8DE), linear-gradient(60deg, #C6C8DE80 25%, transparent 25.5%, transparent 75%, #C6C8DE80 75%, #C6C8DE80), linear-gradient(60deg, #C6C8DE80 25%, transparent 25.5%, transparent 75%, #C6C8DE80 75%, #C6C8DE80);
-	background-size: 200px 350px;
-	background-position: 0 0, 0 0, 100px 175px, 100px 175px, 0 0, 100px 175px;
-	background-color: #CCCEE4;
+textarea {
+  resize: none;
 }
 
 .gradient{
@@ -94,3 +90,18 @@
     left: 0px;
     fill: rgb(255, 255, 255)
   }
+
+  .dropShadow{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .dropShadow2{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .dropShadow3{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .dropShadow4{
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  }
+
+  

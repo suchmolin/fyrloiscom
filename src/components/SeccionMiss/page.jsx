@@ -2,6 +2,7 @@ import Image from "next/image"
 import "./page.css"
 import Link from "next/link"
 import { useLocale, useTranslations } from "next-intl"
+import { IoIosArrowDown } from "react-icons/io"
 
 export default function SeccionMiss() {
   const t = useTranslations("SeccionMiss")
@@ -21,30 +22,38 @@ export default function SeccionMiss() {
           <li></li>
           <li></li>
         </ul>
-        <div className="min-h-[650px] w-full bg-[#001A70] flex  flex-col lg:flex-row justify-center items-center py-10 lg:py-0 text-center lg:text-start">
+        <div className="min-h-[650px] w-full bg-[#001A70] flex  flex-col lg:flex-row justify-center items-center py-10 lg:py-0 ">
           <div className="w-11/12 md:w-10/12 lg:w-6/12 px-0 md:px-10 lg:pr-20 flex flex-col items-center lg:items-start">
-            <h3 className="text-3xl md:text-5xl text-[#90d400] font-bold pb-5">
+            <h3 className="text-3xl md:text-5xl text-white font-bold pb-5 text-center sm:text-start">
               {t("h3")}
             </h3>
+            <div className="relative w-[280px] xs:w-[300px] sm:w-[450px] aspect-square block lg:hidden">
+              <Image
+                src="/img/missworld.png"
+                alt="Alejandra Conde - Miss World"
+                objectFit="contain"
+                layout="fill"
+              />
+            </div>
             <p className="text-white text-lg py-4">{t("p")}</p>
             <p className="text-white text-xl py-4">{t("p2")}</p>
-            <div className="flex h-[70px] items-center justify-center lg:justify-start mt-5 pb-10 lg:pb-0">
-              <Link
-                href={`${locale}/aboutUs`}
-                aria-label="Acerca de nosotros"
-                className=" py-4 px-7 bg-[#90d400] hover:bg-transparent hover:mb-1 rounded-md text-bold text-[#001A70] hover:text-white border-2 border-[#90d400] hover:border-[#fff] transition-all duration-200 font-bold z-20"
-              >
-                {t("link")}
-              </Link>
-            </div>
+            <a
+              href="https://fyrloisonline.vercel.app"
+              className="pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit mt-5"
+            >
+              {t("link")}
+              <span className="p-2 rounded-full bg-[#9ee701]">
+                <IoIosArrowDown className="text-gray-800" />
+              </span>
+            </a>
           </div>
           <div className="">
-            <div className="overflow-hidden rounded-xl">
+            <div className="relative w-[430px] aspect-square hidden lg:block">
               <Image
-                src="/img/missworld.jpeg"
+                src="/img/missworld.png"
                 alt="Alejandra Conde - Miss World"
-                width={430}
-                height={314}
+                objectFit="contain"
+                layout="fill"
               />
             </div>
           </div>

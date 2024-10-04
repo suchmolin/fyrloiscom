@@ -1,10 +1,13 @@
+"use client"
 import { useTranslations, useLocale } from "next-intl"
 import IdiomasSelector from "../IdiomasSelector/page"
 import Link from "next/link"
 
 import PresencialSelector from "../PresencialSelector/page"
+import { useState } from "react"
 
 export default function NavbarMenu({ setOpen }) {
+  const [page, setPage] = useState()
   const t = useTranslations("navbarMenu")
   const locale = useLocale()
   return (
@@ -12,18 +15,36 @@ export default function NavbarMenu({ setOpen }) {
       <li className="hover:text-[#bb29b9] transition-all duration-300 ">
         <IdiomasSelector />
       </li>
-      <li className=" hover:text-[#bb29b9] transition-all duration-300">
-        <Link href={`/${locale}/aboutUs`} className="">
+      <li
+        className={`hover:text-[#bb29b9] transition-all duration-300 border-[#001a70] ${page == "aboutUs" ? "border-b-[3px]" : ""}`}
+      >
+        <Link
+          onClick={() => setPage("aboutUs")}
+          href={`/${locale}/aboutUs`}
+          className=""
+        >
           {t("item4")}
         </Link>
       </li>
-      <li className="hover:text-[#bb29b9] transition-all duration-300">
-        <Link href={`/${locale}/contactUs`} className="">
+      <li
+        className={`hover:text-[#bb29b9] transition-all duration-300 border-[#001a70] ${page == "contactUs" ? "border-b-[3px]" : ""}`}
+      >
+        <Link
+          onClick={() => setPage("contactUs")}
+          href={`/${locale}/contactUs`}
+          className=""
+        >
           {t("item5")}
         </Link>
       </li>
-      <li className="hover:text-[#bb29b9] transition-all duration-300">
-        <Link href={`/${locale}/blog`} className="">
+      <li
+        className={`hover:text-[#bb29b9] transition-all duration-300 border-[#001a70]  ${page == "blog" ? "border-b-[3px]" : ""}`}
+      >
+        <Link
+          onClick={() => setPage("blog")}
+          href={`/${locale}/blog`}
+          className=""
+        >
           Blog
         </Link>
       </li>

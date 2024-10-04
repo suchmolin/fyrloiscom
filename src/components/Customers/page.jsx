@@ -4,15 +4,14 @@ import { useTranslations } from "next-intl"
 export default function Customers() {
   const t = useTranslations("Customers")
   return (
-    <div className="bottomCustomer relative flex flex-col items-center bg-gray-100 min-h-[200px] w-full pb-20 overflow-hidden pt-10">
-      <Image
-        className="absolute -rotate-45 left-20 md:-top-5 scale-130 md:scale-[130%]"
-        src="/img/contrato.webp"
-        width={400}
-        height={500}
-        alt="contrato"
-      />
-      <div className="flex justify-center flex-wrap items-center gap-10 sm:gap-20  mt-20  text-7xl py-10 z-10">
+    <div className="relative flex flex-col items-center bg-gray-100 w-full overflow-hidden py-10">
+      <h2 className="text-center text-3xl text-[#001A70] font-bold z-10 mb-2">
+        {t("h2")}
+      </h2>
+      <p className="z-10 w-10/12 sm:w-6/12 text-center text-lg text-gray-500 mb-10">
+        {t("p")}
+      </p>
+      <div className="flex justify-center flex-wrap items-center gap-10 sm:gap-20 z-10">
         <div className="relative w-[100px] h-[50px]">
           <Image src="/img/empresa1.png" objectFit="cover" fill alt="client" />
         </div>
@@ -32,12 +31,6 @@ export default function Customers() {
           <Image src="/img/empresa6.png" objectFit="cover" fill alt="client" />
         </div>
       </div>
-      <h2 className="text-center text-3xl text-[#001A70] font-bold z-10 mb-4">
-        {t("h2")}
-      </h2>
-      <p className="z-10 w-10/12 sm:w-6/12 text-center text-lg text-gray-500 mb-10">
-        {t("p")}
-      </p>
     </div>
   )
 }
