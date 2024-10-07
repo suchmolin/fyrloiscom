@@ -13,13 +13,13 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
   const locale = useLocale()
   return (
-    <nav className="absolute flex flex-col-reverse md:flex-row items-start lg:items-center justify-end  xl:mr-0  w-full h-32 xl:h-40 z-10 font-[lato]  sm:pt-10 md:pt-3 lg:pt-0">
-      <div className="hidden sm:block">
+    <nav className="absolute flex flex-col-reverse md:flex-row items-start lg:items-center justify-end  xl:mr-0  w-full h-32 xl:h-40 z-10 font-[lato] pt-0">
+      <div className="hidden lg:block">
         <LanguageSelector locale={locale} />
       </div>
       <Slide
         triggerOnce
-        className="w-[200px] sm:w-[260px] h-[75px] sm:h-[100px] lg:w-[200px] lg:h-[77px] mt-3 sm:mt-20 lg:mt-0 xl:mt-6 absolute left-3 sm:left-3 md:left-16 xl:left-28 flex items-center mb-3 md:mb-0"
+        className="w-[200px] sm:w-[260px] h-[75px] sm:h-[100px] lg:w-[200px] lg:h-[77px] mt-3 lg:mt-0 xl:mt-6 absolute left-3 sm:left-3 md:left-16 xl:left-28 flex items-center mb-3 md:mb-0"
       >
         <Link href="/" aria-label="imagen fyrlois">
           <Image src="/img/1.png" fill objectFit="cover" alt="" />
@@ -29,11 +29,11 @@ export default function Navbar() {
         <>
           <button
             onClick={() => setOpen(false)}
-            className="absolute top-5 right-5 bg-white text- font-extralight p-2 rounded-full border border-gray-200 shadow-md z-10"
+            className="fixed top-5 right-5 bg-white text- font-extralight p-2 rounded-full border border-gray-200 shadow-md z-10"
           >
             <TfiClose />
           </button>
-          <div className="sm:hidden block">
+          <div className="lg:hidden block">
             <LanguageSelector locale={locale} />
           </div>
         </>
@@ -41,12 +41,12 @@ export default function Navbar() {
       {!open && (
         <button
           onClick={() => setOpen(true)}
-          className="absolute block sm:hidden top-7 right-7 text-gray-700 text-lg p-2 rounded-full z-10 bg-white shadow-md"
+          className="absolute block lg:hidden top-7 right-7 text-gray-700 text-lg p-2 rounded-full z-10 bg-white shadow-md"
         >
           <GrMenu />
         </button>
       )}
-      <div className="hidden sm:block">
+      <div className="hidden lg:block">
         <NavbarMenu />
       </div>
       {open && <NavbarMenu setOpen={setOpen} />}

@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl"
 export default function CountersAboutUs() {
   const t = useTranslations("AboutUs.HeroAboutUs.counter")
   return (
-    <div className="w-full h-[150px] bg-gray-50 flex items-center justify-center gap-0 md:gap-10 lg:gap-36 text-[#001A70]">
+    <div className="w-full h-[150px] bg-[#001a70] flex items-center justify-center gap-0 md:gap-10 lg:gap-36 text-white">
       <div className="text-center">
         <CountUp
           className="text-2xl md:text-5xl font-bold"

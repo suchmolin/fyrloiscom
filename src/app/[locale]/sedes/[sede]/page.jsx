@@ -16,13 +16,11 @@ export default function Sedes({ params }) {
       <CursosSedes sedeData={sedeData} />
       <TestNivelacion />
 
-      <div className="w-10/12 flex flex-col items-center pt-10">
-        <MasInfoContactUs
-          titulo={t("titulo")}
-          subtitulo={t("subtitulo")}
-          data={sedeData}
-        />
-      </div>
+      <MasInfoContactUs
+        titulo={t("titulo")}
+        subtitulo={t("subtitulo")}
+        data={sedeData}
+      />
     </div>
   )
 }

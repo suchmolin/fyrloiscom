@@ -5,6 +5,7 @@ import Image from "next/image"
 import { useState, useEffect } from "react"
 
 import { useTranslations } from "next-intl"
+import { IoIosArrowDown } from "react-icons/io"
 
 export default function NuestrosTeachers() {
   const t = useTranslations("AboutUs.NuestrosTeachers")
@@ -32,11 +33,11 @@ export default function NuestrosTeachers() {
         <h2 className="text-3xl font-bold text-[#001A70] py-4">{t("h2")}</h2>
         <p className="text-gray-500 text-xl">{t("p")}</p>
       </div>
-      <div className="w-11/12 flex justify-center flex-wrap gap-20 pt-28">
+      <div className="w-11/12 flex justify-center flex-wrap gap-7 gap-y-20 pt-28">
         {data?.map((item, index) => (
           <div
             key={index}
-            className="rounded-xl shadow-2xl w-[350px] pb-10 flex flex-col items-center"
+            className="dropShadow3 rounded-xl w-[400px] pb-3 flex flex-col items-center"
           >
             <div className="relative w-[150px] h-[180px] rounded-full overflow-hidden -mt-14">
               <Image
@@ -54,13 +55,15 @@ export default function NuestrosTeachers() {
                 <h5 className="text-[#001A70] text-xl pb-4">{item.cargo}</h5>
                 <p className="text-gray-500 text-lg">{item.descripcion}</p>
               </div>
-              <div className="flex gap-10 h-[60px] items-center justify-center md:justify-start mt-5">
+              <div className="flex items-center justify-center md:justify-start">
                 <a
                   href={item.redir}
-                  aria-label="Acerca de Nosotros"
-                  className=" py-4 px-7 bg-[#fff] hover:bg-[#90d400] hover:mb-1 rounded-md text-bold text-[#001A70] hover:text-white border-2 border-[#001A70] hover:border-[#90d400] transition-all duration-100 font-bold text-xs md:text-base"
+                  className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit"
                 >
                   {t("verPerfil")}
+                  <span className="p-2 rounded-full bg-[#9ee701]">
+                    <IoIosArrowDown className="text-gray-800" />
+                  </span>
                 </a>
               </div>
             </div>

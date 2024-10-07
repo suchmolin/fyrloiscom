@@ -9,7 +9,12 @@ export default function ContactUs() {
   return (
     <div className="w-full flex flex-col items-center">
       <FormContactUs />
-      <MasInfoContactUs titulo={t("h2")} subtitulo={t("p")} data={data[0]} />
+      <MasInfoContactUs
+        titulo={t("h2")}
+        subtitulo={t("p")}
+        data={data[0]}
+        mt="-mt-32"
+      />
       <div className="w-full mt-10">
         <FAQSection />
       </div>

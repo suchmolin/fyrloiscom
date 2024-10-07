@@ -22,7 +22,7 @@ export function LanguageSelector({ locale }) {
     </span>
   )
   return (
-    <div className="fixed sm:absolute bottom-5 sm:top-2 lg:top-5 left-5 md:left-auto md:right-5 xl:right-10 text-[#001A70] text-xl z-10">
+    <div className="fixed lg:absolute bottom-5 lg:top-5 left-5 lg:left-auto lg:right-5 xl:right-10 text-[#001A70] text-xl z-10">
       <Dropdown label={mundo} inline>
         <Dropdown.Header className="w-[200px]">
           <span className="block text-sm text-[#001A70]">

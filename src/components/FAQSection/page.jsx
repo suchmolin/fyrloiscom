@@ -31,7 +31,7 @@ export default function FAQSection() {
             <p className="mt-3 text-lg text-neutral-500 md:text-xl">{t("p")}</p>
           </div>
           <div className="w-full flex flex-col lg:flex-row lg:gap-20 justify-center items-center lg:items-start">
-            <div className="relative w-[290px] xs:w-[350px] xl:w-[500px] aspect-square mt-10">
+            <div className="relative w-[290px] xs:w-[350px] sm:w-[400px] 2xl:w-[500px] aspect-square mt-10">
               <Image
                 src="/img/faq.png"
                 layout="fill"

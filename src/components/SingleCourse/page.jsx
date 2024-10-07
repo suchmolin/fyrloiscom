@@ -1,33 +1,48 @@
 import { useLocale } from "next-intl"
 import Image from "next/image"
+import { GoArrowRight } from "react-icons/go"
+import { HiOutlineShoppingCart } from "react-icons/hi"
 
 export default function SingleCourse({ key, item, comprar, sede }) {
   const locale = useLocale()
   return (
     <div
       key={item.id}
-      className={`relative border border-gray-100 shadow-lg rounded-lg overflow-hidden bg-white ${comprar ? "w-11/12 sm:w-5/12 lg:w-3/12 min-h-[400px] " : "w-[300px] h-fit"}`}
+      className={`relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3`}
     >
-      <div className="relative w-full h-[150px]">
+      <div className="flex justify-between">
+        <h4 className="text-[#001A70] font-bold">{item.title}</h4>
+      </div>
+      <div className="w-full flex justify-end items-end px-1">
+        <div className="w-fit py-2 px-5 mt-2 bg-[#001A70] rounded-t-xl flex justify-center items-center text-white text-sm">
+          <p>${item.price}</p>
+        </div>
+      </div>
+      <div className="relative w-[245px] xs:w-[271px] aspect-video rounded-s-[20px] rounded-b-xl overflow-hidden">
         <Image src={`/img/${item.img}`} fill objectFit="cover" alt="curso" />
       </div>
       <div
-        className={`w-full flex flex-col justify-between py-4 px-4 ${comprar ? "min-h-[300px] xl:min-h-[250px]" : "min-h-[270px] xl:min-h-[200px]"}`}
+        className={`w-full flex flex-col justify-between py-4 px-4 ${comprar ? "min-h-[250px]" : "min-h-[270px] xl:min-h-[200px]"}`}
       >
         <div className="flex flex-col gap-5 py-3">
-          <div className="flex justify-between border-b border-gray-200 pb-3">
-            <h4 className="text-[#001A70]">{item.title}</h4>
-            <p className="text-[#bb29b9]">${item.price}</p>
-          </div>
           <p className="text-gray-500 text-sm">{item.description}</p>
         </div>
+
         {comprar && (
-          <a
-            href={`/${locale}/courses/${item.id}?s=${sede}`}
-            className="mx-auto w-full bg-[#001A70] text-center py-2 text-white rounded-md"
-          >
-            Comprar
-          </a>
+          <div className="flex justify-between ">
+            <a
+              href={`/${locale}/courses/${item.id}?s=${sede}`}
+              className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
+            >
+              Comprar
+              <span className="p-2 rounded-full bg-[#9ee701]">
+                <GoArrowRight className="text-gray-800" />
+              </span>
+            </a>
+            <button className="dropShadow3 p-2 bg-[#9ee701] rounded-full overflow-hidden text-xl text-black">
+              <HiOutlineShoppingCart />
+            </button>
+          </div>
         )}
       </div>
     </div>

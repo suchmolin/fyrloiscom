@@ -11,7 +11,7 @@ export default function NavbarMenu({ setOpen }) {
   const t = useTranslations("navbarMenu")
   const locale = useLocale()
   return (
-    <ul className="fixed h-full sm:relative flex flex-col sm:flex-row sm:items-center justify-center sm:justify-start gap-7 xl:gap-10 text-[#001A70] text-2xl sm:text-base lg:text-lg  font-bold bg-gradient-to-b from-white sm:from-transparent to-gray-300 sm:bg-transparent w-full sm:w-fit pb-20 sm:py-0 pl-5 md:pr-32 lg:pr-24 xl:pr-52 2xl:pr-80">
+    <ul className="fixed h-full lg:relative flex flex-col lg:flex-row lg:items-center justify-center lg:justify-start gap-7 xl:gap-10 text-[#001A70] text-2xl sm:text-base lg:text-lg  font-bold bg-gradient-to-b from-white lg:from-transparent to-gray-300 sm:bg-transparent w-full lg:w-fit pb-20 lg:py-0 pl-5 md:pr-32 lg:pr-24 xl:pr-52 2xl:pr-80">
       <li className="hover:text-[#bb29b9] transition-all duration-300 ">
         <IdiomasSelector />
       </li>

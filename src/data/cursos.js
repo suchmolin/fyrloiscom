@@ -28,7 +28,7 @@ export const data = [
     title: "Curso de Ciudadanía",
     description:
       "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
-    img: "cursodeCiudadaniaOnline.png",
+    img: "cursoCiudadania.png",
     price: 40,
   },
-];
+]

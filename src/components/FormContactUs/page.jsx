@@ -3,135 +3,127 @@ import { FloatingLabel, Label, Select } from "flowbite-react"
 import Image from "next/image"
 import { useState } from "react"
 import { useTranslations } from "next-intl"
+import { IoIosArrowDown } from "react-icons/io"
 
 export default function FormContactUs() {
-  const [sended, setSended] = useState(false)
   const t = useTranslations("contactUs.FormContactUs")
 
-  const handleSubmit = async (e) => {
-    e.preventDefault()
-    setSended(false)
-    const formData = new FormData(e.target)
-    const data = Object.fromEntries(formData.entries())
-
-    const response = await fetch("/api/send-email", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
-    const responseJson = await response.json()
-    if (responseJson.message === "Email sent") {
-      setSended(true)
-    } else {
-      console.log("Error al enviar el correo")
-    }
-    e.target.reset()
-  }
-
   return (
-    <form
-      onSubmit={(e) => handleSubmit(e)}
-      className="w-11/12 md:w-10/12 rounded-xl shadow-2xl mt-40 mb-20 flex flex-col justify-center items-center"
-    >
-      <div className="w-10/12  flex flex-col md:flex-row gap-5 justify-center py-10 border-gray-500 border-b-[1px]">
-        <div className="w-8/12">
-          <h2 className="text-[#001A70] text-5xl py-4">{t("h2")}</h2>
-          <p className="text-gray-500">{t("p")}</p>
-        </div>
-        <div className="w-[90px] h-[90px] p-4 rounded-full shadow-2xl">
+    <div className="w-full flex flex-col lg:flex-row justify-between items-center sm:px-16 xl:px-32">
+      <div className="w-11/12 sm:w-10/12 lg:w-3/12 flex flex-col items-center lg:items-start mt-32 lg:mt-0">
+        <div className="relative w-[200px] aspect-square">
           <Image
-            src="/img/sobre.svg"
-            alt="Contact Us"
-            width={200}
-            height={200}
+            src="/img/contactUs.png"
+            objectFit="contain"
+            layout="fill"
+            alt="message"
           />
         </div>
+        <h2 className="text-3xl text-[#001a70] text-center lg:text-start">
+          {t("h2")}
+        </h2>
+        <p>{t("p")}</p>
       </div>
-      <div className="w-11/12 md:w-10/12  py-10 flex flex-wrap gap-5 justify-center">
-        <div className="w-10/12 md:w-5/12">
-          <FloatingLabel
-            variant="filled"
-            label={t("fullname")}
-            name="fullname"
+      <form className="dropShadow2 w-[290px] xs:w-[300px] sm:w-[500px] md:w-[700px] rounded-2xl shadow-2xl mt-10 lg:mt-40 mb-20 flex flex-col justify-center items-center bg-gradient-to-b from-white to-[#E5E8E0] pt-10 pb-32 px-4 sm:px-10">
+        <div className="w-full flex gap-3 flex-col sm:flex-row">
+          <div class="mb-3 w-full">
+            <label for="nombre" class="block mb-1 text-sm text-gray-600">
+              {t("fullname")}
+            </label>
+            <input
+              type="text"
+              id="nombre"
+              class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+              required
+            />
+          </div>
+          <div class="mb-3 w-full">
+            <label for="telefono" class="block mb-1 text-sm text-gray-600">
+              {t("tellphone")}
+            </label>
+            <input
+              type="number"
+              id="teleofno"
+              class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+              required
+            />
+          </div>
+        </div>
+        <div class="mb-3 w-full">
+          <label for="email" class="block mb-1 text-sm text-gray-600">
+            {t("email")}
+          </label>
+          <input
+            type="email"
+            id="email"
+            class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
             required
           />
         </div>
-        <div className="w-10/12 md:w-5/12">
-          <FloatingLabel
-            variant="filled"
-            label={t("email")}
-            name="email"
-            required
-          />
+        <div class="relative mb-3 w-full">
+          <label for="countries" class="block mb-1 text-sm text-gray-600">
+            {t("porqueAprender.title")}
+          </label>
+          <select
+            id="countries"
+            class="dropShadow2 border-none ring-0 text-sm rounded-full  block w-full p-2.5 focus:ring-0 focus:border-gray-300 cursor-pointer"
+          >
+            <option selected>{t("porqueAprender.opt1")}</option>
+            <option value="social">{t("porqueAprender.opt2")}</option>
+            <option value="personal">{t("porqueAprender.opt3")}</option>
+            <option value="familiar">{t("porqueAprender.opt4")}</option>
+            <option value="laboral">{t("porqueAprender.opt5")}</option>
+          </select>
+          <span className="absolute right-2 bottom-1 p-2 rounded-full bg-[#9ee701]">
+            <IoIosArrowDown className="text-gray-800" />
+          </span>
         </div>
-        <div className="w-10/12">
-          <FloatingLabel
-            variant="filled"
-            label={t("tellphone")}
-            name="tellphone"
-            required
-          />
+        <div class="relative mb-3 w-full">
+          <label for="countries" class="block mb-1 text-sm text-gray-600">
+            {t("comoNosConociste.title")}
+          </label>
+          <select
+            id="countries"
+            class="dropShadow2 border-none ring-0 text-sm rounded-full  block w-full p-2.5 focus:ring-0 focus:border-gray-300 cursor-pointer"
+          >
+            <option selected>{t("comoNosConociste.opt1")}</option>
+            <option value="un amigo">{t("comoNosConociste.opt2")}</option>
+            <option value="facebook">{t("comoNosConociste.opt3")}</option>
+            <option value="instagram">{t("comoNosConociste.opt4")}</option>
+            <option value="google">{t("comoNosConociste.opt5")}</option>
+          </select>
+          <span className="absolute right-2 bottom-1 p-2 rounded-full bg-[#9ee701]">
+            <IoIosArrowDown className="text-gray-800" />
+          </span>
         </div>
-        <div className="w-10/12">
-          <div className="mb-2 block">
-            <Label
-              htmlFor="porqueAprender"
-              value={t("porqueAprender.title")}
-              className="text-xl text-[#001A70]"
-            />
-          </div>
-          <Select id="porqueAprender" required name="porqueAprender">
-            <option>{t("porqueAprender.opt1")}</option>
-            <option>{t("porqueAprender.opt2")}</option>
-            <option>{t("porqueAprender.opt3")}</option>
-            <option>{t("porqueAprender.opt4")}</option>
-            <option>{t("porqueAprender.opt5")}</option>
-          </Select>
+        <div class="relative mb-3 w-full">
+          <label for="countries" class="block mb-1 text-sm text-gray-600">
+            {t("hasEstudiadoAntes.title")}
+          </label>
+          <select
+            id="countries"
+            class="dropShadow2 border-none ring-0 text-sm rounded-full  block w-full p-2.5 focus:ring-0 focus:border-gray-300 cursor-pointer"
+          >
+            <option selected>{t("hasEstudiadoAntes.opt1")}</option>
+            <option value="si">{t("hasEstudiadoAntes.opt2")}</option>
+            <option value="no">{t("hasEstudiadoAntes.opt3")}</option>
+          </select>
+          <span className="absolute right-2 bottom-1 p-2 rounded-full bg-[#9ee701]">
+            <IoIosArrowDown className="text-gray-800" />
+          </span>
         </div>
-        <div className="w-10/12">
-          <div className="mb-2 block">
-            <Label
-              htmlFor="comoNosConociste"
-              value={t("comoNosConociste.title")}
-              className="text-xl text-[#001A70]"
-            />
-          </div>
-          <Select id="comoNosConociste" required name="comoNosConociste">
-            <option>{t("comoNosConociste.opt1")}</option>
-            <option>{t("comoNosConociste.opt2")}</option>
-            <option>{t("comoNosConociste.opt3")}</option>
-            <option>{t("comoNosConociste.opt4")}</option>
-            <option>{t("comoNosConociste.opt5")}</option>
-            <option>{t("comoNosConociste.opt6")} ads</option>
-          </Select>
-        </div>
-        <div className="w-10/12">
-          <div className="mb-2 block">
-            <Label
-              htmlFor="hasEstudiadoAntes"
-              value={t("hasEstudiadoAntes.title")}
-              className="text-xl text-[#001A70]"
-            />
-          </div>
-          <Select id="hasEstudiadoAntes" required name="hasEstudiadoAntes">
-            <option>{t("hasEstudiadoAntes.opt1")}</option>
-            <option>{t("hasEstudiadoAntes.opt2")}</option>
-            <option>{t("hasEstudiadoAntes.opt3")}</option>
-          </Select>
-        </div>
-        <div className="w-10/12 h-[70px] flex items-center">
+        <div className="w-full flex justify-end mt-4">
           <button
             type="submit"
-            aria-label="TConoce nuestros cursos"
-            className=" py-4 px-7 bg-[#ffa101] hover:bg-[#001A70] hover:mb-1 rounded-md text-bold text-white transition-all duration-500 font-bold text-xs md:text-base"
+            className="pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit"
           >
             {t("button")}
+            <span className="p-2 rounded-full bg-[#9ee701]">
+              <IoIosArrowDown className="text-gray-800" />
+            </span>
           </button>
         </div>
-        {sended && <p className="text-md text-[#001A70] py-2">{t("sended")}</p>}
-      </div>
-    </form>
+      </form>
+    </div>
   )
 }

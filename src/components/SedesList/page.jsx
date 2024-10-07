@@ -1,42 +1,36 @@
 "use client"
-import { FiMapPin } from "react-icons/fi"
+
 import Image from "next/image"
 import { useTranslations, useLocale } from "next-intl"
-import { data } from "@/data/sedes"
-import { useSearchParams } from "next/navigation"
+import { IoIosArrowDown } from "react-icons/io"
 
-export default function SedesList() {
-  const searchParams = useSearchParams()
-  const lang = searchParams.get("lang")
+export default function SedesList({ sedes }) {
   const locale = useLocale()
   const t = useTranslations("sedes.SedesList")
-  const sedes = lang
-    ? data.filter((sede) => sede.language.includes(lang))
-    : data
 
   return (
-    <div className="w-full flex gap-6 justify-center flex-wrap pb-20">
+    <div className="w-full flex gap-10 justify-center flex-wrap pb-20">
       {sedes.map((card) => (
         <div
           key={`card${card.id}`}
-          className="w-10/12  sm:w-5/12 md:w-9/12 min-h-[300px] lg:w-5/12 hover:scale-[101%] transition-all duration-300 overflow-hidden rounded-xl flex flex-col md:flex-row shadow-lg border border-gray-100"
+          className="dropShadow3 relative  w-[280px] md:w-[500px] px-3 py-3 hover:scale-[101%] transition-all duration-300 rounded-xl flex flex-col md:flex-row items-center md:items-start bg-gradient-to-b from-white to-gray-200"
         >
-          <div className="w-full md:w-5/12 h-[180px] md:h-full relative">
+          <div className="w-[200px] aspect-square relative">
             <Image
               src={card.src}
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
               alt={card.title}
             />
           </div>
-          <div className="w-full md:w-7/12 md:h-full flex flex-col justify-center items-center text-center gap-3 px-4 py-3">
+          <div className="md:relative w-full md:w-7/12 md:h-full flex flex-col justify-center items-center gap-3 px-4 py-3">
             <h5 className="text-xl md:text-2xl font-bold tracking-tight text-[#001A70]">
               {card.title}
             </h5>
-            <p className="text-sm md:text-base w-full font-normal text-gray-500 flex">
-              <FiMapPin className="text-2xl text-[#bb29b9]" /> {card.direccion}
+            <p className="text-sm md:text-base w-full font-normal text-gray-500 flex text-center md:text-start">
+              {card.direccion}
             </p>
-            <div className="w-full flex gap-2 justify-center">
+            <div className="w-full flex gap-2 justify-center pb-10">
               {card.language.some((item) => item === "en") && (
                 <Image
                   src="/img/united-states.png"
@@ -54,12 +48,17 @@ export default function SedesList() {
                 />
               )}
             </div>
-            <a
-              href={`/${locale}/sedes/${card.href}`}
-              className="py-2 px-16 text-white bg-[#001A70] rounded-lg hover:bg-[#bb29b9] transition-all duration-300"
-            >
-              {t("aCards")}
-            </a>
+            <div className="absolute bottom-3 md:bottom-0 px-5 w-full mt-2 flex justify-center md:justify-end">
+              <a
+                href={`/${locale}/sedes/${card.href}`}
+                className="pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit"
+              >
+                {t("aCards")}
+                <span className="p-2 rounded-full bg-[#9ee701]">
+                  <IoIosArrowDown className="text-gray-800" />
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       ))}
