@@ -22,7 +22,7 @@ export default function Diferenciadores() {
 
   return (
     <>
-      <div className="relative bg-[#001A70] pb-2 w-full flex flex-col items-center justify-center overflow-hidden">
+      <div className="relative bg-[#001A70] pb-20 w-full flex flex-col items-center justify-center overflow-hidden">
         <h2 className="text-4xl font-bold text-white text-center mt-10 mb-2">
           {t("h2")}
         </h2>
@@ -31,7 +31,7 @@ export default function Diferenciadores() {
         </p>
         <DiferenciadoresList data={data} />
       </div>
-      <div className="w-full bg-[#001a70] h-[80px] md:h-[200px] bg-[url('/img/fondoDif.png')] bg-cover bg-no-repeat bg-bottom -mt-1"></div>
+      <div className="w-full bg-[#001a70] h-[80px] md:h-[200px]  xxl:h-[230px] xxxl:h-[250px] bg-[url('/img/fondoDif.png')] bg-cover bg-no-repeat bg-bottom -mt-1"></div>
     </>
   )
 }

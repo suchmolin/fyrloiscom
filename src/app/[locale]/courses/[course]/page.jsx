@@ -72,7 +72,7 @@ export default function CoursePage({ params }) {
             <ReviewCard />
           </div>
         </div>
-        <div className="w-full h-[80px] md:h-[200px] bg-[url('/img/curvaAzul.png')] bg-cover bg-no-repeat bg-bottom -mt-1"></div>
+        <div className="w-full h-[80px] md:h-[200px]  xxl:h-[250px] xxxl:h-[280px] bg-[url('/img/curvaAzul.png')] bg-cover bg-no-repeat bg-bottom -mt-1"></div>
       </div>
       <div className="w-full flex justify-center py-10 bg-[#001a70] -mt-2  md:-mt-20">
         <div className="w-10/12 flex flex-col gap-2 -mt-10">

@@ -12,7 +12,7 @@ export const data = [
   {
     id: "3",
     ask: "¿Puedo pagar el curso en cuotas?",
-    ans: "Sí, contamos con diferentes planes para facilitarte estudiarcon nosotros.",
+    ans: "Sí, contamos con diferentes planes para facilitarte estudiar con nosotros.",
   },
   {
     id: "4",

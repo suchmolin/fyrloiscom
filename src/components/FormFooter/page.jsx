@@ -38,7 +38,7 @@ export default function FormFooter() {
         />
       </div>
       <div className="w-full flex justify-end">
-        <button className="dropShadow3 pr-1 pl-4 py-1 bg-white/70 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit">
+        <button className="dropShadow2 pr-1 pl-4 py-1 bg-white/70 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit">
           {t("button")}
           <span className="p-2 rounded-full bg-[#9ee701]">
             <IoIosArrowDown className="text-gray-800" />

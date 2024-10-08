@@ -29,7 +29,7 @@ export default function NuestraMisionPage() {
 
         <DiferenciadoresList data={data} />
       </div>
-      <div className="w-full bg-[#001a70] h-[80px] md:h-[200px] bg-[url('/img/fondoDif.png')] bg-cover bg-no-repeat bg-bottom -mt-1"></div>
+      <div className="w-full bg-[#001a70] h-[80px] md:h-[200px]  xxl:h-[230px] xxxl:h-[250px] bg-[url('/img/fondoDif.png')] bg-cover bg-no-repeat bg-bottom -mt-1"></div>
     </>
   )
 }
