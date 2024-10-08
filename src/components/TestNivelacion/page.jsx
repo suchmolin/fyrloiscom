@@ -10,6 +10,7 @@ export default function TestNivelacion() {
         {t("h2")} <b>{t("h2b")}</b>
       </h2>
       <a
+        aria-label="test"
         href={`/${locale}/test`}
         className="py-2 px-7 rounded-full bg-[#9ee701] text-white text-2xl my-4 transition-all duration-300 hover:shadow-md mb-1"
       >
