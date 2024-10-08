@@ -1,6 +1,7 @@
 import { testdata } from "@/data/testdata"
 import { useTranslations } from "next-intl"
 import { useState } from "react"
+import { GoArrowLeft, GoArrowRight } from "react-icons/go"
 
 export default function QuestionsTest(props) {
   const t = useTranslations("Test.QuestionsTest")
@@ -106,32 +107,45 @@ export default function QuestionsTest(props) {
       <div className="">
         {position !== 0 && (
           <button
+            onClick={() => handlePosition("prev")}
             id="prev"
             disabled={previo}
-            onClick={() => handlePosition("prev")}
-            className="absolute left-5 bottom-7 py-2 px-4 rounded-xl bg-[#90d400] text-[#001A70] transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
+            className="absolute left-5 bottom-12 sm:bottom-7 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 disabled:cursor-wait w-fit z-20"
           >
             {t("prev")}
+            <span className="p-2 rounded-full bg-[#001a70]">
+              <GoArrowLeft className="text-white" />
+            </span>
           </button>
         )}
         {isSelected && <p className="text-red-500 text-center">{t("error")}</p>}
         {position !== testdata.length - 1 && (
-          <button
-            id="next"
-            disabled={next}
-            onClick={() => handlePosition("next")}
-            className="absolute right-5 bottom-12 py-2 px-4 rounded-xl bg-[#001A70] text-white transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
-          >
-            {t("next")}
-          </button>
+          <>
+            <button
+              onClick={() => handlePosition("next")}
+              id="next"
+              disabled={next}
+              className="absolute right-5 bottom-12 sm:bottom-7 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 disabled:cursor-wait w-fit z-20"
+            >
+              {t("next")}
+              <span className="p-2 rounded-full bg-[#9ee701]">
+                <GoArrowRight className="text-gray-800" />
+              </span>
+            </button>
+          </>
         )}
         {position === testdata.length - 1 && (
           <button
-            id="finalizar"
             onClick={handleFinal}
-            className="absolute right-5 bottom-12 py-2 px-4 rounded-xl bg-[#001A70] text-white transition-all duration-300 disabled:opacity-20 disabled:cursor-wait z-20"
+            id="finalizar"
+            disabled={next}
+            className="absolute right-5 bottom-12 sm:bottom-7 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 disabled:cursor-wait w-fit z-20"
           >
             {t("end")}
+
+            <span className="p-2 rounded-full bg-[#9ee701]">
+              <GoArrowRight className="text-gray-800" />
+            </span>
           </button>
         )}
       </div>

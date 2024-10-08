@@ -3,7 +3,6 @@
 import { useTranslations } from "next-intl"
 import SingleCourse from "../SingleCourse/page"
 import { useState, useEffect } from "react"
-import TestNivelacion from "../TestNivelacion/page"
 
 export default function CursosSedes({ sedeData }) {
   const [data, setData] = useState([])

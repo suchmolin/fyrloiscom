@@ -26,7 +26,7 @@ export default function SimilarCourses() {
   }, [t])
 
   return (
-    <div className="flex flex-wrap lg:flex-nowrap gap-3 justify-center">
+    <div className="flex flex-wrap gap-3 justify-center">
       {sedeData?.cursos.map((curso) => {
         const course = dataCourse.find((item) => item.id === curso)
         return course ? (

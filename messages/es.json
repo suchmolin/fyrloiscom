@@ -192,7 +192,7 @@
       "email":"Correo Electrónico",
       "name":"Nombre y Apellido",
       "city":"Ciudad de Residencia",
-      "bithday":"Fecha de Nacimiento",
+      "birthday":"Fecha de Nacimiento",
       "cel":"Número Telefónico",
       "start":"Comenzar"
     },

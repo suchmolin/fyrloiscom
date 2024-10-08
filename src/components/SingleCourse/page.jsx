@@ -3,7 +3,7 @@ import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
 import { HiOutlineShoppingCart } from "react-icons/hi"
 
-export default function SingleCourse({ key, item, comprar, sede }) {
+export default function SingleCourse({ item, comprar, sede }) {
   const locale = useLocale()
   return (
     <div
@@ -13,12 +13,12 @@ export default function SingleCourse({ key, item, comprar, sede }) {
       <div className="flex justify-between">
         <h4 className="text-[#001A70] font-bold">{item.title}</h4>
       </div>
-      <div className="w-full flex justify-end items-end px-1">
+      <div className="w-full flex justify-end items-end">
         <div className="w-fit py-2 px-5 mt-2 bg-[#001A70] rounded-t-xl flex justify-center items-center text-white text-sm">
           <p>${item.price}</p>
         </div>
       </div>
-      <div className="relative w-[245px] xs:w-[271px] aspect-video rounded-s-[20px] rounded-b-xl overflow-hidden">
+      <div className="relative w-full aspect-video rounded-s-[20px] rounded-b-xl overflow-hidden">
         <Image src={`/img/${item.img}`} fill objectFit="cover" alt="curso" />
       </div>
       <div
