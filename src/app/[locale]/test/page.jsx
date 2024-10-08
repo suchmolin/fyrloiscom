@@ -18,7 +18,7 @@ export default function Test() {
     phone: "",
   }
   const [answer, setAnswer] = useState([])
-  const [position, setPosition] = useState(59)
+  const [position, setPosition] = useState(0)
   const [personal, setPersonal] = useState(initialData)
   const [result, setResult] = useState(-1)
 
