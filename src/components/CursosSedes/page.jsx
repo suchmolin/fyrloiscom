@@ -22,7 +22,7 @@ export default function CursosSedes({ sedeData }) {
   }, [t])
 
   return (
-    <div className="w-full flex flex-col items-center justify-center text-white bg-[#001a70] -mt-20 pb-20">
+    <div className="w-full flex flex-col items-center justify-center text-white bg-[#001a70] -mt-2 md:-mt-20 pb-20">
       <h2 className="text-center text-3xl font-bold">
         {t("h2")}
         {sedeData.title}

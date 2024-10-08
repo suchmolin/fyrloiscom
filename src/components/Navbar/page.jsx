@@ -29,11 +29,11 @@ export default function Navbar() {
         <>
           <button
             onClick={() => setOpen(false)}
-            className="fixed top-5 right-5 bg-white text- font-extralight p-2 rounded-full border border-gray-200 shadow-md z-10"
+            className="fixed top-5 right-5 bg-white text- font-extralight p-2 rounded-full border border-gray-200 shadow-md z-50"
           >
             <TfiClose />
           </button>
-          <div className="lg:hidden block">
+          <div className="lg:hidden block z-50">
             <LanguageSelector locale={locale} />
           </div>
         </>
@@ -41,13 +41,13 @@ export default function Navbar() {
       {!open && (
         <button
           onClick={() => setOpen(true)}
-          className="absolute block lg:hidden top-7 right-7 text-gray-700 text-lg p-2 rounded-full z-10 bg-white shadow-md"
+          className="absolute block lg:hidden top-7 right-7 text-gray-700 text-lg p-2 rounded-full z-50 bg-white shadow-md"
         >
           <GrMenu />
         </button>
       )}
       <div className="hidden lg:block">
-        <NavbarMenu />
+        <NavbarMenu setOpen={setOpen} />
       </div>
       {open && <NavbarMenu setOpen={setOpen} />}
     </nav>

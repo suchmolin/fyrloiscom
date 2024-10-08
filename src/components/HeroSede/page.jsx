@@ -10,8 +10,8 @@ export default function HeroSede({ sedeData }) {
 
   return (
     <>
-      <div className="w-full relative mt-32 pb-10">
-        <div className="w-full flex flex-col-reverse lg:flex-row relative md:-mt-10 items-center justify-center z-10 bg-white gap-10">
+      <div className="w-full relative sm:mt-32 pb-10">
+        <div className="w-full flex flex-col-reverse lg:flex-row relative md:-mt-10 items-center justify-center bg-white gap-10">
           <div className="relative w-[250px] sm:w-[300px] aspect-square -mt-10">
             <Image
               src={sedeData.src}

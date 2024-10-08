@@ -8,7 +8,7 @@ export default function HeroAboutUs() {
   return (
     <div className=" w-full min-h-screen font-[lato] flex flex-col items-center justify-center">
       <div className="flex flex-col-reverse sm:flex-row items-center justify-center w-full h-screen font-[lato]">
-        <div className="w-11/12 sm:w-5/12 flex flex-col justify-center sm:pt-60  md:pt-[70px] sm:pr-10 z-10 mb-10 md:mb-0">
+        <div className="w-11/12 sm:w-5/12 flex flex-col justify-center sm:pt-60  md:pt-[70px] sm:pr-10 mb-10 md:mb-0">
           <div className="w-full h-full">
             <h1 className="flex flex-col text-[#001A70] text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 text-center sm:text-start">
               {t("h1")}

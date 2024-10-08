@@ -24,7 +24,7 @@ export default function FormContactUs() {
         </h2>
         <p>{t("p")}</p>
       </div>
-      <form className="dropShadow2 w-[290px] xs:w-[300px] sm:w-[500px] md:w-[700px] rounded-2xl shadow-2xl mt-10 lg:mt-40 mb-20 flex flex-col justify-center items-center bg-gradient-to-b from-white to-[#E5E8E0] pt-10 pb-32 px-4 sm:px-10">
+      <form className="dropShadow2 w-[290px] xs:w-[350px] sm:w-[500px] md:w-[700px] rounded-2xl shadow-2xl mt-10 lg:mt-40 mb-20 flex flex-col justify-center items-center bg-gradient-to-b from-white to-[#E5E8E0] pt-10 pb-32 px-4 sm:px-10">
         <div className="w-full flex gap-3 flex-col sm:flex-row">
           <div class="mb-3 w-full">
             <label for="nombre" class="block mb-1 text-sm text-gray-600">
