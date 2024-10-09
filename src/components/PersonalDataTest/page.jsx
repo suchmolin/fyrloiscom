@@ -32,67 +32,67 @@ export default function PersonalDataTest({ setPersonal }) {
         className="relative h-full flex flex-col sm:flex-row gap-y-0 gap-x-10 flex-wrap"
       >
         <div className="w-full flex gap-3 flex-col sm:flex-row">
-          <div class="mb-3 w-full">
-            <label for="email" class="block mb-1 text-sm text-gray-600">
+          <div className="mb-3 w-full">
+            <label htmlFor="email" className="block mb-1 text-sm text-gray-600">
               {t("email")}
             </label>
             <input
               type="email"
               id="email"
               name="email"
-              class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+              className="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
               required
             />
           </div>
-          <div class="mb-3 w-full">
-            <label for="name" class="block mb-1 text-sm text-gray-600">
+          <div className="mb-3 w-full">
+            <label htmlFor="name" className="block mb-1 text-sm text-gray-600">
               {t("name")}
             </label>
             <input
               type="text"
               id="name"
               name="name"
-              class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+              className="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
               required
             />
           </div>
         </div>
         <div className="w-full flex gap-3 flex-col sm:flex-row">
-          <div class="mb-3 w-full">
-            <label for="email" class="block mb-1 text-sm text-gray-600">
+          <div className="mb-3 w-full">
+            <label htmlFor="email" className="block mb-1 text-sm text-gray-600">
               {t("city")}
             </label>
             <input
               type="text"
               id="city"
               name="city"
-              class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+              className="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
               required
             />
           </div>
-          <div class="mb-3 w-full">
-            <label for="name" class="block mb-1 text-sm text-gray-600">
+          <div className="mb-3 w-full">
+            <label htmlFor="name" className="block mb-1 text-sm text-gray-600">
               {t("birthday")}
             </label>
             <input
               type="date"
               id="date"
               name="date"
-              class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+              className="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
               required
             />
           </div>
         </div>
         <div className="w-full flex gap-3 flex-col sm:flex-row">
-          <div class="mb-3 sm:w-6/12">
-            <label for="email" class="block mb-1 text-sm text-gray-600">
+          <div className="mb-3 sm:w-6/12">
+            <label htmlFor="email" className="block mb-1 text-sm text-gray-600">
               {t("cel")}
             </label>
             <input
               type="number"
               id="cel"
               name="cel"
-              class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+              className="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
               required
             />
           </div>

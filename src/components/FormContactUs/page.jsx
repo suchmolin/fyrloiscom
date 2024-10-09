@@ -26,47 +26,56 @@ export default function FormContactUs() {
       </div>
       <form className="dropShadow2 w-[290px] xs:w-[350px] sm:w-[500px] md:w-[700px] rounded-2xl shadow-2xl mt-10 lg:mt-40 mb-20 flex flex-col justify-center items-center bg-gradient-to-b from-white to-[#E5E8E0] pt-10 pb-32 px-4 sm:px-10">
         <div className="w-full flex gap-3 flex-col sm:flex-row">
-          <div class="mb-3 w-full">
-            <label for="nombre" class="block mb-1 text-sm text-gray-600">
+          <div className="mb-3 w-full">
+            <label
+              htmlFor="nombre"
+              className="block mb-1 text-sm text-gray-600"
+            >
               {t("fullname")}
             </label>
             <input
               type="text"
               id="nombre"
-              class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+              className="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
               required
             />
           </div>
-          <div class="mb-3 w-full">
-            <label for="telefono" class="block mb-1 text-sm text-gray-600">
+          <div className="mb-3 w-full">
+            <label
+              htmlFor="telefono"
+              className="block mb-1 text-sm text-gray-600"
+            >
               {t("tellphone")}
             </label>
             <input
               type="number"
               id="teleofno"
-              class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+              className="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
               required
             />
           </div>
         </div>
-        <div class="mb-3 w-full">
-          <label for="email" class="block mb-1 text-sm text-gray-600">
+        <div className="mb-3 w-full">
+          <label htmlFor="email" className="block mb-1 text-sm text-gray-600">
             {t("email")}
           </label>
           <input
             type="email"
             id="email"
-            class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+            className="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
             required
           />
         </div>
-        <div class="relative mb-3 w-full">
-          <label for="countries" class="block mb-1 text-sm text-gray-600">
+        <div className="relative mb-3 w-full">
+          <label
+            htmlFor="countries"
+            className="block mb-1 text-sm text-gray-600"
+          >
             {t("porqueAprender.title")}
           </label>
           <select
             id="countries"
-            class="dropShadow2 border-none ring-0 text-sm rounded-full  block w-full p-2.5 focus:ring-0 focus:border-gray-300 cursor-pointer"
+            className="dropShadow2 border-none ring-0 text-sm rounded-full  block w-full p-2.5 focus:ring-0 focus:border-gray-300 cursor-pointer"
           >
             <option selected>{t("porqueAprender.opt1")}</option>
             <option value="social">{t("porqueAprender.opt2")}</option>
@@ -78,13 +87,16 @@ export default function FormContactUs() {
             <IoIosArrowDown className="text-gray-800" />
           </span>
         </div>
-        <div class="relative mb-3 w-full">
-          <label for="countries" class="block mb-1 text-sm text-gray-600">
+        <div className="relative mb-3 w-full">
+          <label
+            htmlFor="countries"
+            className="block mb-1 text-sm text-gray-600"
+          >
             {t("comoNosConociste.title")}
           </label>
           <select
             id="countries"
-            class="dropShadow2 border-none ring-0 text-sm rounded-full  block w-full p-2.5 focus:ring-0 focus:border-gray-300 cursor-pointer"
+            className="dropShadow2 border-none ring-0 text-sm rounded-full  block w-full p-2.5 focus:ring-0 focus:border-gray-300 cursor-pointer"
           >
             <option selected>{t("comoNosConociste.opt1")}</option>
             <option value="un amigo">{t("comoNosConociste.opt2")}</option>
@@ -96,13 +108,16 @@ export default function FormContactUs() {
             <IoIosArrowDown className="text-gray-800" />
           </span>
         </div>
-        <div class="relative mb-3 w-full">
-          <label for="countries" class="block mb-1 text-sm text-gray-600">
+        <div className="relative mb-3 w-full">
+          <label
+            htmlFor="countries"
+            className="block mb-1 text-sm text-gray-600"
+          >
             {t("hasEstudiadoAntes.title")}
           </label>
           <select
             id="countries"
-            class="dropShadow2 border-none ring-0 text-sm rounded-full  block w-full p-2.5 focus:ring-0 focus:border-gray-300 cursor-pointer"
+            className="dropShadow2 border-none ring-0 text-sm rounded-full  block w-full p-2.5 focus:ring-0 focus:border-gray-300 cursor-pointer"
           >
             <option selected>{t("hasEstudiadoAntes.opt1")}</option>
             <option value="si">{t("hasEstudiadoAntes.opt2")}</option>

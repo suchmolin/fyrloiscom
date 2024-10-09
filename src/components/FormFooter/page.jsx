@@ -6,34 +6,34 @@ export default function FormFooter() {
 
   return (
     <div>
-      <div class="mb-3">
-        <label for="nombre" class="block mb-1 text-sm text-gray-600">
+      <div className="mb-3">
+        <label htmlFor="nombre" className="block mb-1 text-sm text-gray-600">
           {t("input")}
         </label>
         <input
           type="text"
           id="nombre"
-          class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+          className="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
           required
         />
       </div>
-      <div class="mb-3">
-        <label for="email" class="block mb-1 text-sm text-gray-600">
+      <div className="mb-3">
+        <label htmlFor="email" className="block mb-1 text-sm text-gray-600">
           {t("input3")}
         </label>
         <input
           type="email"
           id="email"
-          class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
+          className="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-full block w-full p-2.5 "
           required
         />
       </div>
-      <div class="mb-3">
+      <div className="mb-3">
         <textarea
           placeholder={t("input4")}
           rows="3"
           id="mensaje"
-          class="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-lg block w-full p-2.5 "
+          className="dropShadow4 text-gray-900 border-none ring-0 text-sm rounded-lg block w-full p-2.5 "
           required
         />
       </div>

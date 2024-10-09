@@ -77,7 +77,7 @@ export default function Test() {
             {personal.email !== "" && (
               <>
                 <div className="absolute top-7 w-10/12 sm:w-11/12">
-                  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                  <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                     <div
                       className="bg-[#9ee701] h-2.5 rounded-full transition-all duration-300"
                       style={{ width: `${(position * 100) / 60}%` }}

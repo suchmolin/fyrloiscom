@@ -97,7 +97,7 @@ export default function QuestionsTest(props) {
             className="w-4 h-4 text-[#001A70] bg-gray-100 border-gray-300 focus:ring-[#001A70] focus:ring-2 hover:cursor-pointer"
           />
           <label
-            htmlFor={`default-radio-${index}`}
+            htmlhtmlFor={`default-radio-${index}`}
             className="ms-2 text-sm font-medium text-gray-900  hover:cursor-pointer"
           >
             {option}
