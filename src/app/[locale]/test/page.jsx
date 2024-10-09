@@ -6,6 +6,7 @@ import { useState } from "react"
 import { useLocale, useTranslations } from "next-intl"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
+import { Progress } from "flowbite-react"
 
 export default function Test() {
   const locale = useLocale()
@@ -67,12 +68,22 @@ export default function Test() {
             </p>
           </div>
           <div className="w-11/12 sm:w-[630px] h-[550px] sm:h-[450px] relative rounded-2xl border dropShadow2 my-10 px-7 py-7 sm:p-7 overflow-hidden bg-gradient-to-b from-white to-[#E5E8E0]">
-            <h4 className="text-lg text-[#001A70] text center">{t("h4")}</h4>
+            <h4 className="text-lg text-[#001A70] text center mt-7">
+              {t("h4")}
+            </h4>
             {personal.email === "" && (
               <PersonalDataTest setPersonal={setPersonal} />
             )}
             {personal.email !== "" && (
               <>
+                <div className="absolute top-7 w-10/12 sm:w-11/12">
+                  <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div
+                      className="bg-[#9ee701] h-2.5 rounded-full transition-all duration-300"
+                      style={{ width: `${(position * 100) / 60}%` }}
+                    ></div>
+                  </div>
+                </div>
                 <QuestionsTest
                   position={position}
                   setPosition={setPosition}

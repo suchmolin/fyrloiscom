@@ -5,9 +5,9 @@ export default function TestNivelacion() {
   const locale = useLocale()
 
   return (
-    <div className="w-full bg-white h-[200px] md:h-[150px] flex flex-col lg:flex-row lg:gap-7 justify-center items-center">
-      <h2 className="text-[#001A70] text-3xl sm:text-4xl lg:text-5xl text-center px-4 sm:px-0">
-        {t("h2")} <b>{t("h2b")}</b>
+    <div className="w-full bg-white h-[200px] md:h-[150px] flex flex-col justify-center items-center">
+      <h2 className="text-[#001A70] text-4xl lg:text-5xl text-center px-4 sm:px-0">
+        <b>{t("h2")}</b>
       </h2>
       <a
         aria-label="test"

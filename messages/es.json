@@ -156,10 +156,8 @@
     }
   },
   "TestNivelacion":{
-    "h2":"Presenta el ",
-    "h2b":"Examen de nivelacion gratis",
-    
-    "button":"Aquí"
+    "h2":"¿Quieres conocer tu nivel de inglés?",
+    "button":"Haz tu prueba ya"
   },
   "CursosSedes":{
     "h2":"Cursos dictados en ",
