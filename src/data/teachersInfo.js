@@ -5,7 +5,7 @@ export const data = [
     cargo: "VICEPRESIDENTE ACADÉMICO",
     img: "teacher1.png",
     descripcion:
-      "A cargo del departamento académico y coordinación de programas de aprendizaje de inglés, como segundo idioma, para estudiantes de diferentes edades.",
+      "A cargo del departamento académico y coordinación de programas de aprendizaje de inglés, como segundo idioma, para estudiantes de diferentes edades",
     acercaDeMi: [
       {
         titulo: "Acerca de mí",
