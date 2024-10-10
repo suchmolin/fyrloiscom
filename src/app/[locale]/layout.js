@@ -9,8 +9,8 @@ import WhatsappButton from "@/components/WhatsappButton/page"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Fyrlois",
-  description: "Fyrlois",
+  title: "Fyr Lois",
+  description: "Fyr Lois",
 }
 
 export default async function RootLayout({ children, params: { locale } }) {

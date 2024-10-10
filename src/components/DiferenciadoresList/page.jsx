@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function DiferenciadoresList({ data }) {
   return (
     <div className="w-11/12 flex justify-center flex-wrap gap-5">
-      {data.length !== 0 ? (
+      {data?.length !== 0 ? (
         data?.map((item) => (
           <div
             key={item.id}
@@ -21,7 +21,11 @@ export default function DiferenciadoresList({ data }) {
             <h1 className="text-2xl font-bold text-[#001A70] text-center">
               {item.title}
             </h1>
-            <p className="text-xl text-gray-500 text-center">{item.subtitle}</p>
+            {item.subtitle && (
+              <p className="text-xl text-gray-500 text-center">
+                {item.subtitle}
+              </p>
+            )}
           </div>
         ))
       ) : (

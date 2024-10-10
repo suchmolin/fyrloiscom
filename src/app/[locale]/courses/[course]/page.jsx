@@ -13,20 +13,7 @@ import SubCourses from "@/components/SubCourses/page"
 export default function CoursePage({ params }) {
   const { course } = params
   const [data, setData] = useState([])
-  const [dataDif, setDataDif] = useState([])
   const t = useTranslations("CoursePage")
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const { data } = await import(`/src/${t("data")}/diferenciadoresCursos`)
-        setDataDif(data)
-      } catch (error) {
-        console.log("Error importing data", error)
-      }
-    }
-    fetchData()
-  }, [t])
 
   useEffect(() => {
     const fetchData = async () => {
@@ -59,7 +46,7 @@ export default function CoursePage({ params }) {
         </div>
       ) : (
         <div className="w-full h-fit flex justify-center bg-[#001a70] py-20">
-          <DiferenciadoresList data={dataDif.slice(0, 3)} />
+          <DiferenciadoresList data={data.difCourses} />
         </div>
       )}
       <div className="w-full h-fit flex justify-center pb-20">
@@ -94,7 +81,7 @@ export default function CoursePage({ params }) {
         {data.subCourse ? (
           <div className="w-full flex justify-center py-10 bg-[#001a70] -mt-2  md:-mt-20">
             <div className="w-full h-fit flex justify-center bg-[#001a70]">
-              <DiferenciadoresList data={dataDif.slice(0, 3)} />
+              <DiferenciadoresList data={data.difCourses} />
             </div>
           </div>
         ) : (
