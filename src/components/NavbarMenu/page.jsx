@@ -2,8 +2,6 @@
 import { useTranslations, useLocale } from "next-intl"
 import IdiomasSelector from "../IdiomasSelector/page"
 import Link from "next/link"
-
-import PresencialSelector from "../PresencialSelector/page"
 import { useState } from "react"
 
 export default function NavbarMenu({ setOpen }) {
@@ -62,8 +60,14 @@ export default function NavbarMenu({ setOpen }) {
           {t("item2")}
         </Link>
       </li>
-      <li className="hover:text-[#bb29b9] transition-all duration-300 ">
-        <PresencialSelector setOpen={setOpen} />
+      <li className="">
+        <Link
+          href={`/${locale}/sedes`}
+          className="w-full h-full hover:bg-[#9ee701] hover:text-[#001a70] rounded-lg px-2 py-1 transition-all duration-300   bg-[#001a70] text-white "
+        >
+          Cursos
+        </Link>
+        {/*<PresencialSelector setOpen={setOpen} />*/}
       </li>
     </ul>
   )
