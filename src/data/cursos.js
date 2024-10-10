@@ -48,53 +48,52 @@ export const data = [
     price: 195,
     subCourse: [
       {
-        id: "curso-de-ciudadania",
-        title: "Curso de Ciudadanía",
+        id: "adults-regular",
+        title: "Regular",
         description:
           "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
-        img: "cursoCiudadania.png",
-
-        price: 40,
+        img: "adultsCourse.jpg",
+        price: 195,
       },
       {
-        id: "curso-de-ciudadania",
-        title: "Curso de Ciudadanía",
+        id: "adults-intensivo",
+        title: "Intensivo",
         description:
           "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
-        img: "cursoCiudadania.png",
+        img: "intensivo.png",
 
-        price: 40,
+        price: 195,
       },
       {
-        id: "curso-de-ciudadania",
-        title: "Curso de Ciudadanía",
+        id: "adults-conversacional",
+        title: "Conversacional",
         description:
           "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
-        img: "cursoCiudadania.png",
+        img: "conversacional.png",
 
-        price: 40,
+        price: 195,
       },
       {
-        id: "curso-de-ciudadania",
-        title: "Curso de Ciudadanía",
+        id: "adults-personalizado",
+        title: "Personalizado",
         description:
           "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
-        img: "cursoCiudadania.png",
+        img: "personalizado.png",
 
-        price: 40,
+        price: 195,
       },
       {
-        id: "curso-de-ciudadania",
-        title: "Curso de Ciudadanía",
+        id: "adults-corporativo",
+        title: "Corporativo",
         description:
           "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
-        img: "cursoCiudadania.png",
+        img: "corporativo.png",
 
-        price: 40,
+        price: 195,
       },
       {
-        id: "curso-de-ciudadania",
-        title: "Curso de Ciudadanía",
+        id: "adults-ciudadania",
+        title: "Ciudadanía Americana",
         description:
           "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
         img: "cursoCiudadania.png",
