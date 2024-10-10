@@ -1,7 +1,7 @@
 import Image from "next/image"
-import SingleCourse from "../SingleCourse/page"
+
 import { Spinner } from "flowbite-react"
-import { HiOutlineShoppingCart } from "react-icons/hi"
+import { LiaCartArrowDownSolid } from "react-icons/lia"
 import { GoArrowRight } from "react-icons/go"
 
 export default function HeroSingleCourse({ courseData }) {
@@ -45,8 +45,8 @@ export default function HeroSingleCourse({ courseData }) {
                 <GoArrowRight className="text-gray-800" />
               </span>
             </a>
-            <button className="dropShadow3 p-2 bg-[#9ee701] rounded-full overflow-hidden text-xl text-black">
-              <HiOutlineShoppingCart />
+            <button className="dropShadow3 p-2 bg-[#9ee701] rounded-full overflow-hidden text-2xl text-black">
+              <LiaCartArrowDownSolid />
             </button>
           </div>
         </div>

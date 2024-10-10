@@ -1,5 +1,17 @@
 export const data = [
   {
+    id: "kids",
+    title: "Kids",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+    description2:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+    etapa: "3-5 años",
+    img: "kidsCourse.png",
+    imgAlternative: "kidsCourseAlt.png",
+    price: 195,
+  },
+  {
     id: "elementary",
     title: "Elementary",
     description:
@@ -34,16 +46,61 @@ export const data = [
     img: "adultsCourse.jpg",
     imgAlternative: "adultsAlt.png",
     price: 195,
-  },
-  {
-    id: "curso-de-ciudadania",
-    title: "Curso de Ciudadanía",
-    description:
-      "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
-    description2:
-      "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
-    img: "cursoCiudadania.png",
-    imgAlternative: "ciudadaniaAlt.png",
-    price: 40,
+    subCourse: [
+      {
+        id: "curso-de-ciudadania",
+        title: "Curso de Ciudadanía",
+        description:
+          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+        img: "cursoCiudadania.png",
+
+        price: 40,
+      },
+      {
+        id: "curso-de-ciudadania",
+        title: "Curso de Ciudadanía",
+        description:
+          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+        img: "cursoCiudadania.png",
+
+        price: 40,
+      },
+      {
+        id: "curso-de-ciudadania",
+        title: "Curso de Ciudadanía",
+        description:
+          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+        img: "cursoCiudadania.png",
+
+        price: 40,
+      },
+      {
+        id: "curso-de-ciudadania",
+        title: "Curso de Ciudadanía",
+        description:
+          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+        img: "cursoCiudadania.png",
+
+        price: 40,
+      },
+      {
+        id: "curso-de-ciudadania",
+        title: "Curso de Ciudadanía",
+        description:
+          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+        img: "cursoCiudadania.png",
+
+        price: 40,
+      },
+      {
+        id: "curso-de-ciudadania",
+        title: "Curso de Ciudadanía",
+        description:
+          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+        img: "cursoCiudadania.png",
+
+        price: 40,
+      },
+    ],
   },
 ]

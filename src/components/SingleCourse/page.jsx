@@ -1,7 +1,7 @@
 import { useLocale } from "next-intl"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
-import { HiOutlineShoppingCart } from "react-icons/hi"
+import { LiaCartArrowDownSolid } from "react-icons/lia"
 
 export default function SingleCourse({ item, comprar, sede }) {
   const locale = useLocale()
@@ -39,8 +39,8 @@ export default function SingleCourse({ item, comprar, sede }) {
                 <GoArrowRight className="text-gray-800" />
               </span>
             </a>
-            <button className="dropShadow3 p-2 bg-[#9ee701] rounded-full overflow-hidden text-xl text-black">
-              <HiOutlineShoppingCart />
+            <button className="dropShadow3 p-2 bg-[#9ee701] rounded-full overflow-hidden text-2xl text-black">
+              <LiaCartArrowDownSolid />
             </button>
           </div>
         )}
