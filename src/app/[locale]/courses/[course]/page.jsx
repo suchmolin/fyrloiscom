@@ -27,10 +27,6 @@ export default function CoursePage({ params }) {
     fetchData()
   }, [t, course])
 
-  useEffect(() => {
-    console.log(data)
-  }, [data])
-
   return (
     <>
       <HeroSingleCourse courseData={data} />

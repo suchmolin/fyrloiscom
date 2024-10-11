@@ -22,10 +22,6 @@ export default function Profesor({ params }) {
     fetchData()
   }, [profesor])
 
-  useEffect(() => {
-    console.log(data)
-  }, [data])
-
   return (
     <div className="w-full flex justify-center items-center pt-32">
       <div className="w-10/12 flex flex-col lg:flex-row gap-0 lg:gap-5 items-center lg:items-start pb-20">
