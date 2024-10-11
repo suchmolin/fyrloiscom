@@ -25,7 +25,11 @@ export default function SingleCourse({ item, comprar, sede, shrink }) {
         className={`w-full flex flex-col justify-between py-4 px-4 ${comprar ? "min-h-[250px]" : "min-h-[270px] xl:min-h-[200px]"}`}
       >
         <div className="flex flex-col gap-5 py-3">
-          <p className="text-gray-500 text-sm">{item.description}</p>
+          <p className="text-gray-500 text-sm">
+            <b>{item.etapa}</b>
+            {". "}
+            {item.description2}
+          </p>
         </div>
 
         {comprar && (

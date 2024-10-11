@@ -4,7 +4,7 @@
     "ddTitle":"¿Qué idioma deseas estudiar?",
     "ddItem1":"Español",
     "ddItem2":"Inglés",
-    "dropDown2":"Elige el país",
+    "dropDown2":"Presencial",
     "dd2Title":"Selecciona un país",
     "dd2Item1":"USA",
     "dd2Item2":"Venezuela",
@@ -66,9 +66,9 @@
   "AboutUs":{
     "HeroAboutUs":{
       "h1":"25 años ",
-      "h1Span":"de trayectoria",
-      "p":"Nuestra meta: Hacer realidad proyectos de vida",
-      "p2":"Generar más y mejores oportunidades de crecimiento personal y profesional para quien esta decidido a construir su proyecto de vida",
+      "h1Span":"enseñando inglés",
+      "p":"Te ayudamos a alcanzar tus sueños.",
+      "p2":"Genera más y mejores oportunidades de crecimiento personal y profesional",
       "button":"Conoce más",
       "counter":{
         "p":"Egresados",

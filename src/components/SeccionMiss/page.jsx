@@ -2,7 +2,8 @@ import Image from "next/image"
 import "./page.css"
 import Link from "next/link"
 import { useLocale, useTranslations } from "next-intl"
-import { IoIosArrowDown } from "react-icons/io"
+
+import { GoArrowRight } from "react-icons/go"
 
 export default function SeccionMiss() {
   const t = useTranslations("SeccionMiss")
@@ -43,7 +44,7 @@ export default function SeccionMiss() {
             >
               {t("link")}
               <span className="p-2 rounded-full bg-[#9ee701]">
-                <IoIosArrowDown className="text-gray-800" />
+                <GoArrowRight className="text-gray-800" />
               </span>
             </a>
           </div>

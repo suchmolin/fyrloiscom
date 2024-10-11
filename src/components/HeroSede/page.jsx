@@ -1,8 +1,7 @@
 import { FiMapPin } from "react-icons/fi"
-import { FiPhone } from "react-icons/fi"
 import { useTranslations, useLocale } from "next-intl"
 import Image from "next/image"
-import { IoIosArrowDown } from "react-icons/io"
+import { GoArrowRight } from "react-icons/go"
 
 export default function HeroSede({ sedeData }) {
   const locale = useLocale()
@@ -10,9 +9,9 @@ export default function HeroSede({ sedeData }) {
 
   return (
     <>
-      <div className="w-full relative sm:mt-32 pb-10">
-        <div className="w-full flex flex-col-reverse lg:flex-row relative md:-mt-10 items-center justify-center bg-white gap-10">
-          <div className="relative w-[250px] sm:w-[300px] aspect-square -mt-10">
+      <div className="w-full relative sm:mt-32 pb-10 flex justify-center">
+        <div className="w-8/12 flex flex-col-reverse lg:flex-row relative md:-mt-10 items-center justify-center bg-white gap-10">
+          <div className="relative w-[250px] sm:w-[400px] aspect-square -mt-10">
             <Image
               src={sedeData.src}
               layout="fill"
@@ -20,12 +19,12 @@ export default function HeroSede({ sedeData }) {
               alt="Sede Principal"
             />
           </div>
-          <div className="flex flex-col justify-center text-white text-lg lg:-mt-20 px-5 sm:px-0 text-center sm:text-start items-center sm:items-start">
+          <div className="w-7/12 flex flex-col justify-center text-white text-lg lg:-mt-20 px-5 sm:px-0 text-center sm:text-start items-center sm:items-start">
             <h2 className="text-4xl text-[#001A70] font-bold mb-3">
               Sede {sedeData.title}
             </h2>
 
-            <p className="text-sm sm:text-xl text-[#001A70] flex gap-2 py-2 items-center">
+            <p className="text-sm sm:text-2xl text-[#001A70] flex gap-2 py-2 items-center ">
               <span className="text-[#001A70] font-bold">
                 <FiMapPin />
               </span>{" "}
@@ -48,13 +47,13 @@ export default function HeroSede({ sedeData }) {
             >
               {t("button")}
               <span className="p-2 rounded-full bg-[#9ee701]">
-                <IoIosArrowDown className="text-gray-800" />
+                <GoArrowRight className="text-gray-800" />
               </span>
             </a>
           </div>
         </div>
       </div>
-      <div className="w-full h-[80px] md:h-[250px]  xxl:h-[300px] xxxl:h-[270px] bg-[url('/img/curvaAzul.png')] bg-cover bg-no-repeat bg-bottom -mt-1"></div>
+      <div className="w-full h-[80px] md:h-[250px]  xxl:h-[300px] xxxl:h-[270px] bg-[url('/img/curvaAzul.png')] bg-cover bg-no-repeat bg-center -mt-1"></div>
     </>
   )
 }

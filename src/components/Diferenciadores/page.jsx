@@ -26,7 +26,7 @@ export default function Diferenciadores() {
         <h2 className="text-4xl font-bold text-white text-center mt-10 mb-2">
           {t("h2")}
         </h2>
-        <p className="w-10/12 sm:w-6/12 text-center text-sm sm:text-base md:text-lg text-white mb-10 px-10 xl:px-32 ">
+        <p className="w-10/12 sm:w-6/12 text-center text-sm sm:text-lg md:text-xl text-white mb-10 px-10 xl:px-28 ">
           {t("p")}
         </p>
         <DiferenciadoresList data={data} />

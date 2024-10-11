@@ -45,7 +45,7 @@ export const data = [
     description2:
       "Pon todas las oportunidades a su alcance. A través de un aprendizaje divertido, con el que se enamorará del idioma.",
     etapa: "6-11 años",
-    img: "elementaryCourse.jpg",
+    img: "elementaryCourse.png",
     imgAlternative: "elementaryAlt.png",
     price: 195,
     difCourses: [
@@ -83,7 +83,7 @@ export const data = [
     description2:
       "Prepara tu hijo para el futuro,con un curso pensado para adolescentes: una perfecta combinación de los retos (que les encanta asumir) y temas adaptados a sus intereses.",
     etapa: "12-16 años.",
-    img: "highSchoolCourse.jpg",
+    img: "highSchoolCourse.png",
     imgAlternative: "highSchoolAlt.png",
     price: 195,
     difCourses: [
@@ -122,7 +122,7 @@ export const data = [
     description2:
       "Comunícate en inglés como siempre has querido, a través de herramientas prácticas y efectivas para que hables con fluidez.",
     etapa: "17 años o más",
-    img: "adultsCourse.jpg",
+    img: "adultsCourse.png",
     imgAlternative: "adultsAlt.png",
     price: 195,
     subCourse: [

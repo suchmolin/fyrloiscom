@@ -18,7 +18,7 @@ export default function PresencialSelectorButton() {
   )
 
   return (
-    <div className=" bg-white/80 hover:bg-white flex items-center rounded-full py-2 sm:py-0 px-4 transition-all duration-300">
+    <div className=" bg-white flex items-center rounded-full py-2 sm:py-0 px-4 transition-all duration-300">
       <Dropdown label={labelDropDown} arrowIcon={false} inline>
         <Dropdown.Header className="w-[240px]">
           <span className="block text-sm text-[#001A70]">{t("dd2Title")}</span>

@@ -1,8 +1,7 @@
 import { FiMapPin } from "react-icons/fi"
-import { GiRotaryPhone } from "react-icons/gi"
 import { useTranslations, useLocale } from "next-intl"
 import Image from "next/image"
-import { IoIosArrowDown } from "react-icons/io"
+import { GoArrowRight } from "react-icons/go"
 
 export default function SedePrincipal() {
   const locale = useLocale()
@@ -37,13 +36,13 @@ export default function SedePrincipal() {
         >
           {t("button")}
           <span className="p-2 rounded-full bg-[#9ee701]">
-            <IoIosArrowDown className="text-gray-800" />
+            <GoArrowRight className="text-gray-800" />
           </span>
         </a>
       </div>
       <div className="relative w-[250px] sm:w-[300px] aspect-square -mt-10">
         <Image
-          src="/img/sedePrincipal.png"
+          src="/img/kissimmee.png"
           layout="fill"
           objectFit="contain"
           alt="Sede Principal"

@@ -13,23 +13,10 @@ export default function SocialFooter() {
           layout="fill"
         />
       </div>
-      <p className="font-bold text-lg text-[#001a70] hidden sm:block">
+      <p className="font-bold text-2xl text-[#001a70] hidden sm:block">
         Síguenos
       </p>
       <div className="flex gap-5">
-        <a
-          href="https://www.linkedin.com/company/fyr-lois-language-institute"
-          target="_blank"
-          className="relative w-[24px] aspect-square"
-        >
-          <Image
-            className="hover:scale-110 transition-all duration-300"
-            src="/img/linkedin.png"
-            objectFit="contain"
-            fill
-            alt="Linkedin"
-          />
-        </a>
         <a
           href="https://www.instagram.com/fyrlois"
           target="_blank"
@@ -54,6 +41,19 @@ export default function SocialFooter() {
             objectFit="contain"
             fill
             alt="Facebook"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/company/fyr-lois-language-institute"
+          target="_blank"
+          className="relative w-[24px] aspect-square"
+        >
+          <Image
+            className="hover:scale-110 transition-all duration-300"
+            src="/img/linkedin.png"
+            objectFit="contain"
+            fill
+            alt="Linkedin"
           />
         </a>
       </div>

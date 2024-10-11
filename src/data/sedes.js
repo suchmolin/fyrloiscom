@@ -1,7 +1,7 @@
 export const data = [
   {
     id: "1",
-    src: "/img/kissimmee.png",
+    src: "/img/sedePrincipal.png",
     href: "kissimmee",
     title: "Kissimmee",
     direccion: "928 East Osceola Parkway, Kissimmee, FL 34744",
@@ -12,10 +12,16 @@ export const data = [
     cursos: ["kids", "elementary", "high-school", "adults"],
     email: "info@fyrlois.com",
     social: {
-      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      facebook: {
+        tag: "Fyr Lois English Institute",
+        href: "https://www.facebook.com/fyrlois.oficial",
+      },
       x: { tag: "Fyrloisoficial", href: "#" },
-      instagram: { tag: "@fyrlois", href: "#" },
-      linkedin: { tag: "Fyr Lois", href: "#" },
+      instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
+      linkedin: {
+        tag: "Fyr Lois",
+        href: "https://www.linkedin.com/company/fyr-lois-language-institute",
+      },
     },
   },
   {
@@ -31,10 +37,16 @@ export const data = [
     cursos: ["kids", "elementary", "high-school", "adults"],
     email: "info@fyrlois.com",
     social: {
-      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      facebook: {
+        tag: "Fyr Lois English Institute",
+        href: "https://www.facebook.com/fyrlois.oficial",
+      },
       x: { tag: "Fyrloisoficial", href: "#" },
-      instagram: { tag: "@fyrlois", href: "#" },
-      linkedin: { tag: "Fyr Lois", href: "#" },
+      instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
+      linkedin: {
+        tag: "Fyr Lois",
+        href: "https://www.linkedin.com/company/fyr-lois-language-institute",
+      },
     },
   },
   {
@@ -49,10 +61,16 @@ export const data = [
     cursos: ["kids", "elementary", "high-school", "adults"],
     email: "info@fyrlois.com",
     social: {
-      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      facebook: {
+        tag: "Fyr Lois English Institute",
+        href: "https://www.facebook.com/fyrlois.oficial",
+      },
       x: { tag: "Fyrloisoficial", href: "#" },
-      instagram: { tag: "@fyrlois", href: "#" },
-      linkedin: { tag: "Fyr Lois", href: "#" },
+      instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
+      linkedin: {
+        tag: "Fyr Lois",
+        href: "https://www.linkedin.com/company/fyr-lois-language-institute",
+      },
     },
   },
   {
@@ -67,10 +85,16 @@ export const data = [
     cursos: ["kids", "elementary", "high-school", "adults"],
     email: "info@fyrlois.com",
     social: {
-      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      facebook: {
+        tag: "Fyr Lois English Institute",
+        href: "https://www.facebook.com/fyrlois.oficial",
+      },
       x: { tag: "Fyrloisoficial", href: "#" },
-      instagram: { tag: "@fyrlois", href: "#" },
-      linkedin: { tag: "Fyr Lois", href: "#" },
+      instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
+      linkedin: {
+        tag: "Fyr Lois",
+        href: "https://www.linkedin.com/company/fyr-lois-language-institute",
+      },
     },
   },
   {
@@ -85,10 +109,16 @@ export const data = [
     cursos: ["kids", "elementary", "high-school", "adults"],
     email: "info@fyrlois.com",
     social: {
-      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      facebook: {
+        tag: "Fyr Lois English Institute",
+        href: "https://www.facebook.com/fyrlois.oficial",
+      },
       x: { tag: "Fyrloisoficial", href: "#" },
-      instagram: { tag: "@fyrlois", href: "#" },
-      linkedin: { tag: "Fyr Lois", href: "#" },
+      instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
+      linkedin: {
+        tag: "Fyr Lois",
+        href: "https://www.linkedin.com/company/fyr-lois-language-institute",
+      },
     },
   },
   {
@@ -103,10 +133,16 @@ export const data = [
     cursos: ["kids", "elementary", "high-school", "adults"],
     email: "info@fyrlois.com",
     social: {
-      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      facebook: {
+        tag: "Fyr Lois English Institute",
+        href: "https://www.facebook.com/fyrlois.oficial",
+      },
       x: { tag: "Fyrloisoficial", href: "#" },
-      instagram: { tag: "@fyrlois", href: "#" },
-      linkedin: { tag: "Fyr Lois", href: "#" },
+      instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
+      linkedin: {
+        tag: "Fyr Lois",
+        href: "https://www.linkedin.com/company/fyr-lois-language-institute",
+      },
     },
   },
   {
@@ -122,10 +158,16 @@ export const data = [
     cursos: ["kids", "elementary", "high-school", "adults"],
     email: "info@fyrlois.com",
     social: {
-      facebook: { tag: "Fyr Lois English Institute", href: "#" },
+      facebook: {
+        tag: "Fyr Lois English Institute",
+        href: "https://www.facebook.com/fyrlois.oficial",
+      },
       x: { tag: "Fyrloisoficial", href: "#" },
-      instagram: { tag: "@fyrlois", href: "#" },
-      linkedin: { tag: "Fyr Lois", href: "#" },
+      instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
+      linkedin: {
+        tag: "Fyr Lois",
+        href: "https://www.linkedin.com/company/fyr-lois-language-institute",
+      },
     },
   },
 ]

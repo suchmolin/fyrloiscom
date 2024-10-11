@@ -8,7 +8,7 @@ export default function SeccionBlog() {
       <h2 className="text-4xl font-bold text-center pb-4 px-5 text-[#001A70]">
         {t("h2")}
       </h2>
-      <p className="text-center text-gray-500 text-lg">{t("p")}</p>
+      <p className="text-center text-gray-500 text-xl">{t("p")}</p>
       <div className="w-full pt-10">
         <BlogUltimosArticulos />
       </div>

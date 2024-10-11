@@ -3,7 +3,7 @@ import Image from "next/image"
 import { useLocale, useTranslations } from "next-intl"
 import { useEffect, useState } from "react"
 import { Spinner } from "flowbite-react"
-import { IoIosArrowDown } from "react-icons/io"
+import { GoArrowRight } from "react-icons/go"
 
 export default function BlogUltimosArticulos() {
   const [data, setData] = useState([])
@@ -31,7 +31,7 @@ export default function BlogUltimosArticulos() {
               key={item.id}
               className={`dropShadow2 relative flex flex-col  min-h-[400px]  rounded-lg  overflow-hidden hover:scale-[0.98] transition-all duration-300 w-[280px] xs:w-[330px]`}
             >
-              <h3 className="text-xl font-bold text-[#001A70] py-2 px-4 ">
+              <h3 className="h-[50px] text-xl font-bold text-[#001A70] py-2 px-4 ">
                 {item?.tarjeta?.titulo}
               </h3>
               <div className="w-full">
@@ -62,9 +62,9 @@ export default function BlogUltimosArticulos() {
                   href={`/${locale}/blog/${item.id}`}
                   className="dropShadow2 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit"
                 >
-                  leer más
+                  LEER MÁS
                   <span className="p-2 rounded-full bg-[#9ee701]">
-                    <IoIosArrowDown className="text-gray-800" />
+                    <GoArrowRight className="text-gray-800" />
                   </span>
                 </a>
               </div>

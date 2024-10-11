@@ -28,7 +28,9 @@ export default function FAQSection() {
             <h2 className="mt-5 text-center text-3xl font-bold tracking-tight md:text-5xl text-[#001A70]">
               {t("h2")}
             </h2>
-            <p className="mt-3 text-lg text-neutral-500 md:text-xl">{t("p")}</p>
+            <p className="mt-3 text-lg text-neutral-500 md:text-2xl">
+              {t("p")}
+            </p>
           </div>
           <div className="w-full flex flex-col lg:flex-row lg:gap-20 justify-center items-center lg:items-start">
             <div className="relative w-[290px] xs:w-[350px] sm:w-[400px] 2xl:w-[500px] aspect-square mt-10">
