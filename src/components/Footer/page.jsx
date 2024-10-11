@@ -25,7 +25,7 @@ export default function Footer() {
                 </li>
                 <li className="hover:text-[#bb29b9] transition-all duration-300">
                   <Link href={`/${locale}/privacy-policies`}>
-                    Politicas de privacidad
+                    Políticas de privacidad
                   </Link>
                 </li>
               </ul>

@@ -138,7 +138,7 @@ export const data = [
         id: "adults-intensivo",
         title: "Intensivo",
         description:
-          "¿Te imaginas hablar inglés con fluidez? NuestroCurso Intensivo es tu mejor opción si necesitas manejar el idioma en menor tiempo, 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
+          "¿Te imaginas hablar inglés con fluidez? Nuestro Curso Intensivo es tu mejor opción si necesitas manejar el idioma en menor tiempo, 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
         img: "intensivo.png",
 
         price: 195,
