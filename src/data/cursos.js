@@ -3,9 +3,9 @@ export const data = [
     id: "kids",
     title: "Kids",
     description:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "3-5 años. Bríndale a tu hijo las oportunidades que se merece. A través de juegos, canciones y actividades creativas, los niños aprenden inglés de forma divertida y efectiva.",
     description2:
-      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+      "Bríndale a tu hijo las oportunidades que se merece. A través de juegos, canciones y actividades creativas, los niños aprenden inglés de forma divertida y efectiva.",
     etapa: "3-5 años",
     img: "kidsCourse.png",
     imgAlternative: "kidsCourseAlt.png",
@@ -130,7 +130,7 @@ export const data = [
         id: "adults-regular",
         title: "Regular",
         description:
-          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+          "Aprende inglés a tu tiempo, sin presiones. Nuestro Curso Regular te permite progresar a tu ritmo y sin apremio, 4 horas a la semana en el horario que más se adapte a ti y con una duración de 3 meses por nivel.",
         img: "adultsCourse.jpg",
         price: 195,
       },
@@ -138,7 +138,7 @@ export const data = [
         id: "adults-intensivo",
         title: "Intensivo",
         description:
-          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+          "¿Te imaginas hablar inglés con fluidez? NuestroCurso Intensivo es tu mejor opción si necesitas manejar el idioma en menor tiempo, 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
         img: "intensivo.png",
 
         price: 195,
@@ -147,7 +147,7 @@ export const data = [
         id: "adults-conversacional",
         title: "Conversacional",
         description:
-          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+          "¿Quieres ampliar tu vocabulario y tener confianza al hablar?. Inscríbete en nuestro Curso Conversacional donde podrás practicar tu inglés y dejar todos los nervios atrás.",
         img: "conversacional.png",
 
         price: 195,
@@ -156,7 +156,7 @@ export const data = [
         id: "adults-personalizado",
         title: "Personalizado",
         description:
-          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+          "Aprende inglés a tu ritmo y con un profesor exclusivo que se adapta a tus necesidades y objetivos. ¡Crea tu propio camino hacia el dominio del inglés!",
         img: "personalizado.png",
 
         price: 195,
@@ -165,7 +165,7 @@ export const data = [
         id: "adults-corporativo",
         title: "Corporativo",
         description:
-          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+          "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo puedan dominar el inglés.",
         img: "corporativo.png",
 
         price: 195,
