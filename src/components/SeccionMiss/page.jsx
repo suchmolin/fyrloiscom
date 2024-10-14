@@ -39,8 +39,8 @@ export default function SeccionMiss() {
             <p className="text-white text-lg py-4">{t("p")}</p>
             <p className="text-white text-xl py-4">{t("p2")}</p>
             <a
-              href="https://fyrloisonline.vercel.app"
-              className="pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit mt-5"
+              href={`/${locale}/aboutUs`}
+              className="pr-1 pl-4 py-1 bg-white rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit mt-5 z-10"
             >
               {t("link")}
               <span className="p-2 rounded-full bg-[#9ee701]">

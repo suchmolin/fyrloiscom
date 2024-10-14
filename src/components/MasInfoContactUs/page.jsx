@@ -11,10 +11,10 @@ export default function MasInfoContactUs({ titulo, subtitulo, data, mt }) {
         </h2>
         <p className="w-8/12 mb-5 text-xl">{subtitulo}</p>
         <div className="w-10/12 flex flex-col md:flex-row gap-4 justify-center items-center">
-          <div className="rounded-xl w-[290px] xs:w-[300px] sm:w-[400px] bg-white text-[#001a70] px-4 py-4 text-lg sm:text-xl">
+          <div className="rounded-xl h-[190px] w-[290px] xs:w-[300px] sm:w-[400px] bg-white text-[#001a70] px-4 py-4 text-lg sm:text-xl flex flex-col gap-3">
             <a
               href={`mailto:${data.email}`}
-              className="flex gap-4 items-center mb-2"
+              className="flex gap-4 items-center  "
             >
               <div className="relative w-[25px] aspect-square">
                 <Image
@@ -26,7 +26,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data, mt }) {
               </div>
               <p>{data.email}</p>
             </a>
-            <div className="flex gap-4 items-center mb-2">
+            <div className="flex gap-4 items-center  ">
               <div className="relative w-[25px] aspect-square">
                 <Image
                   src="/img/telefono.png"
@@ -49,7 +49,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data, mt }) {
               <p className="w-fit text-start">{data.direccion}</p>
             </div>
           </div>
-          <div className="rounded-xl w-[290px] xs:w-[300px] sm:w-[400px] bg-white text-[#001a70] px-4 py-4 text-lg sm:text-xl">
+          <div className="rounded-xl h-[190px] w-[290px] xs:w-[300px] sm:w-[400px] bg-white text-[#001a70] px-4 py-4 text-lg sm:text-xl flex gap-3 flex-col justify-center">
             <a
               href={data.social.instagram.href}
               className="flex gap-4 items-center"
@@ -66,7 +66,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data, mt }) {
             </a>
             <a
               href={data.social.facebook.href}
-              className="flex gap-4 items-center mb-2"
+              className="flex gap-4 items-center  "
             >
               <div className="relative w-[25px] aspect-square">
                 <Image
@@ -80,7 +80,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data, mt }) {
             </a>
             <a
               href={data.social.linkedin.href}
-              className="flex gap-4 items-center mb-2"
+              className="flex gap-4 items-center  "
             >
               <div className="relative w-[25px] aspect-square">
                 <Image
@@ -92,10 +92,7 @@ export default function MasInfoContactUs({ titulo, subtitulo, data, mt }) {
               </div>
               <p className="w-fit text-start">{data.social.linkedin.tag}</p>
             </a>
-            <a
-              href={data.social.x.href}
-              className="flex gap-4 items-center mb-2"
-            >
+            <a href={data.social.x.href} className="flex gap-4 items-center  ">
               <div className="relative w-[25px] aspect-square">
                 <Image
                   src="/img/x.png"

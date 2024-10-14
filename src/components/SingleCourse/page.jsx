@@ -27,7 +27,7 @@ export default function SingleCourse({ item, comprar, sede, shrink }) {
         <div className="flex flex-col gap-5 py-3">
           <p className="text-gray-500 text-sm">
             <b>{item.etapa}</b>
-            {". "}
+
             {item.description2}
           </p>
         </div>
@@ -43,8 +43,15 @@ export default function SingleCourse({ item, comprar, sede, shrink }) {
                 <GoArrowRight className="text-gray-800" />
               </span>
             </a>
-            <button className="dropShadow3 p-2 bg-[#9ee701] rounded-full overflow-hidden text-2xl text-black">
-              <LiaCartArrowDownSolid />
+            <button className="dropShadow3 px-2 bg-[#9ee701] rounded-full overflow-hidden text-2xl text-black flex items-center justify-center">
+              <div className="w-[25px] aspect-square relative -ml-[1px] mt-[1px]">
+                <Image
+                  src="/img/cartplus.png"
+                  layout="fill"
+                  objectFit="contain"
+                  alt="arrow"
+                />
+              </div>
             </button>
           </div>
         )}

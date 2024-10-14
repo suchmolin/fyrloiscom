@@ -52,7 +52,7 @@ export default function CoursePage({ params }) {
           </h2>
           <VideoYoutube
             href={
-              "https://www.youtube.com/embed/UKz1ZAASx_M?si=BA8fUqxUQnV4V96m"
+              "https://firebasestorage.googleapis.com/v0/b/jsuchmolin-394bd.appspot.com/o/Video%20Final%20Landing%20page.mp4?alt=media&token=a8162bd0-dd23-4e7b-b437-0a95f69047bc"
             }
           />
         </div>
