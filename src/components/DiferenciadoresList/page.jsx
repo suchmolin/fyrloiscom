@@ -8,7 +8,7 @@ export default function DiferenciadoresList({ data }) {
         data?.map((item) => (
           <div
             key={item.id}
-            className="w-[400px] xxl:w-[450px] bg-white flex flex-col items-center px-12 rounded-2xl py-5 hover:scale-[101%] transition-all duration-300"
+            className="w-[400px] xxl:w-[430px] bg-white flex flex-col items-center px-12 rounded-2xl py-5 hover:scale-[101%] transition-all duration-300"
           >
             <div className="w-[90px] xxl:w-[120px] aspect-square rounded-full bg-gray-100 flex justify-center items-center mb-4">
               <Image
@@ -18,11 +18,11 @@ export default function DiferenciadoresList({ data }) {
                 alt={item.alt}
               />
             </div>
-            <h1 className="text-2xl xxl:text-3xl font-bold text-[#001A70] text-center">
+            <h1 className="text-2xl font-bold text-[#001A70] text-center">
               {item.title}
             </h1>
             {item.subtitle && (
-              <p className="text-xl xxl:text-2xl text-gray-500 text-center">
+              <p className="text-xl text-gray-500 text-center">
                 {item.subtitle}
               </p>
             )}
