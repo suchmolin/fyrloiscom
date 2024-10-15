@@ -10,30 +10,19 @@ export const data = [
       {
         titulo: "Acerca de mí",
         texto: [
-          "Me gusta identificarme como padre. De hecho, mis dos vocaciones son: mi familia y mi trabajo, o mi afición. Trato devotamente con ambas partes. Desde el punto de vista profesional, soy Administrador de Empresas, Técnico Industrial y tengo una Licenciatura en Educación, mención en Inglés. Soy instructora de inglés y español. Me apasiona todo lo relacionado con las técnicas de enseñanza y el aprendizaje de idiomas. Actualmente me desempeño como Vicepresidente Académico en FYR LOIS.",
-          "Ayudo a otros instructores a alcanzar altos estándares de enseñanza a través de la supervisión, el seguimiento y la capacitación. Mi especialidad es ayudar a las personas a aprender a comunicarse en una segunda lengua, en diferentes ámbitos de la vida cotidiana, aplicando técnicas didácticas que faciliten la comprensión y producción de la misma.",
+          "Soy Administrador de Empresas, Técnico Industrial y tengo una Licenciatura en Educación, mención en Inglés. Soy instructor de inglés y español. Me apasiona todo lo relacionado con las técnicas de enseñanza y el aprendizaje de idiomas. Actualmente me desempeño como Vicepresidente Académico en FYR LOIS.",
+          "Mi especialidad es ayudar a las personas a aprender a comunicarse en una segunda lengua, aplicando técnicas didácticas que faciliten la comprensión y producción de la misma. Ayudo a otros instructores a alcanzar altos estándares de enseñanza a través de la supervisión, el seguimiento y la capacitación.",
         ],
       },
       {
         titulo: "Mi experiencia",
         texto: [
-          "Soy Licenciada en Administración de Empresas y Educación. Mi primera experiencia laboral comenzó en el año 2002, en la industria de servicios, en un trabajo enfocado a la atención al cliente, lo que también me permitió dar los primeros pasos como administrador o gerente y capacitación del personal.",
-          "Desde 2008 he desempeñado funciones como instructora de idiomas (inglés y español), directora académica, directora general, capacitadora y representante de ventas, consultora para el desarrollo de contenidos en redes sociales.",
-          "He trabajado como taxista, haciendo Uber. También el área administrativa pero, específicamente, siempre ha estado más inclinada al servicio, creo que de ahí viene mi gusto por lo que hago. Todo lo que he hecho, en cuanto a experiencias laborales, siempre ha estado relacionado con la atención al cliente.",
-          "Por ejemplo, trabajé en el área administrativa de un restaurante, también como mesonero. Como profesor, tengo 14 años trabajando.",
-          "Trabajé en una empresa que vendía productos de sistemas informáticos.",
-          "Pero en términos generales, he estado orientado al cliente.",
+          "Desde 2008 he desempeñado funciones como instructor de idiomas (inglés y español), director académico, director general, capacitador y representante de ventas, consultor para el desarrollo de contenidos en redes sociales.",
         ],
       },
     ],
     proyectos: [
       "Desde el 2002 he tenido la oportunidad de liderar proyectos como la apertura de nuevas oficinas, contratación y capacitación de personal, en el área académica. Asimismo, en la planificación de currículos académicos enfocados al aprendizaje de inglés general, inglés para usos específicos, reducción de acento, preparación para exámenes de dominio del idioma inglés (TOEFL, IELTS) y español (DELE).",
-      "También he impartido cursos de formación en lengua inglesa, impartidos de forma presencial al personal de diferentes empresas.",
-      "He participado en varios proyectos. Por ejemplo, cuando yo trabajaba en uno de los restaurantes, como gerente, nos encargábamos de abastecer de alimentos, o de dar de comer, durante el medio tiempo, a un equipo de fútbol universitario; lo cual fue genial, porque aprendí un poco sobre la parte de la combinación de alimentos.",
-      "Con Fyr Lois he participado en dos proyectos que, para mí, han sido geniales. Uno es el In Company, en el que teníamos como clientes a personas de Schlumberger y de PDVSA Morichal. Brindábamos asesoría académica o capacitación en idiomas al personal.",
-      "También estaba colaborando con la construcción del café, en la sede Maturín, en el Estado Monagas.",
-      "Aparte de eso, ayudé, desde el punto de vista académico, cuando se abrieron las oficinas de Ciudad Ojeda y Maracaibo, también en Venezuela.",
-      "Posteriormente, de vuelta en Estados Unidos, me encargué de abrir la sede en Orlando de otra empresa de enseñanza de idiomas en la que trabajé, así como, en Fyr Lois, en la constitución e inauguración de la oficina de Kissimmee.",
     ],
     habilidades: [
       "Liderazgo",
@@ -52,32 +41,25 @@ export const data = [
     cargo: "DIRECTORA ACADEMICA",
     img: "teacher2.jpg",
     descripcion:
-      "Directora Académico de Fyr Lois. Encargada de capacitar al equipo de profesores, preparar los programas académicos y asegurar que la metodología se cumpla y se lleve a cabo de manera efectiva.",
+      "Directora Académica de Fyr Lois. Encargada de preparar los programas académicos y asegurar que la metodología se cumpla de manera efectiva.",
     acercaDeMi: [
       {
         titulo: "Acerca de mí",
         texto: [
-          "Licenciada en Educación mención Inglés.",
-          "Egresada de la Universidad de Oriente (UDO) – Venezuela. Certificación internacional TEFL.",
+          "Soy Egresada de la Universidad de Oriente (UDO) - Venezuela, ahí me gradué como Licenciada en Educación mención Inglés, desde temprana edad sentí pasión por los idiomas y la enseñanza, así que tras graduarme obtuvé la certificación TELF para desempeñarme como profesora.",
         ],
       },
       {
         titulo: "Mi Experiencia",
         texto: [
-          "Después de la universidad comencé mi formación académica en Fyr Lois hace 6 años.",
-          "Capacitación para aplicar el método comunicativo bajo estándares internacionales.",
-          "reparación TKT, IELTS/TOEFL",
+          "Soy Egresada de la Universidad de Oriente (UDO) - Venezuela, ahí me gradué como Licenciada en Educación mención Inglés, desde temprana edad sentí pasión por los idiomas y la enseñanza, así que tras graduarme obtuvé la certificación TELF para desempeñarme como profesora.",
         ],
       },
     ],
     proyectos: [
-      "Creación y ejecución del Seminario “Inteligencia emocional en docentes en el aula”.",
-      "Congreso de encuentro de las culturas Rusa y Venezolana. Potencial epistémico de la lectura y escritura en textos expositivos en inglés.",
-      "Congreso: Estrategias metodológicas para el aprendizaje y la enseñanza de la pronunciación del inglés.",
-      "Mejorando las habilidades orales del inglés trabajando en parejas.",
-      "Congreso: De la discriminación a la integración en el manejo de traumas y frustraciones en adultos hacia el idioma inglés.",
-      "Uso del psicoanálisis en la literatura infantil.",
-      "1er lugar en oratoria. Análisis del habla.",
+      "Cree y realice el seminario “Inteligencia emocional en docentes en el aula”. También fui parte del congreso de encuentro entre las culturas Rusas y Venezolanas.",
+      "Participé en el congreso: “Estrategias metodológicas para el aprendizaje y la enseñanza de la pronunciación del Inglés”  y me ayudó a mejorar mis habilidades orales del inglés.",
+      "Fui parte del congreso: “De la discriminación a la integración en el manejo de traumas y frustraciones en adultos hacia el idioma inglés”, en el cual trabaje en el uso del psicoanálisis en la literatura infantil.",
     ],
     habilidades: [
       "Liderazgo.",
@@ -93,7 +75,7 @@ export const data = [
     cargo: "DIRECTOR ACADEMICO",
     img: "teacher3.jpg",
     descripcion:
-      "Director académico, supervisión de docentes, encargado de la formación.",
+      "Director Académico de Fyr Lois. Encargado de capacitar al equipo de profesores y la supervisión de todos los docentes de Fyr Lois",
     acercaDeMi: [
       {
         titulo: "Acerca de mí",

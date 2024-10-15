@@ -81,14 +81,7 @@ export default function Profesor({ params }) {
                       ))}
                     </div>
                   ))}
-                  <div className="relative w-full h-[250px] md:h-[380px] overflow-hidden rounded-xl">
-                    <Image
-                      src="/img/acercaDeMi.jpeg"
-                      layout="fill"
-                      objectFit="cover"
-                      alt="teacher1"
-                    />
-                  </div>
+
                   <h4 className="text-[#000b7a] text-2xl font-bold py-5">
                     Proyectos anteriores
                   </h4>
