@@ -52,7 +52,8 @@ export const data = [
       {
         titulo: "Mi Experiencia",
         texto: [
-          "Soy Egresada de la Universidad de Oriente (UDO) - Venezuela, ahí me gradué como Licenciada en Educación mención Inglés, desde temprana edad sentí pasión por los idiomas y la enseñanza, así que tras graduarme obtuvé la certificación TELF para desempeñarme como profesora.",
+          "Al terminar la universidad comencé mi formación académica en Fyr Lois hace 6 años. También realice una capacitación para aplicar el método comunicativo bajo los estándares internacionales e implementar el mismo en Fyr Lois.",
+          "También realice una preparación para los exámenes de dominio del inglés (TKT, IELTS y TOEFLS).",
         ],
       },
     ],
@@ -75,7 +76,7 @@ export const data = [
     cargo: "DIRECTOR ACADEMICO",
     img: "teacher3.jpg",
     descripcion:
-      "Director Académico de Fyr Lois. Encargado de capacitar al equipo de profesores y la supervisión de todos los docentes de Fyr Lois",
+      "Director Académico de Fyr Lois. Encargado de capacitar al equipo de profesores y la supervisión de todos los docentes.",
     acercaDeMi: [
       {
         titulo: "Acerca de mí",
