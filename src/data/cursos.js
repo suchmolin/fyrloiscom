@@ -39,7 +39,7 @@ export const data = [
     id: "elementary",
     title: "Elementary",
     description2:
-      "Pon todas las oportunidades a su alcance. A través de un aprendizaje divertido, con el que se enamorará del idioma.",
+      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades!. A través de un aprendizaje divertido, se enamorará del idioma.",
     etapa: "6-11 años. ",
     img: "elementaryCourse.png",
     imgAlternative: "elementaryAlt.png",
@@ -75,7 +75,7 @@ export const data = [
     id: "high-school",
     title: "High School",
     description2:
-      "Prepara tu hijo para el futuro,con un curso pensado para adolescentes: una perfecta combinación de los retos (que les encanta asumir) y temas adaptados a sus intereses.",
+      "Prepara a tu hijo para el futuro. Combinamos retos emocionantes con proyectos reales para que tu hijo adquiera conocimientos prácticos y desarrolle su creatividad.",
     etapa: "12-16 años. ",
     img: "highSchoolCourse.png",
     imgAlternative: "highSchoolAlt.png",

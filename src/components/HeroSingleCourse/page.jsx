@@ -46,7 +46,14 @@ export default function HeroSingleCourse({ courseData }) {
               </span>
             </a>
             <button className="dropShadow3 p-2 bg-[#9ee701] rounded-full overflow-hidden text-2xl text-black">
-              <LiaCartArrowDownSolid />
+              <div className="w-[25px] aspect-square relative -ml-[1px] mt-[1px]">
+                <Image
+                  src="/img/cartplus.png"
+                  layout="fill"
+                  objectFit="contain"
+                  alt="arrow"
+                />
+              </div>
             </button>
           </div>
         </div>

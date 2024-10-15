@@ -5,7 +5,7 @@ import { useState, useEffect } from "react"
 import { useLocale, useTranslations } from "next-intl"
 import { IoIosArrowDown } from "react-icons/io"
 
-export default function NuestrosTeachers() {
+export default function NuestrosTeachers({ current, titleAlt }) {
   const t = useTranslations("AboutUs.NuestrosTeachers")
   const [data, setData] = useState([])
   const locale = useLocale()
@@ -14,18 +14,22 @@ export default function NuestrosTeachers() {
     const fetchData = async () => {
       try {
         const { data } = await import(`/src/data/teachersInfo.js`)
-        setData(data)
+        current
+          ? setData(data.filter((item) => item.id !== current))
+          : setData(data)
       } catch (error) {
         console.log("Error importing data", error)
       }
     }
     fetchData()
-  }, [t])
+  }, [t, current])
 
   return (
     <div className="w-11/12 flex flex-col items-center py-20">
       <div className="w-11/12 text-center">
-        <h2 className="text-3xl font-bold text-[#001A70] py-4">{t("h2")}</h2>
+        <h2 className="text-3xl font-bold text-[#001A70] py-4">
+          {titleAlt ? titleAlt : t("h2")}
+        </h2>
         <p className="text-gray-500 text-2xl">{t("p")}</p>
       </div>
       <div className="w-11/12 flex justify-center flex-wrap gap-7 gap-y-20 pt-28">
