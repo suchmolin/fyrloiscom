@@ -3,12 +3,12 @@ import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
 import { LiaCartArrowDownSolid } from "react-icons/lia"
 
-export default function SingleCourse({ item, comprar, sede, shrink }) {
+export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
   const locale = useLocale()
   return (
     <div
       key={item.id}
-      className={`relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3 ${shrink ? "flex-shrink-0" : ""}`}
+      className={`${sombra ? "dropShadow3" : ""} relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3 ${shrink ? "flex-shrink-0" : ""}`}
     >
       <div className="flex justify-between">
         <h4 className="text-[#001A70] font-bold">{item.title}</h4>

@@ -22,7 +22,7 @@ export const data = [
       },
     ],
     proyectos: [
-      "Desde el 2002 he tenido la oportunidad de liderar proyectos como la apertura de nuevas oficinas, contratación y capacitación de personal, en el área académica. Asimismo, en la planificación de currículos académicos enfocados al aprendizaje de inglés general, inglés para usos específicos, reducción de acento, preparación para exámenes de dominio del idioma inglés (TOEFL, IELTS) y español (DELE).",
+      "Desde el 2002 he tenido la oportunidad de liderar proyectos como la apertura de nuevas oficinas, contratación y capacitación de personal, en el área académica. Igualmente, en la planificación de currículos académicos enfocados al aprendizaje de inglés general, inglés para usos específicos, reducción de acento, preparación para exámenes de dominio del idioma inglés (TOEFL, IELTS) y español (DELE).",
     ],
     habilidades: [
       "Liderazgo",

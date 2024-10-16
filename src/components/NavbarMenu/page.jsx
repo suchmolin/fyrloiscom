@@ -56,7 +56,7 @@ export default function NavbarMenu({ setOpen }) {
         </Link>
       </li>
       <li className="hover:text-[#bb29b9] transition-all duration-300">
-        <Link href="https://fyrloisonline.vercel.app" className="">
+        <Link href={`/${locale}/online`} className="">
           {t("item2")}
         </Link>
       </li>

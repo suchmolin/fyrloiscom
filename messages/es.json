@@ -204,5 +204,48 @@
   "nuestraMision":{
     "h2":"Nuestra Misión",
     "data":"data"
+  },
+  "online":{
+    "hero":{
+      "h1": "Habla inglés como",
+      "h1b": "siempre has querido",
+      
+      "h1a": "Habla inglés",
+      "h1a2": "como siempre",
+      "h1b2": "has querido",
+      
+      "h2": "Diviértete aprendiendo el idioma y",
+      "h2b": "comunícate donde quieras",
+      
+      "button2": "Ver cursos"
+    },
+    "CursosOnlineHome":{
+      "data":"data",
+      "h2":"Vive una experiencia de aprendizaje memorable.",
+      "p":"Cada estudiante es un proyecto de vida por cumplir. Por esa razón ofrecemos un curso adaptado a los intereses y necesidades."
+    },
+    "DiferenciadoresOnline":{
+      "h2":"¿Cómo aprenderás inglés con nosotros?",
+      "data":"data"
+    },
+    "YaEsHora":{
+      "h1":"Ya es hora de",
+      "h1Span":"aprender inglés",
+      "p":"Gracias a nuestros 25 años de experiencia, hemos desarrollado una metodología práctica y divertida con la que aprenderás a hablar el idioma de forma fluida. A través de clases 100% en inglés, adaptadas a tu nivel de conocimiento, con profesores certificados y un método de enseñanza único. Es hora de dominar el inglés, inscríbete ahora y comienza tu proyecto de vida.",
+      "button":"Ver cursos"
+    },
+    "ViveUnaExperiencia":{
+      "h2":"Vive una experiencia ",
+      "h2b":"de aprendizaje memorable.",
+      "p":"Cada estudiante es diferente por eso ofrecemos un curso adaptado a los intereses y necesidades.",
+      "data":"data"
+    },
+    "LlevaTuProyecto":{
+      "h3":"Lleva tu proyecto de vida ",
+      "h3b":"a un nuevo nivel",
+      "p":"Comunícate en inglés de forma fluida, sin inseguridades y alcanza las oportunidades que sueñas",
+      "boton":"Comenzar",
+      "data":"data"
+    }
   }
 }
