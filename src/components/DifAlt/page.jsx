@@ -1,8 +1,10 @@
 import { Spinner } from "flowbite-react"
+import { useLocale } from "next-intl"
 import Image from "next/image"
 import Link from "next/link"
 
 export default function DifAlt({ data }) {
+  const locale = useLocale()
   return (
     <div className="w-11/12 flex gap-x-7 items-center justify-center flex-wrap mt-10">
       {data?.length !== 0 ? (
@@ -21,7 +23,7 @@ export default function DifAlt({ data }) {
             </div>
             <h3 className="text-gray-700 my-5">{item.subtitle}</h3>
             <Link
-              href={item.href}
+              href={`/${locale}/${item.href}`}
               className="dropShadow3 py-2 px-4 font-bold bg-gradient-to-b from-white to-gray-100 rounded-full absolute bottom-10"
             >
               {item.boton}

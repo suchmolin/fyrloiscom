@@ -22,7 +22,7 @@ export default function HeroOnline() {
         <div className="flex flex-col sm:flex-row gap-4 w-fit">
           <a
             href={`/${locale}/online/courses`}
-            className="pr-1 pl-4 py-1 bg-white rounded-full flex gap-3 justify-between items-center transition-all duration-300 w-fit"
+            className="dropShadow3 pr-1 pl-4 py-1 bg-white rounded-full flex gap-3 justify-between items-center transition-all duration-300 w-fit"
           >
             {t("button2")}
             <span className="p-2 rounded-full bg-[#9ee701]">

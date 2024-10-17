@@ -35,7 +35,11 @@ export default function ModalIdiomas({ openModal, setOpenModal, selected }) {
                 />
               </div>
               <a
-                href="https://fyrloisonline.vercel.app"
+                href={
+                  selected === "es"
+                    ? `/${locale}/online?lang=es`
+                    : `/${locale}/online?lang=en`
+                }
                 className="text-center py-1 sm:py-2 px-5 bg-[#001A70] text-white rounded-md hover:bg-[#9ee701] w-11/12 transition-all duration-300"
               >
                 ONLINE

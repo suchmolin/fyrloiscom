@@ -53,7 +53,7 @@ export default function HeroSede({ sedeData }) {
           </div>
         </div>
       </div>
-      <div className="w-full h-[80px] md:h-[250px]  xxl:h-[300px] xxxl:h-[270px] bg-[url('/img/curvaAzul.png')] bg-cover bg-no-repeat bg-center -mt-1"></div>
+      <div className="w-full h-[80px] md:h-[300px]  xxl:h-[370px] xxxl:h-[370px] bg-[url('/img/curvaAzul.png')] bg-cover bg-no-repeat bg-center -mt-1"></div>
     </>
   )
 }

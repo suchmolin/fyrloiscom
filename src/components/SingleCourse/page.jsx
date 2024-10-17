@@ -29,6 +29,12 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
             <b>{item.etapa}</b>
 
             {item.description2}
+            {item.inscripcion && (
+              <>
+                <br />
+                Inscripción: ${item.inscripcion},00
+              </>
+            )}
           </p>
         </div>
 

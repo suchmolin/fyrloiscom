@@ -1,18 +1,19 @@
 import Image from "next/image"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 export default function SocialFooter() {
   const t = useTranslations("Footer")
+  const locale = useLocale()
   return (
     <div className="w-full sm:w-fit flex flex-row lg:flex-col justify-between sm:justify-center lg:justify-end gap-5 text-[#001A70]">
-      <div className="relative w-[199px] aspect-video">
+      <a href={`/${locale}/`} className="relative w-[199px] aspect-video">
         <Image
           src="/img/1.png"
           objectFit="contain"
           alt="fyrlois logo"
           layout="fill"
         />
-      </div>
+      </a>
       <p className="font-bold text-2xl text-[#001a70] hidden sm:block">
         Síguenos
       </p>

@@ -18,7 +18,7 @@ export default function DiferenciadoresList({ data }) {
                 alt={item.alt}
               />
             </div>
-            <h1 className="text-2xl font-bold text-[#001A70] text-center">
+            <h1 className="text-2xl font-bold text-[#001A70] text-center mb-2">
               {item.title}
             </h1>
             {item.subtitle && (

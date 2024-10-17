@@ -229,10 +229,10 @@
       "data":"data"
     },
     "YaEsHora":{
-      "h1":"Ya es hora de",
-      "h1Span":"aprender inglés",
-      "p":"Gracias a nuestros 25 años de experiencia, hemos desarrollado una metodología práctica y divertida con la que aprenderás a hablar el idioma de forma fluida. A través de clases 100% en inglés, adaptadas a tu nivel de conocimiento, con profesores certificados y un método de enseñanza único. ",
-      "p2":"Es hora de dominar el inglés, inscríbete ahora y comienza tu proyecto de vida.",
+      "h1":"No pospongas más tus sueños,",
+      "h1Span":"es hora de aprender",
+      "p":"Gracias a nuestros 25 años de experiencia, hemos desarrollado una metodología práctica y divertida con la que aprenderás a hablar el idioma de forma fluida. A través de clases 100% en vivo, adaptadas a tu nivel de conocimiento, con profesores certificados y un método de enseñanza único.",
+      "p2":"No lo pienses más, es momento de estudiar ese idioma que siempre has querido, incríbete ya.",
       "button":"Ver cursos"
     },
     "ViveUnaExperiencia":{
@@ -251,7 +251,7 @@
     "courses":{
       "h1":"Un curso online ",
       "h1Span":"adaptado a ti",
-      "p":"Aprende inglés a gusto con una metodología adaptada a tu nivel, edad, intereses y agenda.",
+      "p":"Aprende a gusto con una metodología adaptada a tu nivel, edad, intereses y agenda.",
       "button":"Conoce más"
     },
     "DifCursosOnline":{
@@ -262,6 +262,13 @@
     "OnlineCoursesList":{
       "data":"data",
       "h2":"Conoce nuestros cursos"
+    },
+    "SiguesTeniendoDudas":{
+      "h3":"¿Sigues teniendo dudas?",
+      "h3b":"Estamos aquí para ti",
+      "p":"No te preocupes, estamos a tu disposición para ayudarte a solventar cualquier incógnita que tengas con respecto a los cursos y tu proceso de inscripción",
+      "boton":"Contáctanos",
+      "data":"data"
     }
 
   },

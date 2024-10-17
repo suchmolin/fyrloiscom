@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 w-fit">
           <PresencialSelectorButton />
           <a
-            href="https://fyrloisonline.vercel.app"
+            href={`/${locale}/online`}
             className="pr-1 pl-4 py-1 bg-white rounded-full flex gap-3 justify-between items-center transition-all duration-300 w-fit"
           >
             {t("button2")}

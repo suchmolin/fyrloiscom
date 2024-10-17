@@ -7,7 +7,8 @@ export const data = [
     etapa: "3-5 años. ",
     img: "kidsCourse.png",
     imgAlternative: "kidsCourseAlt.png",
-    price: 195,
+    price: 200,
+    inscripcion: 200,
     modalidad: "presencial",
     difCourses: [
       {
@@ -44,7 +45,8 @@ export const data = [
     etapa: "6-11 años. ",
     img: "elementaryCourse.png",
     imgAlternative: "elementaryAlt.png",
-    price: 195,
+    price: 200,
+    inscripcion: 200,
     modalidad: "presencial",
     difCourses: [
       {
@@ -81,7 +83,8 @@ export const data = [
     etapa: "12-16 años. ",
     img: "highSchoolCourse.png",
     imgAlternative: "highSchoolAlt.png",
-    price: 195,
+    price: 200,
+    inscripcion: 200,
     modalidad: "presencial",
     difCourses: [
       {
@@ -119,7 +122,8 @@ export const data = [
     etapa: "+17 años. ",
     img: "adultsCourse.png",
     imgAlternative: "adultsAlt.png",
-    price: 195,
+    price: 200,
+    inscripcion: 200,
     modalidad: "presencial",
     subCourse: [
       {
@@ -128,16 +132,18 @@ export const data = [
         description2:
           "Nuestro Curso Regular te permite progresar a tu ritmo y sin apremio, 4 horas a la semana en el horario que más se adapte a ti y con una duración de 3 meses por nivel.",
         img: "adultsCourse.png",
-        price: 195,
+        price: 200,
+        inscripcion: 200,
       },
       {
         id: "adults-intensivo",
         title: "Intensivo",
         description2:
-          "Un curso intensivo de inglés adaptado a tus necesidades. 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
+          "Un Curso Intensivo de inglés adaptado a tus necesidades. 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
         img: "intensivo.png",
 
-        price: 195,
+        price: 200,
+        inscripcion: 200,
       },
       {
         id: "adults-conversacional",
@@ -146,7 +152,8 @@ export const data = [
           "¿Quieres ampliar tu vocabulario? Inscríbete en nuestro Curso Conversacional donde podrás practicar tu inglés y dejar todos los nervios atrás.",
         img: "conversacional.png",
 
-        price: 195,
+        price: 200,
+        inscripcion: 200,
       },
       {
         id: "adults-personalizado",
@@ -155,7 +162,8 @@ export const data = [
           "Aprende inglés a tu ritmo y con un profesor exclusivo que se adapta a tus necesidades y objetivos. ¡Crea tu propio camino hacia el dominio del inglés!",
         img: "personalizado.png",
 
-        price: 195,
+        price: 200,
+        inscripcion: 200,
       },
       {
         id: "adults-corporativo",
@@ -164,7 +172,8 @@ export const data = [
           "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo puedan dominar el inglés.",
         img: "corporativo.png",
 
-        price: 195,
+        price: 200,
+        inscripcion: 200,
       },
       {
         id: "adults-ciudadania",
@@ -212,7 +221,8 @@ export const data = [
     modalidad: "online",
     img: "elementaryOnline.png",
     imgAlternative: "elementaryOnlineAlt.png",
-    price: 195,
+    price: 200,
+    inscripcion: 200,
     difCourses: [
       {
         id: "1",
@@ -249,7 +259,8 @@ export const data = [
     modalidad: "online",
     img: "highSchoolOnline.png",
     imgAlternative: "highSchoolOnlineAlt.png",
-    price: 195,
+    price: 200,
+    inscripcion: 200,
     difCourses: [
       {
         id: "1",
@@ -287,7 +298,8 @@ export const data = [
     modalidad: "online",
     img: "adultsOnline.png",
     imgAlternative: "adultsOnlineAlt.png",
-    price: 195,
+    price: 200,
+    inscripcion: 200,
 
     difCourses: [
       {

@@ -1,6 +1,6 @@
 "use client"
 
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import SingleCourse from "../SingleCourse/page"
 import { useState, useEffect } from "react"
 import Link from "next/link"
@@ -8,6 +8,7 @@ import Link from "next/link"
 export default function CursosOnlineHome() {
   const [data, setData] = useState([])
   const t = useTranslations("online.CursosOnlineHome")
+  const locale = useLocale()
 
   useEffect(() => {
     const fetchData = async () => {
@@ -45,7 +46,7 @@ export default function CursosOnlineHome() {
       </div>
       <div className="w-full flex items-center justify-center pt-10">
         <Link
-          href="#"
+          href={`/${locale}/online/courses`}
           className="py-2 px-4 bg-[#9ee701] text-white rounded-full"
         >
           Ver más

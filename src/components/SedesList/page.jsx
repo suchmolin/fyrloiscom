@@ -11,7 +11,8 @@ export default function SedesList({ sedes }) {
   return (
     <div className="w-full flex gap-10 justify-center flex-wrap pb-20">
       {sedes.map((card) => (
-        <div
+        <a
+          href={`/${locale}/sedes/${card.href}`}
           key={`card${card.id}`}
           className="dropShadow3 relative  w-[280px] md:w-[500px] px-3 py-3 hover:scale-[101%] transition-all duration-300 rounded-xl flex flex-col md:flex-row items-center md:items-start bg-gradient-to-b from-white to-gray-200"
         >
@@ -49,18 +50,15 @@ export default function SedesList({ sedes }) {
               )}
             </div>
             <div className="absolute bottom-3 md:bottom-0 px-5 w-full mt-2 flex justify-center md:justify-end">
-              <a
-                href={`/${locale}/sedes/${card.href}`}
-                className="pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit"
-              >
+              <div className="pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit">
                 {t("aCards")}
                 <span className="p-2 rounded-full bg-[#9ee701]">
                   <IoIosArrowDown className="text-gray-800" />
                 </span>
-              </a>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       ))}
     </div>
   )
