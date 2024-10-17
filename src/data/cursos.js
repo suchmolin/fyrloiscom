@@ -8,6 +8,7 @@ export const data = [
     img: "kidsCourse.png",
     imgAlternative: "kidsCourseAlt.png",
     price: 195,
+    modalidad: "presencial",
     difCourses: [
       {
         id: "1",
@@ -44,6 +45,7 @@ export const data = [
     img: "elementaryCourse.png",
     imgAlternative: "elementaryAlt.png",
     price: 195,
+    modalidad: "presencial",
     difCourses: [
       {
         id: "1",
@@ -80,6 +82,7 @@ export const data = [
     img: "highSchoolCourse.png",
     imgAlternative: "highSchoolAlt.png",
     price: 195,
+    modalidad: "presencial",
     difCourses: [
       {
         id: "1",
@@ -117,6 +120,7 @@ export const data = [
     img: "adultsCourse.png",
     imgAlternative: "adultsAlt.png",
     price: 195,
+    modalidad: "presencial",
     subCourse: [
       {
         id: "adults-regular",

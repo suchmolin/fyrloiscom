@@ -5,10 +5,8 @@ import VideoYoutube from "@/components/VideoYoutube/page"
 import SimilarCourses from "@/components/SimilarCourses/page"
 import { useTranslations } from "next-intl"
 import { useState, useEffect } from "react"
-import { FaStar } from "react-icons/fa6"
-import Image from "next/image"
-import ReviewCard from "@/components/ReviewCard/page"
 import SubCourses from "@/components/SubCourses/page"
+import ReviewsSection from "@/components/ReviewsSection/page"
 
 export default function CoursePage({ params }) {
   const { course } = params
@@ -57,20 +55,9 @@ export default function CoursePage({ params }) {
           />
         </div>
       </div>
-      <div className="w-full flex flex-col items-center bg-gray-100">
-        <div className="w-10/12 pb-10">
-          <h2 className="text-3xl font-bold text-[#001A70] text-center mt-10 mb-5">
-            {t("h2b")}
-          </h2>
-          <div className="hidden sm:flex w-full gap-5 flex-wrap justify-center">
-            <ReviewCard />
-            <ReviewCard />
-            <ReviewCard />
-          </div>
-          <div className="flex sm:hidden w-full gap-5 flex-wrap justify-center">
-            <ReviewCard />
-          </div>
-        </div>
+      <div className="w-full flex flex-col items-center bg-gray-100 relative">
+        <ReviewsSection modalidad={data.modalidad} />
+
         <div className="w-full h-[80px] md:h-[250px]  xxl:h-[300px] xxxl:h-[280px] bg-[url('/img/curvaAzul.png')] bg-cover bg-no-repeat bg-bottom -mt-1"></div>
       </div>
       <div className="w-full flex justify-center pt-10 pb-20 bg-[#001a70] -mt-2  md:-mt-20">
@@ -86,7 +73,7 @@ export default function CoursePage({ params }) {
               {t("h2c")}
             </h2>
             <div className="w-full flex gap-2 justify-center flex-wrap">
-              <SimilarCourses />
+              <SimilarCourses online={data.modalidad === "online"} />
             </div>
           </div>
         )}

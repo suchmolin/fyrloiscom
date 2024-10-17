@@ -1,29 +1,47 @@
 import Image from "next/image"
-import { FaStar } from "react-icons/fa6"
+import { FaStar } from "react-icons/fa"
 
-export default function ReviewCard() {
+export default function ReviewCard({ item }) {
   return (
-    <div className="dropShadow3 w-[350px] rounded-2xl bg-gradient-to-b from-white to-gray-200 px-4 py-3 flex flex-col gap-3">
-      <div className="flex gap-1 w-full text-xl text-yellow-200">
-        {[...Array(5)].map((e, index) => (
-          <FaStar key={index} />
-        ))}
-      </div>
-      <p className="text-gray-600">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-        aspernatur maxime reiciendis ipsam a magni enim voluptatum minima
-        cupiditate natus voluptatem pariatur itaque. Sunt, quos.
-      </p>
-      <div className="flex gap-3">
-        <div className="w-[30px] aspect-square relative rounded-full overflow-hidden">
-          <Image
-            src="/img/prof.png"
-            alt="estudiantes"
-            objectFit="cover"
-            layout="fill"
-          />
+    <div className="w-full h-full flex justify-center items-center py-10">
+      <div className="dropShadow2 w-11/12 rounded-xl bg-gradient-to-b from-white to-gray-100 p-4 flex justify-between items-center">
+        <div
+          className={`${item.img ? "w-12/12 sm:w-7/12" : "w-12/12"} flex flex-col justify-center items-center h-full`}
+        >
+          {item.opinion.map((op, i) => (
+            <p key={i} className="text-gray-600 p-2 text-sm">
+              {op}
+            </p>
+          ))}
+          {item.img && (
+            <div className="block sm:hidden w-[210px] xs:w-[280px] aspect-square relative mb-3">
+              <Image
+                src={item.img}
+                layout="fill"
+                objectFit="contain"
+                alt="review"
+              />
+            </div>
+          )}
+          <div className="w-full flex gap-2 mb-2 border-gray-400 border-t pt-4">
+            {[...Array(5)].map((e, i) => (
+              <FaStar key={i} className="text-yellow-300 text-2xl" />
+            ))}
+          </div>
+          <p>
+            <b>{item.name}, </b> {item.descripcion}
+          </p>
         </div>
-        <p className="text-gray-600">name lastname</p>
+        {item.img && (
+          <div className="hidden sm:block w-[200px] aspect-square relative">
+            <Image
+              src={item.img}
+              layout="fill"
+              objectFit="contain"
+              alt="review"
+            />
+          </div>
+        )}
       </div>
     </div>
   )

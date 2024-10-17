@@ -4,8 +4,7 @@ import IdiomasSelector from "../IdiomasSelector/page"
 import Link from "next/link"
 import { useState } from "react"
 
-export default function NavbarMenu({ setOpen }) {
-  const [page, setPage] = useState()
+export default function NavbarMenu({ setOpen, setPage, page }) {
   const t = useTranslations("navbarMenu")
   const locale = useLocale()
   return (
@@ -14,7 +13,7 @@ export default function NavbarMenu({ setOpen }) {
         <IdiomasSelector />
       </li>
       <li
-        className={`hover:text-[#bb29b9] transition-all duration-300 border-[#001a70] ${page == "aboutUs" ? "border-b-[3px]" : ""}`}
+        className={`hover:text-[#bb29b9] transition-colors duration-300 border-[#001a70] ${page == "aboutUs" ? "border-b-[3px]" : ""}`}
       >
         <Link
           onClick={() => {
@@ -28,7 +27,7 @@ export default function NavbarMenu({ setOpen }) {
         </Link>
       </li>
       <li
-        className={`hover:text-[#bb29b9] transition-all duration-300 border-[#001a70] ${page == "contactUs" ? "border-b-[3px]" : ""}`}
+        className={`hover:text-[#bb29b9] transition-colors duration-300 border-[#001a70] ${page == "contactUs" ? "border-b-[3px]" : ""}`}
       >
         <Link
           onClick={() => {
@@ -42,7 +41,7 @@ export default function NavbarMenu({ setOpen }) {
         </Link>
       </li>
       <li
-        className={`hover:text-[#bb29b9] transition-all duration-300 border-[#001a70]  ${page == "blog" ? "border-b-[3px]" : ""}`}
+        className={`hover:text-[#bb29b9] transition-colors duration-300 border-[#001a70]  ${page == "blog" ? "border-b-[3px]" : ""}`}
       >
         <Link
           onClick={() => {
@@ -55,13 +54,26 @@ export default function NavbarMenu({ setOpen }) {
           Blog
         </Link>
       </li>
-      <li className="hover:text-[#bb29b9] transition-all duration-300">
-        <Link href={`/${locale}/online`} className="">
+      <li
+        className={`hover:text-[#bb29b9] transition-colors duration-300 border-[#001a70]  ${page == "online" ? "border-b-[3px]" : ""}`}
+      >
+        <Link
+          onClick={() => {
+            setPage("online")
+            setOpen(false)
+          }}
+          href={`/${locale}/online`}
+          className=""
+        >
           {t("item2")}
         </Link>
       </li>
       <li className="">
         <Link
+          onClick={() => {
+            setPage("")
+            setOpen(false)
+          }}
           href={`/${locale}/sedes`}
           className="w-full h-full hover:bg-[#9ee701] hover:text-[#001a70] rounded-lg px-2 py-1 transition-all duration-300   bg-[#001a70] text-white "
         >

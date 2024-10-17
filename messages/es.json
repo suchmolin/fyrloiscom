@@ -247,6 +247,27 @@
       "p":"Comunícate en inglés de forma fluida, sin inseguridades y alcanza las oportunidades que sueñas",
       "boton":"Comenzar",
       "data":"data"
+    },
+    "courses":{
+      "h1":"Un curso online ",
+      "h1Span":"adaptado a ti",
+      "p":"Aprende inglés a gusto con una metodología adaptada a tu nivel, edad, intereses y agenda.",
+      "button":"Conoce más"
+    },
+    "DifCursosOnline":{
+      "h2":"¿Sabes por qué aprender con nosotros?",
+      "p":"Diseñamos una experiencia de aprendizaje memorable, en la que te sientas motivado, a gusto y feliz con los resultados.",
+      "data":"data"
+    },
+    "OnlineCoursesList":{
+      "data":"data",
+      "h2":"Conoce nuestros cursos"
     }
+
+  },
+  "ReviewsSection":{
+    "h2":"Conoce la opinión",
+    "h2b":"de nuestros estudiantes",
+    "data":"data"
   }
 }

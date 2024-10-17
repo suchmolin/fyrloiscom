@@ -35,7 +35,7 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
         {comprar && (
           <div className="flex justify-between ">
             <a
-              href={`/${locale}/courses/${item.id}?s=${sede}`}
+              href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}` : ""}`}
               className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
             >
               Comprar

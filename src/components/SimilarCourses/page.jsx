@@ -6,11 +6,12 @@ import SingleCourse from "../SingleCourse/page"
 import { useEffect, useState } from "react"
 import { useTranslations } from "next-intl"
 
-export default function SimilarCourses() {
+export default function SimilarCourses({ online }) {
   const [dataCourse, setDataCourse] = useState([])
   const searchParams = useSearchParams()
   const sede = searchParams.get("s")
   const sedeData = data.find((item) => item.id === sede)
+  const cursosOnline = dataCourse.filter((item) => item.modalidad === "online")
   const t = useTranslations("SimilarCourses")
 
   useEffect(() => {
@@ -27,17 +28,21 @@ export default function SimilarCourses() {
 
   return (
     <div className="flex flex-wrap gap-3 justify-center">
-      {sedeData?.cursos.map((curso) => {
-        const course = dataCourse.find((item) => item.id === curso)
-        return course ? (
-          <SingleCourse
-            key={course.id}
-            item={course}
-            sede={sedeData?.id}
-            comprar={true}
-          />
-        ) : null
-      })}
+      {!online
+        ? sedeData?.cursos.map((curso) => {
+            const course = dataCourse.find((item) => item.id === curso)
+            return course ? (
+              <SingleCourse
+                key={course.id}
+                item={course}
+                sede={sedeData?.id}
+                comprar={true}
+              />
+            ) : null
+          })
+        : cursosOnline.map((item) => (
+            <SingleCourse key={item.id} item={item} comprar={true} />
+          ))}
     </div>
   )
 }

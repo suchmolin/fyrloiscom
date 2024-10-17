@@ -1,8 +1,5 @@
 "use client"
 import { useLocale, useTranslations } from "next-intl"
-
-import PresencialSelectorButton from "../PresencialSelectorButton/page"
-
 import { GoArrowRight } from "react-icons/go"
 
 export default function HeroOnline() {
@@ -24,7 +21,7 @@ export default function HeroOnline() {
         </div>
         <div className="flex flex-col sm:flex-row gap-4 w-fit">
           <a
-            href="https://fyrloisonline.vercel.app"
+            href={`/${locale}/online/courses`}
             className="pr-1 pl-4 py-1 bg-white rounded-full flex gap-3 justify-between items-center transition-all duration-300 w-fit"
           >
             {t("button2")}

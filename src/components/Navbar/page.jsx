@@ -11,6 +11,7 @@ import { useLocale } from "next-intl"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const [page, setPage] = useState()
   const locale = useLocale()
   return (
     <nav className="absolute flex flex-col-reverse md:flex-row items-start lg:items-center justify-end  xl:mr-0  w-full h-32 xl:h-40 z-10 font-[lato] pt-0">
@@ -21,7 +22,14 @@ export default function Navbar() {
         triggerOnce
         className="w-[200px] sm:w-[260px] h-[75px] sm:h-[100px] lg:w-[200px] lg:h-[77px] mt-3 lg:mt-0 xl:mt-6 absolute left-3 sm:left-3 md:left-16 xl:left-28 flex items-center mb-3 md:mb-0"
       >
-        <Link href="/" aria-label="imagen fyrlois">
+        <Link
+          onClick={() => {
+            setPage("home")
+            setOpen(false)
+          }}
+          href="/"
+          aria-label="imagen fyrlois"
+        >
           <Image src="/img/1.png" fill objectFit="cover" alt="" />
         </Link>
       </Slide>
@@ -49,7 +57,7 @@ export default function Navbar() {
         </button>
       )}
       <div className="hidden lg:block">
-        <NavbarMenu setOpen={setOpen} />
+        <NavbarMenu page={page} setPage={setPage} setOpen={setOpen} />
       </div>
       {open && <NavbarMenu setOpen={setOpen} />}
     </nav>
