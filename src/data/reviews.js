@@ -49,7 +49,8 @@ export const data = [
     img: "/img/anaisHenriquez.png",
     descripcion: "representante de estudiante.",
     opinion: [
-      "Lo que me encanta de Fyr Lois es su metodología, hacen de lo cotidiano algo divertido para aprender inglés. Cada uno de los profesores desde el nivel 1 ha sido uno mejor que el otro, de verdad que la excelencia aquí se deja ver, desde que cruzas la puerta hasta que vemos los final speech de nuestros hijos, es realmente una experiencia maravillosa, los invito a todos a formar parte de la familia Fyr Lois.",
+      "Lo que me encanta de Fyr Lois es su metodología, hacen de lo cotidiano algo divertido para aprender inglés. Cada uno de los profesores desde el nivel 1 ha sido uno mejor que el otro, de verdad que la excelencia aquí se deja ver, desde que cruzas la puerta hasta que vemos los final speech de nuestros hijos",
+      "Es realmente una experiencia maravillosa, los invito a todos a formar parte de la familia Fyr Lois.",
     ],
     modalidad: "presencial",
   },

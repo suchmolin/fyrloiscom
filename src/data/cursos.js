@@ -220,7 +220,7 @@ export const data = [
     id: "elementary-online",
     title: "Elementary Online",
     description2:
-      "Pon todas las oportunidades a su alcance. A través de un aprendizaje divertido, con el que se enamorará del idioma.",
+      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades!. A través de un aprendizaje divertido, se enamorará del idioma.",
     etapa: "6-11 años. ",
     modalidad: "online",
     img: "elementaryOnline.png",
@@ -414,7 +414,7 @@ export const data = [
     id: "elementary-espanol",
     title: "Elementary Español",
     description2:
-      "El español nunca fue tan divertido. A través de clases divertidas, tu hijo aprenderá a comunicarse en este nuevo idioma.",
+      "¡Con canciones, juegos y manualidades, el aprendizaje será una experiencia inolvidable! Con nuestro programa tu hijo adquiere las bases del español de manera sólida y divertida",
     etapa: "6-11 años. ",
     img: "elementaryEspanol.png",
     imgAlternative: "elementaryEspanolAlt.png",
