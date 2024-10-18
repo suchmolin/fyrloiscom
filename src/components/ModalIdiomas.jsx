@@ -37,8 +37,8 @@ export default function ModalIdiomas({ openModal, setOpenModal, selected }) {
               <a
                 href={
                   selected === "es"
-                    ? `/${locale}/online?lang=es`
-                    : `/${locale}/online?lang=en`
+                    ? `/${locale}/online?langCourse=spanish`
+                    : `/${locale}/online?langCourse=english`
                 }
                 className="text-center py-1 sm:py-2 px-5 bg-[#001A70] text-white rounded-md hover:bg-[#9ee701] w-11/12 transition-all duration-300"
               >
@@ -58,8 +58,8 @@ export default function ModalIdiomas({ openModal, setOpenModal, selected }) {
               <a
                 href={
                   selected === "es"
-                    ? `/${locale}/sedes?lang=es`
-                    : `/${locale}/sedes?lang=en`
+                    ? `/${locale}/sedes/kissimmee?langCourse=spanish`
+                    : `/${locale}/sedes`
                 }
                 className="text-center py-1 sm:py-2 px-5 bg-[#bb29b9] text-white rounded-md hover:bg-[#9ee701] w-11/12 transition-all duration-300"
               >
