@@ -143,4 +143,14 @@ export const data = [
     ],
     modalidad: "online",
   },
+  {
+    id: "16",
+    name: "Daniris Lopez",
+    descripcion: "representante de estudiante.",
+    img: "/img/danirisLopez.png",
+    opinion: [
+      "Tengo una opinión muy bonita, me parecen personas maravillosas, todos los profesores, la atención, el curso súper completo. Para mi particularmente amo la paciencia de todos los profesores, mis hijos que están aquí, maravilloso, les encanta venir, ellos aman Fyr Lois.",
+    ],
+    modalidad: "presencial",
+  },
 ]

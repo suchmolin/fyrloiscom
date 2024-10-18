@@ -1,10 +1,11 @@
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
 import { IoIosArrowDown } from "react-icons/io"
 
 export default function YaEsHora() {
   const t = useTranslations("online.YaEsHora")
+  const locale = useLocale()
   return (
     <>
       <div className=" w-full min-h-screen font-[lato] flex flex-col items-center justify-center pt-10 bg-gray-100">
@@ -30,7 +31,7 @@ export default function YaEsHora() {
               </p>
               <div className="w-full flex justify-center sm:justify-start mt-5">
                 <a
-                  href="#"
+                  href={`/${locale}/online/courses`}
                   className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit xxxl:text-5xl"
                 >
                   {t("button")}

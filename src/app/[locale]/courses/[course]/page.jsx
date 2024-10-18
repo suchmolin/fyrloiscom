@@ -63,7 +63,7 @@ export default function CoursePage({ params }) {
       <div className="w-full flex justify-center pt-10 pb-20 bg-[#001a70] -mt-2  md:-mt-20">
         {data.subCourse ? (
           <div className="w-full flex justify-center py-10 bg-[#001a70] -mt-2  md:-mt-20">
-            <div className="w-full h-fit flex justify-center bg-[#001a70]">
+            <div className="w-full h-fit flex justify-center bg-[#001a70] z-10">
               <DiferenciadoresList data={data.difCourses} />
             </div>
           </div>

@@ -24,7 +24,7 @@ export default function HeroAboutUs() {
             </p>
             <div className="w-full flex justify-center sm:justify-start ">
               <a
-                href="https://fyrloisonline.vercel.app"
+                href="#nuestraHistoria"
                 className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit xxxl:text-5xl"
               >
                 {t("button")}

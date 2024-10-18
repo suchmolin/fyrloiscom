@@ -28,7 +28,7 @@ export default function ReviewCard({ item }) {
               <FaStar key={i} className="text-yellow-300 text-2xl" />
             ))}
           </div>
-          <p>
+          <p className="w-full">
             <b>{item.name}, </b> {item.descripcion}
           </p>
         </div>
