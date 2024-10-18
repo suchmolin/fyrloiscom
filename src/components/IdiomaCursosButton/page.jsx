@@ -17,7 +17,7 @@ export default function IdiomaCursosButton({ setState }) {
   )
 
   return (
-    <div className=" bg-white flex items-center rounded-full py-2 sm:py-2 px-4 transition-all duration-300 text-gray-900">
+    <div className="dropShadow2 h-fit bg-white flex items-center rounded-full py-2 sm:py-2 px-4 transition-all duration-300 text-gray-900">
       <Dropdown label={labelDropDown} arrowIcon={false} inline>
         <Dropdown.Header className="w-[240px]">
           <span className="block text-sm text-[#001A70]">{t("ddTitle")}</span>

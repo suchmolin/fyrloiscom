@@ -1,7 +1,6 @@
 import { useLocale } from "next-intl"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
-import { LiaCartArrowDownSolid } from "react-icons/lia"
 
 export default function SingleCourse({
   item,
@@ -48,7 +47,7 @@ export default function SingleCourse({
         {comprar && (
           <div className="flex justify-between ">
             <a
-              href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : ""}`}
+              href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`}
               className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
             >
               Comprar

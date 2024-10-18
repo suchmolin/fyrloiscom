@@ -12,7 +12,9 @@ export default function SimilarCourses({ online }) {
   const sede = searchParams.get("s")
   const langCourse = searchParams.get("langCourse") || "english"
   const sedeData = data.find((item) => item.id === sede)
-  const cursosOnline = dataCourse.filter((item) => item.modalidad === "online")
+  const cursosOnline = dataCourse.filter(
+    (item) => item.modalidad === "online" && item.lang === langCourse
+  )
   const t = useTranslations("SimilarCourses")
 
   useEffect(() => {
