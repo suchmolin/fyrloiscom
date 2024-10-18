@@ -335,7 +335,7 @@ export const data = [
       "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
     modalidad: "online",
     img: "ciudadaniaOnline.png",
-    imgAlternative: "CiudadaniaOnlineAlt.png",
+    imgAlternative: "ciudadaniaOnlineAlt.png",
     price: 40,
     difCourses: [
       {
