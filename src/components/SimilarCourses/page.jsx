@@ -10,6 +10,7 @@ export default function SimilarCourses({ online }) {
   const [dataCourse, setDataCourse] = useState([])
   const searchParams = useSearchParams()
   const sede = searchParams.get("s")
+  const langCourse = searchParams.get("langCourse") || "english"
   const sedeData = data.find((item) => item.id === sede)
   const cursosOnline = dataCourse.filter((item) => item.modalidad === "online")
   const t = useTranslations("SimilarCourses")
@@ -30,7 +31,9 @@ export default function SimilarCourses({ online }) {
     <div className="flex flex-wrap gap-3 justify-center">
       {!online
         ? sedeData?.cursos.map((curso) => {
-            const course = dataCourse.find((item) => item.id === curso)
+            const course = dataCourse.find(
+              (item) => item.id === curso && item.lang === langCourse
+            )
             return course ? (
               <SingleCourse
                 key={course.id}

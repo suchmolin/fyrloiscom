@@ -1,7 +1,7 @@
 export const data = [
   {
     id: "1",
-    name: "Jhon Doe",
+    name: "Jose Ramon Zerpa",
     img: "/img/joseRamonZerpa.png",
     descripcion: "ex alumno y representante de estudiante.",
     opinion: [

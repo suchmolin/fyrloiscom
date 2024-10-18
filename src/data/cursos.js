@@ -9,6 +9,7 @@ export const data = [
     imgAlternative: "kidsCourseAlt.png",
     price: 200,
     inscripcion: 200,
+    lang: "english",
     modalidad: "presencial",
     difCourses: [
       {
@@ -47,6 +48,7 @@ export const data = [
     imgAlternative: "elementaryAlt.png",
     price: 200,
     inscripcion: 200,
+    lang: "english",
     modalidad: "presencial",
     difCourses: [
       {
@@ -85,6 +87,7 @@ export const data = [
     imgAlternative: "highSchoolAlt.png",
     price: 200,
     inscripcion: 200,
+    lang: "english",
     modalidad: "presencial",
     difCourses: [
       {
@@ -124,6 +127,7 @@ export const data = [
     imgAlternative: "adultsAlt.png",
     price: 200,
     inscripcion: 200,
+    lang: "english",
     modalidad: "presencial",
     subCourse: [
       {
@@ -223,6 +227,7 @@ export const data = [
     imgAlternative: "elementaryOnlineAlt.png",
     price: 200,
     inscripcion: 200,
+    lang: "english",
     difCourses: [
       {
         id: "1",
@@ -261,6 +266,7 @@ export const data = [
     imgAlternative: "highSchoolOnlineAlt.png",
     price: 200,
     inscripcion: 200,
+    lang: "english",
     difCourses: [
       {
         id: "1",
@@ -300,7 +306,7 @@ export const data = [
     imgAlternative: "adultsOnlineAlt.png",
     price: 200,
     inscripcion: 200,
-
+    lang: "english",
     difCourses: [
       {
         id: "1",
@@ -337,6 +343,164 @@ export const data = [
     img: "ciudadaniaOnline.png",
     imgAlternative: "ciudadaniaOnlineAlt.png",
     price: 40,
+    lang: "english",
+    difCourses: [
+      {
+        id: "1",
+        title: "Clases 100% en inglés",
+        src: "/img/difAdult.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "2",
+        title: "Metodología alineada al Marco Común Europeo",
+        src: "/img/difAdult2.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "3",
+        title: "Grupos reducidos",
+        src: "/img/difAdult3.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+    ],
+  },
+  {
+    id: "kids-espanol",
+    title: "Kids Español",
+    description2:
+      "El español nunca fue tan divertido. A través de clases  divertidas, tu hijo aprenderá a comunicarse en este nuevo idioma.",
+    etapa: "3-5 años. ",
+    img: "kidsEspanol.png",
+    imgAlternative: "kidsEspanolAlt.png",
+    price: 200,
+    inscripcion: 200,
+    lang: "spanish",
+    modalidad: "presencial",
+    difCourses: [
+      {
+        id: "1",
+        title: "Metodología divertida pensada para su etapa de aprendizaje",
+        src: "/img/difKids.png",
+        width: 60,
+        height: 60,
+        alt: "dif kids",
+      },
+      {
+        id: "2",
+        title: "Aprovecha la plasticidad de su cerebro para aprender el idioma",
+        src: "/img/difKids2.png",
+        width: 60,
+        height: 60,
+        alt: "dif kids",
+      },
+      {
+        id: "3",
+        title: "Logra una pronunciación más precisa desde temprana edad",
+        src: "/img/difKids3.png",
+        width: 60,
+        height: 60,
+        alt: "dif kids",
+      },
+    ],
+  },
+  {
+    id: "elementary-espanol",
+    title: "Elementary Español",
+    description2:
+      "El español nunca fue tan divertido. A través de clases divertidas, tu hijo aprenderá a comunicarse en este nuevo idioma.",
+    etapa: "6-11 años. ",
+    img: "elementaryEspanol.png",
+    imgAlternative: "elementaryEspanolAlt.png",
+    price: 200,
+    inscripcion: 200,
+    lang: "spanish",
+    modalidad: "presencial",
+    difCourses: [
+      {
+        id: "1",
+        title: "Le brinda acceso a recursos educativos globales",
+        src: "/img/difElem.png",
+        width: 60,
+        height: 60,
+        alt: "difElem",
+      },
+      {
+        id: "2",
+        title: "Mejora su rendimiento académico del colegio",
+        src: "/img/difElem2.png",
+        width: 60,
+        height: 60,
+        alt: "difElem",
+      },
+      {
+        id: "3",
+        title: "Desarrolla su capacidad para adaptarse a nuevos entorno",
+        src: "/img/difElem3.png",
+        width: 60,
+        height: 60,
+        alt: "difElem",
+      },
+    ],
+  },
+  {
+    id: "high-school-espanol",
+    title: "High School Español",
+    description2:
+      "Mediante conversaciones reales, actividades culturales y mucha diversión, tu hijo desarrolla todas las habilidades necesarias para comunicarse con fluidez y confianza.",
+    etapa: "12-16 años. ",
+    img: "highSchoolEspanol.png",
+    imgAlternative: "highSchoolEspanolAlt.png",
+    price: 200,
+    inscripcion: 200,
+    lang: "spanish",
+    modalidad: "presencial",
+    difCourses: [
+      {
+        id: "1",
+        title: "Preparación para pruebas académicas: TOEFL y EILTS",
+        src: "/img/difHS.png",
+        width: 60,
+        height: 60,
+        alt: "difHS",
+      },
+      {
+        id: "2",
+        title: "Metodología práctica y estimulante para su edad",
+        src: "/img/difHS2.png",
+        width: 60,
+        height: 60,
+        alt: "difHS",
+      },
+      {
+        id: "3",
+        title:
+          "Potencia sus oportunidades de becas y estudios en el extranjero",
+        src: "/img/difHS3.png",
+        width: 60,
+        height: 60,
+        alt: "difHS",
+      },
+    ],
+  },
+  {
+    id: "adults-espanol",
+    title: "Adults Español",
+    description2:
+      "Aprende español de forma natural y divertida, mediante clases prácticas y dinámicas que te ayudarán a mejorar tu fluidez en el idioma.",
+    etapa: "+17 años. ",
+    img: "adultsEspanol.png",
+    imgAlternative: "adultsEspanolAlt.png",
+    price: 200,
+    inscripcion: 200,
+    lang: "spanish",
+    modalidad: "presencial",
     difCourses: [
       {
         id: "1",

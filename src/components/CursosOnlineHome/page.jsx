@@ -4,9 +4,13 @@ import { useLocale, useTranslations } from "next-intl"
 import SingleCourse from "../SingleCourse/page"
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import { useSearchParams } from "next/navigation"
 
 export default function CursosOnlineHome() {
+  const searchParams = useSearchParams()
+  const langCourse = searchParams.get("langCourse")
   const [data, setData] = useState([])
+  const [idioma, setIdioma] = useState(langCourse || "english")
   const t = useTranslations("online.CursosOnlineHome")
   const locale = useLocale()
 

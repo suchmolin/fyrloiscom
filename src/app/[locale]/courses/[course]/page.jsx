@@ -68,7 +68,7 @@ export default function CoursePage({ params }) {
             </div>
           </div>
         ) : (
-          <div className="w-10/12 flex flex-col gap-2 -mt-32">
+          <div className="w-10/12 flex flex-col gap-2 -mt-32 z-10">
             <h2 className="text-3xl font bold text-white pb-2 text-center font-bold mb-5">
               {t("h2c")}
             </h2>

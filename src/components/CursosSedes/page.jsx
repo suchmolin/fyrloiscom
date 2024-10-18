@@ -3,11 +3,18 @@
 import { useTranslations } from "next-intl"
 import SingleCourse from "../SingleCourse/page"
 import { useState, useEffect } from "react"
+import IdiomaCursosButton from "../IdiomaCursosButton/page"
+import { useSearchParams } from "next/navigation"
 
 export default function CursosSedes({ sedeData }) {
+  const searchParams = useSearchParams()
+  const langCourse = searchParams.get("langCourse")
   const [data, setData] = useState([])
+  const [idioma, setIdioma] = useState(langCourse || "english")
   const t = useTranslations("CursosSedes")
-  const dataCursos = data.filter((item) => sedeData.cursos.includes(item.id))
+  const dataCursos = data.filter(
+    (item) => sedeData.cursos.includes(item.id) && item.lang === idioma
+  )
 
   useEffect(() => {
     const fetchData = async () => {
@@ -23,11 +30,18 @@ export default function CursosSedes({ sedeData }) {
 
   return (
     <div className="w-full flex flex-col items-center justify-center text-white bg-[#001a70] -mt-2 md:-mt-48 pb-20">
-      <h2 className="text-center text-3xl font-bold">
-        {t("h2")}
-        {sedeData.title}
-      </h2>
-      <p className="text-center mb-10 text-xl">{t("p")}</p>
+      <div className="flex gap-10 justify-center items-center mb-10 ">
+        <div className="flex flex-col justify-center">
+          <h2 className="text-center text-3xl font-bold">
+            {t("h2")}
+            {sedeData.title}
+          </h2>
+          <p className="text-center text-xl">{t("p")}</p>
+        </div>
+        {sedeData.language.length > 1 && (
+          <IdiomaCursosButton setState={setIdioma} />
+        )}
+      </div>
       <div className="w-11/12 flex gap-4 justify-center flex-wrap ">
         {dataCursos.map((item) => (
           <SingleCourse
@@ -35,6 +49,7 @@ export default function CursosSedes({ sedeData }) {
             item={item}
             sede={sedeData.id}
             comprar={true}
+            lang={langCourse}
           />
         ))}
       </div>

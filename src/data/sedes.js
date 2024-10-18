@@ -9,7 +9,16 @@ export const data = [
     direccionhref: "#",
     language: ["en", "es"],
     telefono: "+1 (305) 5105259",
-    cursos: ["kids", "elementary", "high-school", "adults"],
+    cursos: [
+      "kids",
+      "elementary",
+      "high-school",
+      "adults",
+      "kids-espanol",
+      "elementary-espanol",
+      "high-school-espanol",
+      "adults-espanol",
+    ],
     email: "info@fyrlois.com",
     social: {
       facebook: {

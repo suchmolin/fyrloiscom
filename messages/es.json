@@ -276,5 +276,11 @@
     "h2":"Conoce la opinión",
     "h2b":"de nuestros estudiantes",
     "data":"data"
+  },
+  "IdiomaCursosButton":{
+    "button":"Elige el Idioma",
+    "ddTitle":"Elige el Idioma a estudiar",
+    "ddItem1":"Inglés",
+    "ddItem2":"Español"
   }
 }
