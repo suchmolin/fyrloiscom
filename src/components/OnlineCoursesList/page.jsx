@@ -29,12 +29,14 @@ export default function OnlineCoursesList() {
   )
 
   return (
-    <div className="w-full flex flex-col items-center justify-center pb-20 -mt-32">
-      <div className="flex gap-10">
-        <h2 className="text-center text-3xl sm:text-4xl font-bold text-[#001a70] mb-10">
+    <div className="w-full flex flex-col items-center justify-center pb-20 md:-mt-32 bg-white">
+      <div className="flex flex-col md:flex-row gap-10 items-center">
+        <h2 className="text-center text-3xl sm:text-4xl font-bold text-[#001a70] mb-3 md:mb-10">
           {t("h2")}
         </h2>
-        <IdiomaCursosButton setState={setIdioma} />
+        <div className="w-fit mb-7">
+          <IdiomaCursosButton setState={setIdioma} />
+        </div>
       </div>
       <div className="w-11/12 flex gap-4 justify-center flex-wrap ">
         {CursosOnline.map((item) => (

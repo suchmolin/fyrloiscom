@@ -10,7 +10,7 @@ export default function HeroSede({ sedeData }) {
   return (
     <>
       <div className="w-full relative sm:mt-32 pb-10 flex justify-center">
-        <div className="w-8/12 flex flex-col-reverse lg:flex-row relative md:-mt-10 items-center justify-center bg-white gap-10">
+        <div className="w-11/12 sm:w-8/12 flex flex-col lg:flex-row relative md:-mt-10 items-center justify-center bg-white gap-10">
           <div className="relative w-[250px] sm:w-[400px] aspect-square -mt-10">
             <Image
               src={sedeData.src}
@@ -19,7 +19,7 @@ export default function HeroSede({ sedeData }) {
               alt="Sede Principal"
             />
           </div>
-          <div className="w-7/12 flex flex-col justify-center text-white text-lg lg:-mt-20 px-5 sm:px-0 text-center sm:text-start items-center sm:items-start">
+          <div className="w-full lg:w-7/12 flex flex-col justify-center text-white text-lg lg:-mt-20 px-5 sm:px-0 text-center sm:text-start items-center sm:items-start">
             <h2 className="text-4xl text-[#001A70] font-bold mb-3">
               Sede {sedeData.title}
             </h2>

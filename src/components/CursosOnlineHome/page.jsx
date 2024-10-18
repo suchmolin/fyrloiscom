@@ -33,16 +33,18 @@ export default function CursosOnlineHome() {
 
   return (
     <div className="w-full flex flex-col items-center justify-center py-20">
-      <div className=" flex justify-between">
-        <div className="w-5/12 flex flex-col">
-          <h2 className="text-start text-3xl sm:text-4xl font-bold text-[#001a70] mb-3">
+      <div className="w-11/12 flex flex-col sm:flex-row justify-between items-center sm:items-start mb-7">
+        <div className="w-11/12 sm:w-8/12 md:w-7/12 lg:w-5/12 flex flex-col">
+          <h2 className="text-center sm:text-start text-3xl sm:text-4xl font-bold text-[#001a70] mb-3">
             {t("h2")}
           </h2>
-          <p className="text-start mb-10 text-lg sm:text-xl text-gray-600">
+          <p className="text-center sm:text-start text-lg sm:text-xl text-gray-600 mb-2">
             {t("p")}
           </p>
         </div>
-        <IdiomaCursosButton setState={setIdioma} />
+        <div className="w-fit">
+          <IdiomaCursosButton setState={setIdioma} />
+        </div>
       </div>
       <div className="w-11/12 flex gap-4 justify-center flex-wrap ">
         {CursosOnline.map((item) => (

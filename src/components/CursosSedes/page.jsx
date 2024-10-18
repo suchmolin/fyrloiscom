@@ -30,7 +30,7 @@ export default function CursosSedes({ sedeData }) {
 
   return (
     <div className="w-full flex flex-col items-center justify-center text-white bg-[#001a70] -mt-2 md:-mt-48 pb-20">
-      <div className="flex gap-10 justify-center items-center mb-10 ">
+      <div className="flex flex-col md:flex-row gap-10 justify-center items-center mb-10 ">
         <div className="flex flex-col justify-center">
           <h2 className="text-center text-3xl font-bold">
             {t("h2")}
