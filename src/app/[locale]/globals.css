@@ -226,3 +226,5 @@ textarea {
   }
 
 }
+#zIndex{
+  z-index: 100 !important;}

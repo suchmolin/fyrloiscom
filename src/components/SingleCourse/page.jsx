@@ -1,20 +1,17 @@
+import addCart from "@/addcart"
+import { OpenModalContext } from "@/context/openModal"
 import { useLocale } from "next-intl"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
+import { useContext } from "react"
 
-export default function SingleCourse({
-  item,
-  comprar,
-  sede,
-  shrink,
-  sombra,
-  lang,
-}) {
+export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
   const locale = useLocale()
+  const { setIsOpen, setCartInfo, setCantCart } = useContext(OpenModalContext)
   return (
     <div
       key={item.id}
-      className={`${sombra ? "dropShadow3" : ""} relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3 ${shrink ? "flex-shrink-0" : ""}`}
+      className={`${sombra ? "dropShadow3" : ""} relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3 z-0 ${shrink ? "flex-shrink-0" : ""}`}
     >
       <div className="flex justify-between">
         <h4 className="text-[#001A70] font-bold">{item.title}</h4>
@@ -47,15 +44,24 @@ export default function SingleCourse({
         {comprar && (
           <div className="flex justify-between ">
             <a
-              href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`}
+              href={
+                item.isSubCourse
+                  ? "TODO"
+                  : `/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`
+              }
               className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
             >
-              Comprar
+              {item.isSubCourse ? "Comprar" : "Ver más"}
               <span className="p-2 rounded-full bg-[#9ee701]">
                 <GoArrowRight className="text-gray-800" />
               </span>
             </a>
-            <button className="dropShadow3 px-2 bg-[#9ee701] rounded-full overflow-hidden text-2xl text-black flex items-center justify-center">
+            <button
+              onClick={() =>
+                addCart(item.id, setIsOpen, setCartInfo, setCantCart)
+              }
+              className="dropShadow3 px-2 bg-[#9ee701] rounded-full overflow-hidden text-2xl text-black flex items-center justify-center"
+            >
               <div className="w-[25px] aspect-square relative -ml-[1px] mt-[1px]">
                 <Image
                   src="/img/cartplus.png"
