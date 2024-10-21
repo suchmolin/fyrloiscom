@@ -1,15 +1,18 @@
 import { data } from "@/data/cursos"
 
 const addCart = async (id, setIsOpen, setCartInfo, setCantCart) => {
-  const current = data.find((item) => {
+  let current
+  data.forEach((item) => {
     if (item.id === id) {
-      return item
+      current = item
     } else {
       if (item.subCourse?.some((sub) => sub.id === id)) {
-        return item.subCourse.find((sub) => sub.id === id)
+        current = item.subCourse.find((sub) => sub.id === id)
       }
     }
   })
+  console.log(current)
+
   let cartInfo = await JSON.parse(localStorage.getItem("cartInfo"))
 
   if (cartInfo) {
