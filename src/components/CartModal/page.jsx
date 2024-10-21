@@ -78,7 +78,7 @@ export default function CartModal() {
                 }
               }
             })
-            console.log(curso)
+
             return (
               <div
                 key={i}

@@ -8,7 +8,16 @@ export async function POST(req, res) {
   const data = await req.json()
 
   const items = data.map((item) => {
-    const curso = cursosInfo.find((curso) => curso.id === item.id)
+    let curso
+    cursosInfo.forEach((cur) => {
+      if (cur.id === item.id) {
+        curso = cur
+      } else {
+        if (cur.subCourse?.some((sub) => sub.id === item.id)) {
+          curso = cur.subCourse.find((sub) => sub.id === item.id)
+        }
+      }
+    })
     return {
       price_data: {
         currency: "usd",

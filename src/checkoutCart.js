@@ -5,12 +5,14 @@ export async function handleCheckout(data) {
     headers: {
       "Content-Type": "application/json",
     },
-  });
-  if (resp) {
-    const response = await resp.json();
+  })
+  console.log(data)
 
-    window.location.href = response.data.url;
+  if (resp) {
+    const response = await resp.json()
+
+    window.location.href = response.data.url
   } else {
-    console.log("Error al enviar los datos");
+    console.log("Error al enviar los datos")
   }
 }
