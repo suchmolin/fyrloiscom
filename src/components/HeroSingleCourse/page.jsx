@@ -1,10 +1,14 @@
 import Image from "next/image"
 
 import { Spinner } from "flowbite-react"
-import { LiaCartArrowDownSolid } from "react-icons/lia"
 import { GoArrowRight } from "react-icons/go"
+import { useContext } from "react"
+import { OpenModalContext } from "@/context/openModal"
+import addCart from "@/addcart"
+import { handleCheckout } from "@/checkoutCart"
 
 export default function HeroSingleCourse({ courseData }) {
+  const { setIsOpen, setCartInfo, setCantCart } = useContext(OpenModalContext)
   return courseData ? (
     <div className="w-full pt-32 pb-20 flex justify-center">
       <div className="w-10/12 flex flex-col-reverse md:flex-row gap-5 md:gap-20 justify-center items-center">
@@ -36,16 +40,26 @@ export default function HeroSingleCourse({ courseData }) {
             {courseData.description2}
           </p>
           <div className="flex gap-4">
-            <a
-              href="#"
-              className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
+            <button
+              onClick={(e) => {
+                e.target.disabled = true
+                handleCheckout([
+                  { id: courseData.id, cantidad: 1, precio: courseData.price },
+                ])
+              }}
+              className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black disabled:opacity-50 disabled:cursor-wait"
             >
               Comprar
               <span className="p-2 rounded-full bg-[#9ee701]">
                 <GoArrowRight className="text-gray-800" />
               </span>
-            </a>
-            <button className="dropShadow3 p-2 bg-[#9ee701] rounded-full overflow-hidden text-2xl text-black">
+            </button>
+            <button
+              onClick={() =>
+                addCart(courseData.id, setIsOpen, setCartInfo, setCantCart)
+              }
+              className="dropShadow3 p-2 bg-[#9ee701] rounded-full overflow-hidden text-2xl text-black"
+            >
               <div className="w-[25px] aspect-square relative -ml-[1px] mt-[1px]">
                 <Image
                   src="/img/cartplus.png"
