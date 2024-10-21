@@ -3,6 +3,8 @@ import { useTranslations, useLocale } from "next-intl"
 import IdiomasSelector from "../IdiomasSelector/page"
 import Link from "next/link"
 import { useState } from "react"
+import CursosSelector from "../CursosSelector/page"
+import { MdOutlineShoppingCart } from "react-icons/md"
 
 export default function NavbarMenu({ setOpen, setPage, page }) {
   const t = useTranslations("navbarMenu")
@@ -54,32 +56,11 @@ export default function NavbarMenu({ setOpen, setPage, page }) {
           Blog
         </Link>
       </li>
-      <li
-        className={`hover:text-[#bb29b9] transition-colors duration-300 border-[#001a70]  ${page == "online" ? "border-b-[3px]" : ""}`}
-      >
-        <Link
-          onClick={() => {
-            setPage("online")
-            setOpen(false)
-          }}
-          href={`/${locale}/online`}
-          className=""
-        >
-          {t("item2")}
-        </Link>
+      <li className="hover:text-[#bb29b9] transition-all duration-300 ">
+        <CursosSelector setOpen={setOpen} />
       </li>
-      <li className="">
-        <Link
-          onClick={() => {
-            setPage("")
-            setOpen(false)
-          }}
-          href={`/${locale}/sedes`}
-          className="w-full h-full hover:bg-[#9ee701] hover:text-[#001a70] rounded-lg px-2 py-1 transition-all duration-300   bg-[#001a70] text-white "
-        >
-          Cursos
-        </Link>
-        {/*<PresencialSelector setOpen={setOpen} />*/}
+      <li className="p-2 rounded-full flex items-center justify-center bg-[#9ee701] cursor-pointer hover:shadow-lg">
+        <MdOutlineShoppingCart className="text-2xl" />
       </li>
     </ul>
   )
