@@ -40,7 +40,7 @@ export default function LlevaTuProyecto() {
             </p>
             <a
               href={`/${locale}/online/courses`}
-              className="pr-1 pl-4 py-1 bg-white rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit mt-5 z-10"
+              className="pr-1 pl-4 py-1 bg-white rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit mt-5 z-0"
             >
               {t("boton")}
               <span className="p-2 rounded-full bg-[#9ee701]">

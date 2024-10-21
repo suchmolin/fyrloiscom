@@ -7,7 +7,7 @@ export const data = [
   {
     id: "2",
     ask: "¿Cuándo fue fundada la academia?",
-    ans: "Fyr Lois se fundó el 11 de enero del 1998, tenemos más de 25 años de experiencia en la enseñanza de idiomas.",
+    ans: "Fyr Lois se fundó el 11 de enero del 1999, tenemos más de 25 años de experiencia en la enseñanza de idiomas.",
   },
   {
     id: "3",

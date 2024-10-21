@@ -14,7 +14,7 @@ export default function Navbar() {
   const [page, setPage] = useState()
   const locale = useLocale()
   return (
-    <nav className="absolute flex flex-col-reverse md:flex-row items-start lg:items-center justify-end  xl:mr-0  w-full h-32 xl:h-40 z-10 font-[lato] pt-0">
+    <nav className="absolute flex flex-col-reverse md:flex-row items-start lg:items-center justify-end  xl:mr-0  w-full h-32 xl:h-40 z-20 font-[lato] pt-0">
       <div className="hidden lg:block">
         <LanguageSelector locale={locale} />
       </div>

@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar/page"
 import Footer from "@/components/Footer/page"
 import "./globals.css"
 import WhatsappButton from "@/components/WhatsappButton/page"
+import { OpenModalProvider } from "@/context/openModal"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -20,10 +21,12 @@ export default async function RootLayout({ children, params: { locale } }) {
     <html lang={locale}>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
-          {children}
-          <WhatsappButton />
-          <Footer />
+          <OpenModalProvider>
+            <Navbar />
+            {children}
+            <WhatsappButton />
+            <Footer />
+          </OpenModalProvider>
         </NextIntlClientProvider>
       </body>
     </html>
