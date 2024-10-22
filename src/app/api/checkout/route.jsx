@@ -33,7 +33,7 @@ export async function POST(req, res) {
     }
   })
   const session = await stripe.checkout.sessions.create({
-    success_url: "https://fyrloiscom.vercel.app/checkout-success", //CAMBIO EN PRODUCCION
+    success_url: "https://fyrloiscom.vercel.app/es/checkout-success", //CAMBIO EN PRODUCCION
     line_items: items,
     metadata: { data: JSON.stringify(data), date: Date.now() },
     mode: "payment",

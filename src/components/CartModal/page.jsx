@@ -136,17 +136,23 @@ export default function CartModal() {
               </Button>
             </div>
           ) : (
-            <>
+            <div className="flex flex-col">
               <p className="text-[#000b7a] text-lg font-bold p-2">
                 Your cart is empty
               </p>
               <Link
                 href={`/${locale}/online/courses`}
-                className="w-full bg-[#ffa101] hover:bg-[#000b7a] text-white py-2 px-5 rounded-md mt-3"
+                className="w-full bg-[#ffa101] hover:bg-[#000b7a] text-white py-2 px-5 rounded-md mt-3 mb-3 transition-all duration-300 text-center"
               >
-                Nuestros Cursos
+                Cursos Online
               </Link>
-            </>
+              <Link
+                href={`/${locale}/sedes`}
+                className="w-full bg-[#ffa101] hover:bg-[#000b7a] text-white py-2 px-5 rounded-md mt-3 transition-all duration-300 text-center"
+              >
+                Cursos Presencial
+              </Link>
+            </div>
           )}
         </Drawer.Items>
       </Drawer>

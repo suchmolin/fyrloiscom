@@ -1,10 +1,19 @@
+"use client"
 import Image from "next/image"
 import { data } from "@/data/sedes"
 import { useTranslations } from "next-intl"
 import MasInfoContactUs from "@/components/MasInfoContactUs/page"
+import { useContext } from "react"
+import { OpenModalContext } from "@/context/openModal"
 
 export default function CheckoutSuccessPage() {
   const t = useTranslations("MasInfoContactUs")
+  const { setCantCart, setCartInfo } = useContext(OpenModalContext)
+  useEffect(() => {
+    setCantCart(0)
+    setCartInfo([])
+    localStorage.removeItem("cartInfo")
+  }, [])
   return (
     <>
       <div className="w-full flex flex-col items-center pt-48 pb-20">
