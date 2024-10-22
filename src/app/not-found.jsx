@@ -1,5 +1,10 @@
 "use client"
+
+import { useEffect } from "react"
+
 export default function Page() {
-  window.location.replace("/es/not-found")
+  useEffect(() => {
+    window.location.replace("/es/not-found")
+  }, [])
   return true
 }
