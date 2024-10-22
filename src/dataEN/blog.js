@@ -128,7 +128,6 @@ export const data = [
           "Ejemplo: Christmas is on December, 25th.",
           "Si estás interesado en saber más del tema, te recomendamos investigar más en internet, en buscadores como Google puedes encontrar buena información en inglés, que te ayudará.",
           "La mejor manera de aprender inglés es en inglés, porque así lo haces de forma natural, sin tener que traducir las palabras o frases.",
-          "Si te interesa dominar el idioma de esta forma, también puedes lograrlo con nosotros, a través de nuestros cursos (con link a la página de cursos) aprenderás no solo a decir palabras, sino a escribirlas, comprenderlas: porque vas a escuchar, leer, repetir y te daremos ejemplos claros con los que podrás identificarte y ponerlos en práctica.",
         ],
       },
     ],

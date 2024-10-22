@@ -5,8 +5,9 @@ import { useEffect, useState } from "react"
 import { Spinner } from "flowbite-react"
 import { GoArrowRight } from "react-icons/go"
 
-export default function BlogUltimosArticulos() {
+export default function BlogUltimosArticulos({ full }) {
   const [data, setData] = useState([])
+  const [blogs, setBlogs] = useState([])
   const t = useTranslations("Diferenciadores")
   const locale = useLocale()
 
@@ -22,10 +23,14 @@ export default function BlogUltimosArticulos() {
     fetchData()
   }, [t])
 
+  useEffect(() => {
+    const blogs = full ? data : data.slice(0, 3)
+    setBlogs(blogs)
+  }, [data])
   return (
     <div className="w-full justify-center flex flex-wrap gap-10">
       {data.length !== 0 ? (
-        data.slice(0, 3).map((item) => {
+        blogs.map((item) => {
           return (
             <div
               key={item.id}

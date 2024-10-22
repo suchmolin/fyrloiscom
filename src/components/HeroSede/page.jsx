@@ -24,8 +24,8 @@ export default function HeroSede({ sedeData }) {
               Sede {sedeData.title}
             </h2>
 
-            <p className="text-sm sm:text-2xl text-[#001A70] flex gap-2 py-2 items-center ">
-              <span className="text-[#001A70] font-bold">
+            <p className="text-sm sm:text-2xl text-[#001A70] flex gap-2 py-2 items-start">
+              <span className="text-[#001A70] font-bold pt-1">
                 <FiMapPin />
               </span>{" "}
               {sedeData.direccion}
