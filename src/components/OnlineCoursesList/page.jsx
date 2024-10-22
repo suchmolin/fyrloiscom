@@ -29,7 +29,7 @@ export default function OnlineCoursesList() {
   )
 
   return (
-    <div className="w-full flex flex-col items-center justify-center pb-20 md:-mt-32 bg-white">
+    <div className="w-full flex flex-col items-center justify-center pb-20 md:-mt-48 bg-white">
       <div className="flex flex-col md:flex-row gap-10 items-center">
         <h2 className="text-center text-3xl sm:text-4xl font-bold text-[#001a70] mb-3 md:mb-10">
           {t("h2")}

@@ -29,14 +29,14 @@ export default function CursosSedes({ sedeData }) {
   }, [t])
 
   return (
-    <div className="w-full flex flex-col items-center justify-center text-white bg-[#001a70] -mt-2 md:-mt-48 pb-20">
+    <div className="w-full flex flex-col items-center justify-center text-white bg-[#001a70] -mt-2 md:-mt-56 pb-20">
       <div className="flex flex-col md:flex-row gap-10 justify-center items-center mb-10 ">
         <div className="flex flex-col justify-center">
-          <h2 className="text-center text-3xl font-bold">
+          <h2 className="text-center text-5xl font-bold">
             {t("h2")}
             {sedeData.title}
           </h2>
-          <p className="text-center text-xl">{t("p")}</p>
+          <p className="text-center text-2xl">{t("p")}</p>
         </div>
         {sedeData.language.length > 1 && (
           <IdiomaCursosButton setState={setIdioma} />

@@ -8,11 +8,18 @@ import { GrMenu } from "react-icons/gr"
 import Link from "next/link"
 import { useState } from "react"
 import { useLocale } from "next-intl"
+import CartModal from "../CartModal/page"
+import { useContext } from "react"
+import { OpenModalContext } from "@/context/openModal"
+import CartButtonPage from "../CartButton/page"
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
   const [page, setPage] = useState()
   const locale = useLocale()
+  const { isOpen, setIsOpen, cantCart, setCantCart } =
+    useContext(OpenModalContext)
+
   return (
     <nav className="absolute flex flex-col-reverse md:flex-row items-start lg:items-center justify-end  xl:mr-0  w-full h-32 xl:h-40 z-20 font-[lato] pt-0">
       <div className="hidden lg:block">
@@ -48,18 +55,28 @@ export default function Navbar() {
         </>
       )}
       {!open && (
-        <button
-          aria-label="menu"
-          onClick={() => setOpen(true)}
-          className="absolute block lg:hidden top-7 right-7 text-gray-700 text-lg p-2 rounded-full z-50 bg-white shadow-md"
-        >
-          <GrMenu />
-        </button>
+        <>
+          <button
+            aria-label="menu"
+            onClick={() => setOpen(true)}
+            className="absolute block lg:hidden top-7 right-7 text-gray-700 text-lg p-2 rounded-full z-50 bg-white shadow-md"
+          >
+            <GrMenu />
+          </button>
+          <div className="absolute block lg:hidden top-[70px] xs:top-7 right-6 xs:right-20">
+            <CartButtonPage
+              cantCart={cantCart}
+              setIsOpen={setIsOpen}
+              isOpen={isOpen}
+            />
+          </div>
+        </>
       )}
       <div className="hidden lg:block">
         <NavbarMenu page={page} setPage={setPage} setOpen={setOpen} />
       </div>
       {open && <NavbarMenu setOpen={setOpen} />}
+      <CartModal />
     </nav>
   )
 }

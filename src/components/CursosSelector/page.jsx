@@ -6,7 +6,7 @@ export default function CursosSelector({ setOpen }) {
   const t = useTranslations("CursosSelector")
   const locale = useLocale()
   return (
-    <div className="py-1 px-3 rounded-lg bg-[#001a70] text-white">
+    <div className="py-1 px-3 rounded-lg bg-[#001a70] text-white w-fit">
       <Dropdown label={t("dropDown")} inline>
         <Link onClick={() => setOpen(false)} href={`/${locale}/online`}>
           <Dropdown.Item className="flex gap-2 mr-4">

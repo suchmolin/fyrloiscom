@@ -11,7 +11,18 @@ export default function NuestraHistoriaPage() {
     >
       <div id="nuestraHistoria" className="w-9/12 pt-20 border-gray-300 ">
         <h2 className="text-[#001A70] text-4xl font-bold pb-5">{t("h2")}</h2>
-        <p className=" text-2xl pb-5 font-bold">{t("p")}</p>
+
+        <div className="w-full flex flex-col md:flex-row gap-5 items-center mb-10">
+          <div className="relative w-[150px] sm:w-[250px] aspect-square">
+            <Image
+              src="/img/25aniversaryAlt.png"
+              objectFit="contain"
+              layout="fill"
+              alt="nuestra historia"
+            />
+          </div>
+          <p className="w-fit text-gray-500 sm:text-2xl">{t("p")}</p>
+        </div>
         <div className="w-full flex flex-col md:flex-row gap-5 items-center mb-10">
           <div className="relative w-[150px] sm:w-[250px] aspect-square">
             <Image

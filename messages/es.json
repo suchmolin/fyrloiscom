@@ -17,16 +17,16 @@
     "h1": "Aprende una nueva",
     "h1a": "Aprende",
     "h1a2": "una nueva",
-    "h1b": "manera de comunicarte",
+    "h1b": "manera de comunicarte.",
     
-    "h2": "Cursos de idiomas para niños, jóvenes y adultos",
+    "h2": "Cursos de idiomas para niños, jóvenes y adultos.",
     
     "button1": "Presencial",
     "button2": "En Línea"
   },
   "Diferenciadores":{
     "h2": "¿Por qué elegirnos?",
-    "p":"Diseñamos una metodología única que brinda una experiencia completa de aprendizaje del idioma al estudiante, como una herramienta para lograr su proyecto de vida",
+    "p":"Creamos una metodología única que te brinda una experiencia innovadora en el aprendizaje del idioma.",
     "data":"data"
   },
   "SedePrincipal":{
@@ -35,7 +35,7 @@
   },
   "Customers":{
     "h2":"Nuestros Clientes",
-    "p":"Con más de 20 años impulsando el crecimiento de las empresas"
+    "p":"Más de 20 años impulsando el crecimiento de las empresas"
   },
   "FAQSection":{
     "h2":"FAQ",
@@ -66,9 +66,9 @@
   "AboutUs":{
     "HeroAboutUs":{
       "h1":"25 años ",
-      "h1Span":"enseñando inglés",
+      "h1Span":"enseñando inglés.",
       "p":"Te ayudamos a alcanzar tus sueños.",
-      "p2":"Genera más y mejores oportunidades de crecimiento personal y profesional",
+      "p2":"Genera más y mejores oportunidades de crecimiento personal y profesional.",
       "button":"Conoce más",
       "counter":{
         "p":"Egresados",
@@ -129,7 +129,8 @@
   },
   "sedes":{
     "h1":"Nuestras Sedes",
-    "p":"Seleciona la sede donde deseas estudiar",
+    "p":"Seleciona la sede donde",
+    "p2":"quieres estudiar",
     "SedesList":{
       "aCards":"Visitar"
     }
@@ -207,11 +208,11 @@
   },
   "online":{
     "hero":{
-      "h1": "Habla inglés como",
+      "h1": "Estudia el idioma que",
       "h1b": "siempre has querido",
       
-      "h1a": "Habla inglés",
-      "h1a2": "como siempre",
+      "h1a": "Estudia el idioma",
+      "h1a2": "que siempre",
       "h1b2": "has querido",
       
       "h2": "Diviértete aprendiendo el idioma y",
@@ -264,9 +265,9 @@
       "h2":"Conoce nuestros cursos"
     },
     "SiguesTeniendoDudas":{
-      "h3":"¿Sigues teniendo dudas?",
-      "h3b":"Estamos aquí para ti",
-      "p":"No te preocupes, estamos a tu disposición para ayudarte a solventar cualquier incógnita que tengas con respecto a los cursos y tu proceso de inscripción",
+      "h3":"¿Sigues teniendo dudas sobre",
+      "h3b":"nuestros cursos de idiomas?",
+      "p":"Estamos aquí para ayudarte a solventar cualquier incógnita que tengas y ayudarte a completar tu proceso de inscripción",
       "boton":"Contáctanos",
       "data":"data"
     }

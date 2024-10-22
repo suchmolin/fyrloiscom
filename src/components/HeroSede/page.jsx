@@ -9,7 +9,7 @@ export default function HeroSede({ sedeData }) {
 
   return (
     <>
-      <div className="w-full relative sm:mt-32 pb-10 flex justify-center">
+      <div className="w-full relative sm:mt-32 flex justify-center">
         <div className="w-11/12 sm:w-8/12 flex flex-col lg:flex-row relative md:-mt-10 items-center justify-center bg-white gap-10">
           <div className="relative w-[250px] sm:w-[400px] aspect-square -mt-10">
             <Image
