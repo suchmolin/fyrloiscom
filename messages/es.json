@@ -61,7 +61,7 @@
       "button":"Enviar"
     },
     "h2":"Visítanos",
-    "h2b":"Escríbenos"
+    "h2b":"Suscribete"
   },
   "AboutUs":{
     "HeroAboutUs":{
@@ -96,6 +96,18 @@
       "fullname":"Nombre y Apellido",
       "email":"Email",
       "tellphone":"Numero Telefónico",
+      "sedesList":{
+        "title":"¿En que sede te gustaria estudiar?",
+        "opt1":"Seleccione",
+        "opt2":"Online",
+        "opt3":"Kissimmee",
+        "opt4":"Caracas (CCCT)",
+        "opt5":"Caracas (UCAB)",
+        "opt6":"Caracas (Prados del Este)",
+        "opt7":"Puerto Ordaz",
+        "opt8":"Maturín",
+        "opt9":"Barquisimeto"
+      },
       "porqueAprender":{
         "title":"¿Por qué motivo quieres aprender inglés?",
         "opt1":"Seleccione",

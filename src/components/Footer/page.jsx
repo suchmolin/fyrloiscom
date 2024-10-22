@@ -9,7 +9,7 @@ export default function Footer() {
   const locale = useLocale()
   return (
     <div className="relative dropShadow3 bg-gradient-to-b from-white to-gray-200 w-full ">
-      <div className=" w-full min-h-[450px] flex justify-center py-10">
+      <div className=" w-full min-h-[350px] flex justify-center py-10">
         <div className="w-11/12 lg:w-10/12 flex flex-col lg:flex-row gap-10 justify-between">
           <div className="flex flex-col sm:flex-row w-full lg:w-7/12 justify-between">
             <div className="flex flex-col items-center sm:items-start text-[#001A70] mb-10 sm:mb-0">
