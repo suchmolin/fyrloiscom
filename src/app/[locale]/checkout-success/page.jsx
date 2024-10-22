@@ -5,10 +5,12 @@ import { useTranslations } from "next-intl"
 import MasInfoContactUs from "@/components/MasInfoContactUs/page"
 import { useContext } from "react"
 import { OpenModalContext } from "@/context/openModal"
+import { useEffect } from "react"
 
 export default function CheckoutSuccessPage() {
   const t = useTranslations("MasInfoContactUs")
   const { setCantCart, setCartInfo } = useContext(OpenModalContext)
+
   useEffect(() => {
     setCantCart(0)
     setCartInfo([])
