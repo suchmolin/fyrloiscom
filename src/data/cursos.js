@@ -42,7 +42,7 @@ export const data = [
     id: "elementary",
     title: "Elementary",
     description2:
-      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades!. A través de un aprendizaje divertido, se enamorará del idioma.",
+      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del idioma.",
     etapa: "6-11 años. ",
     img: "elementaryCourse.png",
     imgAlternative: "elementaryAlt.png",
@@ -226,7 +226,7 @@ export const data = [
     id: "elementary-online",
     title: "Elementary Online",
     description2:
-      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades!. A través de un aprendizaje divertido, se enamorará del idioma.",
+      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del idioma.",
     etapa: "6-11 años. ",
     modalidad: "online",
     img: "elementaryOnline.png",
@@ -265,7 +265,7 @@ export const data = [
     id: "high-school-online",
     title: "High School Online",
     description2:
-      "Prepara tu hijo para el futuro,con un curso pensado para adolescentes: una perfecta combinación de los retos (que les encanta asumir) y temas adaptados a sus intereses.",
+      "Prepara tu hijo para el futuro, con un curso pensado para adolescentes: una perfecta combinación de retos y temas adaptados a sus intereses.",
     etapa: "12-16 años. ",
     modalidad: "online",
     img: "highSchoolOnline.png",

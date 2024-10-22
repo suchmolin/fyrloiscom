@@ -29,7 +29,7 @@ export default function LlevaTuProyecto() {
             </h3>
             <div className="relative w-[280px] xs:w-[300px] sm:w-[450px] aspect-square block lg:hidden">
               <Image
-                src="/img/LlevaTuProyecto.png"
+                src="/img/llevaTuProyecto.png"
                 alt="Alejandra Conde - Miss World"
                 objectFit="contain"
                 layout="fill"

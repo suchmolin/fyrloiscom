@@ -1,109 +1,91 @@
 import Image from "next/image"
 
-export default function MasInfoContactUs({ titulo, subtitulo, data, mt }) {
+export default function MasInfoContactUs({ titulo, data, mt }) {
   return (
     <>
       <div
-        className={`relative w-full pb-20 text-center flex flex-col items-center pt-10  bg-[#001a70] text-white ${mt}`}
+        className={`relative w-full pb-20 flex flex-col-reverse lg:flex-row justify-center items-center pt-10  bg-[#001a70] text-white ${mt}`}
       >
-        <h2 className="text-4xl sm:text-5xl font-bold py-4 px-3 sm:px-0">
-          {titulo}
-        </h2>
-        <p className="w-8/12 mb-5 text-xl">{subtitulo}</p>
-        <div className="w-10/12 flex flex-col md:flex-row gap-4 justify-center items-center">
-          <div className="rounded-xl h-[190px] w-[290px] xs:w-[300px] sm:w-[400px] bg-white text-[#001a70] px-4 py-4 text-lg sm:text-xl flex flex-col gap-3">
+        <div className="lg:w-6/12 flex gap-5 flex-col items-center lg:items-start">
+          <h2 className="text-4xl sm:text-5xl font-bold py-4 px-3 sm:px-0">
+            {titulo}
+          </h2>
+          <div className="flex flex-col items-center sm:flex-row gap-5 text-black">
             <a
-              href={`mailto:${data.email}`}
-              className="flex gap-4 items-center  "
+              href="#"
+              className="w-fit flex gap-5 items-center justify-center py-2 px-4 bg-[#9ee701] rounded-xl text-xl"
             >
-              <div className="relative w-[25px] aspect-square">
-                <Image
-                  src="/img/correo.png"
-                  layout="fill"
-                  objectFit="contain"
-                  alt="correo"
-                />
-              </div>
-              <p>{data.email}</p>
+              <Image src="/img/email.png" width={20} height={20} alt="email" />
+              {data.email}
             </a>
-            <div className="flex gap-4 items-center  ">
-              <div className="relative w-[25px] aspect-square">
-                <Image
-                  src="/img/telefono.png"
-                  layout="fill"
-                  objectFit="contain"
-                  alt="correo"
-                />
-              </div>
-              <p>{data.telefono}</p>
-            </div>
-            <div className="flex gap-4 items-center">
-              <div className="relative w-[25px] aspect-square">
-                <Image
-                  src="/img/location.png"
-                  layout="fill"
-                  objectFit="contain"
-                  alt="correo"
-                />
-              </div>
-              <p className="w-fit text-start">{data.direccion}</p>
-            </div>
+            <a
+              href="#"
+              className="w-fit flex gap-5 items-center justify-center py-2 px-4 bg-[#9ee701] rounded-xl text-xl"
+            >
+              <Image
+                src="/img/telefono.png"
+                width={20}
+                height={20}
+                alt="phone"
+              />
+              {data.telefono}
+            </a>
           </div>
-          <div className="rounded-xl h-[190px] w-[290px] xs:w-[300px] sm:w-[400px] bg-white text-[#001a70] px-4 py-4 text-lg sm:text-xl flex gap-3 flex-col justify-center">
+          <div className="flex flex-col items-center sm:flex-row gap-5 text-black">
             <a
               href={data.social.instagram.href}
-              className="flex gap-4 items-center"
+              className="w-fit flex gap-5 items-center justify-center py-2 px-4 bg-white rounded-xl text-xl"
             >
-              <div className="relative w-[25px] aspect-square">
-                <Image
-                  src="/img/instagram.png"
-                  layout="fill"
-                  objectFit="contain"
-                  alt="correo"
-                />
-              </div>
-              <p className="w-fit text-start">{data.social.instagram.tag}</p>
+              <Image
+                src="/img/instagram.png"
+                width={20}
+                height={20}
+                alt="email"
+              />
+              {data.social.instagram.tag}
             </a>
             <a
               href={data.social.facebook.href}
-              className="flex gap-4 items-center  "
+              className="w-fit flex gap-5 items-center justify-center py-2 px-4 bg-white rounded-xl text-xl"
             >
-              <div className="relative w-[25px] aspect-square">
-                <Image
-                  src="/img/facebook.png"
-                  layout="fill"
-                  objectFit="contain"
-                  alt="correo"
-                />
-              </div>
-              <p>{data.social.facebook.tag}</p>
-            </a>
-            <a
-              href={data.social.linkedin.href}
-              className="flex gap-4 items-center  "
-            >
-              <div className="relative w-[25px] aspect-square">
-                <Image
-                  src="/img/linkedin.png"
-                  layout="fill"
-                  objectFit="contain"
-                  alt="correo"
-                />
-              </div>
-              <p className="w-fit text-start">{data.social.linkedin.tag}</p>
-            </a>
-            <a href={data.social.x.href} className="flex gap-4 items-center  ">
-              <div className="relative w-[25px] aspect-square">
-                <Image
-                  src="/img/x.png"
-                  layout="fill"
-                  objectFit="contain"
-                  alt="correo"
-                />
-              </div>
-              <p>{data.social.x.tag}</p>
+              <Image
+                src="/img/facebook.png"
+                width={20}
+                height={20}
+                alt="phone"
+              />
+              {data.social.facebook.tag}
             </a>
           </div>
+          <div className="flex flex-col items-center sm:flex-row gap-5 text-black">
+            <a
+              href={data.social.linkedin.href}
+              className="w-fit flex gap-5 items-center justify-center py-2 px-4 bg-white rounded-xl text-xl"
+            >
+              <Image
+                src="/img/linkedin.png"
+                width={20}
+                height={20}
+                alt="email"
+              />
+              {data.social.linkedin.tag}
+            </a>
+            <a
+              href={data.social.x.href}
+              className="w-fit flex gap-5 items-center justify-center py-2 px-4 bg-white rounded-xl text-xl"
+            >
+              <Image src="/img/x.png" width={20} height={20} alt="phone" />
+              {data.social.x.tag}
+            </a>
+          </div>
+        </div>
+        <div className="relative w-[290px] xs:w-[350px] aspect-square">
+          <Image
+            src="/img/masInfo.png"
+            layout="fill"
+            objectFit="contain"
+            alt="mas info contact us"
+          />
         </div>
       </div>
     </>

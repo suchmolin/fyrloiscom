@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { useTranslations } from "next-intl"
+import { data } from "@/data/customers"
 
 export default function Customers() {
   const t = useTranslations("Customers")
@@ -11,25 +12,20 @@ export default function Customers() {
       <p className="w-10/12 sm:w-6/12 text-center text-lg text-gray-500 mb-10">
         {t("p")}
       </p>
-      <div className="flex justify-center flex-wrap items-center gap-10 sm:gap-20 ">
-        <div className="relative w-[100px] h-[50px]">
-          <Image src="/img/empresa1.png" objectFit="cover" fill alt="client" />
-        </div>
-        <div className="relative w-[100px] h-[50px]">
-          <Image src="/img/empresa2.png" objectFit="cover" fill alt="client" />
-        </div>
-        <div className="relative w-[100px] h-[50px]">
-          <Image src="/img/empresa3.png" objectFit="cover" fill alt="client" />
-        </div>
-        <div className="relative w-[100px] h-[50px]">
-          <Image src="/img/empresa4.png" objectFit="cover" fill alt="client" />
-        </div>
-        <div className="relative w-[100px] h-[50px]">
-          <Image src="/img/empresa5.png" objectFit="cover" fill alt="client" />
-        </div>
-        <div className="relative w-[100px] h-[50px]">
-          <Image src="/img/empresa6.png" objectFit="cover" fill alt="client" />
-        </div>
+      <div className="w-10/12 flex justify-center flex-wrap items-center gap-10 sm:gap-20 ">
+        {data.map((item) => (
+          <div
+            key={item.id}
+            className={`relative w-[${item.width}px] h-[${item.height}px]`}
+          >
+            <Image
+              src={item.img}
+              objectFit="contain"
+              layout="fill"
+              alt={item.id}
+            />
+          </div>
+        ))}
       </div>
     </div>
   )

@@ -7,7 +7,7 @@ export const data = [
     alt: "Diferenciador",
     title: "25 años de trayectoria",
     subtitle:
-      "No somos un curso de inglés nuevo, tenemos experiencia y el respaldo de egresados.",
+      "Somos una escuela de idiomas, con más de dos decadas de experiencia.",
   },
   {
     id: "2",
@@ -16,8 +16,17 @@ export const data = [
     height: 55,
     alt: "Diferenciador",
     title: "Grupos pequeños, de máximo 8 alumnos.",
+    subtitle: "Brindamos una experiencia personalizada a cada estudiante.",
+  },
+  {
+    id: "3",
+    src: "/img/difReloj.png",
+    width: 70,
+    height: 70,
+    alt: "Diferenciador",
+    title: "Horarios personalizables",
     subtitle:
-      "Esto para brindar la mejor experiencia de aprendizaje a cada estudiante.",
+      "Contamos con diferentes horarios disponibles, y la posibilidad de personalizarlo.",
   },
   {
     id: "4",
@@ -28,16 +37,6 @@ export const data = [
     title: "Aprendizaje adaptado a la edad del estudiante. ",
     subtitle:
       "El producto está segmentado por edades y las lecciones se dan según el nivel de inglés.",
-  },
-  {
-    id: "3",
-    src: "/img/difReloj.png",
-    width: 70,
-    height: 70,
-    alt: "Diferenciador",
-    title: "Horarios personalizables",
-    subtitle:
-      "Contamos con diferentes horarios disponibles, y la posibilidad de personalizarlo también.",
   },
   {
     id: "5",

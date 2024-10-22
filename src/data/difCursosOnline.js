@@ -7,7 +7,7 @@ export const data = [
     alt: "Diferenciador",
     title: "Enseñanza práctica",
     subtitle:
-      "El aprendizaje sin práctica es solo teoría. Por eso te enseñamos el idioma con situaciones vivenciales y un enfoque conversacional, para que sepas cómo emplear los conocimientos.",
+      "El aprendizaje sin práctica es solo teoría. Por eso te enseñamos el idioma con situaciones vivenciales y un enfoque conversacional.",
   },
   {
     id: "2",

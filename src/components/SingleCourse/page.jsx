@@ -4,6 +4,7 @@ import { useLocale } from "next-intl"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
 import { useContext } from "react"
+import { handleCheckout } from "@/checkoutCart"
 
 export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
   const locale = useLocale()
@@ -43,19 +44,32 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
 
         {comprar && (
           <div className="flex justify-between ">
-            <a
-              href={
-                item.isSubCourse
-                  ? "TODO"
-                  : `/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`
-              }
-              className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
-            >
-              {item.isSubCourse ? "Comprar" : "Ver más"}
-              <span className="p-2 rounded-full bg-[#9ee701]">
-                <GoArrowRight className="text-gray-800" />
-              </span>
-            </a>
+            {item.isSubCourse ? (
+              <button
+                onClick={(e) => {
+                  e.target.disabled = true
+                  handleCheckout([
+                    { id: item.id, cantidad: 1, precio: item.price },
+                  ])
+                }}
+                className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black disabled:opacity-50 disabled:cursor-wait"
+              >
+                Comprar
+                <span className="p-2 rounded-full bg-[#9ee701]">
+                  <GoArrowRight className="text-gray-800" />
+                </span>
+              </button>
+            ) : (
+              <a
+                href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`}
+                className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
+              >
+                Ver más
+                <span className="p-2 rounded-full bg-[#9ee701]">
+                  <GoArrowRight className="text-gray-800" />
+                </span>
+              </a>
+            )}
             <button
               onClick={() =>
                 addCart(item.id, setIsOpen, setCartInfo, setCantCart)

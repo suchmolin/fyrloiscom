@@ -4,10 +4,9 @@ import IdiomasSelector from "../IdiomasSelector/page"
 import Link from "next/link"
 import { useContext } from "react"
 import CursosSelector from "../CursosSelector/page"
-import { MdOutlineShoppingCart } from "react-icons/md"
 import { OpenModalContext } from "@/context/openModal"
-import CartModal from "../CartModal/page"
 import { useEffect } from "react"
+import CartButtonPage from "../CartButton/page"
 
 export default function NavbarMenu({ setOpen, setPage, page }) {
   const { isOpen, setIsOpen, cantCart, setCantCart } =
@@ -74,19 +73,14 @@ export default function NavbarMenu({ setOpen, setPage, page }) {
         <li className="hover:text-[#bb29b9] transition-all duration-300 ">
           <CursosSelector setOpen={setOpen} />
         </li>
-        <li
-          onClick={() => setIsOpen(!isOpen)}
-          className="relative p-2 rounded-full flex items-center justify-center bg-[#9ee701] cursor-pointer hover:shadow-lg "
-        >
-          <MdOutlineShoppingCart className="text-2xl" />
-          {cantCart > 0 && (
-            <span className="absolute -top-1 -right-3 bg-red-500 text-white rounded-full px-2 py-1 text-xs flex items-center justify-center">
-              {cantCart}
-            </span>
-          )}
-        </li>
+        <div className="hidden lg:block">
+          <CartButtonPage
+            cantCart={cantCart}
+            setIsOpen={setIsOpen}
+            isOpen={isOpen}
+          />
+        </div>
       </ul>
-      <CartModal />
     </>
   )
 }

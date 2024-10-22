@@ -16,11 +16,7 @@ export default function Sedes({ params }) {
       <CursosSedes sedeData={sedeData} />
       <TestNivelacion />
 
-      <MasInfoContactUs
-        titulo={t("titulo")}
-        subtitulo={t("subtitulo")}
-        data={sedeData}
-      />
+      <MasInfoContactUs titulo={t("titulo")} data={sedeData} />
     </div>
   )
 }
