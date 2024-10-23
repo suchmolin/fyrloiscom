@@ -1,7 +1,7 @@
 export const data = [
   {
     id: "jesus-prato",
-    name: "Jusús Prato",
+    name: "Jesús Prato",
     cargo: "VICEPRESIDENTE ACADÉMICO",
     img: "teacher1.png",
     descripcion:
