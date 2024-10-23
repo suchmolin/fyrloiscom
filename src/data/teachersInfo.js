@@ -59,7 +59,7 @@ export const data = [
     ],
     proyectos: [
       "Cree y realice el seminario “Inteligencia emocional en docentes en el aula”. También fui parte del congreso de encuentro entre las culturas Rusas y Venezolanas.",
-      "Participé en el congreso: “Estrategias metodológicas para el aprendizaje y la enseñanza de la pronunciación del Inglés”  y me ayudó a mejorar mis habilidades orales del inglés.",
+      "Participé en el congreso: “Estrategias metodológicas para el aprendizaje y la enseñanza de la pronunciación del Inglés”, este evento me ayudó a mejorar mis habilidades orales del inglés.",
       "Fui parte del congreso: “De la discriminación a la integración en el manejo de traumas y frustraciones en adultos hacia el idioma inglés”, en el cual trabaje en el uso del psicoanálisis en la literatura infantil.",
     ],
     habilidades: [

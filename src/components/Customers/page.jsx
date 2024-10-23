@@ -12,7 +12,7 @@ export default function Customers() {
       <p className="w-10/12 sm:w-6/12 text-center text-lg text-gray-500 mb-10">
         {t("p")}
       </p>
-      <div className="w-10/12 flex justify-center flex-wrap items-center gap-10 sm:gap-20 ">
+      <div className="w-10/12 flex justify-center flex-wrap items-center gap-x-14 gap-y-2">
         {data.map((item) => (
           <div key={item.id} className={`relative w-[100px] h-[50px]`}>
             <Image

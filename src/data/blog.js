@@ -30,8 +30,8 @@ export const data = [
       {
         titulo: "2. Práctica la ortografía.",
         texto: [
-          "Es importante que conozcas la diferencia entre palabras que suenan parecidas pero se escriben diferente, ya que dependiendo la manera en que estén escritas tienen significados totalmente distintos. Cambiar importante",
-          "Por ejemplo la palabra “mail”, y la palabra “male”, como ves se escriben casi igual pero esa diferencia de una letra cambia totalmente su significado.",
+          "Es importante que conozcas la diferencia entre palabras que suenan parecidas pero se escriben diferente, ya que dependiendo la manera en que estén escritas tienen significados totalmente distintos.",
+          "Por ejemplo la palabra “mail”, y la palabra “male”, como ves se escriben casi igual pero esa minima diferencia cambia totalmente su significado.",
           "La palabra “mail” significa correo mientras que “male” significa hombre. Es importante que practiques mucho este aspecto porque las faltas ortográficas pueden cambiar el sentido de lo que estas escribiendo",
           "Puedes mejorar en este apartado a través del deletreo y sobretodo leer, leer y leer.",
         ],
@@ -39,7 +39,7 @@ export const data = [
       {
         titulo: "3. Ver películas subtituladas en inglés",
         texto: [
-          "Mejorar tu vocabulario en inglés es muy importante a la hora de escribir, pero eso no significa que deba ser aburrido, ver una serie o una de tus películas favoritas en el idioma, con subtítulos puede ayudarte con ello.",
+          "Mejorar tu vocabulario en inglés es muy importante a la hora de escribir, pero eso no significa que deba ser aburrido, ver una serie o una de tus películas favoritas en el idioma, con subtítulos, puede ayudarte con ello.",
           "Esto te permite ver detalladamente cómo se escriben los diálogos y entender cuál es la manera correcta de utilizar las palabras.",
         ],
       },
@@ -54,7 +54,7 @@ export const data = [
         titulo: "5. Escribir, escribir y sobretodo escribir.",
         texto: [
           "No hay mejor manera de mejorar una habilidad que la práctica constante, mientras más escribas, mejor podrás expresar tus ideas y sobretodo irás desarrollando cada vez más tus habilidades lingüísticas.",
-          "Es importante saber que escribir en un nuevo idioma representa un reto arduo, pero con trabajo duro y dedicación constante podrás lograrlo. Quitar y cambiar",
+
           "Puedes empezar escribiendo oraciones simples y luego poco a poco podrás ir pasando a textos más elaborados.",
         ],
       },
