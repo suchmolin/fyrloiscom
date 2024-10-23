@@ -15,7 +15,7 @@ export const data = [
     width: 55,
     height: 55,
     alt: "Diferenciador",
-    title: "Grupos pequeños, de máximo 8 alumnos.",
+    title: "Grupos pequeños, de máximo 8 alumnos",
     subtitle: "Brindamos una experiencia personalizada a cada estudiante.",
   },
   {
@@ -34,7 +34,7 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Aprendizaje adaptado a la edad del estudiante. ",
+    title: "Aprendizaje adaptado a la edad del estudiante",
     subtitle:
       "El producto está segmentado por edades y las lecciones se dan según el nivel de inglés.",
   },

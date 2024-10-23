@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function DifAlt({ data }) {
   const locale = useLocale()
   return (
-    <div className="w-11/12 flex gap-x-7 items-center justify-center flex-wrap mt-10">
+    <div className="w-11/12 flex gap-x-7 gap-y-5 items-center justify-center flex-wrap mt-10">
       {data?.length !== 0 ? (
         data.map((item) => (
           <div

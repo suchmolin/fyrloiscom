@@ -1,5 +1,181 @@
 export const data = [
   {
+    id: "como-mejorar-tu-escritura-en-ingles",
+    tarjeta: {
+      titulo: "Cómo Mejorar Tu Escritura En Inglés",
+      descripcion:
+        "5 tips para mejorar tus habilidades de escritura en inglés. Escribir en un nuevo idioma siempre es un desafío, por eso hoy te traemos estos tips para mejorar tus habilidades escritas en inglés.",
+      autor: "Leonardo Sangroni",
+      fotoAutor: "leonardosangroni.png",
+      categoria: "GRAMÁTICA",
+      img: "close-up-woman-doing-her-work.png",
+      fechaPublicado: "October 23, 2024",
+      imgPrincipal:
+        "woman-hands-with-yellow-pen-writing-something-peper-working-online-female-working-laptop.png",
+    },
+    contenido: [
+      {
+        titulo: "1. Leer libros en Inglés",
+        texto: [
+          "La mejor forma de ser buen escritor es invertir una cantidad considerable de tiempo en la lectura, ya que esto te permite aprender muchas palabras nuevas y entender cual es su uso correcto.",
+          "Es importante que leas libros que sean de tu interés para que puedas sumergirte totalmente en ellos. El aprendizaje no debe ser aburrido.",
+        ],
+      },
+      {
+        titulo: "2. Práctica la ortografía.",
+        texto: [
+          "Es importante que conozcas la diferencia entre palabras que suenan parecidas pero se escriben diferente, ya que dependiendo la manera en que estén escritas tienen significados totalmente distintos. Cambiar importante",
+          "Por ejemplo la palabra “mail”, y la palabra “male”, como ves se escriben casi igual pero esa diferencia de una letra cambia totalmente su significado.",
+          "La palabra “mail” significa correo mientras que “male” significa hombre. Es importante que practiques mucho este aspecto porque las faltas ortográficas pueden cambiar el sentido de lo que estas escribiendo",
+          "Puedes mejorar en este apartado a través del deletreo y sobretodo leer, leer y leer.",
+        ],
+      },
+      {
+        titulo: "3. Ver películas subtituladas en inglés",
+        texto: [
+          "Mejorar tu vocabulario en inglés es muy importante a la hora de escribir, pero eso no significa que deba ser aburrido, ver una serie o una de tus películas favoritas en el idioma, con subtítulos puede ayudarte con ello.",
+          "Esto te permite ver detalladamente cómo se escriben los diálogos y entender cuál es la manera correcta de utilizar las palabras.",
+        ],
+      },
+      {
+        titulo: "4. Un diccionario de inglés es tu mejor amigo.",
+        texto: [
+          "El diccionario te ayudará a expandir tu vocabulario y lo puedes utilizar al momento de leer una palabra de la cual no sepas su significado.También te sirve para encontrar sinónimos y antónimos de las palabras que te gusten.",
+          "Este punto es importante porque al momento de escribir un texto en inglés no tendrás que repetir palabras, permitiendo que puedas expresar tus ideas de manera más dinámica.",
+        ],
+      },
+      {
+        titulo: "5. Escribir, escribir y sobretodo escribir.",
+        texto: [
+          "No hay mejor manera de mejorar una habilidad que la práctica constante, mientras más escribas, mejor podrás expresar tus ideas y sobretodo irás desarrollando cada vez más tus habilidades lingüísticas.",
+          "Es importante saber que escribir en un nuevo idioma representa un reto arduo, pero con trabajo duro y dedicación constante podrás lograrlo. Quitar y cambiar",
+          "Puedes empezar escribiendo oraciones simples y luego poco a poco podrás ir pasando a textos más elaborados.",
+        ],
+      },
+      {
+        texto: [
+          "Sigues estos consejos y mejora tu habilidad escrita en inglés y ya sabes ¡A escribir!",
+          "Si te interesa iniciar tu camino hacia el dominio del inglés, te invitamos a que eches un vistazo a nuestros cursos a través de: www.fyrlois.com/es/cursos y observes todas las increíbles opciones que tenemos para ti.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "alcanza-el-exito-en-el-marketing-digital-aprendiendo-ingles",
+    tarjeta: {
+      titulo: "Alcanza el Éxito En El Marketing Digital Aprendiendo Inglés",
+      descripcion:
+        "El marketing digital no para de innovar, día a día se crean nuevas dinámicas que constantemente evolucionan la manera como se trabaja en esta industria.",
+      autor: "Leonardo Sangroni",
+      fotoAutor: "leonardosangroni.png",
+      categoria: "EDUCACIÓN",
+      img: "blogmarketing.png",
+      fechaPublicado: "October 23, 2024",
+      imgPrincipal: "Mask-group4.png",
+    },
+    contenido: [
+      {
+        texto: [
+          "El marketing digital no para de innovar, día a día se crean nuevas dinámicas que evolucionan la manera como se trabaja en esta industria.",
+          "Pero hay algo que se ha mantenido por años e incluso en esta nueva era digital está más presente que nunca: el dominio del inglés. Descubre por qué aprender este idioma puede ayudarte a alcanzar el éxito.",
+        ],
+      },
+      {
+        titulo: "Importancia de saber inglés en el marketing digital",
+        subtitulo: "1. Amplía tu alcance global",
+        texto: [
+          "El inglés es el idioma universal. En el mundo del marketing digital, donde todo esta conectado, dominarlo te permite conectar con audiencias más allá de lo local, y aumenta tus posibilidades de alcanzar a tu cliente ideal.",
+          "Al comunicarte en inglés, no solo te conectas con audiencias que manejen dicho idioma, sino que te permite abrirte paso a mercados internacionales, teniendo la posibilidad de llegar a clientes en todos los continentes.",
+          "Además el comprender y hablarlo con fluidez, te posiciona como un profesional global y adaptable, permitiéndote tener una participación más activa en un mundo cada vez más interconectado.",
+          "Aprender un nuevo idioma es abrir las puertas a un mundo de oportunidades en el universo del marketing digital.",
+        ],
+      },
+      {
+        subtitulo: "2. Acceso a más recursos digitales",
+        texto: [
+          "En el cambiante mundo del marketing digital, mantenerse al día con las últimas tendencias es muy necesario, por eso dominar el inglés te permite tener acceso a gran cantidad de nuevos recursos.",
+          "Desde los últimos blogs de renombrados expertos de la industria, las últimas tendencias mundiales, estrategias innovadoras hasta cursos de formación de expertos en la materia.",
+          "El inglés es el idioma preferido en conferencias, seminarios y eventos de marketing digital de prestigio, al tener un manejo alto de este idioma podrás aprender de los mejores en el campo, logrando así un mayor crecimiento profesional.",
+          "Por ejemplo el CEO de Instagram, Adam Mosseri, pública constantemente en sus redes sociales en inglés y si quieres estar al día con su contenido sin esperar las traducciones debes manejar el idioma.",
+        ],
+      },
+      {
+        subtitulo: "3. Ventajas en el mundo laboral",
+        texto: [
+          "En el marketing digital la competencia es feroz y la diferenciación es clave. Dominar el inglés, es un activo que te distingue en un mar de profesionales y que te posiciona mejor en la industria.",
+          "Al tener un dominio solido del idioma, tiene un abanico de oportunidades que otros profesionales en el área pueden no poseer. Desde la capacidad de comunicarte eficazmente con equipos internacionales hasta la posibilidad de trabajar con socios globales.",
+          "El inglés te convierte en un activo que cualquier empresa que busque expandirse mundialmente necesita, además el acceso a recursos en ingles te permite tener un enfoque más amplio y fresco en tus estrategias de marketing digital.",
+          "Estar al día con las últimas tendencias y mejores prácticas en inglés te posiciona como un profesional actualizado y proactivo. Permitiéndote estar más preparado para enfrentar cualquier reto que se te presente en el ámbito laboral.",
+        ],
+      },
+
+      {
+        texto: [
+          "Si te interesa empezar a sumergirte en este mundo, te invitamos a que eches un vistazo a nuestros cursos a través de: www.fyrlois.com/es/cursos y observes todas las increíbles opciones que tenemos para ti.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "aprovecha-las-ventajas-de-la-inteligencia-artificial-para-estudiar-ingles",
+    tarjeta: {
+      titulo:
+        "Aprovecha las ventajas de la Inteligencia Artificial para estudiar inglés",
+      descripcion:
+        "La inteligencia artificial llego para cambiar la manera en la que vemos el mundo y sobretodo para dar un golpe sobre la mesa en cuanto al manejo de la información.",
+      autor: "Leonardo Sangroni",
+      fotoAutor: "leonardosangroni.png",
+      categoria: "TECNOLOGÍA",
+      img: "laptopblog.png",
+      fechaPublicado: "October 23, 2024",
+      imgPrincipal: "Maskgroup5.png",
+    },
+    contenido: [
+      {
+        texto: [
+          "La Inteligencia Artificial (IA) llegó para cambiar la manera en la que vemos el mundo y sobretodo para dar un golpe sobre la mesa en cuanto al manejo de la información.",
+          "La IA nos permite tener un mar de conocimiento al alcance de la mano y está transformando la forma en que aprendemos. Ya es hora de que la aproveches para alcanzar la fluidez que deseas en inglés.",
+          "Ya conocemos la potencia y las posibilidades que nos da la IA pero la pregunta ahora es: ¿Cómo utilizar la Inteligencia Artificial para estudiar inglés?",
+        ],
+      },
+      {
+        subtitulo: "Personalización en tiempo real",
+        texto: [
+          "La personalización en tiempo real, te permite tener un entorno que se adapta instantáneamente a tus necesidades, fortalezas y áreas de mejoras mientras vas avanzando en tu estudio.",
+          "La Inteligencia Artificial monitorea cada paso que das en tu aprendizaje del inglés. Desde tu pronunciación hasta tu comprensión gramática y el vocabulario, cada interacción se registra y se analiza en tiempo real.",
+          "Este análisis continuo te ayuda a entender tu progreso y te encamina hacia una mejora constante.",
+        ],
+      },
+      {
+        subtitulo: "Esta adaptada a tu estilo de estudio",
+        texto: [
+          "Cada persona tiene una manera de aprender única y la IA lo identifica. A través de algoritmos avanzados, las plataformas educativas ajustan el contenido, la velocidad y la dificultad de las lecciones.",
+          "Ya sea que aprendas mejor a través de ejercicios escritos, la practica conversacional o comprensión lectora, la Inteligencia Artificial se adapta a ti para optimizar tu experiencia de aprendizaje.",
+        ],
+      },
+      {
+        subtitulo: "Crea tu ruta de estudio personalizada",
+        texto: [
+          "Enfocada en tu desempeño y objetivos, la IA diseña una ruta de aprendizaje personalizada que te guía de manera eficiente hacia la fluidez en el idioma.",
+          "La Inteligencia Artificial identifica las áreas específicas donde debes enfocarte más y te recomienda actividades que te ayudan a mejorar en cada una de ellas. Esta personalización en tiempo real te asegura que el aprendizaje siempre sea relevante, efectivo y significativo.",
+        ],
+      },
+      {
+        subtitulo: "Feedback inmediato",
+        texto: [
+          "La retroalimentación que recibes a lo largo de tu proceso de estudio es precisa, detallada y contextualizada. Ya sea a través de correcciones gramaticales, sugerencias de vocabulario o práctica de pronunciación.",
+          "La Inteligencia Artificial te brinda un feedback inmediato y orientado a tus necesidades específicas. Esto te ayuda a corregir errores de manera oportuna y a consolidar conocimientos.",
+          "Es momento de aceptar las tendencias y aprovechar las nuevas tecnologías, a través de la IA. Puedes perfeccionar tu inglés mediante una forma ventajosa.",
+        ],
+      },
+      {
+        texto: [
+          "En Fyr Lois, lo sabemos por eso hacemos uso de herramientas tecnológicas en nuestra enseñanza del idioma. Si quieres conocer e iniciar tu camino hacia el dominio del idioma, te invitamos a visitar nuestra sección de cursos a través de este link: www.fyrlois.com/es/cursos",
+        ],
+      },
+    ],
+  },
+  {
     id: "como-mejorar-tu-gramatica-en-ingles",
     tarjeta: {
       titulo: "Cómo mejorar tu gramática en inglés",

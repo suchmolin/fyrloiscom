@@ -13,8 +13,8 @@ export default function SedePrincipal() {
           {t("h2")} Kissimmee
         </h2>
 
-        <p className="text-sm sm:text-xl text-[#001A70] flex gap-2 py-2 items-center">
-          <span className="text-[#001A70] font-bold">
+        <p className="text-sm sm:text-xl text-[#001A70] flex gap-2 py-2">
+          <span className="text-[#001A70] font-bold mt-1">
             <FiMapPin />
           </span>{" "}
           928 East Osceola Parkway, Kissimmee, FL 34744

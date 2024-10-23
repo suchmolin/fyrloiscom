@@ -20,8 +20,8 @@ export default function YaEsHora() {
           </div>
           <div className="w-11/12 sm:w-5/12 flex flex-col justify-center sm:pr-10 mb-10 md:mb-0 sm:ml-10">
             <div className="w-full h-full">
-              <h1 className="flex flex-col text-[#001A70] text-4xl sm:text-5xl lg:text-6xl xxxl:text-8xl font-bold mb-4 text-center sm:text-start">
-                {t("h1")} <br /> {t("h1Span")}
+              <h1 className="flex flex-col text-[#001A70] text-4xl sm:text-5xl lg:text-6xl xxxl:text-6xl font-bold mb-4 text-center sm:text-start">
+                {t("h1")}
               </h1>
               <p className="text-xs sm:text-sm lg:text-xl xxxl:text-3xl text-center sm:text-start">
                 {t("p")}

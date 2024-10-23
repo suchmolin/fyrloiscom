@@ -25,7 +25,7 @@ export const data = [
         tag: "Fyr Lois English Institute",
         href: "https://www.facebook.com/fyrlois.oficial",
       },
-      x: { tag: "Fyrloisoficial", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "https://twitter.com/fyrloisoficial" },
       instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
       linkedin: {
         tag: "Fyr Lois",
@@ -50,7 +50,7 @@ export const data = [
         tag: "Fyr Lois English Institute",
         href: "https://www.facebook.com/fyrlois.oficial",
       },
-      x: { tag: "Fyrloisoficial", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "https://twitter.com/fyrloisoficial" },
       instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
       linkedin: {
         tag: "Fyr Lois",
@@ -74,7 +74,7 @@ export const data = [
         tag: "Fyr Lois English Institute",
         href: "https://www.facebook.com/fyrlois.oficial",
       },
-      x: { tag: "Fyrloisoficial", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "https://twitter.com/fyrloisoficial" },
       instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
       linkedin: {
         tag: "Fyr Lois",
@@ -98,7 +98,7 @@ export const data = [
         tag: "Fyr Lois English Institute",
         href: "https://www.facebook.com/fyrlois.oficial",
       },
-      x: { tag: "Fyrloisoficial", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "https://twitter.com/fyrloisoficial" },
       instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
       linkedin: {
         tag: "Fyr Lois",
@@ -122,7 +122,7 @@ export const data = [
         tag: "Fyr Lois English Institute",
         href: "https://www.facebook.com/fyrlois.oficial",
       },
-      x: { tag: "Fyrloisoficial", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "https://twitter.com/fyrloisoficial" },
       instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
       linkedin: {
         tag: "Fyr Lois",
@@ -146,7 +146,7 @@ export const data = [
         tag: "Fyr Lois English Institute",
         href: "https://www.facebook.com/fyrlois.oficial",
       },
-      x: { tag: "Fyrloisoficial", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "https://twitter.com/fyrloisoficial" },
       instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
       linkedin: {
         tag: "Fyr Lois",
@@ -171,7 +171,7 @@ export const data = [
         tag: "Fyr Lois English Institute",
         href: "https://www.facebook.com/fyrlois.oficial",
       },
-      x: { tag: "Fyrloisoficial", href: "#" },
+      x: { tag: "Fyrloisoficial", href: "https://twitter.com/fyrloisoficial" },
       instagram: { tag: "@fyrlois", href: "https://www.instagram.com/fyrlois" },
       linkedin: {
         tag: "Fyr Lois",
