@@ -93,7 +93,7 @@ export async function POST(request) {
             return `
               <div style="display: flex; gap: 16px; align-items: center; padding-top: 16px; padding-bottom: 16px;" >
                 <img
-                style="width: 50px; height: 50px; margin-right: 10px;"
+                style="width: 70px; height: 50px; margin-right: 10px;"
                   
                   src="https://fyrloiscom.vercel.app/_next/image?url=%2Fimg%2F${curso.img}&w=1920&q=75"
                   alt="${curso.title}"
@@ -172,7 +172,7 @@ export async function POST(request) {
             return `
               <div style="display: flex; gap: 16px; align-items: center; padding-top: 16px; padding-bottom: 16px;" >
                 <img
-                style="width: 50px; height: 50px; margin-right: 10px;"
+                style="width: 70px; height: 50px; margin-right: 10px;"
                   
                   src="https://fyrloiscom.vercel.app/_next/image?url=%2Fimg%2F${curso.img}&w=1920&q=75"
                   alt="${curso.title}"
