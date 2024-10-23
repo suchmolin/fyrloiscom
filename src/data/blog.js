@@ -15,6 +15,12 @@ export const data = [
     },
     contenido: [
       {
+        texto: [
+          "5 tips para mejorar tus habilidades de escritura en inglés",
+          "Escribir en un nuevo idioma siempre es un desafío, por eso hoy te traemos estos tips para mejorar tus habilidades escritas en inglés:",
+        ],
+      },
+      {
         titulo: "1. Leer libros en Inglés",
         texto: [
           "La mejor forma de ser buen escritor es invertir una cantidad considerable de tiempo en la lectura, ya que esto te permite aprender muchas palabras nuevas y entender cual es su uso correcto.",
@@ -120,7 +126,7 @@ export const data = [
     id: "aprovecha-las-ventajas-de-la-inteligencia-artificial-para-estudiar-ingles",
     tarjeta: {
       titulo:
-        "Aprovecha las ventajas de la Inteligencia Artificial para estudiar inglés",
+        "Aprovecha las Ventajas de la Inteligencia Artificial para Estudiar Inglés",
       descripcion:
         "La inteligencia artificial llego para cambiar la manera en la que vemos el mundo y sobretodo para dar un golpe sobre la mesa en cuanto al manejo de la información.",
       autor: "Leonardo Sangroni",

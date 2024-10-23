@@ -47,6 +47,14 @@ export default function ArticulosBlog({ params }) {
                 {item.titulo}
               </h2>
             )}
+            {item.subtitulo && (
+              <h3
+                key={"subtitulo" + i}
+                className="text-[#001A70] text-xl py-10 px-5 font-bold"
+              >
+                {item.subtitulo}
+              </h3>
+            )}
             {item.texto &&
               item.texto.map((item, i) => (
                 <p
@@ -67,14 +75,6 @@ export default function ArticulosBlog({ params }) {
                   className="rounded-2xl"
                 />
               </div>
-            )}
-            {item.subtitulo && (
-              <h3
-                key={"subtitulo" + i}
-                className="text-[#001A70] text-xl py-10 px-5 font-bold"
-              >
-                {item.subtitulo}
-              </h3>
             )}
           </>
         ))}
