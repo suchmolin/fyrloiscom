@@ -228,3 +228,19 @@ textarea {
 }
 #zIndex{
   z-index: 100 !important;}
+
+#mtAnimation {
+  animation-duration: 1s;
+  animation-name: moveDown;  
+  animation-iteration-count: infinite;  
+  animation-direction: alternate;
+}
+@keyframes moveDown {
+  from {
+    margin-top: 0;
+    
+  }
+  to {
+    margin-top: 20px;
+  }
+}

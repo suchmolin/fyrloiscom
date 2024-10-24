@@ -2,6 +2,7 @@ import { FiMapPin } from "react-icons/fi"
 import { useTranslations, useLocale } from "next-intl"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
+import { FaAnglesDown } from "react-icons/fa6"
 
 export default function HeroSede({ sedeData }) {
   const locale = useLocale()
@@ -52,6 +53,9 @@ export default function HeroSede({ sedeData }) {
             </a>
           </div>
         </div>
+      </div>
+      <div className="w-full h-[40px] flex justify-center text-3xl">
+        <FaAnglesDown id="mtAnimation" />
       </div>
       <div className="w-full h-[80px] md:h-[300px]  xxl:h-[370px] xxxl:h-[370px] bg-[url('/img/curvaAzul.png')] bg-cover bg-no-repeat bg-center -mt-1"></div>
     </>
