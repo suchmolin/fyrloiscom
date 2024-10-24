@@ -54,8 +54,10 @@ export default function HeroSede({ sedeData }) {
           </div>
         </div>
       </div>
-      <div className="w-full h-[40px] flex justify-center text-3xl">
-        <FaAnglesDown id="mtAnimation" />
+      <div className="w-full h-[50px] flex justify-center text-3xl">
+        <a className="h-full" href="#cursossede">
+          <FaAnglesDown id="mtAnimation" />
+        </a>
       </div>
       <div className="w-full h-[80px] md:h-[300px]  xxl:h-[370px] xxxl:h-[370px] bg-[url('/img/curvaAzul.png')] bg-cover bg-no-repeat bg-center -mt-1"></div>
     </>

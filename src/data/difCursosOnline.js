@@ -15,7 +15,7 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Clases 100% en vivo.",
+    title: "Clases 100% en vivo",
     subtitle:
       "Más que aprender un idioma, te enseñaremos a comunicarte, para lograrlo, la práctica será un ingrediente principal.",
   },
