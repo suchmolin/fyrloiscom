@@ -34,7 +34,7 @@ export default function Test() {
         })
       }
     }
-    //fetchData()
+    fetchData()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [result])
 

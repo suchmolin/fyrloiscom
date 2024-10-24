@@ -14,6 +14,7 @@ export default function CheckoutSuccessPage() {
     setCantCart(0)
     setCartInfo([])
     localStorage.removeItem("cartInfo")
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   return (
     <>
