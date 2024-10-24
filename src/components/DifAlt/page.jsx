@@ -6,14 +6,26 @@ import Link from "next/link"
 export default function DifAlt({ data }) {
   const locale = useLocale()
   return (
-    <div className="w-11/12 flex gap-x-7 gap-y-5 items-center justify-center flex-wrap mt-10">
+    <div className="w-11/12 relative flex gap-x-7 gap-y-5 items-center justify-center flex-wrap mt-10">
+      {data?.length !== 0 && (
+        <div className="absolute top-[45px] w-full  h-10 left-0 hidden sm:flex justify-center">
+          <div className="w-6/12 h-full relative">
+            <Image
+              src="/img/lineaPunteada.png"
+              layout="fill"
+              objectFit="contain"
+              alt="linea punteada"
+            />
+          </div>
+        </div>
+      )}
       {data?.length !== 0 ? (
         data.map((item) => (
           <div
             key={item.id}
             className="w-[300px] h-[430px] flex flex-col items-center text-center relative px-5"
           >
-            <div className="w-[150px] aspect-square relative">
+            <div className="w-[150px] aspect-square relative bg-white">
               <Image
                 src={item.src}
                 objectFit="contain"

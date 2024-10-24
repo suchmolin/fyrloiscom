@@ -7,7 +7,7 @@ export const data = [
     alt: "Diferenciador",
     title: "25 años de trayectoria",
     subtitle:
-      "Somos una escuela de idiomas, con más de dos decadas de experiencia.",
+      "Somos una escuela de idiomas, en la cual aprenderás de manera dinámica y con una metodología enfocada en vivir el idioma.",
   },
   {
     id: "2",
@@ -16,7 +16,8 @@ export const data = [
     height: 55,
     alt: "Diferenciador",
     title: "Grupos pequeños, de máximo 8 alumnos",
-    subtitle: "Brindamos una experiencia personalizada a cada estudiante.",
+    subtitle:
+      "Contarás con un profesor que te acompañará en todo tu proceso de aprendizaje.",
   },
   {
     id: "3",
@@ -26,7 +27,7 @@ export const data = [
     alt: "Diferenciador",
     title: "Horarios personalizables",
     subtitle:
-      "Contamos con diferentes horarios disponibles, y la posibilidad de personalizarlo.",
+      "Puedes estudiar en el horario de tu elección adaptado a tu agenda.",
   },
   {
     id: "4",
@@ -36,7 +37,7 @@ export const data = [
     alt: "Diferenciador",
     title: "Aprendizaje adaptado a la edad del estudiante",
     subtitle:
-      "El producto está segmentado por edades y las lecciones se dan según el nivel de inglés.",
+      "Nuestras clases están diseñadas de manera divertida, dinámica y acorde a tu edad.",
   },
   {
     id: "5",
@@ -45,6 +46,7 @@ export const data = [
     height: 60,
     alt: "Diferenciador",
     title: "Profesores certificados CELTA",
-    subtitle: "Con años de experiencia enseñando el idioma inglés.",
+    subtitle:
+      "Nuestros profesores están altamente calificados, lo que les permite brindarte una experiencia de primer nivel.",
   },
 ]

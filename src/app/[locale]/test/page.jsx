@@ -2,14 +2,12 @@
 import PersonalDataTest from "@/components/PersonalDataTest/page"
 import QuestionsTest from "@/components/QuestionsTest/page"
 import { testdata } from "@/data/testdata"
-import { useState } from "react"
-import { useLocale, useTranslations } from "next-intl"
+import { useState, useEffect } from "react"
+import { useTranslations } from "next-intl"
 import Image from "next/image"
-import { GoArrowRight } from "react-icons/go"
-import { Progress } from "flowbite-react"
+import ResultTestSection from "@/components/ResultTestSection/page"
 
 export default function Test() {
-  const locale = useLocale()
   const t = useTranslations("Test")
   const initialData = {
     email: "",
@@ -23,31 +21,32 @@ export default function Test() {
   const [personal, setPersonal] = useState(initialData)
   const [result, setResult] = useState(-1)
 
+  useEffect(() => {
+    const fetchData = async () => {
+      if (result >= 0) {
+        const data = { personal, answer, result }
+        const resp = await fetch("/api/sendEmailTest", {
+          method: "POST",
+          body: JSON.stringify(data),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
+      }
+    }
+    //fetchData()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [result])
+
   return (
     <div className="w-full flex flex-col lg:flex-row justify-center items-center pb-10 pt-32 min-h-screen">
       {result >= 0 && (
-        <div className="flex flex-col gap-5 items-center">
-          <div className="relative w-[200px] sm:w-[280px] aspect-square">
-            <Image
-              src="/img/testOk.png"
-              objectFit="contain"
-              layout="fill"
-              alt="test"
-            />
-          </div>
-          <p className="text-center text-3xl sm:text-5xl font-bold text-[#001a70]">
-            {t("pb")} <br /> {result} / {testdata.length}
-          </p>
-          <a
-            href={`/${locale}/sedes`}
-            className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit"
-          >
-            Ver Cursos
-            <span className="p-2 rounded-full bg-[#9ee701]">
-              <GoArrowRight className="text-gray-800" />
-            </span>
-          </a>
-        </div>
+        <ResultTestSection
+          result={result}
+          testdata={testdata}
+          personal={personal}
+          answer={answer}
+        />
       )}
       {result < 0 && (
         <>
@@ -90,6 +89,7 @@ export default function Test() {
                   answer={answer}
                   setAnswer={setAnswer}
                   setResult={setResult}
+                  personal={personal}
                 />
                 <p className="absolute w-full bottom-0  text-gray-500 text-center py-4 z-0">
                   {t("pc")} {position + 1} {t("pc2")} {testdata.length}

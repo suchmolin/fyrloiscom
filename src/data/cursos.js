@@ -11,6 +11,7 @@ export const data = [
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
+    modalityPayment: "nivel",
     difCourses: [
       {
         id: "1",
@@ -42,7 +43,7 @@ export const data = [
     id: "elementary",
     title: "Elementary",
     description2:
-      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del idioma.",
+      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del inglés.",
     etapa: "6-11 años. ",
     img: "elementaryCourse.png",
     imgAlternative: "elementaryAlt.png",
@@ -50,6 +51,7 @@ export const data = [
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
+    modalityPayment: "nivel",
     difCourses: [
       {
         id: "1",
@@ -89,6 +91,7 @@ export const data = [
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
+    modalityPayment: "nivel",
     difCourses: [
       {
         id: "1",
@@ -129,6 +132,7 @@ export const data = [
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
+    modalityPayment: "nivel",
     subCourse: [
       {
         id: "adults-regular",
@@ -139,6 +143,7 @@ export const data = [
         price: 800,
         inscripcion: 200,
         isSubCourse: true,
+        modalityPayment: "nivel",
       },
       {
         id: "adults-intensivo",
@@ -150,6 +155,7 @@ export const data = [
         price: 800,
         inscripcion: 200,
         isSubCourse: true,
+        modalityPayment: "nivel",
       },
       {
         id: "adults-conversacional",
@@ -161,6 +167,7 @@ export const data = [
         price: 800,
         inscripcion: 200,
         isSubCourse: true,
+        modalityPayment: "nivel",
       },
       {
         id: "adults-personalizado",
@@ -172,6 +179,7 @@ export const data = [
         price: 800,
         inscripcion: 200,
         isSubCourse: true,
+        modalityPayment: "nivel",
       },
       {
         id: "adults-corporativo",
@@ -183,6 +191,7 @@ export const data = [
         price: 800,
         inscripcion: 200,
         isSubCourse: true,
+        modalityPayment: "nivel",
       },
       {
         id: "adults-ciudadania",
@@ -193,6 +202,7 @@ export const data = [
 
         price: 40,
         isSubCourse: true,
+        modalityPayment: "hora",
       },
     ],
     difCourses: [
@@ -226,9 +236,10 @@ export const data = [
     id: "elementary-online",
     title: "Elementary Online",
     description2:
-      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del idioma.",
+      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del inglés.",
     etapa: "6-11 años. ",
     modalidad: "online",
+    modalityPayment: "nivel",
     img: "elementaryOnline.png",
     imgAlternative: "elementaryOnlineAlt.png",
     price: 800,
@@ -265,9 +276,10 @@ export const data = [
     id: "high-school-online",
     title: "High School Online",
     description2:
-      "Prepara tu hijo para el futuro, con un curso pensado para adolescentes: una perfecta combinación de retos y temas adaptados a sus intereses.",
+      "Prepara a tu hijo para el futuro, con un curso adaptado a su edad. Una perfecta combinación de temas y restos adaptados a sus intereses.",
     etapa: "12-16 años. ",
     modalidad: "online",
+    modalityPayment: "nivel",
     img: "highSchoolOnline.png",
     imgAlternative: "highSchoolOnlineAlt.png",
     price: 800,
@@ -308,6 +320,7 @@ export const data = [
       "Comunícate en inglés como siempre has querido, a través de herramientas prácticas y efectivas para que hables con fluidez.",
     etapa: "+17 años. ",
     modalidad: "online",
+    modalityPayment: "nivel",
     img: "adultsOnline.png",
     imgAlternative: "adultsOnlineAlt.png",
     price: 800,
@@ -346,6 +359,7 @@ export const data = [
     description2:
       "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
     modalidad: "online",
+    modalityPayment: "hora",
     img: "ciudadaniaOnline.png",
     imgAlternative: "ciudadaniaOnlineAlt.png",
     price: 40,
@@ -389,6 +403,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
+    modalityPayment: "nivel",
     difCourses: [
       {
         id: "1",
@@ -428,6 +443,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
+    modalityPayment: "nivel",
     difCourses: [
       {
         id: "2",
@@ -467,6 +483,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
+    modalityPayment: "nivel",
     difCourses: [
       {
         id: "1",
@@ -506,6 +523,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
+    modalityPayment: "nivel",
     difCourses: [
       {
         id: "1",
@@ -545,6 +563,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "online",
+    modalityPayment: "nivel",
     difCourses: [
       {
         id: "2",
@@ -584,6 +603,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "online",
+    modalityPayment: "nivel",
     difCourses: [
       {
         id: "1",
@@ -623,6 +643,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "online",
+    modalityPayment: "nivel",
     difCourses: [
       {
         id: "1",

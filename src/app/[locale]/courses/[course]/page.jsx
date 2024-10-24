@@ -43,6 +43,7 @@ export default function CoursePage({ params }) {
           <DiferenciadoresList data={data.difCourses} />
         </div>
       )}
+      {/*
       <div className="w-full h-fit flex justify-center pb-20">
         <div className="w-11/12 sm:w-10/12 md:w-9/12 lg:w-7/12 h-fit]">
           <h2 className="text-3xl font-bold text-[#001A70] text-center my-3 sm:my-10">
@@ -55,6 +56,7 @@ export default function CoursePage({ params }) {
           />
         </div>
       </div>
+      */}
       <div className="w-full flex flex-col items-center bg-gray-100 relative">
         <ReviewsSection modalidad={data.modalidad} />
 

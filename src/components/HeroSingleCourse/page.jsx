@@ -17,15 +17,19 @@ export default function HeroSingleCourse({ courseData }) {
             {courseData.title}
           </h1>
           <div className="flex gap-2 text-[#020203] font-bold items-center mt-2">
-            <div className="relative w-[30px] aspect-square">
-              <Image
-                src="/img/singleCourse.png"
-                layout="fill"
-                objectFit="contain"
-                alt="image"
-              />
-            </div>
-            <p>{courseData.etapa}</p>
+            {courseData.etapa && (
+              <>
+                <div className="relative w-[30px] aspect-square">
+                  <Image
+                    src="/img/singleCourse.png"
+                    layout="fill"
+                    objectFit="contain"
+                    alt="image"
+                  />
+                </div>
+                <p>{courseData.etapa}</p>
+              </>
+            )}
             <div className="relative w-[30px] aspect-square">
               <Image
                 src="/img/singleCourse2.png"

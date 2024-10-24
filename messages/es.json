@@ -8,7 +8,7 @@
     "dd2Title":"Selecciona un país",
     "dd2Item1":"USA",
     "dd2Item2":"Venezuela",
-    "item2":"En Línea",
+    "item2":"Online",
     "item3":"Presencial",
     "item4":"Conócenos",
     "item5":"Contáctanos"
@@ -61,14 +61,14 @@
       "button":"Enviar"
     },
     "h2":"Visítanos",
-    "h2b":"Suscribete"
+    "h2b":"Suscríbete"
   },
   "AboutUs":{
     "HeroAboutUs":{
       "h1":"25 años ",
       "h1Span":"enseñando idiomas",
       "p":"Te ayudamos a alcanzar tus sueños.",
-      "p2":"Genera más y mejores oportunidades de crecimiento personal y profesional.",
+      "p2":"Te ayudamos a alcanzar tus sueños. Alcanza mejores oportunidades de crecimiento personal y profesional.",
       "button":"Conoce más",
       "counter":{
         "p":"Egresados",
@@ -140,9 +140,9 @@
     }
   },
   "sedes":{
-    "h1":"Nuestras Sedes",
-    "p":"Seleciona la sede donde",
-    "p2":"quieres estudiar",
+    "h1":"Tenemos un curso para ti en donde estés",
+    "p":"Selecciona tu ciudad para mostrarte todas las opciones disponibles",
+    
     "SedesList":{
       "aCards":"Visitar"
     }
@@ -239,7 +239,7 @@
     "CursosOnlineHome":{
       "data":"data",
       "h2":"Vive una experiencia de aprendizaje memorable",
-      "p":"Cada estudiante es un proyecto de vida por cumplir. Por esa razón ofrecemos un curso adaptado a los intereses y necesidades."
+      "p":"cada estudiante es un proyecto de vida por cumplir. Por eso te ofrecemos un curso adaptado a tus intereses y necesidades."
     },
     "DiferenciadoresOnline":{
       "h2":"¿Cómo aprenderás inglés con nosotros?",
@@ -249,7 +249,7 @@
       "h1":"Es hora de aprender un nuevo idioma",
       
       "p":"Gracias a nuestros 25 años de experiencia, hemos desarrollado una metodología práctica y divertida con la que aprenderás a hablar el idioma de forma fluida. A través de clases 100% en vivo, adaptadas a tu nivel de conocimiento, con profesores certificados y un método de enseñanza único.",
-      "p2":"Es momento de estudiar ese idioma que siempre has querido, incríbete ya.",
+      "p2":"Es momento de aprender ese idioma que siempre has querido, incríbete ya.",
       "button":"Ver cursos"
     },
     "ViveUnaExperiencia":{
@@ -273,7 +273,7 @@
     },
     "DifCursosOnline":{
       "h2":"¿Sabes por qué aprender con nosotros?",
-      "p":"Diseñamos una experiencia de aprendizaje memorable, en la que te sientas motivado, a gusto y feliz con los resultados.",
+      "p":"Diseñamos una experiencia de aprendizaje memorable, en la que te sentiras motivado, a gusto y feliz con tus resultados.",
       "data":"data"
     },
     "OnlineCoursesList":{

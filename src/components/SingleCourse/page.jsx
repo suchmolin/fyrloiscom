@@ -18,6 +18,12 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
         <h4 className="text-[#001A70] font-bold">{item.title}</h4>
       </div>
       <div className="w-full flex justify-end items-end">
+        {item.modalityPayment === "nivel" && (
+          <p className="text-gray-400 mb-1 mr-3 text-lg">Por nivel:</p>
+        )}
+        {item.modalityPayment === "hora" && (
+          <p className="text-gray-400 mb-1 mr-3 text-lg">Por hora:</p>
+        )}
         <div className="w-fit py-2 px-5 mt-2 bg-[#001A70] rounded-t-xl flex justify-center items-center text-white text-sm">
           <p>${item.price}</p>
         </div>
@@ -33,12 +39,6 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
             <b>{item.etapa}</b>
 
             {item.description2}
-            {item.inscripcion && (
-              <>
-                <br />
-                Inscripción: ${item.inscripcion},00
-              </>
-            )}
           </p>
         </div>
 

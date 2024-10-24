@@ -5,7 +5,8 @@ import { GoArrowLeft, GoArrowRight } from "react-icons/go"
 
 export default function QuestionsTest(props) {
   const t = useTranslations("Test.QuestionsTest")
-  const { position, setPosition, answer, setAnswer, setResult } = props
+  const { position, setPosition, answer, setAnswer, setResult, personal } =
+    props
   const [next, setNext] = useState(false)
   const [previo, setPrevio] = useState(false)
   const [isSelected, setIsSelected] = useState(false)
@@ -52,7 +53,12 @@ export default function QuestionsTest(props) {
     } else {
       const array = [...answer]
 
-      array.push({ id: item.id, resp: selectedAnswer, ok: item.ok })
+      array.push({
+        id: item.id,
+        pregunta: item.question,
+        resp: selectedAnswer,
+        ok: item.ok,
+      })
       setAnswer(array)
     }
   }
@@ -65,7 +71,13 @@ export default function QuestionsTest(props) {
       return
     } else {
       const array = [...answer]
-      array.push({ id: item.id, resp: selected.value, ok: item.ok })
+      array.push({
+        id: item.id,
+        pregunta: item.question,
+        resp: selected.value,
+        ok: item.ok,
+      })
+      setAnswer(array)
 
       const res = getResult(array)
       setResult(res)
@@ -97,7 +109,7 @@ export default function QuestionsTest(props) {
             className="w-4 h-4 text-[#001A70] bg-gray-100 border-gray-300 focus:ring-[#001A70] focus:ring-2 hover:cursor-pointer"
           />
           <label
-            htmlhtmlFor={`default-radio-${index}`}
+            htmlFor={`default-radio-${index}`}
             className="ms-2 text-sm font-medium text-gray-900  hover:cursor-pointer"
           >
             {option}

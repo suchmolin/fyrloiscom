@@ -67,9 +67,9 @@ export const data = [
     ],
   },
   {
-    id: "alcanza-el-exito-en-el-marketing-digital-aprendiendo-ingles",
+    id: "ingles-en-el-marketing-digital",
     tarjeta: {
-      titulo: "Alcanza el Éxito En El Marketing Digital Aprendiendo Inglés",
+      titulo: "Inglés en el marketing digital",
       descripcion:
         "El marketing digital no para de innovar, día a día se crean nuevas dinámicas que constantemente evolucionan la manera como se trabaja en esta industria.",
       autor: "Leonardo Sangroni",
@@ -81,6 +81,7 @@ export const data = [
     },
     contenido: [
       {
+        titulo: "Alcanza el Éxito En El Marketing Digital Aprendiendo Inglés",
         texto: [
           "El marketing digital no para de innovar, día a día se crean nuevas dinámicas que evolucionan la manera como se trabaja en esta industria.",
           "Pero hay algo que se ha mantenido por años e incluso en esta nueva era digital está más presente que nunca: el dominio del inglés. Descubre por qué aprender este idioma puede ayudarte a alcanzar el éxito.",
@@ -123,10 +124,9 @@ export const data = [
     ],
   },
   {
-    id: "aprovecha-las-ventajas-de-la-inteligencia-artificial-para-estudiar-ingles",
+    id: "practica-ingles-con-la-inteligencia-artificial",
     tarjeta: {
-      titulo:
-        "Aprovecha las Ventajas de la Inteligencia Artificial para Estudiar Inglés",
+      titulo: "Practica inglés con la Inteligencia Artificial",
       descripcion:
         "La inteligencia artificial llego para cambiar la manera en la que vemos el mundo y sobretodo para dar un golpe sobre la mesa en cuanto al manejo de la información.",
       autor: "Leonardo Sangroni",
@@ -138,6 +138,8 @@ export const data = [
     },
     contenido: [
       {
+        titulo:
+          "Aprovecha las Ventajas de la Inteligencia Artificial para Estudiar Inglés",
         texto: [
           "La Inteligencia Artificial (IA) llegó para cambiar la manera en la que vemos el mundo y sobretodo para dar un golpe sobre la mesa en cuanto al manejo de la información.",
           "La IA nos permite tener un mar de conocimiento al alcance de la mano y está transformando la forma en que aprendemos. Ya es hora de que la aproveches para alcanzar la fluidez que deseas en inglés.",

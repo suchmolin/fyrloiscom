@@ -70,6 +70,20 @@ export default function NavbarMenu({ setOpen, setPage, page }) {
             Blog
           </Link>
         </li>
+        <li
+          className={`hover:text-[#bb29b9] transition-colors duration-300 border-[#001a70]  ${page == "test" ? "border-b-[3px]" : ""}`}
+        >
+          <Link
+            onClick={() => {
+              setPage("test")
+              setOpen(false)
+            }}
+            href={`/${locale}/test`}
+            className=""
+          >
+            Test
+          </Link>
+        </li>
         <li className="hover:text-[#bb29b9] transition-all duration-300 ">
           <CursosSelector setOpen={setOpen} />
         </li>

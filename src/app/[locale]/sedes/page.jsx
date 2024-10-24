@@ -18,9 +18,12 @@ export default function Sedes() {
 
   return (
     <div className="w-full pt-40 flex flex-col items-center justify-center">
-      <h1 className="text-4xl text-[#001A70] font-bold mb-5 text-center">
-        {t("p")} <br /> {t("p2")}
+      <h1 className="w-11/12 sm:w-10/12 text-4xl sm:text-5xl text-[#001A70] font-bold mb-3 text-center">
+        {t("h1")}
       </h1>
+      <p className="w-11/12 md:w-6/12 text-2xl sm:text-3xl text-center mb-7">
+        {t("p")}
+      </p>
       {/*****SEDES FULL****** */}
       <div className="w-full hidden sm:block">
         <SedesList sedes={sedes} />
