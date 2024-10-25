@@ -26,7 +26,7 @@
   },
   "Diferenciadores":{
     "h2": "¿Por qué elegirnos?",
-    "p":"Creamos una metodología única que te brinda una experiencia innovadora en el aprendizaje del idioma.",
+    "p":"Creamos una metodología única que te permite aprender un nuevo idioma de una manera divertida y diferente.",
     "data":"data"
   },
   "SedePrincipal":{
@@ -68,7 +68,7 @@
       "h1":"25 años ",
       "h1Span":"enseñando idiomas",
       "p":"Te ayudamos a alcanzar tus sueños.",
-      "p2":"Te ayudamos a alcanzar tus sueños. Alcanza mejores oportunidades de crecimiento personal y profesional.",
+      "p2":"Alcanza mejores oportunidades de crecimiento personal y profesional.",
       "button":"Conoce más",
       "counter":{
         "p":"Egresados",
@@ -224,10 +224,10 @@
   },
   "online":{
     "hero":{
-      "h1": "Estudia el idioma que",
+      "h1": "Aprende el idioma que",
       "h1b": "siempre has querido",
       
-      "h1a": "Estudia el idioma",
+      "h1a": "Aprende el idioma",
       "h1a2": "que siempre",
       "h1b2": "has querido",
       
@@ -249,7 +249,7 @@
       "h1":"Es hora de aprender un nuevo idioma",
       
       "p":"Gracias a nuestros 25 años de experiencia, hemos desarrollado una metodología práctica y divertida con la que aprenderás a hablar el idioma de forma fluida. A través de clases 100% en vivo, adaptadas a tu nivel de conocimiento, con profesores certificados y un método de enseñanza único.",
-      "p2":"Es momento de aprender ese idioma que siempre has querido, incríbete ya.",
+      "p2":"Domina ese idioma que siempre has querido, incríbete ya.",
       "button":"Ver cursos"
     },
     "ViveUnaExperiencia":{

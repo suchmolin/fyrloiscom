@@ -17,7 +17,7 @@ export const data = [
     height: 60,
     alt: "Diferenciador",
     subtitle:
-      "Contamos con cursos adaptados a tus objetivos y necesidades, puedes escoger entre estudiar a tu ritmo, enfocarte en mejorar tus habilidades conversacionales, hasta tener tu profesor exclusivo.",
+      "Contamos con cursos  adaptados a tus objetivos y necesidades. Es momento de dominar el idioma. Aprende en un horario adaptado a tu agenda, en menor tiempo o con un profesor exclusivo.",
     href: "online/courses",
 
     boton: "Cursos",

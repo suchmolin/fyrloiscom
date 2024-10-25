@@ -276,7 +276,7 @@ export const data = [
     id: "high-school-online",
     title: "High School Online",
     description2:
-      "Prepara a tu hijo para el futuro, con un curso adaptado a su edad. Una perfecta combinación de temas y restos adaptados a sus intereses.",
+      "Prepara a tu hijo para el futuro, con un curso adaptado a su edad. Una perfecta combinación de temas y retos adaptados a sus intereses.",
     etapa: "12-16 años. ",
     modalidad: "online",
     modalityPayment: "nivel",

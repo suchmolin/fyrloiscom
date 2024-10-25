@@ -23,7 +23,7 @@ export default function FAQSection() {
   return (
     <div className="w-full flex justify-center pb-10">
       <div className="relative w-full xl:w-10/12 bg-white pt-10 pb-8 sm:mt-8 sm:px-10 sm:mb-10">
-        <div className="w-full lg:w-fit mx-auto px-5">
+        <div className="w-full lg:w-fit mx-auto px-5 sm:px-0">
           <div className="flex flex-col items-center mb-3 lg:mb-10">
             <h2 className="mt-5 text-center text-3xl font-bold tracking-tight md:text-5xl text-[#001A70]">
               {t("h2")}

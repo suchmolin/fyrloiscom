@@ -69,7 +69,7 @@ export const data = [
   {
     id: "ingles-en-el-marketing-digital",
     tarjeta: {
-      titulo: "Inglés en el marketing digital",
+      titulo: "Inglés en el Marketing Digital",
       descripcion:
         "El marketing digital no para de innovar, día a día se crean nuevas dinámicas que constantemente evolucionan la manera como se trabaja en esta industria.",
       autor: "Leonardo Sangroni",

@@ -27,7 +27,7 @@ export const data = [
     alt: "Diferenciador",
     title: "Horarios personalizables",
     subtitle:
-      "Puedes estudiar en el horario de tu elección adaptado a tu agenda.",
+      "Puedes aprender en el horario de tu elección adaptado a tu agenda.",
   },
   {
     id: "4",
