@@ -22,7 +22,7 @@
     "h2": "Cursos de idiomas para niños, jóvenes y adultos.",
     
     "button1": "Presencial",
-    "button2": "En Línea"
+    "button2": "Online"
   },
   "Diferenciadores":{
     "h2": "¿Por qué elegirnos?",
@@ -231,8 +231,8 @@
       "h1a2": "que siempre",
       "h1b2": "has querido",
       
-      "h2": "Diviértete, aprende, y",
-      "h2b": "comunícate donde quieras.",
+      "h2": "Práctica, diviértete, y comunícate",
+      "h2b": "donde quieras.",
       
       "button2": "Ver cursos"
     },
