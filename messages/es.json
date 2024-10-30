@@ -19,7 +19,7 @@
     "h1a2": "una nueva",
     "h1b": "manera de comunicarte",
     
-    "h2": "Cursos de idiomas para niños, jóvenes y adultos.",
+    "h2": "Es momento de cumplir tu sueño de dominar el inglés.",
     
     "button1": "Presencial",
     "button2": "Online"
@@ -196,13 +196,13 @@
     "data":"data"
   },
   "Test":{
-    "h1":"Find out your level of English with us",
-    "p":"Remember to answer the exam according to your knowledge, so that you can know the real results of your English level.",
-    "pb":"You have obtained a score: ",
-    "pb2":" of ",
+    "h1":"Descubre tu nivel de inglés",
+    "p":"Responde las preguntas del siguiente exámen según tus conocimientos, así podremos brindarte el resultado real de tu nivel de inglés.",
+    "pb":"Obstuviste un resultado de: ",
+    "pb2":" de ",
     "h4":"Answer the following questions",
-    "pc":"Ask",
-    "pc2":" of ",
+    "pc":"Pregunta",
+    "pc2":" ode ",
     "PersonalDataTest":{
       "email":"Correo Electrónico",
       "name":"Nombre y Apellido",

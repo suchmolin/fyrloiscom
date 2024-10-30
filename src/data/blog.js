@@ -128,7 +128,7 @@ export const data = [
     tarjeta: {
       titulo: "Practica inglés con la Inteligencia Artificial",
       descripcion:
-        "La inteligencia artificial llego para cambiar la manera en la que vemos el mundo y sobretodo para dar un golpe sobre la mesa en cuanto al manejo de la información.",
+        "La inteligencia artificial llegó para cambiar la manera en la que vemos el mundo y sobretodo para dar un golpe sobre la mesa en cuanto al manejo de la información.",
       autor: "Leonardo Sangroni",
       fotoAutor: "leonardosangroni.png",
       categoria: "TECNOLOGÍA",

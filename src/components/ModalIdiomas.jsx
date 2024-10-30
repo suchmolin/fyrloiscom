@@ -63,7 +63,7 @@ export default function ModalIdiomas({ openModal, setOpenModal, selected }) {
                 }
                 className="text-center py-1 sm:py-2 px-5 bg-[#bb29b9] text-white rounded-md hover:bg-[#9ee701] w-11/12 transition-all duration-300"
               >
-                PRESENTIAL
+                PRESENCIAL
               </a>
             </div>
           </div>

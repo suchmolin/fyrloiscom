@@ -39,7 +39,7 @@ export const data = [
     id: "yheissi-blanco",
     name: "Yheissi Blanco",
     cargo: "DIRECTORA ACADÉMICA",
-    img: "teacher2.jpg",
+    img: "teacher2.png",
     descripcion:
       "Directora Académica de Fyr Lois. Encargada de preparar los programas académicos y asegurar que la metodología se cumpla de manera efectiva.",
     acercaDeMi: [
@@ -74,7 +74,7 @@ export const data = [
     id: "mauro-rodriguez",
     name: "Mauro Rodríguez",
     cargo: "DIRECTOR ACADÉMICO",
-    img: "teacher3.jpg",
+    img: "teacher3.png",
     descripcion:
       "Director Académico de Fyr Lois. Encargado de capacitar al equipo de profesores y la supervisión de todos los docentes.",
     acercaDeMi: [
