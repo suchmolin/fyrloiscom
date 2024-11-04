@@ -3,7 +3,7 @@ import { useTranslations, useLocale } from "next-intl"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
 
-export default function SedePrincipal() {
+export default function SedePrincipal({ boton, href }) {
   const locale = useLocale()
   const t = useTranslations("SedePrincipal")
   return (
@@ -31,10 +31,10 @@ export default function SedePrincipal() {
           +1 (305) 5105259
         </p>
         <a
-          href={`/${locale}/sedes`}
+          href={`/${locale}/${href}`}
           className="dropShadow pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 text-black justify-between items-center hover:bg-white transition-all duration-300 w-fit mt-5"
         >
-          {t("button")}
+          {boton}
           <span className="p-2 rounded-full bg-[#9ee701]">
             <GoArrowRight className="text-gray-800" />
           </span>

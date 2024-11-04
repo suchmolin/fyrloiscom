@@ -8,6 +8,8 @@ export const data = [
     img: "kidsCourse.png",
     imgAlternative: "kidsCourseAlt.png",
     price: 800,
+    compra: true,
+    compra: true,
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
@@ -48,6 +50,8 @@ export const data = [
     img: "elementaryCourse.png",
     imgAlternative: "elementaryAlt.png",
     price: 800,
+    compra: true,
+    compra: true,
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
@@ -88,6 +92,8 @@ export const data = [
     img: "highSchoolCourse.png",
     imgAlternative: "highSchoolAlt.png",
     price: 800,
+    compra: true,
+    compra: true,
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
@@ -129,6 +135,7 @@ export const data = [
     img: "adultsCourse.png",
     imgAlternative: "adultsAlt.png",
     price: 800,
+    compra: true,
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
@@ -141,6 +148,7 @@ export const data = [
           "Nuestro Curso Regular te permite progresar a tu ritmo y sin apremio, 4 horas a la semana en el horario que más se adapte a ti y con una duración de 3 meses por nivel.",
         img: "adultsCourse.png",
         price: 800,
+        compra: true,
         inscripcion: 200,
         isSubCourse: true,
         modalityPayment: "nivel",
@@ -153,6 +161,7 @@ export const data = [
         img: "intensivo.png",
 
         price: 800,
+        compra: true,
         inscripcion: 200,
         isSubCourse: true,
         modalityPayment: "nivel",
@@ -165,6 +174,7 @@ export const data = [
         img: "conversacional.png",
 
         price: 800,
+        compra: true,
         inscripcion: 200,
         isSubCourse: true,
         modalityPayment: "nivel",
@@ -177,6 +187,7 @@ export const data = [
         img: "personalizado.png",
 
         price: 800,
+        compra: true,
         inscripcion: 200,
         isSubCourse: true,
         modalityPayment: "nivel",
@@ -189,20 +200,10 @@ export const data = [
         img: "corporativo.png",
 
         price: 800,
+        compra: true,
         inscripcion: 200,
         isSubCourse: true,
         modalityPayment: "nivel",
-      },
-      {
-        id: "adults-ciudadania",
-        title: "Ciudadanía Americana",
-        description2:
-          "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
-        img: "cursoCiudadania.png",
-
-        price: 40,
-        isSubCourse: true,
-        modalityPayment: "hora",
       },
     ],
     difCourses: [
@@ -233,6 +234,167 @@ export const data = [
     ],
   },
   {
+    id: "personalizado",
+    title: "Personalizado",
+    description2:
+      "Aprende inglés a tu ritmo y con un profesor exclusivo que se adapta a tus necesidades y objetivos. ¡Crea tu propio camino hacia el dominio del inglés!",
+
+    img: "personalizado.png",
+    imgAlternative: "personalizadoAlt.png",
+    price: 40,
+    compra: true,
+    lang: "english",
+    modalidad: "presencial",
+    modalityPayment: "hora",
+
+    difCourses: [
+      {
+        id: "1",
+        title: "Clases 100% en inglés",
+        src: "/img/difAdult.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "2",
+        title: "Metodología alineada al Marco Común Europeo",
+        src: "/img/difAdult2.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "3",
+        title: "Grupos reducidos",
+        src: "/img/difAdult3.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+    ],
+  },
+  {
+    id: "corporativo",
+    title: "Corporativo",
+    description2:
+      "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo puedan dominar el inglés.",
+
+    img: "corporativo.png",
+    imgAlternative: "corporativoAlt.png",
+
+    lang: "english",
+    modalidad: "presencial",
+
+    difCourses: [
+      {
+        id: "1",
+        title: "Clases 100% en inglés",
+        src: "/img/difAdult.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "2",
+        title: "Metodología alineada al Marco Común Europeo",
+        src: "/img/difAdult2.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "3",
+        title: "Grupos reducidos",
+        src: "/img/difAdult3.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+    ],
+  },
+  {
+    id: "profesional",
+    title: "Profesional",
+    description2:
+      "¿Ya alcanzaste el nivel C1? Es hora de dar un paso adelante y alcanzar un mayor nivel profesional. Conoce nuestros Cursos Profesionales y práctica lo que necesitas para mejorar tu inglés.",
+
+    img: "profesional.png",
+    imgAlternative: "profesionalAlt.png",
+
+    lang: "english",
+    modalidad: "presencial",
+
+    difCourses: [
+      {
+        id: "1",
+        title: "Clases 100% en inglés",
+        src: "/img/difAdult.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "2",
+        title: "Metodología alineada al Marco Común Europeo",
+        src: "/img/difAdult2.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "3",
+        title: "Grupos reducidos",
+        src: "/img/difAdult3.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+    ],
+  },
+  {
+    id: "ciudadania-americana",
+    title: "Curso de Ciudadanía",
+    description2:
+      "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+
+    img: "cursoCiudadania.png",
+    imgAlternative: "cursoCiudadaniaAlt.png",
+    price: 40,
+    compra: true,
+    lang: "english",
+    modalidad: "presencial",
+    modalityPayment: "hora",
+
+    difCourses: [
+      {
+        id: "1",
+        title: "Clases 100% en inglés",
+        src: "/img/difAdult.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "2",
+        title: "Metodología alineada al Marco Común Europeo",
+        src: "/img/difAdult2.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "3",
+        title: "Grupos reducidos",
+        src: "/img/difAdult3.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+    ],
+  },
+  //ONLINE COURSES
+  {
     id: "elementary-online",
     title: "Elementary Online",
     description2:
@@ -243,6 +405,7 @@ export const data = [
     img: "elementaryOnline.png",
     imgAlternative: "elementaryOnlineAlt.png",
     price: 800,
+    compra: true,
     inscripcion: 200,
     lang: "english",
     difCourses: [
@@ -283,6 +446,7 @@ export const data = [
     img: "highSchoolOnline.png",
     imgAlternative: "highSchoolOnlineAlt.png",
     price: 800,
+    compra: true,
     inscripcion: 200,
     lang: "english",
     difCourses: [
@@ -324,6 +488,7 @@ export const data = [
     img: "adultsOnline.png",
     imgAlternative: "adultsOnlineAlt.png",
     price: 800,
+    compra: true,
     inscripcion: 200,
     lang: "english",
     difCourses: [
@@ -363,6 +528,7 @@ export const data = [
     img: "ciudadaniaOnline.png",
     imgAlternative: "ciudadaniaOnlineAlt.png",
     price: 40,
+    compra: true,
     lang: "english",
     difCourses: [
       {
@@ -400,6 +566,7 @@ export const data = [
     img: "kidsEspanol.png",
     imgAlternative: "kidsEspanolAlt.png",
     price: 800,
+    compra: true,
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
@@ -440,6 +607,7 @@ export const data = [
     img: "elementaryEspanol.png",
     imgAlternative: "elementaryEspanolAlt.png",
     price: 800,
+    compra: true,
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
@@ -480,6 +648,7 @@ export const data = [
     img: "highSchoolEspanol.png",
     imgAlternative: "highSchoolEspanolAlt.png",
     price: 800,
+    compra: true,
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
@@ -520,6 +689,7 @@ export const data = [
     img: "adultsEspanol.png",
     imgAlternative: "adultsEspanolAlt.png",
     price: 800,
+    compra: true,
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
@@ -560,6 +730,7 @@ export const data = [
     img: "elementaryEspanolOnline.png",
     imgAlternative: "elementaryEspanolOnlineAlt.png",
     price: 800,
+    compra: true,
     inscripcion: 200,
     lang: "spanish",
     modalidad: "online",
@@ -600,6 +771,7 @@ export const data = [
     img: "highSchoolEspanolOnline.png",
     imgAlternative: "highSchoolEspanolOnlineAlt.png",
     price: 800,
+    compra: true,
     inscripcion: 200,
     lang: "spanish",
     modalidad: "online",
@@ -640,6 +812,7 @@ export const data = [
     img: "adultsEspanolOnline.png",
     imgAlternative: "adultsEspanolOnlineAlt.png",
     price: 800,
+    compra: true,
     inscripcion: 200,
     lang: "spanish",
     modalidad: "online",

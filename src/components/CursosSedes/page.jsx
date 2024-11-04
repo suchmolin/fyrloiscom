@@ -1,11 +1,14 @@
 "use client"
-
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 import { useTranslations } from "next-intl"
 import SingleCourse from "../SingleCourse/page"
 import { useState, useEffect } from "react"
 import IdiomaCursosButton from "../IdiomaCursosButton/page"
 import { useSearchParams } from "next/navigation"
 import TestNivelacion from "../TestNivelacion/page"
+import Slider from "react-slick"
+import { Carousel } from "flowbite-react"
 
 export default function CursosSedes({ sedeData }) {
   const searchParams = useSearchParams()
@@ -16,6 +19,33 @@ export default function CursosSedes({ sedeData }) {
   const dataCursos = data.filter(
     (item) => sedeData.cursos.includes(item.id) && item.lang === idioma
   )
+
+  const settings = {
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    infinite: false,
+    responsive: [
+      {
+        breakpoint: 1536,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1150,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 790,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  }
 
   useEffect(() => {
     const fetchData = async () => {
@@ -47,16 +77,33 @@ export default function CursosSedes({ sedeData }) {
             <IdiomaCursosButton setState={setIdioma} />
           )}
         </div>
-        <div className="w-11/12 flex gap-4 justify-center flex-wrap ">
-          {dataCursos.map((item) => (
-            <SingleCourse
-              key={item.id}
-              item={item}
-              sede={sedeData.id}
-              comprar={true}
-              lang={langCourse}
-            />
-          ))}
+        <div className="hidden sm:block w-11/12 xxl:w-10/12 slider-container">
+          <Slider {...settings} className="pl-10">
+            {dataCursos.map((item) => (
+              <div key={item.id}>
+                <SingleCourse
+                  item={item}
+                  sede={sedeData.id}
+                  comprar={true}
+                  lang={langCourse}
+                />
+              </div>
+            ))}
+          </Slider>
+        </div>
+        <div className="h-[600px] sm:hidden w-11/12 flex justify-center">
+          <Carousel>
+            {dataCursos.map((item) => (
+              <div key={item.id} className="flex justify-center">
+                <SingleCourse
+                  item={item}
+                  sede={sedeData.id}
+                  comprar={true}
+                  lang={langCourse}
+                />
+              </div>
+            ))}
+          </Carousel>
         </div>
       </div>
       {idioma === "english" && <TestNivelacion />}

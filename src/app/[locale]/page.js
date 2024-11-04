@@ -13,7 +13,7 @@ export default function Home() {
       <Hero />
       <TestNivelacion />
       <Diferenciadores />
-      <SedePrincipal />
+      <SedePrincipal boton="Todas las Sedes" href="sedes" />
       <Customers />
       <FAQSection />
       <SeccionMiss />
