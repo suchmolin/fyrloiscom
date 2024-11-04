@@ -10,7 +10,7 @@ export default function Hero() {
   const t = useTranslations("hero")
   const locale = useLocale()
   return (
-    <div className="relative flex items-center md:justify-start w-full h-screen">
+    <div className="relative flex items-center md:justify-start w-full h-[800px]">
       <div className="flex flex-col justify-center md:px-12 lg:px-28 pt-10 md:pt-[70px] ml-1 xs:ml-5 md:ml-0 pr-[20%] xs:pr-[30%] sm:pr-0 text-[#001a70] z-10">
         <h1 className="hidden sm:block text-7xl  font-[latoblack] mb-2 text-nowrap">
           {t("h1a")} <br /> {t("h1b")} <br /> {t("h1c")}
@@ -20,7 +20,7 @@ export default function Hero() {
           <h2 className="text-3xl ">{t("h2")}</h2>
         </div>
       </div>
-      <div className="absolute top-0 right-0 w-[900px] h-full ">
+      <div className="absolute top-0 right-0 w-[900px] h-[737px] ">
         <div className="relative w-full h-full ">
           <Image
             src="/img/mapaHeader.png"
