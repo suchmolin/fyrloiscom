@@ -16,6 +16,7 @@ export default function Hero() {
 
   return (
     <div className="relative flex items-start lg:items-center md:justify-start w-full h-[750px] sm:h-[790px] lg:h-[600px] xl:h-[800px] xxl:h-[1000px] overflow-hidden">
+      <figure id="projectosvg"></figure>
       <div className="flex flex-col justify-center sm:pl-16 ml-1 xs:ml-5 md:ml-0 pr-[20%] xs:pr-[30%] sm:pr-0 text-[#001a70] z-10 mt-28 lg:mt-0">
         <h1 className="text-4xl xs:text-5xl sm:text-6xl xl:text-7xl font-[latoblack] mb-2 text-nowrap">
           {t("h1a")} <br /> {t("h1b")} <br /> {t("h1c")}
@@ -25,7 +26,7 @@ export default function Hero() {
           <h2 className="text-xl sm:text-2xl xl:text-3xl ">{t("h2")}</h2>
         </div>
       </div>
-      <div className=" absolute top-[210px] sm:top-[260px] lg:top-0 -left-20 sm:left-auto sm:right-0 w-[130%] xs:w-[125%] sm:w-[700px] xl:w-[900px] xxl:w-[1200px] h-[600px] lg:h-full overflow-x-scroll">
+      <div className=" absolute top-[210px] sm:top-[260px] lg:top-0 -left-20 sm:left-auto sm:right-0 w-[130%] xs:w-[125%] sm:w-[700px] xl:w-[900px] xxl:w-[1200px] h-[600px] lg:h-full overflow-x-scroll sm:overflow-auto">
         <div className="mapaheader relative w-[660px] sm:w-full h-full  bg-contain bg-no-repeat bg-center">
           <button className="absolute top-[286px] xl:top-[385px] xxl:top-[470px] left-[160px] sm:left-[170px] xl:left-[215px] xxl:left-[288px] cursor-pointer group">
             <div className="relative w-6 xl:w-9 xxl:w-12 aspect-square bg-[url(/img/kissimmeemapa.png)] group-hover:bg-[url(/img/kissimmeemapahover.png)] bg-contain bg-no-repeat bg-center transition-all duration-300 hover:scale-105 xxl:group-hover:scale-110 ">

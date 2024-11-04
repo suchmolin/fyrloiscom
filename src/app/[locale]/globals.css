@@ -18,6 +18,17 @@
   font-family: 'latoblack';
   src: url('/fonts/Lato-Black.ttf');
 }
+figure::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content:
+      url("/img/mapaHeader.png")
+      url("/img/mapaheaderhover.png");
+      
+}
 
 *{
   scroll-behavior: smooth;
