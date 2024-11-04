@@ -5,7 +5,7 @@ export default function TestNivelacion() {
   const locale = useLocale()
 
   return (
-    <div className="w-full bg-white h-[200px] md:h-[150px] flex flex-col justify-center items-center py-20">
+    <div className="w-full bg-gray-100 h-[200px] md:h-[150px] flex flex-col justify-center items-center py-20">
       <h2 className="text-[#001A70] text-4xl lg:text-5xl text-center px-4 sm:px-0">
         <b>{t("h2")}</b>
       </h2>

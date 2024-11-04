@@ -247,3 +247,7 @@ textarea {
 .textnowrap{
   white-space: nowrap !important;
 }
+
+.mapaheader {
+  background-image: url('/img/mapaHeader.png');
+}
