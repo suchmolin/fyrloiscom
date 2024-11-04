@@ -12,7 +12,7 @@ export default function Hero() {
     const divMapa = document.querySelector(".mapaheader")
     action === "enter"
       ? (divMapa.style.backgroundImage = "url(/img/mapaheaderhover.png)")
-      : (divMapa.style.backgroundImage = "url(/img/mapaheader.png)")
+      : (divMapa.style.backgroundImage = "url(/img/mapaHeader.png)")
   }
 
   return (
