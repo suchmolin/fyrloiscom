@@ -14,15 +14,10 @@
     "item5":"Contáctanos"
   },
   "hero": {
-    "h1": "Aprende una nueva",
-    "h1a": "Aprende",
-    "h1a2": "una nueva",
-    "h1b": "manera de comunicarte",
-    
-    "h2": "Es momento de cumplir tu sueño de dominar el inglés.",
-    
-    "button1": "Presencial",
-    "button2": "Online"
+    "h1a":"Es momento",
+    "h1b":"de aprender un",
+    "h1c":"nuevo idioma",
+    "h2":"Clases de inglés para todas las edades."
   },
   "Diferenciadores":{
     "h2": "¿Por qué elegirnos?",
