@@ -15,7 +15,6 @@ export const data = [
       "high-school",
       "adults",
       "personalizado",
-      "kids-espanol",
       "elementary-espanol",
       "high-school-espanol",
       "adults-espanol",

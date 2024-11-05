@@ -22,9 +22,12 @@ export default function CursosSedes({ sedeData }) {
 
   const settings = {
     speed: 500,
+    infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
-    infinite: false,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 1536,

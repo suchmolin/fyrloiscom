@@ -48,32 +48,16 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
 
         {comprar && (
           <div className="flex justify-between ">
-            {item.isSubCourse ? (
-              <button
-                onClick={(e) => {
-                  e.target.disabled = true
-                  handleCheckout([
-                    { id: item.id, cantidad: 1, precio: item.price },
-                  ])
-                }}
-                className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black disabled:opacity-50 disabled:cursor-wait"
-              >
-                Comprar
-                <span className="p-2 rounded-full bg-[#9ee701]">
-                  <GoArrowRight className="text-gray-800" />
-                </span>
-              </button>
-            ) : (
-              <a
-                href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`}
-                className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
-              >
-                Ver más
-                <span className="p-2 rounded-full bg-[#9ee701]">
-                  <GoArrowRight className="text-gray-800" />
-                </span>
-              </a>
-            )}
+            <a
+              href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`}
+              className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
+            >
+              Ver más
+              <span className="p-2 rounded-full bg-[#9ee701]">
+                <GoArrowRight className="text-gray-800" />
+              </span>
+            </a>
+
             {item.compra && (
               <button
                 onClick={() =>

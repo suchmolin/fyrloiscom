@@ -1,3 +1,5 @@
+import SubCourses from "@/components/SubCourses/page"
+
 export const data = [
   {
     id: "kids",
@@ -8,7 +10,6 @@ export const data = [
     img: "kidsCourse.png",
     imgAlternative: "kidsCourseAlt.png",
     price: 800,
-    compra: true,
     compra: true,
     inscripcion: 200,
     lang: "english",
@@ -40,6 +41,34 @@ export const data = [
         alt: "dif kids",
       },
     ],
+    horarios: [
+      {
+        dia: "LUNES Y MIÉRCOLES",
+        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+      },
+      {
+        dia: "MARTES Y JUEVES",
+        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+      },
+      {
+        dia: "VIERNES",
+        horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+      },
+      {
+        dia: "SÁBADOS",
+        horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+      },
+    ],
+    time: [
+      { num: "3", titulo: "LAPSOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
+      { num: "10", titulo: "MESES: SEP - JULIO" },
+    ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado"],
+    },
   },
   {
     id: "elementary",
@@ -50,7 +79,6 @@ export const data = [
     img: "elementaryCourse.png",
     imgAlternative: "elementaryAlt.png",
     price: 800,
-    compra: true,
     compra: true,
     inscripcion: 200,
     lang: "english",
@@ -82,6 +110,34 @@ export const data = [
         alt: "difElem",
       },
     ],
+    horarios: [
+      {
+        dia: "LUNES Y MIÉRCOLES",
+        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+      },
+      {
+        dia: "MARTES Y JUEVES",
+        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+      },
+      {
+        dia: "VIERNES",
+        horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+      },
+      {
+        dia: "SÁBADOS",
+        horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+      },
+    ],
+    time: [
+      { num: "3", titulo: "LAPSOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
+      { num: "10", titulo: "MESES: SEP - JULIO" },
+    ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado"],
+    },
   },
   {
     id: "high-school",
@@ -92,7 +148,6 @@ export const data = [
     img: "highSchoolCourse.png",
     imgAlternative: "highSchoolAlt.png",
     price: 800,
-    compra: true,
     compra: true,
     inscripcion: 200,
     lang: "english",
@@ -125,6 +180,34 @@ export const data = [
         alt: "difHS",
       },
     ],
+    horarios: [
+      {
+        dia: "LUNES Y MIÉRCOLES",
+        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+      },
+      {
+        dia: "MARTES Y JUEVES",
+        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+      },
+      {
+        dia: "VIERNES",
+        horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+      },
+      {
+        dia: "SÁBADOS",
+        horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+      },
+    ],
+    time: [
+      { num: "3", titulo: "LAPSOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
+      { num: "10", titulo: "MESES: SEP - JULIO" },
+    ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado"],
+    },
   },
   {
     id: "adults",
@@ -140,72 +223,6 @@ export const data = [
     lang: "english",
     modalidad: "presencial",
     modalityPayment: "nivel",
-    subCourse: [
-      {
-        id: "adults-regular",
-        title: "Regular",
-        description2:
-          "Nuestro Curso Regular te permite progresar a tu ritmo y sin apremio, 4 horas a la semana en el horario que más se adapte a ti y con una duración de 3 meses por nivel.",
-        img: "adultsCourse.png",
-        price: 800,
-        compra: true,
-        inscripcion: 200,
-        isSubCourse: true,
-        modalityPayment: "nivel",
-      },
-      {
-        id: "adults-intensivo",
-        title: "Intensivo",
-        description2:
-          "Un Curso Intensivo de inglés adaptado a tus necesidades. 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
-        img: "intensivo.png",
-
-        price: 800,
-        compra: true,
-        inscripcion: 200,
-        isSubCourse: true,
-        modalityPayment: "nivel",
-      },
-      {
-        id: "adults-conversacional",
-        title: "Conversacional",
-        description2:
-          "¿Quieres ampliar tu vocabulario? Inscríbete en nuestro Curso Conversacional donde podrás practicar tu inglés y dejar todos los nervios atrás.",
-        img: "conversacional.png",
-
-        price: 800,
-        compra: true,
-        inscripcion: 200,
-        isSubCourse: true,
-        modalityPayment: "nivel",
-      },
-      {
-        id: "adults-personalizado",
-        title: "Personalizado",
-        description2:
-          "Aprende inglés a tu ritmo y con un profesor exclusivo que se adapta a tus necesidades y objetivos. ¡Crea tu propio camino hacia el dominio del inglés!",
-        img: "personalizado.png",
-
-        price: 800,
-        compra: true,
-        inscripcion: 200,
-        isSubCourse: true,
-        modalityPayment: "nivel",
-      },
-      {
-        id: "adults-corporativo",
-        title: "Corporativo",
-        description2:
-          "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo puedan dominar el inglés.",
-        img: "corporativo.png",
-
-        price: 800,
-        compra: true,
-        inscripcion: 200,
-        isSubCourse: true,
-        modalityPayment: "nivel",
-      },
-    ],
     difCourses: [
       {
         id: "1",
@@ -232,6 +249,44 @@ export const data = [
         alt: "difAdult",
       },
     ],
+    horarios: [
+      {
+        dia: "MIÉRCOLES Y VIERNES",
+        horas: [
+          "7:00 - 8:20 am",
+          "8:30 - 9:50 am",
+          "10:00 - 11:20 am",
+          "12:30 - 1:50 am",
+        ],
+      },
+      {
+        dia: "MARTES Y JUEVES",
+        horas: [
+          "7:00 - 8:20 am",
+          "8:30 - 9:50 am",
+          "10:00 - 11:20 am",
+          "12:30 - 1:50 am",
+        ],
+      },
+      {
+        dia: "LUNES Y MIÉRCOLES",
+        horas: ["6:30 - 7:50 pm"],
+      },
+      {
+        dia: "MARTES Y JUEVES",
+        horas: ["6:30 - 7:50 pm"],
+      },
+    ],
+    time: [
+      { num: "6", titulo: "NIVELES" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
+      { num: "18", titulo: "MESES" },
+    ],
+    subCursos: {
+      titulo: "tenemos estos cursos especializados para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado", "intensivo"],
+    },
   },
   {
     id: "personalizado",
@@ -242,10 +297,55 @@ export const data = [
     img: "personalizado.png",
     imgAlternative: "personalizadoAlt.png",
     price: 40,
-    compra: true,
+    personalized: true,
     lang: "english",
     modalidad: "presencial",
     modalityPayment: "hora",
+
+    difCourses: [
+      {
+        id: "1",
+        title: "Aprende a tu ritmo",
+        src: "/img/difAdult.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "2",
+        title: "Profesor Exclusivo",
+        src: "/img/difAdult2.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "3",
+        title: "Adaptado a tus necesidades y objetivos",
+        src: "/img/difAdult3.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+    ],
+    difTarjeta: [
+      "Aprende a tu ritmo",
+      "Profesor exclusivo",
+      "Adaptado a tus necesidades y objetivos",
+    ],
+  },
+  {
+    id: "intensivo",
+    title: "Intensivo",
+    description2:
+      "Un Curso Intensivo de inglés adaptado a tus necesidades. 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
+
+    img: "intensivo.png",
+    imgAlternative: "intensivoAlt.png",
+    price: 800,
+    lang: "english",
+    modalidad: "presencial",
+    modalityPayment: "nivel",
 
     difCourses: [
       {
@@ -273,6 +373,11 @@ export const data = [
         alt: "difAdult",
       },
     ],
+    difTarjeta: [
+      "8 horas a la semana",
+      "Mes y medio por nivel",
+      "Práctica constante",
+    ],
   },
   {
     id: "corporativo",
@@ -282,7 +387,7 @@ export const data = [
 
     img: "corporativo.png",
     imgAlternative: "corporativoAlt.png",
-
+    corporativo: true,
     lang: "english",
     modalidad: "presencial",
 
@@ -351,6 +456,12 @@ export const data = [
         alt: "difAdult",
       },
     ],
+    subCursos: {
+      titulo:
+        "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
+
+      subCurso: ["personalizado", "personalizado", "personalizado"],
+    },
   },
   {
     id: "ciudadania-americana",
@@ -434,6 +545,34 @@ export const data = [
         alt: "difElem",
       },
     ],
+    horarios: [
+      {
+        dia: "LUNES",
+        horas: ["3:00 - 3:50 pm", "(EST)"],
+      },
+      {
+        dia: "MARTES",
+        horas: ["3:00 - 3:50 pm", "(EST)"],
+      },
+      {
+        dia: "MIERCOLES",
+        horas: ["3:00 - 3:50 pm", "(EST)"],
+      },
+      {
+        dia: "JUEVES",
+        horas: ["3:00 - 3:50 pm", "(EST)"],
+      },
+    ],
+    time: [
+      { num: "3", titulo: "LAPSOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
+      { num: "10", titulo: "MESES: SEP - JULIO" },
+    ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado"],
+    },
   },
   {
     id: "high-school-online",
@@ -476,6 +615,34 @@ export const data = [
         alt: "difHS",
       },
     ],
+    horarios: [
+      {
+        dia: "LUNES",
+        horas: ["3:00 - 3:50 pm", "(EST)"],
+      },
+      {
+        dia: "MARTES",
+        horas: ["3:00 - 3:50 pm", "(EST)"],
+      },
+      {
+        dia: "MIERCOLES",
+        horas: ["3:00 - 3:50 pm", "(EST)"],
+      },
+      {
+        dia: "JUEVES",
+        horas: ["3:00 - 3:50 pm", "(EST)"],
+      },
+    ],
+    time: [
+      { num: "3", titulo: "LAPSOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
+      { num: "10", titulo: "MESES: SEP - JULIO" },
+    ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado-online"],
+    },
   },
   {
     id: "adults-online",
@@ -519,16 +686,15 @@ export const data = [
     ],
   },
   {
-    id: "ciudadania-online",
-    title: "Ciudadania Online",
+    id: "personalizado-online",
+    title: "Personalizado Online",
     description2:
-      "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+      "Aprende inglés a tu ritmo y con un profesor exclusivo que se adapta a tus necesidades y objetivos. ¡Crea tu propio camino hacia el dominio del inglés!",
     modalidad: "online",
     modalityPayment: "hora",
-    img: "ciudadaniaOnline.png",
-    imgAlternative: "ciudadaniaOnlineAlt.png",
+    img: "personalizado.png",
+    imgAlternative: "personalizadoAlt.png",
     price: 40,
-    compra: true,
     lang: "english",
     difCourses: [
       {
@@ -557,6 +723,85 @@ export const data = [
       },
     ],
   },
+  {
+    id: "corporativo-online",
+    title: "Corporativo Online",
+    description2:
+      "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo puedan dominar el inglés.",
+
+    img: "corporativo.png",
+    imgAlternative: "corporativoAlt.png",
+
+    lang: "english",
+    modalidad: "online",
+
+    difCourses: [
+      {
+        id: "1",
+        title: "Clases 100% en inglés",
+        src: "/img/difAdult.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "2",
+        title: "Metodología alineada al Marco Común Europeo",
+        src: "/img/difAdult2.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "3",
+        title: "Grupos reducidos",
+        src: "/img/difAdult3.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+    ],
+  },
+  {
+    id: "profesional-online",
+    title: "Profesional Online",
+    description2:
+      "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo puedan dominar el inglés.",
+
+    img: "corporativo.png",
+    imgAlternative: "corporativoAlt.png",
+
+    lang: "english",
+    modalidad: "online",
+
+    difCourses: [
+      {
+        id: "1",
+        title: "Clases 100% en inglés",
+        src: "/img/difAdult.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "2",
+        title: "Metodología alineada al Marco Común Europeo",
+        src: "/img/difAdult2.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "3",
+        title: "Grupos reducidos",
+        src: "/img/difAdult3.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+    ],
+  },
+  //CURSOS ESPAÑOL
   {
     id: "kids-espanol",
     title: "Kids Español",

@@ -1,11 +1,14 @@
 "use client"
-
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 import { useLocale, useTranslations } from "next-intl"
 import SingleCourse from "../SingleCourse/page"
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { useSearchParams } from "next/navigation"
 import IdiomaCursosButton from "../IdiomaCursosButton/page"
+import Slider from "react-slick"
+import { Carousel } from "flowbite-react"
 
 export default function CursosOnlineHome() {
   const searchParams = useSearchParams()
@@ -31,6 +34,37 @@ export default function CursosOnlineHome() {
     (item) => item.modalidad === "online" && item.lang === idioma
   )
 
+  const settings = {
+    speed: 500,
+    infinite: true,
+    dots: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1536,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1150,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 790,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  }
+
   return (
     <div className="w-full flex flex-col items-center justify-center py-20">
       <div className="w-10/12 text-center flex flex-col items-center mb-7">
@@ -44,16 +78,33 @@ export default function CursosOnlineHome() {
           <IdiomaCursosButton setState={setIdioma} />
         </div>
       </div>
-      <div className="w-11/12 flex gap-4 justify-center flex-wrap ">
-        {CursosOnline.map((item) => (
-          <SingleCourse
-            key={item.id}
-            item={item}
-            comprar={true}
-            sombra={true}
-            lang={langCourse}
-          />
-        ))}
+      <div className="hidden md:block w-11/12 xxl:w-10/12 slider-container">
+        <Slider {...settings} className="pl-10">
+          {CursosOnline.map((item) => (
+            <div key={item.id} className="p-5">
+              <SingleCourse
+                item={item}
+                comprar={true}
+                sombra={true}
+                lang={langCourse}
+              />
+            </div>
+          ))}
+        </Slider>
+      </div>
+      <div className="h-[600px] md:hidden w-11/12 flex justify-center">
+        <Carousel>
+          {CursosOnline.map((item) => (
+            <div key={item.id} className="p-5 flex justify-center">
+              <SingleCourse
+                item={item}
+                comprar={true}
+                sombra={true}
+                lang={langCourse}
+              />
+            </div>
+          ))}
+        </Carousel>
       </div>
       <div className="w-full flex items-center justify-center pt-10">
         <Link

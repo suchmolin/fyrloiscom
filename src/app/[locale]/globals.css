@@ -262,3 +262,24 @@ textarea {
 .mapaheader {
   background-image: url('/img/mapaHeader.png');
 }
+.carrusel button{
+  border-radius: 50%;
+  background-color: #001A70;
+}
+
+.tablaPersonalizado{
+  width: 100%;
+}
+.tablaPersonalizado td{
+  padding: 10px 15px;
+  
+  width: 100%;
+  justify-items: center;
+}
+.tablaPersonalizado tr{
+  width: 100%;
+  border: 1px solid #BFBDBD;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}

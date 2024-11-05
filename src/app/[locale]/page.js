@@ -12,7 +12,7 @@ export default function Home() {
     <main className="flex w-full min-h-screen flex-col font-[lato]">
       <Hero />
       <TestNivelacion />
-      <Diferenciadores />
+      <Diferenciadores curva={true} />
       <SedePrincipal boton="Todas las Sedes" href="sedes" />
       <Customers />
       <FAQSection />
