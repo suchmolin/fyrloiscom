@@ -93,7 +93,7 @@ export default function CursosOnlineHome() {
         </Slider>
       </div>
       <div className="h-[600px] md:hidden w-11/12 flex justify-center">
-        <Carousel>
+        <Carousel className="carrusel">
           {CursosOnline.map((item) => (
             <div key={item.id} className="p-5 flex justify-center">
               <SingleCourse

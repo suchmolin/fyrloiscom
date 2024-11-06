@@ -70,8 +70,8 @@ export default function PersonalizadoTablas() {
             </td>
           </tr>
         </table>
-        <Carousel>
-          <table className="tablaPersonalizado sm:hidden">
+        <Carousel className="sm:hidden">
+          <table className="tablaPersonalizado">
             <tr>
               <th colSpan={2}>Regular</th>
             </tr>

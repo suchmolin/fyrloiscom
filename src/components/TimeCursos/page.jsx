@@ -1,7 +1,9 @@
-export default function TimeCursos({ data }) {
+export default function TimeCursos({ data, fondoBlanco }) {
   return (
-    <div className="w-full bg-[#001a70] flex justify-center items-center py-10">
-      <div className="w-full sm:w-10/12 xl:w-9/12 xxl:w-7/12 flex flex-col sm:flex-row items-center gap-y-7 px-4 sm:px-0 sm:justify-between text-white">
+    <div
+      className={`w-full ${fondoBlanco ? "bg-white text-[#001a70]" : "bg-[#001a70] text-white"} flex justify-center items-center py-10`}
+    >
+      <div className="w-full sm:w-10/12 xl:w-9/12 xxl:w-7/12 flex flex-col sm:flex-row items-center gap-y-7 px-4 sm:px-0 sm:justify-between">
         {data.map((item) => (
           <div
             key={item.titulo}

@@ -264,7 +264,7 @@ textarea {
 }
 .carrusel button{
   border-radius: 50%;
-  background-color: #001A70;
+  background-color: #001A70 !important;
 }
 
 .tablaPersonalizado{

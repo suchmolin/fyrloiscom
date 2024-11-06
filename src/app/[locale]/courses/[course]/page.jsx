@@ -16,6 +16,7 @@ import PersonalizadoDif from "@/components/PersonalizadoDif/page"
 export default function CoursePage({ params }) {
   const { course } = params
   const [data, setData] = useState([])
+
   const t = useTranslations("CoursePage")
 
   useEffect(() => {
@@ -43,7 +44,7 @@ export default function CoursePage({ params }) {
       )}
       {data.time && (
         <div className="w-full flex justify-center">
-          <TimeCursos data={data.time} />
+          <TimeCursos data={data.time} fondoBlanco={data.difBlanco2} />
         </div>
       )}
       {data.subCursos && (
@@ -51,13 +52,12 @@ export default function CoursePage({ params }) {
           <SubCourses sub={data.subCursos} />
         </>
       )}
-      {data.personalized && <PersonalizadoDif />}
-
+      {console.log(data.personalized)};
+      {data.personalized && <PersonalizadoDif data={data.personalized} />}
       <Diferenciadores
         filtro={data.personalized ? [1, 2, 3, 4, 5] : null}
-        fondoBlanco={data.corporativo || false}
+        fondoBlanco={data.difBlanco || false}
       />
-
       {/*
       <div className="w-full h-fit flex justify-center pb-20">
         <div className="w-11/12 sm:w-10/12 md:w-9/12 lg:w-7/12 h-fit]">

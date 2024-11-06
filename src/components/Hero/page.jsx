@@ -28,7 +28,10 @@ export default function Hero() {
       </div>
       <div className=" absolute top-[210px] sm:top-[260px] lg:top-0 -left-20 sm:left-auto sm:right-0 w-[130%] xs:w-[125%] sm:w-[700px] xl:w-[900px] xxl:w-[1200px] h-[600px] lg:h-full overflow-x-scroll sm:overflow-auto">
         <div className="mapaheader relative w-[660px] sm:w-full h-full  bg-contain bg-no-repeat bg-center">
-          <button className="absolute top-[286px] xl:top-[385px] xxl:top-[476px] left-[160px] sm:left-[170px] xl:left-[215px] xxl:left-[288px] cursor-pointer group">
+          <a
+            href={`/${locale}/sedes/kissimmee`}
+            className="absolute top-[286px] xl:top-[385px] xxl:top-[476px] left-[160px] sm:left-[170px] xl:left-[215px] xxl:left-[288px] cursor-pointer group"
+          >
             <div className="relative w-6 xl:w-9 xxl:w-12 aspect-square bg-[url(/img/kissimmeemapa.png)] group-hover:bg-[url(/img/kissimmeemapahover.png)] bg-contain bg-no-repeat bg-center transition-all duration-300 hover:scale-105 xxl:group-hover:scale-110 ">
               <div className="relative w-[40px] xl:w-[50px] xxl:w-[70px] aspect-square -top-9 xl:-top-11 xxl:-top-14 group-hover:-top-10 xl:group-hover:-top-12 xxl:group-hover:-top-16 group-hover:scale-105 xxl:group-hover:scale-110 transition-all duration-300">
                 <Image
@@ -39,8 +42,11 @@ export default function Hero() {
                 />
               </div>
             </div>
-          </button>
-          <button className="absolute top-[332px] sm:top-[335px] xl:top-[444px] xxl:top-[554px] left-[192px] sm:left-[200px] xl:left-[260px] xxl:left-[348px] group">
+          </a>
+          <a
+            href={`/${locale}/sedes?count=Venezuela#franquicias`}
+            className="absolute top-[332px] sm:top-[335px] xl:top-[444px] xxl:top-[554px] left-[192px] sm:left-[200px] xl:left-[260px] xxl:left-[348px] group"
+          >
             <div
               className="relative w-9 xl:w-11 xxl:w-14 aspect-square
              bg-[url(/img/venezuelamapa.png)]  group-hover:bg-[url(/img/venezuelamapahover.png)] bg-contain bg-no-repeat bg-center transition-all duration-300 hover:scale-105 xxl:hover:scale-110 cursor-pointer"
@@ -54,10 +60,11 @@ export default function Hero() {
                 />
               </div>
             </div>
-          </button>
+          </a>
           <button
             onMouseOver={() => onHoverOnline("enter")}
             onMouseLeave={() => onHoverOnline("leave")}
+            onClick={() => window.location.replace(`/${locale}/online`)}
             className="relative hoveronline w-[55px] xl:w-[70px] xxl:w-[90px] aspect-square top-[230px] xl:top-[270px] xxl:top-[360px] left-[260px] sm:left-[280px] xl:left-[380px] xxl:left-[480px] group hover:scale-105 xxl:group-hover:scale-110 transition-all duration-300 cursor-pointer"
           >
             <Image

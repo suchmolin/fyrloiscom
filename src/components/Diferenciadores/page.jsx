@@ -12,23 +12,21 @@ export default function Diferenciadores({ curva, filtro, fondoBlanco }) {
     const fetchData = async () => {
       try {
         const { data } = await import(`/src/${t("data")}/diferenciadores`)
-        setData(data)
+        if (filtro) {
+          const array = []
+          filtro.forEach((item) => {
+            array.push(data.find((element) => element.id === item))
+          })
+          setData(array)
+        } else {
+          setData(data)
+        }
       } catch (error) {
         console.log("Error importing data", error)
       }
     }
     fetchData()
   }, [t])
-
-  useEffect(() => {
-    if (filtro) {
-      const array = []
-      filtro.forEach((item) => {
-        array.push(data.find((element) => element.id === item))
-      })
-      setData(array)
-    }
-  }, [data])
 
   return (
     <>

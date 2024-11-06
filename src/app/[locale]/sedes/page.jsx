@@ -9,9 +9,10 @@ import BotonFranquicias from "@/components/BotonFranquicias/page"
 import { useState } from "react"
 
 export default function Sedes() {
-  const [countrySelected, setCountrySelected] = useState("")
   const searchParams = useSearchParams()
   const lang = searchParams.get("lang")
+  const count = searchParams.get("count")
+  const [countrySelected, setCountrySelected] = useState(count || "")
   const sedes = lang
     ? data.filter((sede) => sede.language.includes(lang))
     : data
