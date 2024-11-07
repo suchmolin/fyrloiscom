@@ -1,10 +1,13 @@
 "use client"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 import { useSearchParams } from "next/navigation"
 import { data } from "@/data/sedes"
-
 import SingleCourse from "../SingleCourse/page"
 import { useEffect, useState } from "react"
 import { useTranslations } from "next-intl"
+import Slider from "react-slick"
+import { Carousel } from "flowbite-react"
 
 export default function SimilarCourses({ online }) {
   const [dataCourse, setDataCourse] = useState([])
@@ -16,7 +19,6 @@ export default function SimilarCourses({ online }) {
     (item) => item.modalidad === "online" && item.lang === langCourse
   )
   const t = useTranslations("SimilarCourses")
-
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -29,25 +31,60 @@ export default function SimilarCourses({ online }) {
     fetchData()
   }, [t])
 
+  const settings = {
+    speed: 500,
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 1536,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1150,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 790,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  }
+
   return (
-    <div className="flex flex-wrap gap-3 justify-center">
-      {!online
-        ? sedeData?.cursos.map((curso) => {
-            const course = dataCourse.find(
-              (item) => item.id === curso && item.lang === langCourse
-            )
-            return course ? (
-              <SingleCourse
-                key={course.id}
-                item={course}
-                sede={sedeData?.id}
-                comprar={true}
-              />
-            ) : null
-          })
-        : cursosOnline.map((item) => (
-            <SingleCourse key={item.id} item={item} comprar={true} />
-          ))}
-    </div>
+    <>
+      <div className="w-10/12 sm:w-11/12 xxl:w-10/12 slider-container">
+        <Slider {...settings} className="sm:pl-10 centercarrusel">
+          {!online
+            ? sedeData?.cursos.map((curso) => {
+                const course = dataCourse.find(
+                  (item) => item.id === curso && item.lang === langCourse
+                )
+                return course ? (
+                  <div key={course.id}>
+                    <SingleCourse
+                      item={course}
+                      sede={sedeData?.id}
+                      comprar={true}
+                    />
+                  </div>
+                ) : null
+              })
+            : cursosOnline.map((item) => (
+                <SingleCourse key={item.id} item={item} comprar={true} />
+              ))}
+        </Slider>
+      </div>
+    </>
   )
 }

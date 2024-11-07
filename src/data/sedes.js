@@ -11,9 +11,9 @@ export const data = [
     language: ["en", "es"],
     telefono: "+1 (305) 5105259",
     cursos: [
-      "elementary",
-      "high-school",
-      "adults",
+      "elementary-kissimmee",
+      "high-school-kissimmee",
+      "adults-kissimmee",
       "personalizado",
       "elementary-espanol",
       "high-school-espanol",

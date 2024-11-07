@@ -20,16 +20,21 @@ export default function HorariosCursos({ data }) {
         {data.map((item, index) => (
           <div
             key={index}
-            className="w-[285px] xs:w-[300px] xxl:w-[330px] dropShadow3 bg-gray-100 rounded-2xl py-6 px-6 xxl:py-8 flex flex-col items-center text-center"
+            className={`flex flex-col items-center ${index === data.length - 1 && data.length % 2 !== 0 ? "col-span-2" : ""}`}
           >
-            <p className="text-xl xs:text-2xl text-[#001a70] font-bold mb-5">
-              {item.dia}
-            </p>
-            {item.horas.map((hora, i) => (
-              <p key={`parrafo${i}`} className="text-xl font-bold mb-1">
-                {hora}
+            {item.titulo && (
+              <h3 className="text-3xl text-[#001a70]  mb-5 ">{item.titulo}</h3>
+            )}
+            <div className="w-[285px] xs:w-[300px] xxl:w-[330px] dropShadow3 bg-gray-100 rounded-2xl py-6 px-6 xxl:py-8 flex flex-col items-center text-center">
+              <p className="text-xl xs:text-2xl text-[#001a70] font-bold mb-5">
+                {item.dia}
               </p>
-            ))}
+              {item.horas.map((hora, i) => (
+                <p key={`parrafo${i}`} className="text-xl font-bold mb-1">
+                  {hora}
+                </p>
+              ))}
+            </div>
           </div>
         ))}
       </div>

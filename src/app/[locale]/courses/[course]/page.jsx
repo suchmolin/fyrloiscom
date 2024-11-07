@@ -37,9 +37,9 @@ export default function CoursePage({ params }) {
       <div className="w-full h-fit flex justify-center bg-[#001a70] py-20">
         <DiferenciadoresList data={data.difCourses} />
       </div>
-      {data.horarios && (
+      {(data.horarios || data.horarios2) && (
         <div className="w-full flex justify-center">
-          <HorariosCursos data={data.horarios} />
+          <HorariosCursos data={data.horarios || data.horarios2} />
         </div>
       )}
       {data.time && (
@@ -52,7 +52,7 @@ export default function CoursePage({ params }) {
           <SubCourses sub={data.subCursos} />
         </>
       )}
-      {console.log(data.personalized)};
+
       {data.personalized && <PersonalizadoDif data={data.personalized} />}
       <Diferenciadores
         filtro={data.personalized ? [1, 2, 3, 4, 5] : null}
@@ -78,12 +78,12 @@ export default function CoursePage({ params }) {
         <div className="w-full h-[80px] md:h-[250px]  xxl:h-[300px] xxxl:h-[280px] bg-[url('/img/curvaAzul.png')] bg-cover bg-no-repeat bg-bottom -mt-1"></div>
       </div>
       <div className="w-full flex justify-center pt-10 pb-20 bg-[#001a70] -mt-2  md:-mt-20">
-        <div className="w-10/12 flex flex-col gap-2 -mt-5 md:-mt-32 z-10">
+        <div className="w-full flex flex-col gap-2 -mt-5 md:-mt-32 z-10">
           <h2 className="text-3xl font bold text-white pb-2 text-center font-bold mb-5">
             {t("h2c")}
           </h2>
           <div className="w-full flex gap-2 justify-center flex-wrap">
-            <SimilarCourses online={data.modalidad === "online"} />
+            <SimilarCourses online={data.modalidad === "online" || false} />
           </div>
         </div>
       </div>

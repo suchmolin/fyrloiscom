@@ -262,9 +262,19 @@ textarea {
 .mapaheader {
   background-image: url('/img/mapaHeader.png');
 }
-.carrusel button{
+.carrusel >div >button{
   border-radius: 50%;
   background-color: #001A70 !important;
+}
+.carrusel2 > button{
+  border-radius: 50%;
+  background-color: #001A70 ;
+  padding-top: 3px;
+  width: 30px;
+  height: 30px;
+}
+.centercarrusel .slick-slide >div >div{
+  justify-items: center;
 }
 
 .tablaPersonalizado{

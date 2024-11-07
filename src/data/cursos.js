@@ -1,6 +1,182 @@
 import SubCourses from "@/components/SubCourses/page"
 
 export const data = [
+  //**************************ESPCIAL KISSIMEE
+  {
+    id: "elementary-kissimmee",
+    title: "Elementary Kissimmee",
+    description2:
+      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del inglés.",
+    etapa: "6-11 años. ",
+    img: "elementaryCourse.png",
+    imgAlternative: "elementaryAlt.png",
+    price: 800,
+    compra: true,
+    inscripcion: 200,
+    difBlanco2: true,
+    lang: "english",
+    modalidad: "presencial",
+    modalityPayment: "nivel",
+    difCourses: [
+      {
+        id: "1",
+        title: "Le brinda acceso a recursos educativos globales",
+        src: "/img/difElem.png",
+        width: 60,
+        height: 60,
+        alt: "difElem",
+      },
+      {
+        id: "2",
+        title: "Mejora su rendimiento académico del colegio",
+        src: "/img/difElem2.png",
+        width: 60,
+        height: 60,
+        alt: "difElem",
+      },
+      {
+        id: "3",
+        title: "Desarrolla su capacidad para adaptarse a nuevos entornos",
+        src: "/img/difElem3.png",
+        width: 60,
+        height: 60,
+        alt: "difElem",
+      },
+    ],
+    time: [
+      { num: "3", titulo: "LAPSOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
+      { num: "6", titulo: "NIVELES" },
+    ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado"],
+    },
+  },
+  {
+    id: "high-school-kissimmee",
+    title: "High School Kissimmee",
+    description2:
+      "Prepara a tu hijo para el futuro. Combinamos retos emocionantes con proyectos reales para que tu hijo adquiera conocimientos prácticos y desarrolle su creatividad.",
+    etapa: "12-16 años. ",
+    img: "highSchoolCourse.png",
+    imgAlternative: "highSchoolAlt.png",
+    price: 800,
+    compra: true,
+    inscripcion: 200,
+    difBlanco2: true,
+    lang: "english",
+    modalidad: "presencial",
+    modalityPayment: "nivel",
+    difCourses: [
+      {
+        id: "1",
+        title: "Preparación para pruebas académicas: TOEFL y EILTS",
+        src: "/img/difHS.png",
+        width: 60,
+        height: 60,
+        alt: "difHS",
+      },
+      {
+        id: "2",
+        title: "Metodología práctica y estimulante para su edad",
+        src: "/img/difHS2.png",
+        width: 60,
+        height: 60,
+        alt: "difHS",
+      },
+      {
+        id: "3",
+        title:
+          "Potencia sus oportunidades de becas y estudios en el extranjero",
+        src: "/img/difHS3.png",
+        width: 60,
+        height: 60,
+        alt: "difHS",
+      },
+    ],
+
+    time: [
+      { num: "3", titulo: "LAPSOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
+      { num: "6", titulo: "NIVELES" },
+    ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado"],
+    },
+  },
+  {
+    id: "adults-kissimmee",
+    title: "Adults Kissimmee",
+    description2:
+      "Comunícate en inglés como siempre has querido, a través de herramientas prácticas y efectivas para que hables con fluidez.",
+    etapa: "+17 años. ",
+    img: "adultsCourse.png",
+    imgAlternative: "adultsAlt.png",
+    price: 800,
+    compra: true,
+    inscripcion: 200,
+    lang: "english",
+    modalidad: "presencial",
+    modalityPayment: "nivel",
+    difCourses: [
+      {
+        id: "1",
+        title: "Clases 100% en inglés",
+        src: "/img/difAdult.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "2",
+        title: "Metodología alineada al Marco Común Europeo",
+        src: "/img/difAdult2.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+      {
+        id: "3",
+        title: "Grupos reducidos",
+        src: "/img/difAdult3.png",
+        width: 60,
+        height: 60,
+        alt: "difAdult",
+      },
+    ],
+    horarios2: [
+      {
+        titulo: "Nivel 1 (Básico)",
+        dia: "SÁBADOS",
+        horas: ["9:00 am - 12:25 pm"],
+      },
+      {
+        titulo: "Intermedio",
+        dia: "MARTES Y JUEVES",
+        horas: ["9:00 - 10:40 am", "6:50 - 8:30 am"],
+      },
+      {
+        titulo: "Avanzado",
+        dia: "SÁBADOS",
+        horas: ["9:00 am - 12:20 pm"],
+      },
+    ],
+    time: [
+      { num: "6", titulo: "NIVELES" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
+      { num: "18", titulo: "MESES" },
+    ],
+    subCursos: {
+      titulo: "tenemos estos cursos especializados para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado"],
+    },
+  },
+  //*****************************CURSOS PRESENCIAL */
   {
     id: "kids",
     title: "Kids",
@@ -62,7 +238,7 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "10", titulo: "MESES: SEP - JULIO" },
+      { num: "6", titulo: "NIVELES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -131,7 +307,7 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "10", titulo: "MESES: SEP - JULIO" },
+      { num: "6", titulo: "NIVELES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -201,7 +377,7 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "10", titulo: "MESES: SEP - JULIO" },
+      { num: "6", titulo: "NIVELES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -480,7 +656,7 @@ export const data = [
 
     img: "profesional.png",
     imgAlternative: "profesionalAlt.png",
-
+    condicion: "C1 en adelante",
     lang: "english",
     modalidad: "presencial",
 
@@ -528,6 +704,7 @@ export const data = [
       "¿Quieres ampliar tu vocabulario? Inscríbete en nuestro Curso Conversacional donde podrás practicar tu inglés y dejar todos los nervios atrás.",
     img: "conversacional.png",
     imgAlternative: "conversacionalAlt.png",
+    condicion: "C1 en adelante",
     lang: "english",
     modalidad: "presencial",
     difCourses: [
@@ -579,6 +756,7 @@ export const data = [
 
     img: "inglesparanegocios.png",
     imgAlternative: "inglesparanegociosAlt.png",
+    condicion: "C1 en adelante",
     lang: "english",
     modalidad: "presencial",
     difCourses: [
@@ -629,6 +807,7 @@ export const data = [
       "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar inglés. Empieza hoy y transforma tu manera de hablar inglés.",
     img: "reducciondeacento.png",
     imgAlternative: "reducciondeacentoAlt.png",
+    condicion: "C1 en adelante",
     lang: "english",
     modalidad: "presencial",
     difCourses: [
@@ -713,7 +892,8 @@ export const data = [
       },
     ],
   },
-  //ONLINE COURSES
+
+  //***********************ONLINE COURSES
   {
     id: "elementary-online",
     title: "Elementary Online",
@@ -775,7 +955,7 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "10", titulo: "MESES: SEP - JULIO" },
+      { num: "6", titulo: "NIVELES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -844,7 +1024,7 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "10", titulo: "MESES: SEP - JULIO" },
+      { num: "6", titulo: "NIVELES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -1079,7 +1259,7 @@ export const data = [
     title: "Profesional Online",
     description2:
       "¿Ya alcanzaste el nivel C1? Es hora de dar un paso adelante y alcanzar un mayor nivel profesional. Conoce nuestros Cursos Profesionales y práctica lo que necesitas para mejorar tu inglés.",
-
+    condicion: "C1 en adelante",
     img: "profesionalOnline.png",
     imgAlternative: "profesionalOnlineAlt.png",
     lang: "english",
@@ -1129,6 +1309,7 @@ export const data = [
       "¿Quieres ampliar tu vocabulario? Inscríbete en nuestro Curso Conversacional donde podrás practicar tu inglés y dejar todos los nervios atrás.",
     img: "conversacionalOnline.png",
     imgAlternative: "conversacionalOnlineAlt.png",
+    condicion: "C1 en adelante",
     lang: "english",
     modalidad: "online",
     difCourses: [
@@ -1180,6 +1361,7 @@ export const data = [
 
     img: "inglesparanegociosOnline.png",
     imgAlternative: "inglesparanegociosOnlineAlt.png",
+    condicion: "C1 en adelante",
     lang: "english",
     modalidad: "online",
     difCourses: [
@@ -1230,6 +1412,7 @@ export const data = [
       "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar inglés. Empieza hoy y transforma tu manera de hablar inglés.",
     img: "reducciondeacentoOnline.png",
     imgAlternative: "reducciondeacentoOnlineAlt.png",
+    condicion: "C1 en adelante",
     lang: "english",
     modalidad: "online",
     difCourses: [
@@ -1314,7 +1497,7 @@ export const data = [
       },
     ],
   },
-  //CURSOS ESPAÑOL
+  //*******************CURSOS ESPAÑOL
   {
     id: "kids-espanol",
     title: "Kids Español",
@@ -1613,7 +1796,7 @@ export const data = [
     title: "Profesional Espanol",
     description2:
       "Si manejas el español a un nivel avanzado, ya es hora de dar un paso adelante en tu aprendizaje profesional. Mejora tu nivel de español y alcanza tus objetivos profesionales",
-
+    condicion: "C1 en adelante",
     img: "profesionalEspanol.png",
     imgAlternative: "profesionalEspanolAlt.png",
 
@@ -1664,6 +1847,7 @@ export const data = [
       "¿Quieres ampliar tu vocabulario? Inscríbete en nuestro Curso Conversacional donde podrás practicar tu español y dejar todos los nervios atrás.",
     img: "conversacionalEspanol.png",
     imgAlternative: "conversacionalEspanolAlt.png",
+    condicion: "C1 en adelante",
     lang: "spanish",
     modalidad: "presencial",
     difCourses: [
@@ -1715,6 +1899,7 @@ export const data = [
 
     img: "espanolparanegocios.png",
     imgAlternative: "espanolparanegociosAlt.png",
+    condicion: "C1 en adelante",
     lang: "spanish",
     modalidad: "presencial",
     difCourses: [
@@ -1765,6 +1950,7 @@ export const data = [
       "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar español. Empieza hoy y transforma tu manera de hablar español.",
     img: "reducciondeacentoEspanol.png",
     imgAlternative: "reducciondeacentoEspanolAlt.png",
+    condicion: "C1 en adelante",
     lang: "spanish",
     modalidad: "presencial",
     difCourses: [
@@ -1847,7 +2033,7 @@ export const data = [
       },
     ],
   },
-  /*ESPAÑOL ONLINE */
+  //***********************ESPAÑOL ONLINE
   {
     id: "elementary-espanol-online",
     title: "Elementary Español Online",
@@ -1859,6 +2045,7 @@ export const data = [
     price: 800,
     compra: true,
     inscripcion: 200,
+    difBlanco2: true,
     lang: "spanish",
     modalidad: "online",
     modalityPayment: "nivel",
@@ -1888,6 +2075,16 @@ export const data = [
         alt: "difElem",
       },
     ],
+    time: [
+      { num: "3", titulo: "LAPSOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
+      { num: "6", titulo: "NIVELES" },
+    ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado-espanol-online"],
+    },
   },
   {
     id: "high-school-espanol-online",
@@ -1900,6 +2097,7 @@ export const data = [
     price: 800,
     compra: true,
     inscripcion: 200,
+    difBlanco2: true,
     lang: "spanish",
     modalidad: "online",
     modalityPayment: "nivel",
@@ -1929,6 +2127,16 @@ export const data = [
         alt: "difHS",
       },
     ],
+    time: [
+      { num: "3", titulo: "LAPSOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
+      { num: "6", titulo: "NIVELES" },
+    ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado-espanol-online"],
+    },
   },
   {
     id: "adults-espanol-online",
@@ -1941,6 +2149,7 @@ export const data = [
     price: 800,
     compra: true,
     inscripcion: 200,
+    difBlanco2: true,
     lang: "spanish",
     modalidad: "online",
     modalityPayment: "nivel",
@@ -1970,5 +2179,372 @@ export const data = [
         alt: "difAdult",
       },
     ],
+    time: [
+      { num: "6", titulo: "NIVELES" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
+      { num: "18", titulo: "MESES" },
+    ],
+    subCursos: {
+      titulo: "tenemos estos cursos especializados para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado-espanol-online", "intensivo-espanol-online"],
+    },
+  },
+  {
+    id: "personalizado-espanol-online",
+    title: "Personalizado Español Online",
+    description2:
+      "¿Necesitas un enfoque más personal? Conoce nuestro Curso Personalizado de español. Logra tus objetivos a tu propio ritmo y con un profesor exclusivo.",
+    modalidad: "online",
+    modalityPayment: "hora",
+    img: "personalizadoEspanolOnline.png",
+    imgAlternative: "personalizadoEspanolOnlineAlt.png",
+    price: 40,
+    personalized: [
+      {
+        img: "/img/persoEdad4.png",
+        title: "ELEMENTARY",
+        subtitle: "6-11 años",
+      },
+      {
+        img: "/img/persoEdad2.png",
+        title: "HIGH SCHOOL",
+        subtitle: "12-17 años",
+      },
+      {
+        img: "/img/persoEdad3.png",
+        title: "ADULTS",
+        subtitle: "+17 años",
+      },
+    ],
+    lang: "spanish",
+    difCourses: [
+      {
+        id: "1",
+        title: "Aprende a tu ritmo",
+        src: "/img/difPersonalizadoOnline.png",
+        width: 60,
+        height: 60,
+        alt: "difPersonalizadoOnline",
+      },
+      {
+        id: "2",
+        title: "Profesor Exclusivo",
+        src: "/img/difPersonalizadoOnline2.png",
+        width: 60,
+        height: 60,
+        alt: "difPersonalizadoOnline",
+      },
+      {
+        id: "3",
+        title: "Adaptado a tus necesidades y objetivos",
+        src: "/img/difPersonalizadoOnline3.png",
+        width: 60,
+        height: 60,
+        alt: "difPersonalizadoOnline",
+      },
+    ],
+    difTarjeta: [
+      "Aprende a tu ritmo",
+      "Profesor exclusivo",
+      "Adaptado a tus necesidades y objetivos",
+    ],
+  },
+  {
+    id: "intensivo-espanol-online",
+    title: "Intensivo Español Online",
+    description2:
+      "Un Curso Intensivo de español adaptado a tus objetivos. 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
+    modalidad: "online",
+    modalityPayment: "nivel",
+    img: "intensivoOnline.png",
+    imgAlternative: "intensivoOnlineAlt.png",
+    price: 800,
+    difBlanco2: true,
+    lang: "spanish",
+    difCourses: [
+      {
+        id: "1",
+        title: "Flexibilidad horaria",
+        src: "/img/difIntensivoOnline.png",
+        width: 60,
+        height: 60,
+        alt: "difIntensivoOnline",
+      },
+      {
+        id: "2",
+        title: "Clases interactivas",
+        src: "/img/difIntensivoOnline2.png",
+        width: 60,
+        height: 60,
+        alt: "difIntensivoOnline",
+      },
+      {
+        id: "3",
+        title: "Práctica constante",
+        src: "/img/difIntensivoOnline3.png",
+        width: 60,
+        height: 60,
+        alt: "difIntensivoOnline",
+      },
+    ],
+    difTarjeta: [
+      "8 horas a la semana",
+      "Mes y medio por nivel",
+      "Práctica constante",
+    ],
+    time: [
+      { num: "6", titulo: "NIVELES" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
+      { num: "18", titulo: "MESES" },
+    ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado-espanol-online"],
+    },
+  },
+  {
+    id: "corporativo-espanol-online",
+    title: "Corporativo Español Online",
+    description2:
+      "Un curso enfocado en las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo pueda dominar el español.",
+
+    img: "corporativoEspanolOnline.png",
+    imgAlternative: "corporativoEspanolOnlineAlt.png",
+    difBlanco: true,
+    lang: "spanish",
+    modalidad: "online",
+
+    difCourses: [
+      {
+        id: "1",
+        title: "Exclusivo para empresas",
+        src: "/img/difCorporativoOnline.png",
+        width: 60,
+        height: 60,
+        alt: "difCorporativoOnline",
+      },
+      {
+        id: "2",
+        title: "Plan adaptado a tus necesidades",
+        src: "/img/difCorporativoOnline2.png",
+        width: 60,
+        height: 60,
+        alt: "difCorporativoOnline",
+      },
+      {
+        id: "3",
+        title: "Horario según tus requerimientos",
+        src: "/img/difCorporativoOnline3.png",
+        width: 60,
+        height: 60,
+        alt: "difCorporativoOnline",
+      },
+    ],
+  },
+  {
+    id: "profesional-espanol-online",
+    title: "Profesional Español Online",
+    description2:
+      "Si manejas el español a un nivel avanzado, ya es hora de dar un paso adelante en tu aprendizaje profesional. Mejora tu nivel de español y alcanza tus objetivos profesionales.",
+    img: "profesionalEspanolOnline.png",
+    imgAlternative: "profesionalEspanolOnlineAlt.png",
+    condicion: "C1 en adelante",
+    lang: "spanish",
+    modalidad: "online",
+    difCourses: [
+      {
+        id: "1",
+        title: "Mejora en pronunciación",
+        src: "/img/difProfesionalOnline.png",
+        width: 60,
+        height: 60,
+        alt: "difProfesionalOnline",
+      },
+      {
+        id: "2",
+        title: "Gramática aplicada a tu rama profesional",
+        src: "/img/difProfesionalOnline2.png",
+        width: 60,
+        height: 60,
+        alt: "difProfesionalOnline",
+      },
+      {
+        id: "3",
+        title: "Entonación y ritmo",
+        src: "/img/difProfesionalOnline3.png",
+        width: 60,
+        height: 60,
+        alt: "difProfesionalOnline",
+      },
+    ],
+    subCursos: {
+      titulo:
+        "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
+
+      subCurso: [
+        "conversacional-espanol-online",
+        "espanol-para-negocios-online",
+        "reduccion-de-acento-espanol-online",
+      ],
+    },
+  },
+  {
+    id: "conversacional-espanol-online",
+    title: "Conversacional Español Online",
+    description2:
+      "¿Quieres ampliar tu vocabulario? Inscríbete en nuestro Curso Conversacional donde podrás practicar tu español y dejar todos los nervios atrás.",
+    img: "conversacionalEspanolOnline.png",
+    imgAlternative: "conversacionalEspanolOnlineAlt.png",
+    condicion: "C1 en adelante",
+    lang: "spanish",
+    modalidad: "online",
+    difCourses: [
+      {
+        id: "1",
+        title: "Amplia el vocabulario",
+        src: "/img/difProfesional.png",
+        width: 60,
+        height: 60,
+        alt: "difProfesional",
+      },
+      {
+        id: "2",
+        title: "Grupos reducidos",
+        src: "/img/difProfesional2.png",
+        width: 60,
+        height: 60,
+        alt: "difProfesional",
+      },
+      {
+        id: "3",
+        title: "Mejora en pronunciación",
+        src: "/img/difProfesional3.png",
+        width: 60,
+        height: 60,
+        alt: "difProfesional",
+      },
+    ],
+    difTarjeta: [
+      "Ampliar el vocabulario",
+      "Grupos reducidos",
+      "Mejora en pronunciación",
+    ],
+    subCursos: {
+      titulo:
+        "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
+
+      subCurso: [
+        "conversacional-espanol-online",
+        "espanol-para-negocios-online",
+        "reduccion-de-acento-espanol-online",
+      ],
+    },
+  },
+  {
+    id: "espanol-para-negocios-online",
+    title: "Español para Negocios Online",
+    description2:
+      "¿Necesitas mejorar tu vocabulario para desenvolverte con éxito en un entorno profesional internacional? Nuestro Curso de Español para Negocios es tu mejor opción.",
+
+    img: "espanolparanegociosOnline.png",
+    imgAlternative: "espanolparanegociosOnlineAlt.png",
+    condicion: "C1 en adelante",
+    lang: "spanish",
+    modalidad: "online",
+    difCourses: [
+      {
+        id: "1",
+        title: "Vocabulario específico",
+        src: "/img/difipnOnline.png",
+        width: 60,
+        height: 60,
+        alt: "difipnOnline",
+      },
+      {
+        id: "2",
+        title: "Expresiones idiomáticas",
+        src: "/img/difipnOnline2.png",
+        width: 60,
+        height: 60,
+        alt: "difipnOnline",
+      },
+      {
+        id: "3",
+        title: "Gramática aplicada a tu rama",
+        src: "/img/difipnOnline3.png",
+        width: 60,
+        height: 60,
+        alt: "difipnOnline",
+      },
+    ],
+    difTarjeta: [
+      "Vocabulario específico",
+      "Expresiones idiomáticas",
+      "Gramática aplicada a tu rama",
+    ],
+    subCursos: {
+      titulo:
+        "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
+
+      subCurso: [
+        "conversacional-espanol-online",
+        "espanol-para-negocios-online",
+        "reduccion-de-acento-espanol-online",
+      ],
+    },
+  },
+  {
+    id: "reduccion-de-acento-espanol-online",
+    title: "Reducción de Acento Español Online",
+    description2:
+      "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar español. Empieza hoy y transforma tu manera de hablar español.",
+    img: "reducciondeacentoEspanolOnline.png",
+    imgAlternative: "reducciondeacentoEspanolOnlineAlt.png",
+
+    condicion: "C1 en adelante",
+    lang: "spanish",
+    modalidad: "online",
+    difCourses: [
+      {
+        id: "1",
+        title: "Fonética del inglés",
+        src: "/img/difreduccionOnline.png",
+        width: 60,
+        height: 60,
+        alt: "difreduccionOnline",
+      },
+      {
+        id: "2",
+        title: "Entonación y ritmo",
+        src: "/img/difreduccionOnline2.png",
+        width: 60,
+        height: 60,
+        alt: "difreduccionOnline",
+      },
+      {
+        id: "3",
+        title: "Reducción de palabras",
+        src: "/img/difreduccionOnline3.png",
+        width: 60,
+        height: 60,
+        alt: "difreduccionOnline",
+      },
+    ],
+    difTarjeta: [
+      "Fonética del inglés",
+      "Entonación y ritmo",
+      "Reducción de palabras",
+    ],
+    subCursos: {
+      titulo:
+        "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
+      subCurso: [
+        "conversacional-online",
+        "ingles-para-negocios-online",
+        "reduccion-de-acento-online",
+      ],
+    },
   },
 ]

@@ -37,7 +37,7 @@ export default function CursosOnlineHome() {
   const settings = {
     speed: 500,
     infinite: true,
-    dots: true,
+    dots: false,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
@@ -79,7 +79,7 @@ export default function CursosOnlineHome() {
         </div>
       </div>
       <div className="hidden md:block w-11/12 xxl:w-10/12 slider-container">
-        <Slider {...settings} className="pl-10">
+        <Slider {...settings} className="carrusel2 pl-10">
           {CursosOnline.map((item) => (
             <div key={item.id} className="p-5">
               <SingleCourse
