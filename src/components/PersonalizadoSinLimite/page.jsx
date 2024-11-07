@@ -11,7 +11,7 @@ export default function PersonalizadoSinLimite({ data }) {
         No existe límite de edad, nuestro Curso Personalizado es la solución que
         buscas
       </h2>
-      <div className="w-full lg:w-10/12 xl:w-8/12 flex justify-center  md:justify-between flex-wrap md:flex-nowrap text-[#001a70] font-bold">
+      <div className="w-full lg:w-10/12 xl:w-8/12 flex justify-center  md:justify-between flex-wrap md:flex-nowrap text-[#001a70] font-bold gap-y-7">
         {data?.map((item) => (
           <div
             key={item.title}

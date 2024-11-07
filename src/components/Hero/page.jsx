@@ -26,7 +26,7 @@ export default function Hero() {
           <h2 className="text-xl sm:text-2xl xl:text-3xl ">{t("h2")}</h2>
         </div>
       </div>
-      <div className=" absolute top-[210px] sm:top-[260px] lg:top-0 -left-20 sm:left-auto sm:right-0 w-[130%] xs:w-[125%] sm:w-[700px] xl:w-[900px] xxl:w-[1200px] h-[600px] lg:h-full overflow-x-scroll sm:overflow-auto">
+      <div className=" absolute top-[210px] sm:top-[260px] lg:top-0 -left-5 sm:left-auto sm:right-0 w-[130%] xs:w-[125%] sm:w-[700px] xl:w-[900px] xxl:w-[1200px] h-[600px] lg:h-full overflow-x-scroll sm:overflow-auto">
         <div className="mapaheader relative w-[660px] sm:w-full h-full  bg-contain bg-no-repeat bg-center">
           <a
             href={`/${locale}/sedes/kissimmee`}

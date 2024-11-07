@@ -51,7 +51,7 @@ export const data = [
   },
   {
     id: 6,
-    src: "/img/difTrofeo.png",
+    src: "/img/difmce.png",
     width: 60,
     height: 60,
     alt: "Diferenciador",

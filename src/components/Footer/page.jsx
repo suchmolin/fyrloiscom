@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="w-11/12 lg:w-10/12 flex flex-col lg:flex-row gap-10 justify-between">
           <div className="flex flex-col sm:flex-row w-full lg:w-7/12 justify-between">
             <div className="flex flex-col items-center sm:items-start text-[#001A70] mb-10 sm:mb-0">
-              <ul className="py-2 flex flex-col items-center sm:items-start gap-7  pl-5 font-bold text-xl">
+              <ul className="py-2 flex flex-col items-center sm:items-start gap-7  sm:pl-5 font-bold text-xl">
                 <li className="hover:text-[#bb29b9] transition-all duration-300">
                   <Link href={`/${locale}/aboutUs`}>{t("li3")}</Link>
                 </li>

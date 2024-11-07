@@ -14,15 +14,14 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
       key={item.id}
       className={`${sombra ? "dropShadow3" : ""} relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3 z-0 ${shrink ? "flex-shrink-0" : ""}`}
     >
-      <div className="flex justify-between">
+      <div className="h-[24px] flex justify-between">
         <h4 className="text-[#001A70] font-bold">{item.title}</h4>
       </div>
       <div className="w-full flex justify-end items-end">
-        {item.modalityPayment === "nivel" && (
-          <p className="text-gray-400 mb-1 mr-3 text-lg">Por nivel:</p>
-        )}
-        {item.modalityPayment === "hora" && (
-          <p className="text-gray-400 mb-1 mr-3 text-lg">Por hora:</p>
+        {item.modalityPayment && (
+          <p className="text-gray-400 mb-1 mr-3 text-lg">
+            Por {item.modalityPayment}:
+          </p>
         )}
         {item.price ? (
           <div className="w-fit py-2 px-5 mt-2 bg-[#001A70] rounded-t-xl flex justify-center items-center text-white text-sm">

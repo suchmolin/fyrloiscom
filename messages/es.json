@@ -30,7 +30,7 @@
   },
   "Customers":{
     "h2":"Nuestros Clientes",
-    "p":"Más de 20 años impulsando el crecimiento de las empresas"
+    "p":"Más de dos décadas impulsando el crecimiento de las empresas"
   },
   "FAQSection":{
     "h2":"FAQ",
@@ -143,13 +143,10 @@
     }
   },
   "SeccionMiss":{
-    "h3":"“Fyr Lois fue una pieza clave en mi formación como Miss World.",
-    "p":"Durante mi camino al Miss Mundo mi mayor miedo era que no sabía hablar inglés tan fluido, por eso comencé con Fyr Lois y en pocos meses pude fortalecer mis conocimientos y adquirir mayor confianza en el idioma. Estoy feliz porque avance mucho y logré mi reto, de presentarme en cada momento en inglés.”",
-    "p2": "Alejandra Conde - Miss Venezuela World 2020",
-    "h3b":"“Gracias a Fyr Lois hoy puedo entender y expresarme en inglés.",
-    "pb":"Un idioma nuevo, y más uno tan universal como el inglés, es un puente que se tiene hacia nuevos amigos, nuevas culturas, nuevas oportunidades de trabajo y nuevos conocimientos.",
-    "p3b": "Y la verdad, yo venía de saber casi nada. Así que tuvimos que comenzar, poniendo las bases más pequeñas.”",
-    "p2b": "Rocio Higuera - Periodista y Animadora",
+    "h3":"“Me siento muy orgulloso de pertenecer a Fyr Lois. Para mí representa la mejor academia de idiomas que he encontrado.",
+    "p":"Había intentando estudiar inglés muchas veces, pero nunca había podido encontrar un lugar donde me sintiera tan a gusto, donde sintiera que mi avance es importante y donde realmente viera resultados.”",
+    "p2": "Héctor Sandarti - Presentador y Actor",
+    
     "link":"ACERCA DE NOSOTROS"
   },
   "aboutUs":{

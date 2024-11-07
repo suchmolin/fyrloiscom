@@ -29,7 +29,7 @@ export default function HeroSingleCourse({ courseData }) {
                     alt="image"
                   />
                 </div>
-                <p>{courseData.etapa}</p>
+                <p className="text-[#001a70]">{courseData.etapa}</p>
               </>
             )}
 
@@ -46,14 +46,15 @@ export default function HeroSingleCourse({ courseData }) {
                     alt="image"
                   />
                 </div>
-                <p>${courseData.price}.00</p>
+                <p className="text-[#001a70]">{`Por ${courseData.modalityPayment} $${courseData.price}.00`}</p>
               </>
             )}
           </div>
           <p className="text-lg text-[#001A70] mb-4">
             {courseData.description2}
           </p>
-          {courseData.comprar ? (
+
+          {courseData.compra ? (
             <div className="flex gap-4">
               <button
                 onClick={(e) => {
@@ -94,7 +95,7 @@ export default function HeroSingleCourse({ courseData }) {
               href={`/${locale}/contactUs`}
               className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black disabled:opacity-50 disabled:cursor-wait"
             >
-              Contactanos
+              Contáctanos
               <span className="p-2 rounded-full bg-[#9ee701]">
                 <GoArrowRight className="text-gray-800" />
               </span>

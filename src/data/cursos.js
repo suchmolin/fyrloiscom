@@ -16,7 +16,7 @@ export const data = [
     difBlanco2: true,
     lang: "english",
     modalidad: "presencial",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     difCourses: [
       {
         id: "1",
@@ -68,7 +68,7 @@ export const data = [
     difBlanco2: true,
     lang: "english",
     modalidad: "presencial",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     difCourses: [
       {
         id: "1",
@@ -190,7 +190,7 @@ export const data = [
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     difCourses: [
       {
         id: "1",
@@ -259,7 +259,7 @@ export const data = [
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     difCourses: [
       {
         id: "1",
@@ -328,7 +328,7 @@ export const data = [
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     difCourses: [
       {
         id: "1",
@@ -473,6 +473,7 @@ export const data = [
     img: "personalizado.png",
     imgAlternative: "personalizadoAlt.png",
     price: 40,
+    etapa: "Todas las edades. ",
     personalized: [
       {
         img: "/img/persoEdad.png",
@@ -864,7 +865,7 @@ export const data = [
     lang: "english",
     modalidad: "presencial",
     modalityPayment: "hora",
-
+    difBlanco: true,
     difCourses: [
       {
         id: "1",
@@ -901,7 +902,7 @@ export const data = [
       "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del inglés.",
     etapa: "6-11 años. ",
     modalidad: "online",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     img: "elementaryOnline.png",
     imgAlternative: "elementaryOnlineAlt.png",
     price: 800,
@@ -970,7 +971,7 @@ export const data = [
       "Prepara a tu hijo para el futuro, con un curso adaptado a su edad. Una perfecta combinación de temas y retos adaptados a sus intereses.",
     etapa: "12-16 años. ",
     modalidad: "online",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     img: "highSchoolOnline.png",
     imgAlternative: "highSchoolOnlineAlt.png",
     price: 800,
@@ -1111,6 +1112,7 @@ export const data = [
     img: "personalizadoOnline.png",
     imgAlternative: "personalizadoOnlineAlt.png",
     price: 40,
+    etapa: "Todas las edades. ",
     personalized: [
       {
         img: "/img/persoEdad4.png",
@@ -1462,8 +1464,8 @@ export const data = [
     description2:
       "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
 
-    img: "cursoCiudadania.png",
-    imgAlternative: "cursoCiudadaniaAlt.png",
+    img: "cursoCiudadaniaOnline.png",
+    imgAlternative: "cursoCiudadaniaOnlineAlt.png",
     price: 40,
     compra: true,
     difBlanco: true,
@@ -1511,7 +1513,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     difCourses: [
       {
         id: "1",
@@ -1552,7 +1554,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     difCourses: [
       {
         id: "2",
@@ -1579,6 +1581,11 @@ export const data = [
         alt: "difElem",
       },
     ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado-espanol"],
+    },
   },
   {
     id: "high-school-espanol",
@@ -1593,7 +1600,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     difCourses: [
       {
         id: "1",
@@ -1620,6 +1627,11 @@ export const data = [
         alt: "difHS",
       },
     ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subCurso: ["personalizado-espanol"],
+    },
   },
   {
     id: "adults-espanol",
@@ -1734,7 +1746,7 @@ export const data = [
     title: "Personalizado Español",
     description2:
       "¿Necesitas un enfoque más personal? Conoce nuestro Curso Personalizado de español. Logra tus objetivos a tu propio ritmo y con un profesor exclusivo.",
-
+    etapa: "Todas las edades. ",
     img: "personalizadoEspanol.png",
     imgAlternative: "personalizadoEspanolAlt.png",
     price: 40,
@@ -1793,7 +1805,7 @@ export const data = [
   },
   {
     id: "profesional-espanol",
-    title: "Profesional Espanol",
+    title: "Profesional Español",
     description2:
       "Si manejas el español a un nivel avanzado, ya es hora de dar un paso adelante en tu aprendizaje profesional. Mejora tu nivel de español y alcanza tus objetivos profesionales",
     condicion: "C1 en adelante",
@@ -2048,7 +2060,7 @@ export const data = [
     difBlanco2: true,
     lang: "spanish",
     modalidad: "online",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     difCourses: [
       {
         id: "2",
@@ -2100,7 +2112,7 @@ export const data = [
     difBlanco2: true,
     lang: "spanish",
     modalidad: "online",
-    modalityPayment: "nivel",
+    modalityPayment: "lapso",
     difCourses: [
       {
         id: "1",
@@ -2195,6 +2207,7 @@ export const data = [
     title: "Personalizado Español Online",
     description2:
       "¿Necesitas un enfoque más personal? Conoce nuestro Curso Personalizado de español. Logra tus objetivos a tu propio ritmo y con un profesor exclusivo.",
+    etapa: "Todas las edades. ",
     modalidad: "online",
     modalityPayment: "hora",
     img: "personalizadoEspanolOnline.png",
@@ -2257,8 +2270,8 @@ export const data = [
       "Un Curso Intensivo de español adaptado a tus objetivos. 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
     modalidad: "online",
     modalityPayment: "nivel",
-    img: "intensivoOnline.png",
-    imgAlternative: "intensivoOnlineAlt.png",
+    img: "intensivoEspanolOnline.png",
+    imgAlternative: "intensivoEspanolOnlineAlt.png",
     price: 800,
     difBlanco2: true,
     lang: "spanish",

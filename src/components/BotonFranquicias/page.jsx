@@ -19,7 +19,9 @@ export default function BotonFranquicias({ data, seter }) {
       <Dropdown label={boton} arrowIcon={false} inline>
         {data.map((country, i) => (
           <button onClick={() => seter(country)} key={i} className="w-full">
-            <Dropdown.Item className="flex gap-2 mr-4">{country}</Dropdown.Item>
+            <Dropdown.Item className="flex gap-2 mr-4">
+              {country.toUpperCase()}
+            </Dropdown.Item>
           </button>
         ))}
       </Dropdown>

@@ -3,15 +3,24 @@ import Image from "next/image"
 import { useState, useEffect } from "react"
 import { useTranslations } from "next-intl"
 import DiferenciadoresList from "../DiferenciadoresList/page"
+import { useSearchParams } from "next/navigation"
 
 export default function Diferenciadores({ curva, filtro, fondoBlanco }) {
   const t = useTranslations("Diferenciadores")
   const [data, setData] = useState([])
+  const searchParams = useSearchParams()
+  const lang = searchParams.get("langCourse")
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const { data } = await import(`/src/${t("data")}/diferenciadores`)
+        if (lang === "spanish") {
+          const indice = data.findIndex(
+            (item) => item.title === "Profesores certificados CELTA - TEFL"
+          )
+          data[indice].title = "Profesores certificados CELTA"
+        }
         if (filtro) {
           const array = []
           filtro.forEach((item) => {
@@ -38,7 +47,9 @@ export default function Diferenciadores({ curva, filtro, fondoBlanco }) {
         >
           {t("h2")}
         </h2>
-        <p className="w-10/12 sm:w-6/12 text-center text-sm sm:text-lg md:text-xl text-white mb-10 px-10 xl:px-28 ">
+        <p
+          className={`w-10/12 sm:w-6/12 text-center text-sm sm:text-lg md:text-xl ${fondoBlanco ? "text-black" : "text-white"}  mb-10 px-10 xl:px-28`}
+        >
           {t("p")}
         </p>
         <DiferenciadoresList sombra={fondoBlanco ? true : false} data={data} />

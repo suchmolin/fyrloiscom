@@ -32,8 +32,6 @@ export default function Sedes() {
   countries = [...new Set(countries)]
   countries = countries.filter((country) => country !== undefined)
 
-  console.log(sedesArray)
-
   return (
     <div className="w-full pt-40 flex flex-col items-center justify-center">
       <div className="w-full mt-20">
@@ -53,13 +51,18 @@ export default function Sedes() {
         <div className="w-full flex justify-center mb-10">
           <BotonFranquicias data={countries} seter={setCountrySelected} />
         </div>
+        {countrySelected !== "" && (
+          <h3 className="text-white text-5xl text-center mb-7">
+            {countrySelected.toUpperCase()}
+          </h3>
+        )}
 
         {/*****SEDES FULL****** */}
         <div className="w-full hidden sm:block bg-[#001a70]">
           <SedesList sedes={sedesFiltered} />
         </div>
         {/*****SEDES MOBILE****** */}
-        {countrySelected !== "" && (
+        {countrySelected === "Venezuela" && (
           <div className="w-11/12 block sm:hidden pb-20">
             {sedesArray.map((item, i) => (
               <div key={i} className="flex flex-col justify-center">
@@ -91,6 +94,9 @@ export default function Sedes() {
               </div>
             ))}
           </div>
+        )}
+        {countrySelected === "usa" && (
+          <SedesList sedes={sedes.filter((sede) => sede.country === "usa")} />
         )}
       </div>
     </div>

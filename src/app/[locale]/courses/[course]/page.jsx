@@ -54,6 +54,7 @@ export default function CoursePage({ params }) {
       )}
 
       {data.personalized && <PersonalizadoDif data={data.personalized} />}
+
       <Diferenciadores
         filtro={data.personalized ? [1, 2, 3, 4, 5] : null}
         fondoBlanco={data.difBlanco || false}

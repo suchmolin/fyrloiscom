@@ -20,17 +20,6 @@ export default function IdiomasSelector({}) {
           className="flex gap-3"
           onClick={() => {
             setOpenModal(true)
-            setSelected("es")
-          }}
-        >
-          <Image src="/img/spanish.png" width={20} height={20} alt="spanish" />
-          {"   "}
-          {t("ddItem1")}
-        </Dropdown.Item>
-        <Dropdown.Item
-          className="flex gap-3"
-          onClick={() => {
-            setOpenModal(true)
             setSelected("en")
           }}
         >
@@ -42,6 +31,17 @@ export default function IdiomasSelector({}) {
             alt="spanish"
           />
           {t("ddItem2")}
+        </Dropdown.Item>
+        <Dropdown.Item
+          className="flex gap-3"
+          onClick={() => {
+            setOpenModal(true)
+            setSelected("es")
+          }}
+        >
+          <Image src="/img/spanish.png" width={20} height={20} alt="spanish" />
+          {"   "}
+          {t("ddItem1")}
         </Dropdown.Item>
       </Dropdown>
       <ModalIdiomas

@@ -32,15 +32,6 @@ export function LanguageSelector({ locale }) {
         </Dropdown.Header>
 
         <Dropdown.Item
-          onClick={() => handleRedirect("es")}
-          className="flex gap-2 mr-4"
-        >
-          <Image src="/img/spanish.png" width={20} height={20} alt="spanish" />
-          {"   "}
-          Español
-        </Dropdown.Item>
-
-        <Dropdown.Item
           onClick={() => handleRedirect("en")}
           className="flex gap-2 mr-4"
         >
@@ -52,6 +43,14 @@ export function LanguageSelector({ locale }) {
             alt="english"
           />
           English
+        </Dropdown.Item>
+        <Dropdown.Item
+          onClick={() => handleRedirect("es")}
+          className="flex gap-2 mr-4"
+        >
+          <Image src="/img/spanish.png" width={20} height={20} alt="spanish" />
+          {"   "}
+          Español
         </Dropdown.Item>
       </Dropdown>
     </div>

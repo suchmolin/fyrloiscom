@@ -5,11 +5,14 @@ import { useEffect, useState } from "react"
 import SingleCourse from "../SingleCourse/page"
 import { Carousel } from "flowbite-react"
 import { GrStatusGood } from "react-icons/gr"
+import { useSearchParams } from "next/navigation"
 
 export default function SubCourses({ sub }) {
   const [data, setData] = useState([])
   const [selectedCourse, setSelectedCourse] = useState([])
   const t = useTranslations("CoursePage")
+  const searchParams = useSearchParams()
+  const sede = searchParams.get("s")
 
   useEffect(() => {
     const fetchData = async () => {
@@ -46,7 +49,7 @@ export default function SubCourses({ sub }) {
             {sub.titulo}
           </h2>
         </div>
-        <div className="carrusel w-full md:w-10/12 lg:w-9/12 xl:w-7/12 xxl:w-6/12 h-[880px] sm:h-[580px] flex items-center justify-start">
+        <div className="carrusel w-full md:w-10/12 lg:w-9/12 xl:w-7/12 xxl:w-6/12 h-[880px] sm:h-[580px] flex items-center justify-center sm:justify-start">
           {selectedCourse.length > 1 ? (
             <Carousel>
               {selectedCourse?.map((item, i) => {
@@ -55,9 +58,11 @@ export default function SubCourses({ sub }) {
                     key={i}
                     className="flex flex-col sm:flex-row items-center justify-center"
                   >
-                    {item && <SingleCourse comprar={true} item={item} />}
+                    {item && (
+                      <SingleCourse sede={sede} comprar={true} item={item} />
+                    )}
 
-                    <div className="w-[250px] h-[300px] sm:h-[370px] bg-[#ADC823] rounded-b-2xl sm:rounded-r-2xl sm:rounded-es-none  p-5 flex flex-col justify-between py-10">
+                    <div className="w-[270px] h-[300px] sm:h-[370px] bg-[#ADC823] rounded-b-2xl sm:rounded-r-2xl sm:rounded-es-none  p-5 flex flex-col justify-between py-10">
                       {item?.difTarjeta?.map((dif) => (
                         <div key={dif} className="flex">
                           <div className="w-[50px]">
@@ -76,7 +81,11 @@ export default function SubCourses({ sub }) {
           ) : (
             <div className="flex flex-col sm:flex-row items-center justify-center">
               {selectedCourse[0] && (
-                <SingleCourse comprar={true} item={selectedCourse[0]} />
+                <SingleCourse
+                  sede={sede}
+                  comprar={true}
+                  item={selectedCourse[0]}
+                />
               )}
 
               <div className="w-[250px] h-[300px] sm:h-[370px] bg-[#ADC823] rounded-b-2xl sm:rounded-r-2xl sm:rounded-es-none  p-5 flex flex-col justify-between py-10">
