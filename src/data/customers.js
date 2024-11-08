@@ -1,9 +1,5 @@
 export const data = [
   {
-    id: "missvenezuela",
-    img: "/img/missvenezuela.png",
-  },
-  {
     id: "nestle",
     img: "/img/nestle.png",
   },

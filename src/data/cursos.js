@@ -794,9 +794,9 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Ampliar el vocabulario",
-      "Grupos reducidos",
-      "Mejora en pronunciación",
+      "Vocabulario específico",
+      "Expresiones idiomáticas",
+      "Gramática aplicada a tu rama",
     ],
     subCursos: {
       titulo:

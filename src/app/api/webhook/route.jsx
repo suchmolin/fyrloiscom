@@ -179,7 +179,7 @@ export async function POST(request) {
                   alt="${curso.title}"
                 />
                 <div style="width: 350px; display:flex;">
-                  <p style="display:inline-block; margin-right: auto; margin-left: 0;">${curso.title} x ${producto.cantidad}</p>
+                  <p style="display:inline-block; margin-right: auto; margin-left: 0;">${curso.title} x ${producto.cantidad} <br/> ${curso.detalles.join(", ") + ", " + curso.etapa}</p>
                   <p style="display:inline-block; margin-left: auto; margin-right: 0;">$${curso.price}.00</p>
                   
                 </div>
