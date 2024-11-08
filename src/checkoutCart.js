@@ -6,7 +6,6 @@ export async function handleCheckout(data) {
       "Content-Type": "application/json",
     },
   })
-  console.log(data)
 
   if (resp) {
     const response = await resp.json()

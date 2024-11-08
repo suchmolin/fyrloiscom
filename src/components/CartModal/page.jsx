@@ -92,11 +92,30 @@ export default function CartModal() {
                     objectFit="cover"
                   />
                 </div>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col">
                   <h3 className="text-[#000b7a] font-bold text-lg">
                     {curso.title}
                   </h3>
-                  <p className="text-gray-500 text-xl">$ {curso.price}.00</p>
+                  <p className="text-[#001a70] text-xl  leading-tight">
+                    $ {curso.price}.00{" "}
+                    <span className="text-gray-500 text-lg">
+                      Por {curso.modalityPayment}
+                    </span>
+                  </p>
+                  {curso.detalles &&
+                    curso.detalles.map((detalle) => (
+                      <p
+                        key={detalle}
+                        className="text-gray-500 text-lg  leading-tight"
+                      >
+                        {detalle}
+                      </p>
+                    ))}
+                  {curso.etapa && (
+                    <p className="text-gray-500 text-lg  leading-tight">
+                      {curso.etapa}
+                    </p>
+                  )}
                   <div className="flex gap-4">
                     <input
                       onChange={(e) => actualizarCantidad(e, curso.id)}

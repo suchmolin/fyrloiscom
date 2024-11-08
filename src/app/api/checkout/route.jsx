@@ -18,11 +18,13 @@ export async function POST(req, res) {
         }
       }
     })
+    const detalles = `${curso.detalles.join(", ")}, ${curso.etapa}`
     return {
       price_data: {
         currency: "usd",
         product_data: {
           name: curso.title,
+          description: detalles,
           images: [
             `https://fyrloiscom.vercel.app/_next/image?url=%2Fimg%2F${curso.img}&w=1920&q=75`, //CAMBIO EN PRODUCCION
           ],
