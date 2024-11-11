@@ -10,11 +10,16 @@ import IdiomaCursosButton from "../IdiomaCursosButton/page"
 import Slider from "react-slick"
 import { Carousel } from "flowbite-react"
 
-export default function CursosOnlineHome() {
+export default function CursosOnlineHome({
+  idioma,
+  setIdioma,
+  pressed,
+  setPressed,
+}) {
   const searchParams = useSearchParams()
   const langCourse = searchParams.get("langCourse")
   const [data, setData] = useState([])
-  const [idioma, setIdioma] = useState(langCourse || "english")
+
   const t = useTranslations("online.CursosOnlineHome")
   const locale = useLocale()
 
@@ -22,7 +27,6 @@ export default function CursosOnlineHome() {
     const fetchData = async () => {
       try {
         const { data } = await import(`/src/${t("data")}/cursos`)
-        console.log(data)
 
         setData(data)
       } catch (error) {
@@ -68,7 +72,10 @@ export default function CursosOnlineHome() {
   }
 
   return (
-    <div className="w-full flex flex-col items-center justify-center py-20">
+    <div
+      id="cursosonline"
+      className="w-full flex flex-col items-center justify-center py-20"
+    >
       <div className="w-10/12 text-center flex flex-col items-center mb-7">
         <div className="w-11/12 md:w-8/12 flex flex-col">
           <h2 className=" text-3xl sm:text-4xl font-bold text-[#001a70] mb-3">
@@ -77,7 +84,13 @@ export default function CursosOnlineHome() {
           <p className=" text-lg sm:text-xl text-gray-600 mb-2">{t("p")}</p>
         </div>
         <div className="w-fit">
-          <IdiomaCursosButton setState={setIdioma} />
+          {console.log(idioma)}
+          <IdiomaCursosButton
+            idioma={idioma}
+            setState={setIdioma}
+            pressed={pressed}
+            setPressed={setPressed}
+          />
         </div>
       </div>
       <div className="hidden md:block w-11/12 xxl:w-10/12 slider-container">

@@ -11,7 +11,6 @@ const addCart = async (id, setIsOpen, setCartInfo, setCantCart) => {
       }
     }
   })
-  console.log(current)
 
   let cartInfo = await JSON.parse(localStorage.getItem("cartInfo"))
 

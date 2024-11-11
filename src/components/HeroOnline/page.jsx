@@ -1,8 +1,9 @@
 "use client"
 import { useLocale, useTranslations } from "next-intl"
 import { GoArrowRight } from "react-icons/go"
+import IdiomaCursosButton from "../IdiomaCursosButton/page"
 
-export default function HeroOnline() {
+export default function HeroOnline({ idioma, setIdioma, pressed, setPressed }) {
   const t = useTranslations("online.hero")
   const locale = useLocale()
   return (
@@ -20,15 +21,14 @@ export default function HeroOnline() {
           </h2>
         </div>
         <div className="flex flex-col sm:flex-row gap-4 w-fit">
-          <a
-            href={`/${locale}/online/courses`}
-            className="dropShadow3 pr-1 pl-4 py-1 bg-white rounded-full flex gap-3 justify-between items-center transition-all duration-300 w-fit"
-          >
-            {t("button2")}
-            <span className="p-2 rounded-full bg-[#9ee701]">
-              <GoArrowRight className="text-gray-800" />
-            </span>
-          </a>
+          <div className="w-fit">
+            <IdiomaCursosButton
+              idioma={idioma}
+              setState={setIdioma}
+              pressed={pressed}
+              setPressed={setPressed}
+            />
+          </div>
         </div>
       </div>
     </div>
