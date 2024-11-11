@@ -8,7 +8,7 @@ export default function SocialFooter() {
     <div className="w-full sm:w-fit flex flex-row lg:flex-col justify-between sm:justify-center lg:justify-end gap-5 text-[#001A70]">
       <a href={`/${locale}/`} className="relative w-[199px] aspect-video">
         <Image
-          src="/img/1.png"
+          src="/img/logoFyrlois.png"
           objectFit="contain"
           alt="fyrlois logo"
           layout="fill"

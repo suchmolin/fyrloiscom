@@ -13,7 +13,7 @@ export default function aboutUs() {
       </div>
       <NuestraMisionPage />
       <div className="w-full">
-        <SedePrincipal />
+        <SedePrincipal boton="Todas las Sedes" href="sedes" />
       </div>
       <div className=" w-full h-full flex flex-col justify-center items-center bg-gray-100">
         <NuestrosTeachers />

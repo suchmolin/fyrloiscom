@@ -22,6 +22,8 @@ export default function CursosOnlineHome() {
     const fetchData = async () => {
       try {
         const { data } = await import(`/src/${t("data")}/cursos`)
+        console.log(data)
+
         setData(data)
       } catch (error) {
         console.log("Error importing data", error)

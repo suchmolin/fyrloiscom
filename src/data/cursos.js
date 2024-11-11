@@ -480,6 +480,7 @@ export const data = [
     img: "personalizado.png",
     imgAlternative: "personalizadoAlt.png",
     price: 40,
+    compra: true,
     etapa: "Todas las edades. ",
     personalized: [
       {
@@ -547,6 +548,7 @@ export const data = [
     img: "intensivo.png",
     imgAlternative: "intensivoAlt.png",
     price: 800,
+    compra: true,
     intensivo: true,
     difBlanco: true,
     lang: "english",
@@ -661,13 +663,11 @@ export const data = [
     title: "Profesional",
     description2:
       "¿Ya alcanzaste el nivel C1? Es hora de dar un paso adelante y alcanzar un mayor nivel profesional. Conoce nuestros Cursos Profesionales y práctica lo que necesitas para mejorar tu inglés.",
-
     img: "profesional.png",
     imgAlternative: "profesionalAlt.png",
     condicion: "C1 en adelante",
     lang: "english",
     modalidad: "presencial",
-
     difCourses: [
       {
         id: "1",
@@ -713,6 +713,9 @@ export const data = [
     img: "conversacional.png",
     imgAlternative: "conversacionalAlt.png",
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "english",
     modalidad: "presencial",
     difCourses: [
@@ -765,6 +768,9 @@ export const data = [
     img: "inglesparanegocios.png",
     imgAlternative: "inglesparanegociosAlt.png",
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "english",
     modalidad: "presencial",
     difCourses: [
@@ -816,6 +822,9 @@ export const data = [
     img: "reducciondeacento.png",
     imgAlternative: "reducciondeacentoAlt.png",
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "english",
     modalidad: "presencial",
     difCourses: [
@@ -868,6 +877,7 @@ export const data = [
     img: "cursoCiudadania.png",
     imgAlternative: "cursoCiudadaniaAlt.png",
     price: 40,
+    compra: true,
     lang: "english",
     modalidad: "presencial",
     modalityPayment: "hora",
@@ -1120,6 +1130,7 @@ export const data = [
     modalityPayment: "hora",
     img: "personalizadoOnline.png",
     imgAlternative: "personalizadoOnlineAlt.png",
+    compra: true,
     price: 40,
     etapa: "Todas las edades. ",
     personalized: [
@@ -1182,6 +1193,7 @@ export const data = [
     img: "intensivoOnline.png",
     imgAlternative: "intensivoOnlineAlt.png",
     price: 800,
+    compra: true,
     difBlanco2: true,
     lang: "english",
     difCourses: [
@@ -1321,6 +1333,9 @@ export const data = [
     img: "conversacionalOnline.png",
     imgAlternative: "conversacionalOnlineAlt.png",
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "english",
     modalidad: "online",
     difCourses: [
@@ -1373,6 +1388,9 @@ export const data = [
     img: "inglesparanegociosOnline.png",
     imgAlternative: "inglesparanegociosOnlineAlt.png",
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "english",
     modalidad: "online",
     difCourses: [
@@ -1424,6 +1442,9 @@ export const data = [
     img: "reducciondeacentoOnline.png",
     imgAlternative: "reducciondeacentoOnlineAlt.png",
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "english",
     modalidad: "online",
     difCourses: [
@@ -1707,6 +1728,7 @@ export const data = [
     img: "intensivoEspanol.png",
     imgAlternative: "intensivoEspanolAlt.png",
     price: 800,
+    compra: true,
     intensivo: true,
     difBlanco2: true,
     lang: "spanish",
@@ -1764,6 +1786,7 @@ export const data = [
     img: "personalizadoEspanol.png",
     imgAlternative: "personalizadoEspanolAlt.png",
     price: 40,
+    compra: true,
     personalized: [
       {
         img: "/img/persoEdad4.png",
@@ -1874,6 +1897,9 @@ export const data = [
     img: "conversacionalEspanol.png",
     imgAlternative: "conversacionalEspanolAlt.png",
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "spanish",
     modalidad: "presencial",
     difCourses: [
@@ -1926,6 +1952,9 @@ export const data = [
     img: "espanolparanegocios.png",
     imgAlternative: "espanolparanegociosAlt.png",
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "spanish",
     modalidad: "presencial",
     difCourses: [
@@ -1977,6 +2006,9 @@ export const data = [
     img: "reducciondeacentoEspanol.png",
     imgAlternative: "reducciondeacentoEspanolAlt.png",
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "spanish",
     modalidad: "presencial",
     difCourses: [
@@ -2230,6 +2262,7 @@ export const data = [
     img: "personalizadoEspanolOnline.png",
     imgAlternative: "personalizadoEspanolOnlineAlt.png",
     price: 40,
+    compra: true,
     personalized: [
       {
         img: "/img/persoEdad4.png",
@@ -2290,6 +2323,7 @@ export const data = [
     img: "intensivoEspanolOnline.png",
     imgAlternative: "intensivoEspanolOnlineAlt.png",
     price: 800,
+    compra: true,
     difBlanco2: true,
     lang: "spanish",
     difCourses: [
@@ -2428,6 +2462,9 @@ export const data = [
     img: "conversacionalEspanolOnline.png",
     imgAlternative: "conversacionalEspanolOnlineAlt.png",
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "spanish",
     modalidad: "online",
     difCourses: [
@@ -2481,6 +2518,9 @@ export const data = [
     img: "espanolparanegociosOnline.png",
     imgAlternative: "espanolparanegociosOnlineAlt.png",
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "spanish",
     modalidad: "online",
     difCourses: [
@@ -2534,6 +2574,9 @@ export const data = [
     imgAlternative: "reducciondeacentoEspanolOnlineAlt.png",
 
     condicion: "C1 en adelante",
+    modalityPayment: "hora",
+    price: 40,
+    compra: true,
     lang: "spanish",
     modalidad: "online",
     difCourses: [
