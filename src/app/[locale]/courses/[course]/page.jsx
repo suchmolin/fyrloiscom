@@ -37,6 +37,7 @@ export default function CoursePage({ params }) {
       <div className="w-full h-fit flex justify-center bg-[#001a70] py-20">
         <DiferenciadoresList data={data.difCourses} />
       </div>
+
       {(data.horarios || data.horarios2) && (
         <div className="w-full flex justify-center">
           <HorariosCursos data={data.horarios || data.horarios2} />

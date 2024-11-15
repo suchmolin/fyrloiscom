@@ -34,7 +34,7 @@ export default function BlogUltimosArticulos({ full }) {
           return (
             <div
               key={item.id}
-              className={`dropShadow2 relative flex flex-col  min-h-[400px]  rounded-lg  overflow-hidden hover:scale-[0.98] transition-all duration-300 w-[280px] xs:w-[330px]`}
+              className={`dropShadow2 relative flex flex-col pt-3  min-h-[400px]  rounded-lg  overflow-hidden hover:scale-[0.98] transition-all duration-300 w-[280px] xs:w-[330px]`}
             >
               <h3 className="h-[55px] text-lg font-bold text-[#001A70] py-2 px-4 leading-[22px]">
                 {item?.tarjeta?.titulo}
