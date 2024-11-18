@@ -5,9 +5,9 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Clases 100% en vivo",
+    title: "100% live classes",
     subtitle:
-      "Tendrás acompañamiento durante todo tu proceso de aprendizaje. A través de un profesor que te irá orientando en cada paso.",
+      "You will be accompanied throughout your learning process. Through a teacher who will guide you through each step.",
   },
   {
     id: "2",
@@ -15,9 +15,9 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Metodología efectiva",
+    title: "Effective methodology",
     subtitle:
-      "Aprenderás con una metodología reconocida internacionalmente. Todos nuestros cursos están alineados al Marco Común Europeo de Referencia para las Lenguas.",
+      "You will learn with an internationally recognized methodology. All our courses are aligned to the Common European Framework of Reference for Languages.",
   },
   {
     id: "4",
@@ -25,8 +25,8 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Acompañamiento calificado",
+    title: "Qualified support",
     subtitle:
-      "Apuntamos a que vivas una experiencia de primer nivel. Para ello trabajamos en preparar a nuestros profesores. Contamos con profesores certificados TEFL.",
+      "We aim for you to live a first class experience. For this we work hard to prepare our teachers. We have TEFL certified teachers.",
   },
 ]

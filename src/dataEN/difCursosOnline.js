@@ -5,9 +5,9 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Enseñanza práctica",
+    title: "Practical training",
     subtitle:
-      "El aprendizaje sin práctica es solo teoría. Por eso te enseñamos el idioma con situaciones vivenciales y un enfoque conversacional.",
+      "Learning without practice is just theory. That's why we teach you the language with experiential situations and a conversational approach.",
   },
   {
     id: "2",
@@ -15,9 +15,9 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Clases 100% en vivo",
+    title: "100% live classes",
     subtitle:
-      "Más que aprender un idioma, te enseñaremos a comunicarte, para lograrlo, la práctica será un ingrediente principal.",
+      "More than learning a language, we will teach you how to communicate, and to achieve this, practice will be a main ingredient.",
   },
   {
     id: "3",
@@ -25,8 +25,8 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Aprendizaje divertido",
+    title: "Fun learning",
     subtitle:
-      "Acercarte a tu meta es un proceso que debes disfrutar, por ello nos encargamos de que te diviertas mientras lo haces, a través de clases dinámicas e interactivas.",
+      "Getting closer to your goal is a process that you should enjoy, that's why we make sure you have fun while you do it, through dynamic and interactive classes.",
   },
 ]
