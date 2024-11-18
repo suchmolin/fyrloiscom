@@ -1,6 +1,8 @@
+import { useTranslations } from "next-intl"
 import Image from "next/image"
 
 export default function HorariosCursos({ data }) {
+  const t = useTranslations("HorariosCursos")
   return (
     <div className="w-11/12 xl:w-10/12 flex flex-col lg:flex-row items-center py-20">
       <div className="lg:w-4/12 flex flex-col items-center lg:items-start">
@@ -13,7 +15,7 @@ export default function HorariosCursos({ data }) {
           />
         </div>
         <h2 className="text-3xl xs:text-4xl xxl:text-5xl font-bold text-[#001a70] mt-5 text-center lg:text-start">
-          Conoce nuestros <br /> horarios
+          {t("h2")} <br /> {t("h2b")}
         </h2>
       </div>
       <div className="w-full md:w-11/12 lg:w-8/12 grid grid-cols-1 sm:grid-cols-2 justify-items-center gap-y-7 mt-7 lg:mt-0">

@@ -7,6 +7,7 @@ import { useContext } from "react"
 import { handleCheckout } from "@/checkoutCart"
 
 export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
+  const t = useTranslations("SingleCourse")
   const locale = useLocale()
   const { setIsOpen, setCartInfo, setCantCart } = useContext(OpenModalContext)
   return (
@@ -51,7 +52,7 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
               href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`}
               className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
             >
-              Ver más
+              {t("boton")}
               <span className="p-2 rounded-full bg-[#9ee701]">
                 <GoArrowRight className="text-gray-800" />
               </span>

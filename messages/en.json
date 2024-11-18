@@ -1,99 +1,106 @@
 {
   "navbarMenu":{
-    "dropDown":"Idiomas",
-    "ddTitle":"¿Qué idioma deseas estudiar?",
-    "ddItem1":"Español",
-    "ddItem2":"Inglés",
-    "dropDown2":"Presencial",
-    "dd2Title":"Selecciona un país",
+    "dropDown":"Languages",
+    "ddTitle":"What language do you want to study?",
+    "ddItem1":"Spanish",
+    "ddItem2":"English",
+    "dropDown2":"Presential",
+    "dd2Title":"Select a country",
     "dd2Item1":"USA",
     "dd2Item2":"Venezuela",
     "item2":"Online",
-    "item3":"Presencial",
-    "item4":"Conócenos",
-    "item5":"Contáctanos"
+    "item3":"Presential",
+    "item4":"About us",
+    "item5":"Contact us"
   },
   "hero": {
-    "h1a":"Es momento",
-    "h1b":"de aprender un",
-    "h1c":"nuevo idioma",
-    "h2":"Clases de inglés para todas las edades."
+    "h1a":"It's time",
+    "h1b":"to learn a",
+    "h1c":"new language",
+    "h2":"English classes for all ages."
   },
   "Diferenciadores":{
-    "h2": "¿Por qué elegirnos?",
-    "p":"Creamos una metodología única que te permite aprender un nuevo idioma de una manera divertida y diferente.",
-    "data":"data"
+    "h2": "Why choose us?",
+    "p":"We create a unique methodology that allows you to learn a new language in a fun and different way.",
+    "data":"dataEN",
+    "boton":"Learn more"
   },
   "SedePrincipal":{
-    "h2":"Sede Principal",
-    "button":"Todas las Sedes"
+    "h2":"Headquarters",
+    "button":"All Headquarters"
   },
   "Customers":{
-    "h2":"Nuestros Clientes",
-    "p":"Más de dos décadas impulsando el crecimiento de las empresas"
+    "h2":"Our Clients",
+    "p":"More than two decades driving business growth"
   },
   "FAQSection":{
     "h2":"FAQ",
-    "p":"Pregutas y respuestas frecuentes",
-    "data":"data"
+    "p":"Frequently asked questions and answers",
+    "data":"dataEN"
   },
   "SeccionBlog":{
     "h2":"Blog",
-    "p":"Aprende acerca de temas imprescindibles para mejorar tu inglés.",
-    "data":"data"
+    "p":"Learn about essential topics to improve your English.",
+    "data":"dataEN",
+    "vertodos":"See all"
   },
   "Footer":{
-    "li":"En Linea",
-    "li2":"Presencial",
-    "li3":"Conócenos",
-    "li4":"Contáctanos",
-    "p":"Fyr Lois ® Todos los derechos reservados.",
+    "li":"Online",
+    "li2":"Presential",
+    "li3":"About us",
+    "li4":"Contact us",
+    "p":"Fyr Lois ® All rights reserved.",
     "form":{
-      "input":"Nombre",
-      "input2":"Teléfono",
-      "input3":"Correo Electrónico",
-      "input4":"Mensaje",
-      "button":"Enviar"
+      "input":"Name",
+      
+      "input3":"E-mail",
+      "input4":"Message",
+      "button":"Send"
     },
-    "h2":"Visítanos",
-    "h2b":"Suscríbete"
+    "h2":"Visit us",
+    "h2b":"Subscribe",
+    "pp":"Privacy Policies",
+    "p2":"Follow us"
   },
   "AboutUs":{
     "HeroAboutUs":{
-      "h1":"25 años ",
-      "h1Span":"enseñando idiomas",
-      "p":"Te ayudamos a alcanzar tus sueños.",
-      "p2":"Alcanza mejores oportunidades de crecimiento personal y profesional.",
-      "button":"Conoce más",
+      "h1":"25 years ",
+      "h1Span":"teaching languages",
+      "p":"We help you achieve your dreams.",
+      "p2":"Achieve better opportunities for personal and professional growth.",
+      "button":"Learn more",
       "counter":{
-        "p":"Egresados",
-        "p2":"Años de experiencia",
-        "p3":"Profesores certificados CELTA"
+        "p":"Graduates",
+        "p2":"Years of experience",
+        "p3":"CELTA certified teachers"
       }
     },
     "NuestraHistoriaPage":{
-      "h2":"Nuestra Historia",
+      "h2":"Our History",
       "p":"Fyr Lois es un proyecto de vida que nace en La Florida, tras consolidar una metodología desarrollada luego de 25 años de experiencia en los que habíamos ofrecido nuestros cursos en países como Venezuela, México, Colombia y Costa Rica.",
-      "p2":"A través de los años hemos desarrollado un método de enseñanza de los idiomas con una metodología única en el mercado, enfocada en la enseñanza comunicacional y vivencial, a través de clases prácticas y divertidas.",
-      "p3":"Nuestra fórmula de enseñanza es cercana, disfrutable y efectiva. Mediante cualquiera de nuestras 2 modalidades (Presencial - Online) los estudiantes disfrutarán de clases 100% en vivo y grupos reducidos que les garantizan un acompañamiento durante todo su proceso de aprendizaje."
+      "p2":"Over the years we have developed a language teaching method with a unique methodology in the market, focused on communicational and experiential teaching, through practical and fun classes.",
+      "p3":"Our teaching formula is close, enjoyable and effective. Through any of our 2 modalities (In-person - Online) students will enjoy 100% live classes and small groups that guarantee them support throughout their learning process."
     },
     "NuestrosTeachers":{
-      "data": "data",
-      "h2":"Conoce a nuestros teachers",
-      "p":"Aprender inglés es sencillo si cuentas con la ayuda adecuada.",
-      "verPerfil":"VER PERFIL"
+      "data": "dataEN",
+      "h2":"Meet our teachers",
+      "h4":"Previous projects",
+      "p":"Learning English is easy if you have the right help.",
+      "verPerfil":"SEE PROFILE",
+      "boton1":"about me",
+      "boton2":"Skills"
     }
   },
   "contactUs":{
     "FormContactUs":{
-      "h2":"Contáctanos",
-      "p":"Si quieres saber más información acerca de nuestros cursos, completa tus datos y responderemos todas tus dudas.",
-      "fullname":"Nombre y Apellido",
+      "h2":"Contact us",
+      "p":"If you want to know more information about our courses, complete your information and we will answer all your questions.",
+      "fullname":"First and last name",
       "email":"Email",
-      "tellphone":"Numero Telefónico",
+      "tellphone":"Telephone Number",
       "sedesList":{
-        "title":"¿En que sede te gustaria estudiar?",
-        "opt1":"Seleccione",
+        "title":"Where would you like to study?",
+        "opt1":"Select",
         "opt2":"Online",
         "opt3":"Kissimmee",
         "opt4":"Caracas (CCCT)",
@@ -104,42 +111,42 @@
         "opt9":"Barquisimeto"
       },
       "porqueAprender":{
-        "title":"¿Por qué motivo quieres aprender inglés?",
-        "opt1":"Seleccione",
+        "title":"Why do you want to learn English?",
+        "opt1":"Select",
         "opt2":"Social",
         "opt3":"Personal",
         "opt4":"Familiar",
-        "opt5":"Laboral"
+        "opt5":"Labor"
       },
       "comoNosConociste":{
         "title":"¿Cómo nos conociste?",
-        "opt1":"Seleccione",
-        "opt2":"Un amigo/Familiar",
+        "opt1":"Select",
+        "opt2":"A friend/family member",
         "opt3":"Facebook",
         "opt4":"Instagram",
         "opt5":"Google",
         "opt6":"Google ads"
       },
       "hasEstudiadoAntes":{
-        "title":"¿Has estudiado el idioma antes?",
-        "opt1":"Seleccione",
-        "opt2":"Si",
+        "title":"Have you studied the language before?",
+        "opt1":"Select",
+        "opt2":"Yes",
         "opt3":"No"
       },
-      "button":" Enviar",
-      "sended":"Correo Enviado Exitosamente, muy pronto un agente autorizado se contactara al telefono y correo proporcionado"
+      "button":" Send",
+      "sended":"Email Sent Successfully, very soon an authorized agent will contact the phone number and email provided"
     },
     "MasInfoContactUs":{
-      "h2":"¿Necesitas más información?",
-      "p":"Si quieres contactarnos directamente, puedes hacerlo através de estas vías."
+      "h2":"Do you need more information?",
+      "p":"If you want to contact us directly, you can do so through these means."
     }
   },
   "sedes":{
-    "h1":"Tenemos un curso para ti en donde estés",
-    "p":"Selecciona tu ciudad para mostrarte todas las opciones disponibles",
+    "h1":"We have a course for you wherever you are",
+    "p":"Select your city to show you all the available options",
     
     "SedesList":{
-      "aCards":"Visitar"
+      "aCards":"Visit"
     }
   },
   "SeccionMiss":{
@@ -152,154 +159,223 @@
     "p2b": "George Harris- Comediante, periodista y presentador, ",
     
     
-    "link":"ACERCA DE NOSOTROS"
+    "link":"ABOUT US"
   },
   "aboutUs":{
-    "h2":"Nuestra Misión",
+    "h2":"Our Mission",
     "item1":{
-      "h4":"Hacer realidad proyectos de vida",
-      "p":"Generar más y mejores oportunidades de crecimiento personal y profesional para quien está decidido a construir su proyecto de vida."
+      "h4":"Make life projects come true",
+      "p":"Generate more and better opportunities for personal and professional growth for those who are determined to build their life project."
     },
     "item2":{
-      "h4":"Ofrecer un aprendizaje práctico",
-      "p":"Sólo a través de la generación de resultados generamos valor para nosotros mismos y nuestra comunidad."
+      "h4":"Offer hands-on learning",
+      "p":"Only through the generation of results do we generate value for ourselves and our community."
     },
     "item3":{
-      "h4":"Enseñar de forma divertida",
-      "p":"Creemos en la diversión y el entretenimiento como la vía para integrar el aprendizaje."
+      "h4":"Teach in a fun way",
+      "p":"We believe in fun and entertainment as the way to integrate learning."
     }
   },
   "TestNivelacion":{
-    "h2":"¿Quieres conocer tu nivel de inglés?",
-    "button":"Haz tu prueba ya"
+    "h2":"Do you want to know your level of English?",
+    "button":"Take your test now"
   },
   "CursosSedes":{
-    "h2":"Cursos dictados en ",
-    "p":"Elige el curso que mas se adapte a tus necesidades",
-    "data":"data"
+    "h2":"Courses taught in ",
+    "p":"Choose the course that best suits your needs",
+    "data":"dataEN"
   },
   "MasInfoContactUs":{
-    "titulo":"Contáctanos",
-    "subtitulo":"Si quieres contactarnos directamente, puedes hacerlo através de estas vías."
+    "titulo":"Contact us",
+    "subtitulo":"If you want to contact us directly, you can do so through these means."
 
   },
   "CoursePage":{
-    "h2":"¿Por qué elegir Fyr Lois?",
-    "h2b":"Opiniones",
-    "h2c":"Cursos Relacionados",
-    "data":"data"
+    "h2":"Why choose Fyr Lois?",
+    "h2b":"Opinions",
+    "h2c":"Related Courses",
+    "data":"dataEN"
   },
   "SimilarCourses":{
-    "data":"data"
+    "data":"dataEN"
   },
   "Test":{
-    "h1":"Descubre tu nivel de inglés",
-    "p":"Responde las preguntas del siguiente exámen según tus conocimientos, así podremos brindarte el resultado real de tu nivel de inglés.",
-    "pb":"Obstuviste un resultado de: ",
-    "pb2":" de ",
+    "h1":"Discover your level of English",
+    "p":"Answer the questions in the following exam according to your knowledge, so we can give you the real result of your level of English.",
+    "pb":"You got a result of: ",
+    "pb2":" of ",
     "h4":"Answer the following questions",
-    "pc":"Pregunta",
-    "pc2":" ode ",
+    "pc":"Ask",
+    "pc2":" of ",
     "PersonalDataTest":{
-      "email":"Correo Electrónico",
-      "name":"Nombre y Apellido",
-      "city":"Ciudad de Residencia",
-      "birthday":"Fecha de Nacimiento",
-      "cel":"Número Telefónico",
-      "start":"Comenzar"
+      "email":"Email",
+      "name":"First and last name",
+      "city":"City of Residence",
+      "birthday":"Birthdate",
+      "cel":"Telephone Number",
+      "start":"Start"
     },
     "QuestionsTest":{
-      "prev":"Anterior",
-      "next":"Siguiente",
-      "end":"Finalizar",
-      "error":"Debe seleccionar una respuesta para avanzar."
+      "prev":"Previous",
+      "next":"Next",
+      "end":"Finish",
+      "error":"You must select an answer to advance."
+    },
+    "vercursos":"Ver Cursos",
+    "ResumeTest":{
+      "p":"Do you want to know the correct answer?",
+      "pb":"Select the question of your interest",
+      "correct":"Correct Answer:"
     }
   },
   "nuestraMision":{
-    "h2":"Nuestra Misión",
-    "data":"data"
+    "h2":"Our Mission",
+    "data":"dataEN"
   },
   "online":{
     "hero":{
-      "h1": "Aprende el idioma que",
-      "h1b": "siempre has querido",
+      "h1": "Learn the language that",
+      "h1b": "you have always wanted",
       
-      "h1a": "Aprende el idioma",
-      "h1a2": "que siempre",
-      "h1b2": "has querido",
+      "h1a": "Learn the language",
+      "h1a2": "that always",
+      "h1b2": "have you wanted",
       
-      "h2": "Práctica, diviértete, y comunícate",
-      "h2b": "donde quieras.",
+      "h2": "Practice, have fun, and communicate",
+      "h2b": "wherever you want.",
       
-      "button2": "Ver cursos"
+      "button2": "See courses"
     },
     "CursosOnlineHome":{
-      "data":"data",
-      "h2":"Vive una experiencia de aprendizaje memorable",
-      "p":"cada estudiante es un proyecto de vida por cumplir. Por eso te ofrecemos un curso adaptado a tus intereses y necesidades."
+      "data":"dataEN",
+      "h2":"Live a memorable learning experience",
+      "p":"Each student is a life project to fulfill. That is why we offer you a course adapted to your interests and needs.",
+      "boton":"See more"
     },
     "DiferenciadoresOnline":{
-      "h2":"¿Cómo aprenderás inglés con nosotros?",
-      "data":"data"
+      "h2":"How will you learn English with us?",
+      "data":"dataEN"
     },
     "YaEsHora":{
-      "h1":"Llegó la hora de aprender un nuevo idioma",
+      "h1":"It's time to learn a new language",
       
-      "p":"Gracias a nuestros 25 años de experiencia, hemos desarrollado una metodología práctica y divertida con la que aprenderás a hablar el idioma de forma fluida. A través de clases 100% en vivo, adaptadas a tu nivel de conocimiento, con profesores certificados y un método de enseñanza único.",
-      "p2":"Domina ese idioma que siempre has querido, incríbete ya.",
-      "button":"Ver cursos"
+      "p":"Thanks to our 25 years of experience, we have developed a practical and fun methodology with which you will learn to speak the language fluently. Through 100% live classes, adapted to your level of knowledge, with certified teachers and a unique teaching method.",
+      "p2":"Master that language you've always wanted, sign up now.",
+      "button":"See courses"
     },
     "ViveUnaExperiencia":{
-      "h2":"Inicia tu camino hacia el dominio del idioma",
+      "h2":"Start your path to language mastery",
       
-      "p":"Cada estudiante es diferente por eso ofrecemos un curso adaptado a los intereses y necesidades.",
-      "data":"data"
+      "p":"Each student is different, which is why we offer a course adapted to their interests and needs.",
+      "data":"dataEN"
     },
     "LlevaTuProyecto":{
-      "h3":"Lleva tu proyecto de vida ",
-      "h3b":"a un nuevo nivel",
-      "p":"Comunícate en inglés de forma fluida, sin inseguridades y alcanza las oportunidades que sueñas",
-      "boton":"Comenzar",
-      "data":"data"
+      "h3":"Take your life project ",
+      "h3b":"to a new level",
+      "p":"Communicate in English fluently, without insecurities and achieve the opportunities you dream of",
+      "boton":"Start now",
+      "data":"dataEN"
     },
     "courses":{
-      "h1":"Un curso online ",
-      "h1Span":"adaptado a ti",
-      "p":"Aprende a gusto con una metodología adaptada a tu nivel, edad, intereses y agenda.",
-      "button":"Conoce más"
+      "h1":"An online course ",
+      "h1Span":"adapted to you",
+      "p":"Learn at ease with a methodology adapted to your level, age, interests and agenda.",
+      "button":"Learn more"
     },
     "DifCursosOnline":{
-      "h2":"¿Sabes por qué aprender con nosotros?",
-      "p":"Diseñamos una experiencia de aprendizaje memorable, en la que te sentiras motivado, a gusto y feliz con tus resultados.",
-      "data":"data"
+      "h2":"Do you know why learn with us?",
+      "p":"We design a memorable learning experience, in which you will feel motivated, comfortable and happy with your results.",
+      "data":"dataEN"
     },
     "OnlineCoursesList":{
-      "data":"data",
-      "h2":"Conoce nuestros cursos"
+      "data":"dataEN",
+      "h2":"Get to know our courses"
     },
     "SiguesTeniendoDudas":{
-      "h3":"¿Sigues teniendo dudas sobre",
-      "h3b":"nuestros cursos de idiomas?",
-      "p":"Estamos aquí para ayudarte a solventar cualquier incógnita que tengas y ayudarte a completar tu proceso de inscripción",
-      "boton":"Contáctanos",
-      "data":"data"
+      "h3":"Do you still have doubts about",
+      "h3b":"our language courses?",
+      "p":"We are here to help you solve any questions you may have and help you complete your registration process.",
+      "boton":"Contact us",
+      "data":"dataEN"
     }
 
   },
   "ReviewsSection":{
-    "h2":"Conoce la opinión",
-    "h2b":"de nuestros estudiantes",
-    "data":"data"
+    "h2":"Know the opinion",
+    "h2b":"of our students",
+    "data":"dataEN"
   },
   "IdiomaCursosButton":{
-    "button":"Elige el Idioma",
-    "ddTitle":"Elige el Idioma a estudiar",
-    "ddItem1":"Inglés",
-    "ddItem2":"Español"
+    "button":"Choose the Language",
+    "ddTitle":"Choose the language to study",
+    "ddItem1":"English",
+    "ddItem2":"Spanish"
   },
   "CursosSelector":{
-    "dropDown": "Cursos",
+    "dropDown": "Courses",
     "dd2Item1":"Online",
-    "dd2Item2":"Presencial"
+    "dd2Item2":"Presential"
+  },
+  "BotonFranquicias":{
+    "boton":"Select the country"
+  },
+  "CartModal":{
+    "vacio":"Your cart is empty",
+    "cursosOnline":"Online Courses",
+    "cursosPresenciales":"Presential Courses"
+  },
+  "HeroSingleCourse":{
+    "Comprar":"Buy",
+    "Contacto":"Contact us"
+  },
+  "HorariosCursos":{
+    "h2":"Know our",
+    "h2b":"schedules"
+
+  },
+  "LanguageSelector":{
+    "titulo":"Selecciona un idioma",
+    "ingles":"English",
+    "espanol":"Spanish"
+  },
+  "PersonalizadoSinLimite":{
+    "h2":"There is no age limit, our Personalized Course is the solution you are looking for",
+    "boton":"Contact us"
+  },
+  "PersonalizadoTablas":{
+    "h2":"Know the differences between our Regular Course and Personalized Course",
+    "regular":"Regular",
+    "personalizado":"Personalized",
+    "clases100":"Classes 100% in",
+    "adaptado":"Adapted to your needs",
+    "metodologia":"Unique methodology",
+    "profesor":"Exclusive teacher",
+    "clasesind":"Individual classes",
+    "objetivos":"Custom goals"
+  },
+  "SendedMsg":{
+    "sended":"Message sent successfully"
+  },
+  "SendedMsgfoot":{
+    "sended":"You have successfully subscribed"
+
+  },
+  "SingleCourse":{
+    "boton":"See more"
+  },
+  "ModalIdiomas":{
+    "h2":"Select the study mode",
+    "presencial":"PRESENTIAL"
+  },
+  "ArticulosBlog":{
+    "h2":"Latest Articles"
+  },
+  "Blog":{
+    "h2":"All articles"
+  },
+  "CheckoutSuccessPage":{
+    "h1":"Your payment was successful",
+    "p":"You will shortly receive an email with the details of your purchase and you will be contacted to complete the registration process.",
+    "p2":"If you have any questions you can call us at"
   }
 }
