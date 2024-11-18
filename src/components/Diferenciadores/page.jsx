@@ -17,9 +17,14 @@ export default function Diferenciadores({ curva, filtro, fondoBlanco }) {
         const { data } = await import(`/src/${t("data")}/diferenciadores`)
         if (lang === "spanish") {
           const comp =
-            locale === "es" ? "CELTA - TEFL" : "CELTA - TEFL certified teachers"
+            locale === "es"
+              ? "Profesores certificados CELTA - TEFL"
+              : "CELTA - TEFL certified teachers"
           const indice = data.findIndex((item) => item.title === comp)
-          data[indice].title = "Profesores certificados CELTA"
+          data[indice].title =
+            locale === "es"
+              ? "Profesores certificados CELTA"
+              : "CELTA certified teachers"
         }
         if (filtro) {
           const array = []

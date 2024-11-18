@@ -11,12 +11,15 @@ export function LanguageSelector({ locale }) {
   const path = usePathname()
   const searchParams = useSearchParams()
   const sede = searchParams.get("s")
+  const lang = searchParams.get("langCourse")
 
   const handleRedirect = (locale) => {
     const subs = path.split("/")
     subs[1] = locale
-
-    location.href = sede ? subs.join("/") + "?s=" + sede : subs.join("/")
+    let url = subs.join("/") + "?"
+    url = sede ? url + `s=${sede}&` : url
+    url = lang ? url + `langCourse=${lang}&` : url
+    location.href = url
   }
   const mundo = (
     <span className="flex gap-2 items-center bg-transparent">

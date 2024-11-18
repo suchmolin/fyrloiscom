@@ -31,9 +31,11 @@ export default function IdiomaCursosButton({
   )
 
   const handleIdioma = (idioma) => {
-    setPressed(true)
+    if (setPressed) {
+      setPressed(true)
+      document.getElementById("cursosonline").scrollIntoView()
+    }
     setState(idioma)
-    document.getElementById("cursosonline").scrollIntoView()
   }
 
   return (
