@@ -138,7 +138,8 @@
     },
     "MasInfoContactUs":{
       "h2":"Do you need more information?",
-      "p":"If you want to contact us directly, you can do so through these means."
+      "p":"If you want to contact us directly, you can do so through these means.",
+      "data":"dataEN"
     }
   },
   "sedes":{
@@ -187,7 +188,8 @@
   },
   "MasInfoContactUs":{
     "titulo":"Contact us",
-    "subtitulo":"If you want to contact us directly, you can do so through these means."
+    "subtitulo":"If you want to contact us directly, you can do so through these means.",
+    "data":"dataEN"
 
   },
   "CoursePage":{
@@ -368,7 +370,8 @@
     "presencial":"PRESENTIAL"
   },
   "ArticulosBlog":{
-    "h2":"Latest Articles"
+    "h2":"Latest Articles",
+    "data":"dataEN"
   },
   "Blog":{
     "h2":"All articles"

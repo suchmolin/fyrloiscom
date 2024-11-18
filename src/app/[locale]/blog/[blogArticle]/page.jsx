@@ -1,21 +1,38 @@
+"use client"
 import Image from "next/image"
-import { data } from "@/data/blog.js"
 import BlogUltimosArticulos from "@/components/BlogUltimosArticulos/page"
 import { useTranslations } from "next-intl"
+import { useEffect, useState } from "react"
 
 export default function ArticulosBlog({ params }) {
   const t = useTranslations("ArticulosBlog")
   const { blogArticle } = params
-  const blog = data.find((item) => item.id === blogArticle)
 
-  return (
+  const [blog, setBlog] = useState([])
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const { data } = await import(`/src/${t("data")}/blog`)
+
+        setBlog(data.find((item) => item.id === blogArticle))
+      } catch (error) {
+        console.log("Error importing data", error)
+      }
+    }
+    fetchData()
+  }, [t, blogArticle])
+
+  return blog.length === 0 ? (
+    <div className="h-[600px]"></div>
+  ) : (
     <div className="w-full flex flex-col items-center pt-44 pb-10">
       <div className="relative w-10/12 h-[300px] sm:h-[600px] rounded-2xl overflow-hidden">
         <Image
           layout="fill"
           objectFit="cover"
-          src={`/img/${blog.tarjeta.imgPrincipal}`}
-          alt={blog.tarjeta.titulo}
+          src={`/img/${blog.tarjeta?.imgPrincipal}`}
+          alt={blog.tarjeta?.titulo}
         />
       </div>
       <div className="w-11/12 lg:w-7/12 py-10  border-b-2 border-gray-200">

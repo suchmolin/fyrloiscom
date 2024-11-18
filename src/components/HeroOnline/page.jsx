@@ -1,6 +1,6 @@
 "use client"
 import { useLocale, useTranslations } from "next-intl"
-import { GoArrowRight } from "react-icons/go"
+
 import IdiomaCursosButton from "../IdiomaCursosButton/page"
 
 export default function HeroOnline({ idioma, setIdioma, pressed, setPressed }) {

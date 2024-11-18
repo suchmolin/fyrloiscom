@@ -4,7 +4,7 @@ export const data = [
     tarjeta: {
       titulo: "How to improve your english writing skills",
       descripcion:
-        "5 tips para mejorar tus habilidades de escritura en inglés. Escribir en un nuevo idioma siempre es un desafío, por eso hoy te traemos estos tips para mejorar tus habilidades escritas en inglés.",
+        "5 tips to improve your English writing skills. Writing in a new language is always a challenge, that's why today we bring you these tips to improve your written skills in English.",
       autor: "Leonardo Sangroni",
       fotoAutor: "leonardosangroni.png",
       categoria: "GRAMMAR",
@@ -139,13 +139,12 @@ export const data = [
     },
     contenido: [
       {
-        titulo:
-          "Harness the Power of Artificial Intelligence to Learn English",
+        titulo: "Harness the Power of Artificial Intelligence to Learn English",
         texto: [
           "Artificial Intelligence (AI) has come to change the way we see the world and, above all, to make a big impact on how we handle information.",
           "AI allows us to have a sea of knowledge at our fingertips and is transforming the way we learn. It's time to take advantage of it to achieve the fluency you desire in English.",
           "We already know the power and possibilities that AI gives us, but the question now is: ",
-          "How to use Artificial Intelligence to Learn English?"
+          "How to use Artificial Intelligence to Learn English?",
         ],
       },
       {

@@ -2,7 +2,6 @@ import Image from "next/image"
 import { Dropdown } from "flowbite-react"
 import { useTranslations, useLocale } from "next-intl"
 import { IoIosArrowDown } from "react-icons/io"
-import { useState } from "react"
 
 export default function IdiomaCursosButton({
   idioma,
@@ -17,6 +16,9 @@ export default function IdiomaCursosButton({
   let translation
   if (locale === "es") {
     translation = idioma === "english" ? "Inglés" : "Español"
+  }
+  if (locale === "en") {
+    translation = idioma === "english" ? "English" : "Spanish"
   }
 
   const labelDropDown = (

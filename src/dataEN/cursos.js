@@ -6,14 +6,14 @@ export const data = [
     id: "elementary-kissimmee",
     title: "Elementary Kissimmee",
     description2:
-      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del inglés.",
-    etapa: "6-11 años. ",
+      "Push your child to discover a world of possibilities! Through fun learning, you will fall in love with English.",
+    etapa: "6-11 years old. ",
     img: "elementaryCourse.png",
     imgAlternative: "elementaryAlt.png",
     price: 800,
     compra: true,
     inscripcion: 200,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     difBlanco2: true,
     lang: "english",
     modalidad: "presencial",
@@ -21,7 +21,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Le brinda acceso a recursos educativos globales",
+        title: "Gives you access to global educational resources",
         src: "/img/difElem.png",
         width: 60,
         height: 60,
@@ -29,7 +29,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Mejora su rendimiento académico del colegio",
+        title: "Improves your academic performance at school",
         src: "/img/difElem2.png",
         width: 60,
         height: 60,
@@ -37,7 +37,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrolla su capacidad para adaptarse a nuevos entornos",
+        title: "Develops your ability to adapt to new environments",
         src: "/img/difElem3.png",
         width: 60,
         height: 60,
@@ -45,13 +45,13 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "3", titulo: "LAPSES" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "6", titulo: "LEVELS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
   },
@@ -59,13 +59,13 @@ export const data = [
     id: "high-school-kissimmee",
     title: "High School Kissimmee",
     description2:
-      "Prepara a tu hijo para el futuro. Combinamos retos emocionantes con proyectos reales para que tu hijo adquiera conocimientos prácticos y desarrolle su creatividad.",
-    etapa: "12-16 años. ",
+      "Prepare your child for the future. We combine exciting challenges with real projects so that your child acquires practical knowledge and develops their creativity.",
+    etapa: "12-16 years old. ",
     img: "highSchoolCourse.png",
     imgAlternative: "highSchoolAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     difBlanco2: true,
     lang: "english",
@@ -74,7 +74,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Preparación para pruebas académicas: TOEFL y EILTS",
+        title: "Preparation for academic tests: TOEFL y EILTS",
         src: "/img/difHS.png",
         width: 60,
         height: 60,
@@ -82,7 +82,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Metodología práctica y estimulante para su edad",
+        title: "Practical and stimulating methodology for your age",
         src: "/img/difHS2.png",
         width: 60,
         height: 60,
@@ -90,8 +90,7 @@ export const data = [
       },
       {
         id: "3",
-        title:
-          "Potencia sus oportunidades de becas y estudios en el extranjero",
+        title: "Boost your scholarship and study opportunities abroad",
         src: "/img/difHS3.png",
         width: 60,
         height: 60,
@@ -100,13 +99,13 @@ export const data = [
     ],
 
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "3", titulo: "LAPSES" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "6", titulo: "LEVELS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
   },
@@ -114,13 +113,13 @@ export const data = [
     id: "adults-kissimmee",
     title: "Adults Kissimmee",
     description2:
-      "Comunícate en inglés como siempre has querido, a través de herramientas prácticas y efectivas para que hables con fluidez.",
-    etapa: "+17 años. ",
+      "Communicate in English as you have always wanted, through practical and effective tools so that you speak fluently.",
+    etapa: "+17 years old. ",
     img: "adultsCourse.png",
     imgAlternative: "adultsAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
@@ -128,7 +127,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Clases 100% en inglés",
+        title: "Classes 100% in English",
         src: "/img/difAdult.png",
         width: 60,
         height: 60,
@@ -136,7 +135,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Metodología alineada al Marco Común Europeo",
+        title: "Methodology aligned to the Common European Framework",
         src: "/img/difAdult2.png",
         width: 60,
         height: 60,
@@ -144,7 +143,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difAdult3.png",
         width: 60,
         height: 60,
@@ -153,29 +152,29 @@ export const data = [
     ],
     horarios2: [
       {
-        titulo: "Nivel 1 (Básico)",
-        dia: "SÁBADOS",
+        titulo: "Level 1 (Basic)",
+        dia: "SATURDAYS",
         horas: ["9:00 am - 12:25 pm"],
       },
       {
-        titulo: "Intermedio",
-        dia: "MARTES Y JUEVES",
+        titulo: "Intermediate",
+        dia: "TUESDAY AND THURSDAY",
         horas: ["9:00 - 10:40 am", "6:50 - 8:30 am"],
       },
       {
-        titulo: "Avanzado",
-        dia: "SÁBADOS",
+        titulo: "Advanced",
+        dia: "SATURDAYS",
         horas: ["9:00 am - 12:20 pm"],
       },
     ],
     time: [
-      { num: "6", titulo: "NIVELES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "6", titulo: "LEVELS" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "18", titulo: "MONTHS" },
     ],
     subCursos: {
-      titulo: "tenemos estos cursos especializados para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "we have these specialized courses for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
   },
@@ -184,13 +183,13 @@ export const data = [
     id: "kids",
     title: "Kids",
     description2:
-      "Un aprendizaje seguro y diferente. A través de juegos, canciones y actividades creativas, tu hijo aprende inglés de forma divertida y efectiva.",
-    etapa: "3-5 años. ",
+      "Safe and different learning. Through games, songs and creative activities, your child learns English in a fun and effective way.",
+    etapa: "3-5 years old. ",
     img: "kidsCourse.png",
     imgAlternative: "kidsCourseAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
@@ -198,7 +197,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Metodología divertida pensada para su etapa de aprendizaje",
+        title: "Fun methodology designed for your learning stage",
         src: "/img/difKids.png",
         width: 60,
         height: 60,
@@ -206,7 +205,8 @@ export const data = [
       },
       {
         id: "2",
-        title: "Aprovecha la plasticidad de su cerebro para aprender el idioma",
+        title:
+          "Take advantage of the plasticity of your brain to learn the language",
         src: "/img/difKids2.png",
         width: 60,
         height: 60,
@@ -214,7 +214,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Logra una pronunciación más precisa desde temprana edad",
+        title: "Achieve more accurate pronunciation from an early age",
         src: "/img/difKids3.png",
         width: 60,
         height: 60,
@@ -223,30 +223,30 @@ export const data = [
     ],
     horarios: [
       {
-        dia: "LUNES Y MIÉRCOLES",
+        dia: "MONDAY AND WEDNESDAY",
         horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
       },
       {
-        dia: "MARTES Y JUEVES",
+        dia: "TUESDAY AND THURSDAY",
         horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
       },
       {
-        dia: "VIERNES",
+        dia: "FRIDAY",
         horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
       },
       {
-        dia: "SÁBADOS",
+        dia: "SATURDAYS",
         horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "3", titulo: "LAPSES" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "6", titulo: "LEVELS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
   },
@@ -254,13 +254,13 @@ export const data = [
     id: "elementary",
     title: "Elementary",
     description2:
-      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del inglés.",
-    etapa: "6-11 años. ",
+      "Push your child to discover a world of possibilities! Through fun learning, you will fall in love with English.",
+    etapa: "6-11 years old. ",
     img: "elementaryCourse.png",
     imgAlternative: "elementaryAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
@@ -268,7 +268,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Le brinda acceso a recursos educativos globales",
+        title: "Gives you access to global educational resources",
         src: "/img/difElem.png",
         width: 60,
         height: 60,
@@ -276,7 +276,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Mejora su rendimiento académico del colegio",
+        title: "Improves your academic performance at school",
         src: "/img/difElem2.png",
         width: 60,
         height: 60,
@@ -284,7 +284,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrolla su capacidad para adaptarse a nuevos entornos",
+        title: "Develops your ability to adapt to new environments",
         src: "/img/difElem3.png",
         width: 60,
         height: 60,
@@ -293,30 +293,30 @@ export const data = [
     ],
     horarios: [
       {
-        dia: "LUNES Y MIÉRCOLES",
+        dia: "MONDAY AND WEDNESDAY",
         horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
       },
       {
-        dia: "MARTES Y JUEVES",
+        dia: "TUESDAY AND THURSDAY",
         horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
       },
       {
-        dia: "VIERNES",
+        dia: "FRIDAY",
         horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
       },
       {
-        dia: "SÁBADOS",
+        dia: "SATURDAYS",
         horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "3", titulo: "LAPSES" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "6", titulo: "LEVELS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
   },
@@ -324,13 +324,13 @@ export const data = [
     id: "high-school",
     title: "High School",
     description2:
-      "Prepara a tu hijo para el futuro. Combinamos retos emocionantes con proyectos reales para que tu hijo adquiera conocimientos prácticos y desarrolle su creatividad.",
-    etapa: "12-16 años. ",
+      "Prepare your child for the future. We combine exciting challenges with real projects so that your child acquires practical knowledge and develops their creativity.",
+    etapa: "12-16 years old. ",
     img: "highSchoolCourse.png",
     imgAlternative: "highSchoolAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
@@ -338,7 +338,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Preparación para pruebas académicas: TOEFL y EILTS",
+        title: "Preparation for academic tests: TOEFL and EILTS",
         src: "/img/difHS.png",
         width: 60,
         height: 60,
@@ -346,7 +346,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Metodología práctica y estimulante para su edad",
+        title: "Practical and stimulating methodology for their age",
         src: "/img/difHS2.png",
         width: 60,
         height: 60,
@@ -354,8 +354,7 @@ export const data = [
       },
       {
         id: "3",
-        title:
-          "Potencia sus oportunidades de becas y estudios en el extranjero",
+        title: "Boost your scholarship and study opportunities abroad",
         src: "/img/difHS3.png",
         width: 60,
         height: 60,
@@ -364,30 +363,30 @@ export const data = [
     ],
     horarios: [
       {
-        dia: "LUNES Y MIÉRCOLES",
+        dia: "MONDAY AND WEDNESDAY",
         horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
       },
       {
-        dia: "MARTES Y JUEVES",
+        dia: "TUESDAY AND THURSDAY",
         horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
       },
       {
-        dia: "VIERNES",
+        dia: "FRIDAY",
         horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
       },
       {
-        dia: "SÁBADOS",
+        dia: "SATURDAYS",
         horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "3", titulo: "LAPSES" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "6", titulo: "LEVELS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
   },
@@ -395,13 +394,13 @@ export const data = [
     id: "adults",
     title: "Adults",
     description2:
-      "Comunícate en inglés como siempre has querido, a través de herramientas prácticas y efectivas para que hables con fluidez.",
-    etapa: "+17 años. ",
+      "Communicate in English as you have always wanted, through practical and effective tools so that you speak fluently.",
+    etapa: "+17 years old. ",
     img: "adultsCourse.png",
     imgAlternative: "adultsAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
@@ -409,7 +408,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Clases 100% en inglés",
+        title: "Classes 100% in English",
         src: "/img/difAdult.png",
         width: 60,
         height: 60,
@@ -417,7 +416,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Metodología alineada al Marco Común Europeo",
+        title: "Methodology aligned to the Common European Framework",
         src: "/img/difAdult2.png",
         width: 60,
         height: 60,
@@ -425,7 +424,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difAdult3.png",
         width: 60,
         height: 60,
@@ -434,7 +433,7 @@ export const data = [
     ],
     horarios: [
       {
-        dia: "MIÉRCOLES Y VIERNES",
+        dia: "WEDNESDAY AND FRIDAY",
         horas: [
           "7:00 - 8:20 am",
           "8:30 - 9:50 am",
@@ -443,7 +442,7 @@ export const data = [
         ],
       },
       {
-        dia: "MARTES Y JUEVES",
+        dia: "TUESDAY AND THURSDAY",
         horas: [
           "7:00 - 8:20 am",
           "8:30 - 9:50 am",
@@ -452,22 +451,22 @@ export const data = [
         ],
       },
       {
-        dia: "LUNES Y MIÉRCOLES",
+        dia: "MONDAY AND WEDNESDAY",
         horas: ["6:30 - 7:50 pm"],
       },
       {
-        dia: "MARTES Y JUEVES",
+        dia: "TUESDAY AND THURSDAY",
         horas: ["6:30 - 7:50 pm"],
       },
     ],
     time: [
-      { num: "6", titulo: "NIVELES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "6", titulo: "LEVELS" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "18", titulo: "MONTHS" },
     ],
     subCursos: {
-      titulo: "tenemos estos cursos especializados para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "we have these specialized courses for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado", "intensivo"],
     },
   },
@@ -475,33 +474,33 @@ export const data = [
     id: "personalizado",
     title: "Personalizado",
     description2:
-      "Aprende inglés a tu ritmo y con un profesor exclusivo que se adapta a tus necesidades y objetivos. ¡Crea tu propio camino hacia el dominio del inglés!",
+      " Learn English at your own pace and with an exclusive teacher who adapts to your needs and objectives. Create your own path to English proficiency!",
 
     img: "personalizado.png",
     imgAlternative: "personalizadoAlt.png",
     price: 40,
     compra: true,
-    etapa: "Todas las edades. ",
+    etapa: "All ages.",
     personalized: [
       {
         img: "/img/persoEdad.png",
         title: "KIDS",
-        subtitle: "3-5 años",
+        subtitle: "3-5 years old",
       },
       {
         img: "/img/persoEdad4.png",
         title: "ELEMENTARY",
-        subtitle: "6-11 años",
+        subtitle: "6-11 years old",
       },
       {
         img: "/img/persoEdad2.png",
         title: "HIGH SCHOOL",
-        subtitle: "12-17 años",
+        subtitle: "12-17 years old",
       },
       {
         img: "/img/persoEdad3.png",
         title: "ADULTS",
-        subtitle: "+17 años",
+        subtitle: "+17 years old",
       },
     ],
     lang: "english",
@@ -511,7 +510,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Aprende a tu ritmo",
+        title: "Learn at your pace",
         src: "/img/difPersonalizado.png",
         width: 60,
         height: 60,
@@ -519,7 +518,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Profesor Exclusivo",
+        title: "Exclusive Teacher",
         src: "/img/difPersonalizado2.png",
         width: 60,
         height: 60,
@@ -527,7 +526,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Adaptado a tus necesidades y objetivos",
+        title: "Adapted to your needs and objectives",
         src: "/img/difPersonalizado3.png",
         width: 60,
         height: 60,
@@ -535,16 +534,16 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Aprende a tu ritmo",
-      "Profesor exclusivo",
-      "Adaptado a tus necesidades y objetivos",
+      "Learn at your pace",
+      "Exclusive teacher",
+      "Adapted to your needs and objectives",
     ],
   },
   {
     id: "intensivo",
     title: "Intensivo",
     description2:
-      "Un Curso Intensivo de inglés adaptado a tus necesidades. 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
+      "An Intensive English Course adapted to your needs. 8 hours a week and only a month and a half per level, it's time to boost your language skills.",
     img: "intensivo.png",
     imgAlternative: "intensivoAlt.png",
     price: 800,
@@ -557,7 +556,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Flexibilidad horaria",
+        title: "Time flexibility",
         src: "/img/difIntensivo.png",
         width: 60,
         height: 60,
@@ -565,7 +564,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Clases interactivas",
+        title: "Interactive classes",
         src: "/img/difIntensivo2.png",
         width: 60,
         height: 60,
@@ -573,7 +572,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Práctica constante",
+        title: "Constant practice",
         src: "/img/difIntensivo3.png",
         width: 60,
         height: 60,
@@ -581,13 +580,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "8 horas a la semana",
-      "Mes y medio por nivel",
-      "Práctica constante",
+      "8 hours a week",
+      "Month and a half per level",
+      "Constant practice",
     ],
     horarios: [
       {
-        dia: "MIÉRCOLES Y VIERNES",
+        dia: "WEDNESDAY AND FRIDAY",
         horas: [
           "7:00 - 8:20 am",
           "8:30 - 9:50 am",
@@ -596,7 +595,7 @@ export const data = [
         ],
       },
       {
-        dia: "MARTES Y JUEVES",
+        dia: "TUESDAY AND THURSDAY",
         horas: [
           "7:00 - 8:20 am",
           "8:30 - 9:50 am",
@@ -605,25 +604,25 @@ export const data = [
         ],
       },
       {
-        dia: "LUNES Y MIÉRCOLES",
+        dia: "MONDAY AND WEDNESDAY",
         horas: ["6:30 - 7:50 pm"],
       },
       {
-        dia: "MARTES Y JUEVES",
+        dia: "TUESDAY AND THURSDAY",
         horas: ["6:30 - 7:50 pm"],
       },
     ],
     time: [
-      { num: "8", titulo: "HORAS POR SEMANA" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "9", titulo: "MESES" },
+      { num: "8", titulo: "HOURS PER WEEK" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "9", titulo: "MONTHS" },
     ],
   },
   {
     id: "corporativo",
     title: "Corporativo",
     description2:
-      "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo puedan dominar el inglés.",
+      "A flexible program adaptable to the needs of your company. We offer tailored solutions so that your team can master English.",
 
     img: "corporativo.png",
     imgAlternative: "corporativoAlt.png",
@@ -634,7 +633,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Exclusivo para empresas",
+        title: "Exclusive for companies",
         src: "/img/difCorporativoOnline.png",
         width: 60,
         height: 60,
@@ -642,7 +641,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Plan adaptado a tus necesidades",
+        title: "Plan adapted to your needs",
         src: "/img/difCorporativoOnline2.png",
         width: 60,
         height: 60,
@@ -650,7 +649,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Horario según tus requerimientos",
+        title: "Schedule according to your requirements",
         src: "/img/difCorporativoOnline3.png",
         width: 60,
         height: 60,
@@ -662,16 +661,16 @@ export const data = [
     id: "profesional",
     title: "Profesional",
     description2:
-      "¿Ya alcanzaste el nivel C1? Es hora de dar un paso adelante y alcanzar un mayor nivel profesional. Conoce nuestros Cursos Profesionales y práctica lo que necesitas para mejorar tu inglés.",
+      "Have you already reached level C1? It's time to take a step forward and reach a higher professional level. Learn about our Professional Courses and practice what you need to improve your English.",
     img: "profesional.png",
     imgAlternative: "profesionalAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     lang: "english",
     modalidad: "presencial",
     difCourses: [
       {
         id: "1",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesionalEspanol.png",
         width: 60,
         height: 60,
@@ -679,7 +678,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Gramática aplicada a tu rama profesional",
+        title: "Grammar applied to your professional branch",
         src: "/img/difProfesionalEspanol2.png",
         width: 60,
         height: 60,
@@ -687,7 +686,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Entonación y ritmo",
+        title: "Intonation and rhythm",
         src: "/img/difProfesionalEspanol3.png",
         width: 60,
         height: 60,
@@ -696,7 +695,7 @@ export const data = [
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
+        "It's time to take that step in your professional career and improve your English",
 
       subCurso: [
         "conversacional",
@@ -709,10 +708,10 @@ export const data = [
     id: "conversacional",
     title: "Conversacional",
     description2:
-      "¿Quieres ampliar tu vocabulario? Inscríbete en nuestro Curso Conversacional donde podrás practicar tu inglés y dejar todos los nervios atrás.",
+      "Do you want to expand your vocabulary? Sign up for our Conversational Course where you can practice your English and leave all the nerves behind.",
     img: "conversacional.png",
     imgAlternative: "conversacionalAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -721,7 +720,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Amplia el vocabulario",
+        title: "Expand vocabulary",
         src: "/img/difProfesional.png",
         width: 60,
         height: 60,
@@ -729,7 +728,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difProfesional2.png",
         width: 60,
         height: 60,
@@ -737,7 +736,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesional3.png",
         width: 60,
         height: 60,
@@ -745,13 +744,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Ampliar el vocabulario",
-      "Grupos reducidos",
-      "Mejora en pronunciación",
+      "Expand vocabulary",
+      "Small groups",
+      "Improvement in pronunciation",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
+        "It's time to take that step in your professional career and improve your English",
       subCurso: [
         "conversacional",
         "ingles-para-negocios",
@@ -763,11 +762,11 @@ export const data = [
     id: "ingles-para-negocios",
     title: "Inglés para Negocios",
     description2:
-      "¿Necesitas mejorar tu vocabulario para desenvolverte con éxito en un entorno profesional internacional? Nuestro Curso de Inglés para Negocios es tu mejor opción.",
+      "Do you need to improve your vocabulary to function successfully in an international professional environment? Our Business English Course is your best option.",
 
     img: "inglesparanegocios.png",
     imgAlternative: "inglesparanegociosAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -776,7 +775,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Amplia el vocabulario",
+        title: "Expand vocabulary",
         src: "/img/difProfesional.png",
         width: 60,
         height: 60,
@@ -784,7 +783,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difProfesional2.png",
         width: 60,
         height: 60,
@@ -792,7 +791,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesional3.png",
         width: 60,
         height: 60,
@@ -800,13 +799,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Vocabulario específico",
-      "Expresiones idiomáticas",
-      "Gramática aplicada a tu rama",
+      "Specific vocabulary",
+      "Idiomatic expressions",
+      "Grammar applied to your branch",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
+        "It's time to take that step in your professional career and improve your English",
       subCurso: [
         "conversacional",
         "ingles-para-negocios",
@@ -818,10 +817,10 @@ export const data = [
     id: "reduccion-de-acento",
     title: "Reducción de Acento",
     description2:
-      "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar inglés. Empieza hoy y transforma tu manera de hablar inglés.",
+      "Focus on improving your pronunciation and fluency when speaking English. Start today and transform the way you speak English.",
     img: "reducciondeacento.png",
     imgAlternative: "reducciondeacentoAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -830,7 +829,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Amplia el vocabulario",
+        title: "Expand vocabulary",
         src: "/img/difProfesional.png",
         width: 60,
         height: 60,
@@ -838,7 +837,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difProfesional2.png",
         width: 60,
         height: 60,
@@ -846,7 +845,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesional3.png",
         width: 60,
         height: 60,
@@ -854,13 +853,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Fonética del inglés",
-      "Entonación y ritmo",
-      "Reducción de palabras",
+      "English phonetics",
+      "Intonation and rhythm",
+      "Word reduction",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
+        "It's time to take that step in your professional career and improve your English",
       subCurso: [
         "conversacional",
         "ingles-para-negocios",
@@ -872,7 +871,7 @@ export const data = [
     id: "ciudadania-americana",
     title: "Curso de Ciudadanía",
     description2:
-      "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+      "Forget about feeling nervous about having to communicate in English on your American Citizenship exam. Practice with real examples and achieve your dream.",
 
     img: "cursoCiudadania.png",
     imgAlternative: "cursoCiudadaniaAlt.png",
@@ -885,7 +884,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Clases 100% en inglés",
+        title: "Classes 100% in English",
         src: "/img/difAdult.png",
         width: 60,
         height: 60,
@@ -893,7 +892,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Metodología alineada al Marco Común Europeo",
+        title: "Methodology aligned to the Common European Framework",
         src: "/img/difAdult2.png",
         width: 60,
         height: 60,
@@ -901,7 +900,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difAdult3.png",
         width: 60,
         height: 60,
@@ -915,21 +914,21 @@ export const data = [
     id: "elementary-online",
     title: "Elementary Online",
     description2:
-      "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del inglés.",
-    etapa: "6-11 años. ",
+      "Push your child to discover a world of possibilities! Through fun learning, you will fall in love with English.",
+    etapa: "6-11 years old. ",
     modalidad: "online",
     modalityPayment: "lapso",
     img: "elementaryOnline.png",
     imgAlternative: "elementaryOnlineAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     lang: "english",
     difCourses: [
       {
         id: "1",
-        title: "Le brinda acceso a recursos educativos globales",
+        title: "Gives you access to global educational resources",
         src: "/img/difElem.png",
         width: 60,
         height: 60,
@@ -937,7 +936,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Mejora su rendimiento académico del colegio",
+        title: "Improves your academic performance at school",
         src: "/img/difElem2.png",
         width: 60,
         height: 60,
@@ -945,7 +944,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrolla su capacidad para adaptarse a nuevos entorno",
+        title: "Develops your ability to adapt to new environments",
         src: "/img/difElem3.png",
         width: 60,
         height: 60,
@@ -954,30 +953,30 @@ export const data = [
     ],
     horarios: [
       {
-        dia: "LUNES",
+        dia: "MONDAY",
         horas: ["3:00 - 3:50 pm", "(EST)"],
       },
       {
-        dia: "MARTES",
+        dia: "TUESDAY",
         horas: ["3:00 - 3:50 pm", "(EST)"],
       },
       {
-        dia: "MIERCOLES",
+        dia: "WEDNESDAY",
         horas: ["3:00 - 3:50 pm", "(EST)"],
       },
       {
-        dia: "JUEVES",
+        dia: "THURSDAY",
         horas: ["3:00 - 3:50 pm", "(EST)"],
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "3", titulo: "LAPSES" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "6", titulo: "LEVELS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online"],
     },
   },
@@ -985,21 +984,21 @@ export const data = [
     id: "high-school-online",
     title: "High School Online",
     description2:
-      "Prepara a tu hijo para el futuro, con un curso adaptado a su edad. Una perfecta combinación de temas y retos adaptados a sus intereses.",
-    etapa: "12-16 años. ",
+      "Prepare your child for the future, with a course adapted to their age. A perfect combination of topics and challenges adapted to your interests.",
+    etapa: "12-16 years old. ",
     modalidad: "online",
     modalityPayment: "lapso",
     img: "highSchoolOnline.png",
     imgAlternative: "highSchoolOnlineAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     lang: "english",
     difCourses: [
       {
         id: "1",
-        title: "Le brinda acceso a recursos educativos globales",
+        title: "Gives you access to global educational resources",
         src: "/img/difHSO.png",
         width: 60,
         height: 60,
@@ -1007,7 +1006,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Mejora su rendimiento académico del colegio",
+        title: "Improves your academic performance at school",
         src: "/img/difHSO2.png",
         width: 60,
         height: 60,
@@ -1015,7 +1014,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrolla su capacidad para adaptarse a nuevos entorno",
+        title: "Develops your ability to adapt to new environments",
         src: "/img/difHSO3.png",
         width: 60,
         height: 60,
@@ -1024,30 +1023,30 @@ export const data = [
     ],
     horarios: [
       {
-        dia: "LUNES",
+        dia: "MONDAY",
         horas: ["3:00 - 3:50 pm", "(EST)"],
       },
       {
-        dia: "MARTES",
+        dia: "TUESDAY",
         horas: ["3:00 - 3:50 pm", "(EST)"],
       },
       {
-        dia: "MIERCOLES",
+        dia: "WEDNESDAY",
         horas: ["3:00 - 3:50 pm", "(EST)"],
       },
       {
-        dia: "JUEVES",
+        dia: "THURSDAY",
         horas: ["3:00 - 3:50 pm", "(EST)"],
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "3", titulo: "LAPSES" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "6", titulo: "LEVELS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online"],
     },
   },
@@ -1055,21 +1054,21 @@ export const data = [
     id: "adults-online",
     title: "Adults Online",
     description2:
-      "Comunícate en inglés como siempre has querido, a través de herramientas prácticas y efectivas para que hables con fluidez.",
-    etapa: "+17 años. ",
+      "Communicate in English as you have always wanted, through practical and effective tools so that you speak fluently.",
+    etapa: "+17 years old. ",
     modalidad: "online",
     modalityPayment: "nivel",
     img: "adultsOnline.png",
     imgAlternative: "adultsOnlineAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     lang: "english",
     difCourses: [
       {
         id: "1",
-        title: "Clases 100% en inglés",
+        title: "Classes 100% in English",
         src: "/img/difAdult.png",
         width: 60,
         height: 60,
@@ -1077,7 +1076,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Metodología alineada al Marco Común Europeo",
+        title: "Methodology aligned to the Common European Framework",
         src: "/img/difAdult2.png",
         width: 60,
         height: 60,
@@ -1085,7 +1084,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difAdult3.png",
         width: 60,
         height: 60,
@@ -1094,30 +1093,30 @@ export const data = [
     ],
     horarios: [
       {
-        dia: "LUNES",
+        dia: "MONDAY",
         horas: ["8:00 - 9:50 pm", "(EST)"],
       },
       {
-        dia: "MARTES",
+        dia: "TUESDAY",
         horas: ["6:00 - 7:50 pm", "(EST)"],
       },
       {
-        dia: "MIERCOLES",
+        dia: "WEDNESDAY",
         horas: ["8:00 - 9:50 pm", "(EST)"],
       },
       {
-        dia: "JUEVES",
+        dia: "THURSDAY",
         horas: ["6:00 - 7:50 pm", "(EST)"],
       },
     ],
     time: [
-      { num: "6", titulo: "NIVELES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "6", titulo: "LEVELS" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "18", titulo: "MONTHS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online", "intensivo-online"],
     },
   },
@@ -1125,36 +1124,36 @@ export const data = [
     id: "personalizado-online",
     title: "Personalizado Online",
     description2:
-      "Aprende inglés a tu ritmo y con un profesor exclusivo que se adapta a tus necesidades y objetivos. ¡Crea tu propio camino hacia el dominio del inglés!",
+      "Learn English at your own pace and with an exclusive teacher who adapts to your needs and objectives. Create your own path to English proficiency!",
     modalidad: "online",
     modalityPayment: "hora",
     img: "personalizadoOnline.png",
     imgAlternative: "personalizadoOnlineAlt.png",
     compra: true,
     price: 40,
-    etapa: "Todas las edades. ",
+    etapa: "All ages.",
     personalized: [
       {
         img: "/img/persoEdad4.png",
         title: "ELEMENTARY",
-        subtitle: "6-11 años",
+        subtitle: "6-11 years old",
       },
       {
         img: "/img/persoEdad2.png",
         title: "HIGH SCHOOL",
-        subtitle: "12-17 años",
+        subtitle: "12-17 years old",
       },
       {
         img: "/img/persoEdad3.png",
         title: "ADULTS",
-        subtitle: "+17 años",
+        subtitle: "+17 years old",
       },
     ],
     lang: "english",
     difCourses: [
       {
         id: "1",
-        title: "Aprende a tu ritmo",
+        title: "Learn at your pace",
         src: "/img/difPersonalizadoOnline.png",
         width: 60,
         height: 60,
@@ -1162,7 +1161,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Profesor Exclusivo",
+        title: "Exclusive Teacher",
         src: "/img/difPersonalizadoOnline2.png",
         width: 60,
         height: 60,
@@ -1170,7 +1169,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Adaptado a tus necesidades y objetivos",
+        title: "Adapted to your needs and objectives",
         src: "/img/difPersonalizadoOnline3.png",
         width: 60,
         height: 60,
@@ -1178,16 +1177,16 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Aprende a tu ritmo",
-      "Profesor exclusivo",
-      "Adaptado a tus necesidades y objetivos",
+      "Learn at your pace",
+      "Exclusive teacher",
+      "Adapted to your needs and objectives",
     ],
   },
   {
     id: "intensivo-online",
     title: "Intensivo Online",
     description2:
-      "Un Curso Intensivo de inglés adaptado a tus necesidades. 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
+      "An Intensive English Course adapted to your needs. 8 hours a week and only a month and a half per level, it's time to boost your language skills.",
     modalidad: "online",
     modalityPayment: "nivel",
     img: "intensivoOnline.png",
@@ -1199,7 +1198,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Flexibilidad horaria",
+        title: "Time flexibility",
         src: "/img/difIntensivoOnline.png",
         width: 60,
         height: 60,
@@ -1207,7 +1206,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Clases interactivas",
+        title: "Interactive classes",
         src: "/img/difIntensivoOnline2.png",
         width: 60,
         height: 60,
@@ -1215,7 +1214,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Práctica constante",
+        title: "Constant practice",
         src: "/img/difIntensivoOnline3.png",
         width: 60,
         height: 60,
@@ -1223,18 +1222,18 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "8 horas a la semana",
-      "Mes y medio por nivel",
-      "Práctica constante",
+      "8 hours a week",
+      "Month and a half per level",
+      "Constant practice",
     ],
     time: [
-      { num: "6", titulo: "NIVELES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "6", titulo: "LEVELS" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "18", titulo: "MONTHS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online", "intensivo-online"],
     },
   },
@@ -1242,7 +1241,7 @@ export const data = [
     id: "corporativo-online",
     title: "Corporativo Online",
     description2:
-      "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo puedan dominar el inglés.",
+      "A flexible program adaptable to the needs of your company. We offer tailored solutions so that your team can master English.",
 
     img: "corporativoOnline.png",
     imgAlternative: "corporativoOnlineAlt.png",
@@ -1253,7 +1252,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Exclusivo para empresas",
+        title: "Exclusive for companies",
         src: "/img/difCorporativoOnline.png",
         width: 60,
         height: 60,
@@ -1261,7 +1260,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Plan adaptado a tus necesidades",
+        title: "Plan adapted to your needs",
         src: "/img/difCorporativoOnline2.png",
         width: 60,
         height: 60,
@@ -1269,7 +1268,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Horario según tus requerimientos",
+        title: "Schedule according to your requirements",
         src: "/img/difCorporativoOnline3.png",
         width: 60,
         height: 60,
@@ -1281,8 +1280,8 @@ export const data = [
     id: "profesional-online",
     title: "Profesional Online",
     description2:
-      "¿Ya alcanzaste el nivel C1? Es hora de dar un paso adelante y alcanzar un mayor nivel profesional. Conoce nuestros Cursos Profesionales y práctica lo que necesitas para mejorar tu inglés.",
-    condicion: "C1 en adelante",
+      "Have you already reached level C1? It's time to take a step forward and reach a higher professional level. Learn about our Professional Courses and practice what you need to improve your English.",
+    condicion: "C1 onwards",
     img: "profesionalOnline.png",
     imgAlternative: "profesionalOnlineAlt.png",
     lang: "english",
@@ -1291,7 +1290,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesionalOnline.png",
         width: 60,
         height: 60,
@@ -1299,7 +1298,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Gramática aplicada a tu rama profesional",
+        title: "Grammar applied to your professional branch",
         src: "/img/difProfesionalOnline2.png",
         width: 60,
         height: 60,
@@ -1307,7 +1306,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Entonación y ritmo",
+        title: "Intonation and rhythm",
         src: "/img/difProfesionalOnline3.png",
         width: 60,
         height: 60,
@@ -1316,7 +1315,7 @@ export const data = [
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
+        "It's time to take that step in your professional career and improve your English",
 
       subCurso: [
         "conversacional-online",
@@ -1329,10 +1328,10 @@ export const data = [
     id: "conversacional-online",
     title: "Conversacional Online",
     description2:
-      "¿Quieres ampliar tu vocabulario? Inscríbete en nuestro Curso Conversacional donde podrás practicar tu inglés y dejar todos los nervios atrás.",
+      "Do you want to expand your vocabulary? Sign up for our Conversational Course where you can practice your English and leave all the nerves behind.",
     img: "conversacionalOnline.png",
     imgAlternative: "conversacionalOnlineAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -1341,7 +1340,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Amplia el vocabulario",
+        title: "Expand vocabulary",
         src: "/img/difProfesional.png",
         width: 60,
         height: 60,
@@ -1349,7 +1348,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difProfesional2.png",
         width: 60,
         height: 60,
@@ -1357,7 +1356,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesional3.png",
         width: 60,
         height: 60,
@@ -1365,13 +1364,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Ampliar el vocabulario",
-      "Grupos reducidos",
-      "Mejora en pronunciación",
+      "Expand vocabulary",
+      "Small groups",
+      "Improvement in pronunciation",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
+        "It's time to take that step in your professional career and improve your English",
       subCurso: [
         "conversacional-online",
         "ingles-para-negocios-online",
@@ -1383,11 +1382,11 @@ export const data = [
     id: "ingles-para-negocios-online",
     title: "Inglés para Negocios Online",
     description2:
-      "¿Necesitas mejorar tu vocabulario para desenvolverte con éxito en un entorno profesional internacional? Nuestro Curso de Inglés para Negocios es tu mejor opción.",
+      "Do you need to improve your vocabulary to function successfully in an international professional environment? Our Business English Course is your best option.",
 
     img: "inglesparanegociosOnline.png",
     imgAlternative: "inglesparanegociosOnlineAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -1396,7 +1395,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Vocabulario específico",
+        title: "Specific vocabulary",
         src: "/img/difipnOnline.png",
         width: 60,
         height: 60,
@@ -1404,7 +1403,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Expresiones idiomáticas",
+        title: "Idiomatic expressions",
         src: "/img/difipnOnline2.png",
         width: 60,
         height: 60,
@@ -1412,7 +1411,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Gramática aplicada a tu rama",
+        title: "Grammar applied to your branch",
         src: "/img/difipnOnline3.png",
         width: 60,
         height: 60,
@@ -1420,13 +1419,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Vocabulario específico",
-      "Expresiones idiomáticas",
-      "Gramática aplicada a tu rama",
+      "Specific vocabulary",
+      "Idiomatic expressions",
+      "Grammar applied to your branch",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
+        "It's time to take that step in your professional career and improve your English",
       subCurso: [
         "conversacional-online",
         "ingles-para-negocios-online",
@@ -1438,10 +1437,10 @@ export const data = [
     id: "reduccion-de-acento-online",
     title: "Reducción de Acento Online",
     description2:
-      "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar inglés. Empieza hoy y transforma tu manera de hablar inglés.",
+      "Focus on improving your pronunciation and fluency when speaking English. Start today and transform the way you speak English.",
     img: "reducciondeacentoOnline.png",
     imgAlternative: "reducciondeacentoOnlineAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -1450,7 +1449,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Fonética del inglés",
+        title: "English phonetics",
         src: "/img/difreduccionOnline.png",
         width: 60,
         height: 60,
@@ -1458,7 +1457,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Entonación y ritmo",
+        title: "Intonation and rhythm",
         src: "/img/difreduccionOnline2.png",
         width: 60,
         height: 60,
@@ -1466,7 +1465,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Reducción de palabras",
+        title: "Word reduction",
         src: "/img/difreduccionOnline3.png",
         width: 60,
         height: 60,
@@ -1474,13 +1473,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Fonética del inglés",
-      "Entonación y ritmo",
-      "Reducción de palabras",
+      "English phonetics",
+      "Intonation and rhythm",
+      "Word reduction",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
+        "It's time to take that step in your professional career and improve your English",
       subCurso: [
         "conversacional-online",
         "ingles-para-negocios-online",
@@ -1492,13 +1491,13 @@ export const data = [
     id: "ciudadania-americana-online",
     title: "Curso de Ciudadanía Online",
     description2:
-      "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
+      "Forget about feeling nervous about having to communicate in English on your American Citizenship exam. Practice with real examples and achieve your dream.",
 
     img: "cursoCiudadaniaOnline.png",
     imgAlternative: "cursoCiudadaniaOnlineAlt.png",
     price: 40,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     difBlanco: true,
     lang: "english",
     modalidad: "online",
@@ -1506,7 +1505,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Práctica de entrevista",
+        title: "Interview practice",
         src: "/img/difCiudadaniaOnline.png",
         width: 60,
         height: 60,
@@ -1514,7 +1513,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Apoyo continuo",
+        title: "Ongoing support",
         src: "/img/difCiudadaniaOnline2.png",
         width: 60,
         height: 60,
@@ -1522,7 +1521,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Clases flexibles",
+        title: "Flexible classes",
         src: "/img/difCiudadaniaOnline3.png",
         width: 60,
         height: 60,
@@ -1535,13 +1534,13 @@ export const data = [
     id: "kids-espanol",
     title: "Kids Español",
     description2:
-      "El español nunca fue tan divertido. A través de clases  divertidas, tu hijo aprenderá a comunicarse en este nuevo idioma.",
-    etapa: "3-5 años. ",
+      "Spanish has never been so fun. Through fun classes, your child will learn to communicate in this new language.",
+    etapa: "3-5 years old. ",
     img: "kidsEspanol.png",
     imgAlternative: "kidsEspanolAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
@@ -1549,7 +1548,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Metodología divertida pensada para su etapa de aprendizaje",
+        title: "Fun methodology designed for your learning stage",
         src: "/img/difKids.png",
         width: 60,
         height: 60,
@@ -1557,7 +1556,8 @@ export const data = [
       },
       {
         id: "2",
-        title: "Aprovecha la plasticidad de su cerebro para aprender el idioma",
+        title:
+          "Take advantage of the plasticity of your brain to learn the language",
         src: "/img/difKids2.png",
         width: 60,
         height: 60,
@@ -1565,7 +1565,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Logra una pronunciación más precisa desde temprana edad",
+        title: "Achieve more accurate pronunciation from an early age",
         src: "/img/difKids3.png",
         width: 60,
         height: 60,
@@ -1577,13 +1577,13 @@ export const data = [
     id: "elementary-espanol",
     title: "Elementary Español",
     description2:
-      "¡Con canciones, juegos y manualidades, el aprendizaje será una experiencia inolvidable! Con nuestro programa tu hijo adquiere las bases del español de manera sólida y divertida",
-    etapa: "6-11 años. ",
+      "With songs, games and crafts, learning will be an unforgettable experience! With our program your child acquires the basics of Spanish in a solid and fun way",
+    etapa: "6-11 years old. ",
     img: "elementaryEspanol.png",
     imgAlternative: "elementaryEspanolAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
@@ -1591,7 +1591,7 @@ export const data = [
     difCourses: [
       {
         id: "2",
-        title: "Mejora su rendimiento académico del colegio",
+        title: "Improves your academic performance at school",
         src: "/img/difElem2.png",
         width: 60,
         height: 60,
@@ -1599,7 +1599,7 @@ export const data = [
       },
       {
         id: "1",
-        title: "Fomenta la confianza",
+        title: "Build trust",
         src: "/img/difEspa.png",
         width: 60,
         height: 60,
@@ -1607,7 +1607,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrolla su capacidad para adaptarse a nuevos entornos",
+        title: "Develops your ability to adapt to new environments",
         src: "/img/difElem3.png",
         width: 60,
         height: 60,
@@ -1615,8 +1615,8 @@ export const data = [
       },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol"],
     },
   },
@@ -1624,13 +1624,13 @@ export const data = [
     id: "high-school-espanol",
     title: "High School Español",
     description2:
-      "Mediante conversaciones reales, actividades culturales y mucha diversión, tu hijo desarrolla todas las habilidades necesarias para comunicarse con fluidez y confianza.",
-    etapa: "12-16 años. ",
+      "Through real conversations, cultural activities and lots of fun, your child develops all the skills necessary to communicate fluently and confidently.",
+    etapa: "12-16 years old. ",
     img: "highSchoolEspanol.png",
     imgAlternative: "highSchoolEspanolAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
@@ -1638,7 +1638,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Enfoque en la comunicación real y la cultura",
+        title: "Focus on real communication and culture",
         src: "/img/difEspa2.png",
         width: 60,
         height: 60,
@@ -1646,7 +1646,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Metodología práctica y estimulante para su edad",
+        title: "Practical and stimulating methodology for their age",
         src: "/img/difHS2.png",
         width: 60,
         height: 60,
@@ -1654,7 +1654,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrollo de habilidades Linguísticas avanzadas",
+        title: "Development of advanced linguistic skills",
         src: "/img/difEspa3.png",
         width: 60,
         height: 60,
@@ -1662,8 +1662,8 @@ export const data = [
       },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol"],
     },
   },
@@ -1671,13 +1671,13 @@ export const data = [
     id: "adults-espanol",
     title: "Adults Español",
     description2:
-      "Aprende español de forma natural y divertida, mediante clases prácticas y dinámicas que te ayudarán a mejorar tu fluidez en el idioma.",
-    etapa: "+17 años. ",
+      "Learn Spanish in a natural and fun way, through practical and dynamic classes that will help you improve your fluency in the language.",
+    etapa: "+17 years old. ",
     img: "adultsEspanol.png",
     imgAlternative: "adultsEspanolAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     difBlanco2: true,
     lang: "spanish",
@@ -1686,7 +1686,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Clases 100% en español",
+        title: "Classes 100% in Spanish",
         src: "/img/difEspa4.png",
         width: 60,
         height: 60,
@@ -1694,7 +1694,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Beneficio en el desarrollo profesional",
+        title: "Benefit in professional development",
         src: "/img/difEspa5.png",
         width: 60,
         height: 60,
@@ -1702,7 +1702,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difAdult3.png",
         width: 60,
         height: 60,
@@ -1710,13 +1710,13 @@ export const data = [
       },
     ],
     time: [
-      { num: "6", titulo: "NIVELES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "6", titulo: "LEVELS" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "18", titulo: "MONTHS" },
     ],
     subCursos: {
-      titulo: "tenemos estos cursos especializados para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "we have these specialized courses for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol", "intensivo-espanol"],
     },
   },
@@ -1724,7 +1724,7 @@ export const data = [
     id: "intensivo-espanol",
     title: "Intensivo Español",
     description2:
-      "Un Curso Intensivo de español adaptado a tus objetivos. 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
+      "An Intensive Spanish Course adapted to your objectives. 8 hours a week and only a month and a half per level, it's time to boost your language skills.",
     img: "intensivoEspanol.png",
     imgAlternative: "intensivoEspanolAlt.png",
     price: 800,
@@ -1737,7 +1737,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Flexibilidad horaria",
+        title: "Time flexibility",
         src: "/img/difIntensivo.png",
         width: 60,
         height: 60,
@@ -1745,7 +1745,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Clases interactivas",
+        title: "Interactive classes",
         src: "/img/difIntensivo2.png",
         width: 60,
         height: 60,
@@ -1753,7 +1753,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Práctica constante",
+        title: "Constant practice",
         src: "/img/difIntensivo3.png",
         width: 60,
         height: 60,
@@ -1761,19 +1761,19 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "8 horas a la semana",
-      "Mes y medio por nivel",
-      "Práctica constante",
+      "8 hours a week",
+      "Month and a half per level",
+      "Constant practice",
     ],
 
     time: [
-      { num: "8", titulo: "HORAS POR SEMANA" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "9", titulo: "MESES" },
+      { num: "8", titulo: "HOURS PER WEEK" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "9", titulo: "MONTHS" },
     ],
     subCursos: {
-      titulo: "tenemos estos cursos especializados para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "we have these specialized courses for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol", "intensivo-espanol"],
     },
   },
@@ -1781,8 +1781,8 @@ export const data = [
     id: "personalizado-espanol",
     title: "Personalizado Español",
     description2:
-      "¿Necesitas un enfoque más personal? Conoce nuestro Curso Personalizado de español. Logra tus objetivos a tu propio ritmo y con un profesor exclusivo.",
-    etapa: "Todas las edades. ",
+      "Do you need a more personal approach? Get to know our Personalized Spanish Course. Achieve your goals at your own pace and with an exclusive teacher.",
+    etapa: "All ages.",
     img: "personalizadoEspanol.png",
     imgAlternative: "personalizadoEspanolAlt.png",
     price: 40,
@@ -1791,17 +1791,17 @@ export const data = [
       {
         img: "/img/persoEdad4.png",
         title: "ELEMENTARY",
-        subtitle: "6-11 años",
+        subtitle: "6-11 years old",
       },
       {
         img: "/img/persoEdad2.png",
         title: "HIGH SCHOOL",
-        subtitle: "12-17 años",
+        subtitle: "12-17 years old",
       },
       {
         img: "/img/persoEdad3.png",
         title: "ADULTS",
-        subtitle: "+17 años",
+        subtitle: "+17 years old",
       },
     ],
     lang: "spanish",
@@ -1811,7 +1811,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Aprende a tu ritmo",
+        title: "Learn at your pace",
         src: "/img/difPersonalizado.png",
         width: 60,
         height: 60,
@@ -1819,7 +1819,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Profesor Exclusivo",
+        title: "Exclusive Teacher",
         src: "/img/difPersonalizado2.png",
         width: 60,
         height: 60,
@@ -1827,7 +1827,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Adaptado a tus necesidades y objetivos",
+        title: "Adapted to your needs and objectives",
         src: "/img/difPersonalizado3.png",
         width: 60,
         height: 60,
@@ -1835,17 +1835,17 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Aprende a tu ritmo",
-      "Profesor exclusivo",
-      "Adaptado a tus necesidades y objetivos",
+      "Learn at your pace",
+      "Exclusive teacher",
+      "Adapted to your needs and objectives",
     ],
   },
   {
     id: "profesional-espanol",
     title: "Profesional Español",
     description2:
-      "Si manejas el español a un nivel avanzado, ya es hora de dar un paso adelante en tu aprendizaje profesional. Mejora tu nivel de español y alcanza tus objetivos profesionales",
-    condicion: "C1 en adelante",
+      "If you speak Spanish at an advanced level, it is time to take a step forward in your professional learning. Improve your level of Spanish and achieve your professional goals",
+    condicion: "C1 onwards",
     img: "profesionalEspanol.png",
     imgAlternative: "profesionalEspanolAlt.png",
 
@@ -1855,7 +1855,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesionalEspanol.png",
         width: 60,
         height: 60,
@@ -1863,7 +1863,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Gramática aplicada a tu rama profesional",
+        title: "Grammar applied to your professional branch",
         src: "/img/difProfesionalEspanol2.png",
         width: 60,
         height: 60,
@@ -1871,7 +1871,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Entonación y ritmo",
+        title: "Intonation and rhythm",
         src: "/img/difProfesionalEspanol3.png",
         width: 60,
         height: 60,
@@ -1880,7 +1880,7 @@ export const data = [
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
+        "It's time to take that step in your professional career and improve your English",
 
       subCurso: [
         "conversacional-espanol",
@@ -1893,10 +1893,10 @@ export const data = [
     id: "conversacional-espanol",
     title: "Conversacional Español",
     description2:
-      "¿Quieres ampliar tu vocabulario? Inscríbete en nuestro Curso Conversacional donde podrás practicar tu español y dejar todos los nervios atrás.",
+      "Do you want to expand your vocabulary? Sign up for our Conversational Course where you can practice your Spanish and leave all the nerves behind.",
     img: "conversacionalEspanol.png",
     imgAlternative: "conversacionalEspanolAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -1905,7 +1905,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Amplia el vocabulario",
+        title: "Expand vocabulary",
         src: "/img/difProfesional.png",
         width: 60,
         height: 60,
@@ -1913,7 +1913,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difProfesional2.png",
         width: 60,
         height: 60,
@@ -1921,7 +1921,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesional3.png",
         width: 60,
         height: 60,
@@ -1929,13 +1929,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Ampliar el vocabulario",
-      "Grupos reducidos",
-      "Mejora en pronunciación",
+      "Expand vocabulary",
+      "Small groups",
+      "Improvement in pronunciation",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu espanol",
+        "It's time to take that step in your professional career and improve your Spanish.",
       subCurso: [
         "conversacional-espanol",
         "espanol-para-negocios",
@@ -1947,11 +1947,11 @@ export const data = [
     id: "espanol-para-negocios",
     title: "Español para Negocios",
     description2:
-      "¿Necesitas mejorar tu vocabulario para desenvolverte con éxito en un entorno profesional internacional? Nuestro Curso de Español para Negocios es tu mejor opción.",
+      "Do you need to improve your vocabulary to function successfully in an international professional environment? Our Business Spanish Course is your best option.",
 
     img: "espanolparanegocios.png",
     imgAlternative: "espanolparanegociosAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -1960,7 +1960,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Amplia el vocabulario",
+        title: "Expand vocabulary",
         src: "/img/difProfesional.png",
         width: 60,
         height: 60,
@@ -1968,7 +1968,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difProfesional2.png",
         width: 60,
         height: 60,
@@ -1976,7 +1976,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesional3.png",
         width: 60,
         height: 60,
@@ -1984,13 +1984,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Vocabulario específico",
-      "Expresiones idiomáticas",
-      "Gramática aplicada a tu rama",
+      "Specific vocabulary",
+      "Idiomatic expressions",
+      "Grammar applied to your branch",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
+        "It's time to take that step in your professional career and improve your Spanish",
       subCurso: [
         "conversacional-espanol",
         "espanol-para-negocios",
@@ -2002,10 +2002,10 @@ export const data = [
     id: "reduccion-de-acento-espanol",
     title: "Reducción de Acento Español",
     description2:
-      "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar español. Empieza hoy y transforma tu manera de hablar español.",
+      "Focus on improving your pronunciation and fluency when speaking Spanish. Start today and transform the way you speak Spanish.",
     img: "reducciondeacentoEspanol.png",
     imgAlternative: "reducciondeacentoEspanolAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -2014,7 +2014,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Amplia el vocabulario",
+        title: "Expand vocabulary",
         src: "/img/difProfesional.png",
         width: 60,
         height: 60,
@@ -2022,7 +2022,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difProfesional2.png",
         width: 60,
         height: 60,
@@ -2030,7 +2030,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesional3.png",
         width: 60,
         height: 60,
@@ -2038,13 +2038,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Fonética del inglés",
-      "Entonación y ritmo",
-      "Reducción de palabras",
+      "English phonetics",
+      "Intonation and rhythm",
+      "Word reduction",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
+        "It's time to take that step in your professional career and improve your Spanish",
       subCurso: [
         "conversacional-espanol",
         "espanol-para-negocios",
@@ -2056,7 +2056,7 @@ export const data = [
     id: "corporativo-espanol",
     title: "Corporativo Español",
     description2:
-      "Un curso enfocado en las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo pueda dominar el español.",
+      "A course focused on the needs of your company. We offer tailored solutions so that your team can master Spanish.",
 
     img: "corporativoEspanol.png",
     imgAlternative: "corporativoEspanolAlt.png",
@@ -2067,7 +2067,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Exclusivo para empresas",
+        title: "Exclusive for companies",
         src: "/img/difCorporativoOnline.png",
         width: 60,
         height: 60,
@@ -2075,7 +2075,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Plan adaptado a tus necesidades",
+        title: "Plan adapted to your needs",
         src: "/img/difCorporativoOnline2.png",
         width: 60,
         height: 60,
@@ -2083,7 +2083,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Horario según tus requerimientos",
+        title: "Schedule according to your requirements",
         src: "/img/difCorporativoOnline3.png",
         width: 60,
         height: 60,
@@ -2096,13 +2096,13 @@ export const data = [
     id: "elementary-espanol-online",
     title: "Elementary Español Online",
     description2:
-      "¡Con canciones, juegos y manualidades, el aprendizaje será una experiencia inolvidable! Con nuestro programa tu hijo adquiere las bases del español de manera sólida y divertida.",
-    etapa: "6-11 años. ",
+      "With songs, games and crafts, learning will be an unforgettable experience! With our program your child acquires the basics of Spanish in a solid and fun way.",
+    etapa: "6-11 years old. ",
     img: "elementaryEspanolOnline.png",
     imgAlternative: "elementaryEspanolOnlineAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     difBlanco2: true,
     lang: "spanish",
@@ -2111,7 +2111,7 @@ export const data = [
     difCourses: [
       {
         id: "2",
-        title: "Mejora su rendimiento académico del colegio",
+        title: "Improves your academic performance at school",
         src: "/img/difElem2.png",
         width: 60,
         height: 60,
@@ -2119,7 +2119,7 @@ export const data = [
       },
       {
         id: "1",
-        title: "Fomenta la confianza",
+        title: "Build trust",
         src: "/img/difEspa.png",
         width: 60,
         height: 60,
@@ -2127,7 +2127,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrolla su capacidad para adaptarse a nuevos entornos",
+        title: "Develops your ability to adapt to new environments",
         src: "/img/difElem3.png",
         width: 60,
         height: 60,
@@ -2135,13 +2135,13 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "3", titulo: "LAPSES" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "6", titulo: "LEVELS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol-online"],
     },
   },
@@ -2149,13 +2149,13 @@ export const data = [
     id: "high-school-espanol-online",
     title: "High School Español Online",
     description2:
-      "Mediante conversaciones reales, actividades culturales y mucha diversión, tu hijo desarrolla todas las habilidades necesarias para comunicarse con fluidez y confianza.",
-    etapa: "12-16 años. ",
+      "Through real conversations, cultural activities and lots of fun, your child develops all the skills necessary to communicate fluently and confidently.",
+    etapa: "12-16 years old. ",
     img: "highSchoolEspanolOnline.png",
     imgAlternative: "highSchoolEspanolOnlineAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     difBlanco2: true,
     lang: "spanish",
@@ -2164,7 +2164,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Enfoque en la comunicación real y la cultura",
+        title: "Focus on real communication and culture",
         src: "/img/difEspa2.png",
         width: 60,
         height: 60,
@@ -2172,7 +2172,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Metodología práctica y estimulante para su edad",
+        title: "Practical and stimulating methodology for their age",
         src: "/img/difHS2.png",
         width: 60,
         height: 60,
@@ -2180,7 +2180,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrollo de habilidades Linguísticas avanzadas",
+        title: "Development of advanced linguistic skills",
         src: "/img/difEspa3.png",
         width: 60,
         height: 60,
@@ -2188,13 +2188,13 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "3", titulo: "LAPSES" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "6", titulo: "LEVELS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol-online"],
     },
   },
@@ -2202,13 +2202,13 @@ export const data = [
     id: "adults-espanol-online",
     title: "Adults Español Online",
     description2:
-      "Aprende español de forma natural y divertida, mediante clases prácticas y dinámicas que te ayudarán a mejorar tu fluidez en el idioma.",
-    etapa: "+17 años. ",
+      "Learn Spanish in a natural and fun way, through practical and dynamic classes that will help you improve your fluency in the language.",
+    etapa: "+17 years old. ",
     img: "adultsEspanolOnline.png",
     imgAlternative: "adultsEspanolOnlineAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: ["48 academic hours", "3 months per level"],
     inscripcion: 200,
     difBlanco2: true,
     lang: "spanish",
@@ -2217,7 +2217,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Clases 100% en español",
+        title: "Classes 100% in Spanish",
         src: "/img/difEspa4.png",
         width: 60,
         height: 60,
@@ -2225,7 +2225,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Beneficio en el desarrollo profesional",
+        title: "Benefit in professional development",
         src: "/img/difEspa5.png",
         width: 60,
         height: 60,
@@ -2233,7 +2233,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difAdult3.png",
         width: 60,
         height: 60,
@@ -2241,13 +2241,13 @@ export const data = [
       },
     ],
     time: [
-      { num: "6", titulo: "NIVELES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "6", titulo: "LEVELS" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "18", titulo: "MONTHS" },
     ],
     subCursos: {
-      titulo: "tenemos estos cursos especializados para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "we have these specialized courses for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol-online", "intensivo-espanol-online"],
     },
   },
@@ -2255,8 +2255,8 @@ export const data = [
     id: "personalizado-espanol-online",
     title: "Personalizado Español Online",
     description2:
-      "¿Necesitas un enfoque más personal? Conoce nuestro Curso Personalizado de español. Logra tus objetivos a tu propio ritmo y con un profesor exclusivo.",
-    etapa: "Todas las edades. ",
+      "Do you need a more personal approach? Get to know our Personalized Spanish Course. Achieve your goals at your own pace and with an exclusive teacher.",
+    etapa: "All ages.",
     modalidad: "online",
     modalityPayment: "hora",
     img: "personalizadoEspanolOnline.png",
@@ -2267,24 +2267,24 @@ export const data = [
       {
         img: "/img/persoEdad4.png",
         title: "ELEMENTARY",
-        subtitle: "6-11 años",
+        subtitle: "6-11 years old",
       },
       {
         img: "/img/persoEdad2.png",
         title: "HIGH SCHOOL",
-        subtitle: "12-17 años",
+        subtitle: "12-17 years old",
       },
       {
         img: "/img/persoEdad3.png",
         title: "ADULTS",
-        subtitle: "+17 años",
+        subtitle: "+17 years old",
       },
     ],
     lang: "spanish",
     difCourses: [
       {
         id: "1",
-        title: "Aprende a tu ritmo",
+        title: "Learn at your pace",
         src: "/img/difPersonalizadoOnline.png",
         width: 60,
         height: 60,
@@ -2292,7 +2292,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Profesor Exclusivo",
+        title: "Exclusive Teacher",
         src: "/img/difPersonalizadoOnline2.png",
         width: 60,
         height: 60,
@@ -2300,7 +2300,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Adaptado a tus necesidades y objetivos",
+        title: "Adapted to your needs and objectives",
         src: "/img/difPersonalizadoOnline3.png",
         width: 60,
         height: 60,
@@ -2308,16 +2308,16 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Aprende a tu ritmo",
-      "Profesor exclusivo",
-      "Adaptado a tus necesidades y objetivos",
+      "Learn at your pace",
+      "Exclusive teacher",
+      "Adapted to your needs and objectives",
     ],
   },
   {
     id: "intensivo-espanol-online",
     title: "Intensivo Español Online",
     description2:
-      "Un Curso Intensivo de español adaptado a tus objetivos. 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
+      "An Intensive Spanish Course adapted to your objectives. 8 hours a week and only a month and a half per level, it's time to boost your language skills.",
     modalidad: "online",
     modalityPayment: "nivel",
     img: "intensivoEspanolOnline.png",
@@ -2329,7 +2329,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Flexibilidad horaria",
+        title: "Time flexibility",
         src: "/img/difIntensivoOnline.png",
         width: 60,
         height: 60,
@@ -2337,7 +2337,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Clases interactivas",
+        title: "Interactive classes",
         src: "/img/difIntensivoOnline2.png",
         width: 60,
         height: 60,
@@ -2345,7 +2345,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Práctica constante",
+        title: "Constant practice",
         src: "/img/difIntensivoOnline3.png",
         width: 60,
         height: 60,
@@ -2353,18 +2353,18 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "8 horas a la semana",
-      "Mes y medio por nivel",
-      "Práctica constante",
+      "8 hours a week",
+      "Month and a half per level",
+      "Constant practice",
     ],
     time: [
-      { num: "6", titulo: "NIVELES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "6", titulo: "LEVELS" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "18", titulo: "MONTHS" },
     ],
     subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      titulo: "our Personalized Course is for you",
+      subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol-online"],
     },
   },
@@ -2372,7 +2372,7 @@ export const data = [
     id: "corporativo-espanol-online",
     title: "Corporativo Español Online",
     description2:
-      "Un curso enfocado en las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo pueda dominar el español.",
+      "A course focused on the needs of your company. We offer tailored solutions so that your team can master Spanish.",
 
     img: "corporativoEspanolOnline.png",
     imgAlternative: "corporativoEspanolOnlineAlt.png",
@@ -2383,7 +2383,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Exclusivo para empresas",
+        title: "Exclusive for companies",
         src: "/img/difCorporativoOnline.png",
         width: 60,
         height: 60,
@@ -2391,7 +2391,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Plan adaptado a tus necesidades",
+        title: "Plan adapted to your needs",
         src: "/img/difCorporativoOnline2.png",
         width: 60,
         height: 60,
@@ -2399,7 +2399,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Horario según tus requerimientos",
+        title: "Schedule according to your requirements",
         src: "/img/difCorporativoOnline3.png",
         width: 60,
         height: 60,
@@ -2411,16 +2411,16 @@ export const data = [
     id: "profesional-espanol-online",
     title: "Profesional Español Online",
     description2:
-      "Si manejas el español a un nivel avanzado, ya es hora de dar un paso adelante en tu aprendizaje profesional. Mejora tu nivel de español y alcanza tus objetivos profesionales.",
+      "If you speak Spanish at an advanced level, it is time to take a step forward in your professional learning. Improve your level of Spanish and achieve your professional goals.",
     img: "profesionalEspanolOnline.png",
     imgAlternative: "profesionalEspanolOnlineAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     lang: "spanish",
     modalidad: "online",
     difCourses: [
       {
         id: "1",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesionalOnline.png",
         width: 60,
         height: 60,
@@ -2428,7 +2428,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Gramática aplicada a tu rama profesional",
+        title: "Grammar applied to your professional branch",
         src: "/img/difProfesionalOnline2.png",
         width: 60,
         height: 60,
@@ -2436,7 +2436,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Entonación y ritmo",
+        title: "Intonation and rhythm",
         src: "/img/difProfesionalOnline3.png",
         width: 60,
         height: 60,
@@ -2445,7 +2445,7 @@ export const data = [
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
+        "It's time to take that step in your professional career and improve your Spanish",
 
       subCurso: [
         "conversacional-espanol-online",
@@ -2458,10 +2458,10 @@ export const data = [
     id: "conversacional-espanol-online",
     title: "Conversacional Español Online",
     description2:
-      "¿Quieres ampliar tu vocabulario? Inscríbete en nuestro Curso Conversacional donde podrás practicar tu español y dejar todos los nervios atrás.",
+      "Do you want to expand your vocabulary? Sign up for our Conversational Course where you can practice your Spanish and leave all the nerves behind.",
     img: "conversacionalEspanolOnline.png",
     imgAlternative: "conversacionalEspanolOnlineAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -2470,7 +2470,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Amplia el vocabulario",
+        title: "Expand vocabulary",
         src: "/img/difProfesional.png",
         width: 60,
         height: 60,
@@ -2478,7 +2478,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Grupos reducidos",
+        title: "Small groups",
         src: "/img/difProfesional2.png",
         width: 60,
         height: 60,
@@ -2486,7 +2486,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Mejora en pronunciación",
+        title: "Improvement in pronunciation",
         src: "/img/difProfesional3.png",
         width: 60,
         height: 60,
@@ -2494,13 +2494,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Ampliar el vocabulario",
-      "Grupos reducidos",
-      "Mejora en pronunciación",
+      "Expand vocabulary",
+      "Small groups",
+      "Improvement in pronunciation",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
+        "It's time to take that step in your professional career and improve your Spanish",
 
       subCurso: [
         "conversacional-espanol-online",
@@ -2513,11 +2513,11 @@ export const data = [
     id: "espanol-para-negocios-online",
     title: "Español para Negocios Online",
     description2:
-      "¿Necesitas mejorar tu vocabulario para desenvolverte con éxito en un entorno profesional internacional? Nuestro Curso de Español para Negocios es tu mejor opción.",
+      "Do you need to improve your vocabulary to function successfully in an international professional environment? Our Business Spanish Course is your best option.",
 
     img: "espanolparanegociosOnline.png",
     imgAlternative: "espanolparanegociosOnlineAlt.png",
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -2526,7 +2526,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Vocabulario específico",
+        title: "Specific vocabulary",
         src: "/img/difipnOnline.png",
         width: 60,
         height: 60,
@@ -2534,7 +2534,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Expresiones idiomáticas",
+        title: "Idiomatic expressions",
         src: "/img/difipnOnline2.png",
         width: 60,
         height: 60,
@@ -2542,7 +2542,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Gramática aplicada a tu rama",
+        title: "Grammar applied to your branch",
         src: "/img/difipnOnline3.png",
         width: 60,
         height: 60,
@@ -2550,13 +2550,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Vocabulario específico",
-      "Expresiones idiomáticas",
-      "Gramática aplicada a tu rama",
+      "Specific vocabulary",
+      "Idiomatic expressions",
+      "Grammar applied to your branch",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
+        "It's time to take that step in your professional career and improve your Spanish",
 
       subCurso: [
         "conversacional-espanol-online",
@@ -2569,11 +2569,11 @@ export const data = [
     id: "reduccion-de-acento-espanol-online",
     title: "Reducción de Acento Español Online",
     description2:
-      "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar español. Empieza hoy y transforma tu manera de hablar español.",
+      "Focus on improving your pronunciation and fluency when speaking Spanish. Start today and transform the way you speak Spanish.",
     img: "reducciondeacentoEspanolOnline.png",
     imgAlternative: "reducciondeacentoEspanolOnlineAlt.png",
 
-    condicion: "C1 en adelante",
+    condicion: "C1 onwards",
     modalityPayment: "hora",
     price: 40,
     compra: true,
@@ -2582,7 +2582,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Fonética del inglés",
+        title: "English phonetics",
         src: "/img/difreduccionOnline.png",
         width: 60,
         height: 60,
@@ -2590,7 +2590,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Entonación y ritmo",
+        title: "Intonation and rhythm",
         src: "/img/difreduccionOnline2.png",
         width: 60,
         height: 60,
@@ -2598,7 +2598,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Reducción de palabras",
+        title: "Word reduction",
         src: "/img/difreduccionOnline3.png",
         width: 60,
         height: 60,
@@ -2606,13 +2606,13 @@ export const data = [
       },
     ],
     difTarjeta: [
-      "Fonética del inglés",
-      "Entonación y ritmo",
-      "Reducción de palabras",
+      "English phonetics",
+      "Intonation and rhythm",
+      "Word reduction",
     ],
     subCursos: {
       titulo:
-        "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
+        "It's time to take that step in your professional career and improve your Spanish",
       subCurso: [
         "conversacional-online",
         "ingles-para-negocios-online",

@@ -187,7 +187,8 @@
   },
   "MasInfoContactUs":{
     "titulo":"Contáctanos",
-    "subtitulo":"Si quieres contactarnos directamente, puedes hacerlo através de estas vías."
+    "subtitulo":"Si quieres contactarnos directamente, puedes hacerlo através de estas vías.",
+    "data":"data"
 
   },
   "CoursePage":{
@@ -369,7 +370,8 @@
     "presencial":"PRESENCIAL"
   },
   "ArticulosBlog":{
-    "h2":"Últimos Artículos"
+    "h2":"Últimos Artículos",
+    "data":"data"
   },
   "Blog":{
     "h2":"Todos los artículos"
