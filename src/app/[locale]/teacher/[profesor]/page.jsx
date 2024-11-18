@@ -14,7 +14,7 @@ export default function Profesor({ params }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const { data } = await import(`/src/data/teachersInfo.js`)
+        const { data } = await import(`/src/${t("data")}/teachersInfo.js`)
         setData(data.find((item) => item.id === profesor))
       } catch (error) {
         console.log("Error importing data", error)

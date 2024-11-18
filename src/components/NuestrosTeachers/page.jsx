@@ -13,7 +13,7 @@ export default function NuestrosTeachers({ current, titleAlt }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const { data } = await import(`/src/data/teachersInfo.js`)
+        const { data } = await import(`/src/${t("data")}/teachersInfo.js`)
         current
           ? setData(data.filter((item) => item.id !== current))
           : setData(data)
