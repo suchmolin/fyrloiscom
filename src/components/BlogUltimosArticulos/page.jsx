@@ -67,7 +67,7 @@ export default function BlogUltimosArticulos({ full }) {
                   href={`/${locale}/blog/${item.id}`}
                   className="dropShadow2 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit"
                 >
-                  LEER MÁS
+                  {t("boton")}
                   <span className="p-2 rounded-full bg-[#9ee701]">
                     <GoArrowRight className="text-gray-800" />
                   </span>

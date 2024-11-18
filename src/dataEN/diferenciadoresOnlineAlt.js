@@ -6,9 +6,9 @@ export const data = [
     height: 60,
     alt: "Diferenciador",
     subtitle:
-      "A través de info@fyrlois.com podrás ponerte en contacto con nuestros agentes autorizados y solventar todas las dudas que tengas sobre tu proceso de inscripción.",
+      "Through info@fyrlois.com you will be able to contact our authorized agents and solve all the doubts you may have about your registration process.",
     href: "aboutUs",
-    boton: "Conócenos",
+    boton: "About us",
   },
   {
     id: "1",
@@ -17,10 +17,10 @@ export const data = [
     height: 60,
     alt: "Diferenciador",
     subtitle:
-      "Contamos con cursos  adaptados a tus objetivos y necesidades. Es momento de dominar el idioma. Aprende en un horario adaptado a tu agenda, en menor tiempo o con un profesor exclusivo.",
+      "We have courses adapted to your objectives and needs. It's time to master the language. Learn in a schedule adapted to your agenda, in less time or with an exclusive teacher.",
     href: "online#cursosonline",
 
-    boton: "Cursos",
+    boton: "Courses",
   },
   {
     id: "2",
@@ -29,8 +29,8 @@ export const data = [
     height: 60,
     alt: "Diferenciador",
     subtitle:
-      "Somos una escuela de idiomas con una metodología práctica y comunicacional alineada al Marco Común Europeo de Referencia para las lenguas.",
+      "We are a language school with a practical and communicative methodology aligned to the Common European Framework of Reference for Languages.",
     href: "contactUs",
-    boton: "Contáctanos",
+    boton: "Contac us",
   },
 ]

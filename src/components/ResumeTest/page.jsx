@@ -4,6 +4,7 @@ import { FaCheck } from "react-icons/fa"
 import { useState, useEffect } from "react"
 
 export default function ResumeTest({ answer, result }) {
+  const t = useTranslations("Test.ResumeTest")
   const [selected, setSelected] = useState({})
 
   useEffect(() => {
@@ -13,8 +14,7 @@ export default function ResumeTest({ answer, result }) {
     <div className="w-full flex gap-5 flex-col items-center">
       {result < 60 && (
         <p className="text-2xl text-gray-500 text-center">
-          ¿Quiéres saber la respuesta correcta? <br /> Selecciona la pregunta de
-          tu interés
+          {t("p")} <br /> {t("pb")}
         </p>
       )}
       <div className="w-10/12 flex gap-3 flex-wrap justify-center">
@@ -52,7 +52,7 @@ export default function ResumeTest({ answer, result }) {
             </p>
             {selected.ok !== selected.resp && (
               <>
-                <p className="my-5">Correct answer:</p>
+                <p className="my-5">{t("correct")}</p>
                 <p
                   className={`w-fit px-4 py-2 rounded-lg text-white bg-[#ADC823] flex gap-3 items-center ml-5`}
                 >

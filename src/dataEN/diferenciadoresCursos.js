@@ -5,9 +5,9 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "25 años de trayectoria",
+    title: "25 years of experience",
     subtitle:
-      "No somos un curso de inglés nuevo, tenemos experiencia y el respaldo de egresados.",
+      "We are not a new English course, we have experience and the support of graduates.",
   },
   {
     id: "2",
@@ -15,9 +15,9 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "25 años de trayectoria",
+    title: "25 years of experience",
     subtitle:
-      "No somos un curso de inglés nuevo, tenemos experiencia y el respaldo de egresados.",
+      "We are not a new English course, we have experience and the support of graduates.",
   },
   {
     id: "3",
@@ -25,8 +25,8 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "25 años de trayectoria",
+    title: "25 years of experience",
     subtitle:
-      "No somos un curso de inglés nuevo, tenemos experiencia y el respaldo de egresados.",
+      "We are not a new English course, we have experience and the support of graduates.",
   },
 ]

@@ -15,7 +15,7 @@ export default function SocialFooter() {
         />
       </a>
       <p className="font-bold text-2xl text-[#001a70] hidden sm:block">
-        Síguenos
+        {t("p2")}
       </p>
       <div className="flex gap-5">
         <a

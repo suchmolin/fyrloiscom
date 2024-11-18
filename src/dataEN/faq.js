@@ -1,22 +1,22 @@
 export const data = [
   {
     id: "1",
-    ask: "¿Quiéres conocer nuestros métodos de pago?",
-    ans: "Puedes pagar con tarjeta de crédito o débito, transferencia bancaria, Zelle, Paypal, WesternUnion o Moneygram.",
+    ask: "Do you want to know our payment methods?",
+    ans: "You can pay by credit or debit card, bank transfer, Zelle, Paypal, WesternUnion or Moneygram.",
   },
   {
     id: "2",
-    ask: "¿Sabes cuando fue fundada la academia?",
-    ans: "Fyr Lois se fundó el 11 de enero del 1999, tenemos más de 25 años de experiencia en la enseñanza de idiomas.",
+    ask: "Do you know when the academy was founded?",
+    ans: "Fyr Lois was founded on January 11, 1999, we have more than 25 years of experience in language teaching.",
   },
   {
     id: "3",
-    ask: "¿Puedo pagar el curso en cuotas?",
-    ans: "Sí, contamos con diferentes planes para facilitarte estudiar con nosotros.",
+    ask: "Can I pay for the course in installments?",
+    ans: "Yes, we have different plans to make it easier for you to study with us.",
   },
   {
     id: "4",
-    ask: "¿Tienen descuentos para estudiantes?",
-    ans: "Sí, escríbenos para más información.",
+    ask: "Do you offer discounts for students?",
+    ans: "Yes, contact us for more information.",
   },
 ]

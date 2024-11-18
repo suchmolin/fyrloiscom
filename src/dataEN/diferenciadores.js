@@ -5,9 +5,9 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "25 años de trayectoria",
+    title: "25 years of experience",
     subtitle:
-      "Somos una escuela de idiomas, en la cual aprenderás de manera dinámica y con una metodología enfocada en vivir el idioma.",
+      "We are a language school where you will learn in a dynamic way and with a methodology focused on living the language.",
   },
   {
     id: 2,
@@ -15,9 +15,9 @@ export const data = [
     width: 55,
     height: 55,
     alt: "Diferenciador",
-    title: "Grupos pequeños, de máximo 8 alumnos",
+    title: "Small groups, maximum of 8 students",
     subtitle:
-      "Contarás con un profesor que te acompañará en todo tu proceso de aprendizaje.",
+      "You will have a teacher who will accompany you throughout your learning process.",
   },
   {
     id: 3,
@@ -25,9 +25,9 @@ export const data = [
     width: 70,
     height: 70,
     alt: "Diferenciador",
-    title: "Horarios personalizables",
+    title: "Customized schedules",
     subtitle:
-      "Puedes aprender en el horario de tu elección adaptado a tu agenda.",
+      "You can learn at the time of your choice to suit your schedule.",
   },
   {
     id: 4,
@@ -35,9 +35,9 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Aprendizaje adaptado a la edad del estudiante",
+    title: "Learning adapted to student's age",
     subtitle:
-      "Nuestras clases están diseñadas de manera divertida, dinámica y acorde a tu edad.",
+      "Our classes are designed in a fun, dynamic and age-appropriate way.",
   },
   {
     id: 5,
@@ -45,9 +45,9 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Profesores certificados CELTA - TEFL",
+    title: "CELTA - TEFL certified teachers",
     subtitle:
-      "Nuestros profesores están altamente calificados, lo que les permite brindarte una experiencia de primer nivel.",
+      "Our teachers are highly qualified, which allows them to provide you with a first class experience.",
   },
   {
     id: 6,
@@ -55,8 +55,8 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Metodología alineada al Marco Común Europeo",
+    title: "Methodology aligned to the Common European Framework",
     subtitle:
-      "Cada uno de nuestros niveles esta diseñado para desarrollar habilidades linguísticas desde A1 hasta C2",
+      "Each of our levels is designed to develop language skills from A1 to C2.",
   },
 ]
