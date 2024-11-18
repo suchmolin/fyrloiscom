@@ -1,6 +1,6 @@
 import addCart from "@/addcart"
 import { OpenModalContext } from "@/context/openModal"
-import { useLocale } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import Image from "next/image"
 import { GoArrowRight } from "react-icons/go"
 import { useContext } from "react"

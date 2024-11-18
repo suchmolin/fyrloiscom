@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { data } from "@/data/blog.js"
 import BlogUltimosArticulos from "@/components/BlogUltimosArticulos/page"
+import { useTranslations } from "next-intl"
 
 export default function ArticulosBlog({ params }) {
   const t = useTranslations("ArticulosBlog")

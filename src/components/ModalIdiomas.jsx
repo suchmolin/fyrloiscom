@@ -1,5 +1,5 @@
 import { Modal, Spinner } from "flowbite-react"
-import { useLocale } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import Image from "next/image"
 export default function ModalIdiomas({ openModal, setOpenModal, selected }) {
   const t = useTranslations("ModalIdiomas")

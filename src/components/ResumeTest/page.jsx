@@ -2,6 +2,7 @@
 import { FaTimes } from "react-icons/fa"
 import { FaCheck } from "react-icons/fa"
 import { useState, useEffect } from "react"
+import { useTranslations } from "next-intl"
 
 export default function ResumeTest({ answer, result }) {
   const t = useTranslations("Test.ResumeTest")
