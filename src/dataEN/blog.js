@@ -264,7 +264,7 @@ export const data = [
     tarjeta: {
       titulo: "Prepositions: In, on, at",
       descripcion:
-        "Saber cuándo usarlas puede ser todo un desafío si aún no comienzas a ponerlas en práctica. Descubre cómo hacerlo y cuán útiles serán al momento de hablar en inglés.",
+        "Knowing when to use them can be a challenge if you haven't started putting them into practice yet. Discover how to do it and how useful they will be when speaking in English.",
       autor: "Jesús Prato",
       fotoAutor: "teacher1.png",
       categoria: "GRAMMAR",
@@ -359,32 +359,32 @@ export const data = [
           "Example: I came up with the solution.",
           "Now that you've been able to understand what it's about, you've probably noticed that the key is to expose yourself to the language and incorporate them into your vocabulary, so you can communicate and understand more easily.",
         ],
-        subtitulo: "Write (write)",
       },
       {
+        subtitulo: "Write (write)",
         texto: [
           "Write off – In financial terms, it means that an outstanding debt has been settled and removed from the books..",
           "Example: We write off the balance (We clear the balance).",
         ],
-        subtitulo: "Turn (cross, turn, turn over)",
       },
       {
+        subtitulo: "Turn (cross, turn, turn over)",
         texto: [
           "Turn on –Turn on.",
           "Example: I turned on the tv.",
           "Tur off –Turn off.",
           "Example: I turned off the tv.",
         ],
-        subtitulo: "Stop (Stop)",
       },
       {
+        subtitulo: "Stop (Stop)",
         texto: [
           "Stop by – stop for a very short time, as in a quick visit.",
           "Example: I’ll stop by your house later, today.",
         ],
-        subtitulo: "Come (Come)",
       },
       {
+        subtitulo: "Come (Come)",
         texto: [
           "Come over - Come closer, to where the person is.",
           "Come on – Come on! It's a way to encourage the person to do something.",

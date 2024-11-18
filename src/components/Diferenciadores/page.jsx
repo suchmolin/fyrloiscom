@@ -1,7 +1,6 @@
 "use client"
-import Image from "next/image"
 import { useState, useEffect } from "react"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import DiferenciadoresList from "../DiferenciadoresList/page"
 import { useSearchParams } from "next/navigation"
 
@@ -10,15 +9,16 @@ export default function Diferenciadores({ curva, filtro, fondoBlanco }) {
   const [data, setData] = useState([])
   const searchParams = useSearchParams()
   const lang = searchParams.get("langCourse")
+  const locale = useLocale()
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const { data } = await import(`/src/${t("data")}/diferenciadores`)
         if (lang === "spanish") {
-          const indice = data.findIndex(
-            (item) => item.title === "Profesores certificados CELTA - TEFL"
-          )
+          const comp =
+            locale === "es" ? "CELTA - TEFL" : "CELTA - TEFL certified teachers"
+          const indice = data.findIndex((item) => item.title === comp)
           data[indice].title = "Profesores certificados CELTA"
         }
         if (filtro) {
@@ -35,6 +35,7 @@ export default function Diferenciadores({ curva, filtro, fondoBlanco }) {
       }
     }
     fetchData()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [t])
 
   return (

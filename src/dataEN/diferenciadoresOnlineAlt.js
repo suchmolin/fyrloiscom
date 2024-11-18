@@ -31,6 +31,6 @@ export const data = [
     subtitle:
       "We are a language school with a practical and communicative methodology aligned to the Common European Framework of Reference for Languages.",
     href: "contactUs",
-    boton: "Contac us",
+    boton: "Contact us",
   },
 ]
