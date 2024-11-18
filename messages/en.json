@@ -178,7 +178,7 @@
     }
   },
   "TestNivelacion":{
-    "h2":"Do you want to know your level of English?",
+    "h2":"Do you want to know your English level?",
     "button":"Take your test now"
   },
   "CursosSedes":{
@@ -202,8 +202,8 @@
     "data":"dataEN"
   },
   "Test":{
-    "h1":"Discover your level of English",
-    "p":"Answer the questions in the following exam according to your knowledge, so we can give you the real result of your level of English.",
+    "h1":"Discover your English level",
+    "p":"Answer the questions in the following exam according to your knowledge, so we can give you the real result of your English level.",
     "pb":"You got a result of: ",
     "pb2":" of ",
     "h4":"Answer the following questions",

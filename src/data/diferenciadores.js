@@ -57,6 +57,6 @@ export const data = [
     alt: "Diferenciador",
     title: "Metodología alineada al Marco Común Europeo",
     subtitle:
-      "Cada uno de nuestros niveles esta diseñado para desarrollar habilidades linguísticas desde A1 hasta C2",
+      "Cada uno de nuestros niveles esta diseñado para desarrollar habilidades linguísticas desde A1 hasta C1",
   },
 ]

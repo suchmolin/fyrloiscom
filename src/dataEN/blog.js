@@ -402,11 +402,11 @@ export const data = [
       descripcion:
         "Every time we speak, we describe objects, people, or situations, but have you ever wondered what words to use to do it correctly in English? Here's the explanation.",
       autor: "Mauro Rodríguez",
-      fotoAutor: "teacher3.jpg",
+      fotoAutor: "teacher3.png",
       categoria: "GRAMMAR",
       img: "blog4.png",
       fechaPublicado: "September 16, 2022",
-      imgPrincipal: "blog4.jpg",
+      imgPrincipal: "blog4.png",
     },
     contenido: [
       {
@@ -450,11 +450,11 @@ export const data = [
       descripcion:
         "The famous verb “To Be” how many jokes or clichés have you heard about it? Learning when and how to use it is much simpler than you think, and we'll prove it in this article.",
       autor: "Yheissi Blanco",
-      fotoAutor: "teacher2.jpg",
+      fotoAutor: "teacher2.png",
       categoria: "GRAMMAR",
       img: "blog5.png",
       fechaPublicado: "September 16, 2022",
-      imgPrincipal: "blog5.jpg",
+      imgPrincipal: "blog5.png",
     },
     contenido: [
       {

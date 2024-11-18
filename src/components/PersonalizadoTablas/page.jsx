@@ -20,7 +20,7 @@ export default function PersonalizadoTablas() {
             <tr>
               <th></th>
               <th className="border-l px-2 sm:px-7">{t("regular")}</th>
-              <th className="border-l px-2 sm:px-7">{t("regular")}</th>
+              <th className="border-l px-2 sm:px-7">{t("personalizado")}</th>
             </tr>
           </thead>
           <tbody>

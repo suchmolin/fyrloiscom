@@ -401,11 +401,11 @@ export const data = [
       descripcion:
         "Cada vez que hablamos, describimos algún objeto, persona o situación pero ¿te has preguntado cuáles son las palabras para hacerlo correctamente en inglés? Aquí te las explicamos.",
       autor: "Mauro Rodríguez",
-      fotoAutor: "teacher3.jpg",
+      fotoAutor: "teacher3.png",
       categoria: "GRAMÁTICA",
       img: "blog4.png",
       fechaPublicado: "September 16, 2022",
-      imgPrincipal: "blog4.jpg",
+      imgPrincipal: "blog4.png",
     },
     contenido: [
       {
@@ -449,11 +449,11 @@ export const data = [
       descripcion:
         "El famoso verbo “To Be” ¿cuántos chistes o clichés has escuchado sobre Él? Aprender cuándo y cómo usarlo es mucho más sencillo de lo que crees y con este artículo te lo demostramos.",
       autor: "Yheissi Blanco",
-      fotoAutor: "teacher2.jpg",
+      fotoAutor: "teacher2.png",
       categoria: "GRAMÁTICA",
       img: "blog5.png",
       fechaPublicado: "September 16, 2022",
-      imgPrincipal: "blog5.jpg",
+      imgPrincipal: "blog5.png",
     },
     contenido: [
       {

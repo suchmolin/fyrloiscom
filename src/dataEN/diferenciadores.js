@@ -26,8 +26,7 @@ export const data = [
     height: 70,
     alt: "Diferenciador",
     title: "Customized schedules",
-    subtitle:
-      "You can learn at the time of your choice to suit your schedule.",
+    subtitle: "You can learn at the time of your choice to suit your schedule.",
   },
   {
     id: 4,
@@ -57,6 +56,6 @@ export const data = [
     alt: "Diferenciador",
     title: "Methodology aligned to the Common European Framework",
     subtitle:
-      "Each of our levels is designed to develop language skills from A1 to C2.",
+      "Each of our levels is designed to develop language skills from A1 to C1.",
   },
 ]
