@@ -60,7 +60,7 @@ export const data = [
       },
       {
         texto: [
-          "Sigues estos consejos y mejora tu habilidad escrita en inglés y ya sabes ¡A escribir!",
+          "Sigue estos consejos y mejora tu habilidad escrita en inglés y ya sabes ¡A escribir!",
           "Si te interesa iniciar tu camino hacia el dominio del inglés, te invitamos a que eches un vistazo a nuestros cursos a través de: www.fyrlois.com/es/cursos y observes todas las increíbles opciones que tenemos para ti.",
         ],
       },
