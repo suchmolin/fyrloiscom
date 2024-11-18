@@ -7,7 +7,7 @@ import { useContext, useEffect } from "react"
 import { OpenModalContext } from "@/context/openModal"
 
 export default function CheckoutSuccessPage() {
-  const t = useTranslations("MasInfoContactUs")
+  const t = useTranslations("CheckoutSuccessPage")
   const { setCantCart, setCartInfo } = useContext(OpenModalContext)
 
   useEffect(() => {
@@ -28,14 +28,13 @@ export default function CheckoutSuccessPage() {
           />
         </div>
         <h1 className="text-4xl mt-3 font-bold text-center text-[#001a70]">
-          Su pago fue exitoso
+          {t("h1")}
         </h1>
         <p className="sm:w-[500px] px-5 sm:px-0 text-center mt-5 text-xl text-gray-600">
-          En breve recibirás un email, con los detalles de tu compra y serás
-          contactado para completar el proceso de inscripción.
+          {t("p")}
         </p>
         <p className="sm:w-[500px] px-5 sm:px-0 text-center mt-5 text-2xl text-gray-600">
-          Si tienes alguna duda puedes llamarnos a
+          {t("p2")}
         </p>
         <div className="w-fit flex gap-5 items-center justify-center mt-5 py-2 px-4 bg-[#9ee701] rounded-xl text-xl">
           <Image src="/img/telefono.png" width={20} height={20} alt="phone" />

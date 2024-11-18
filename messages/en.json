@@ -22,7 +22,8 @@
   "Diferenciadores":{
     "h2": "Why choose us?",
     "p":"We create a unique methodology that allows you to learn a new language in a fun and different way.",
-    "data":"dataEN"
+    "data":"dataEN",
+    "boton":"Learn more"
   },
   "SedePrincipal":{
     "h2":"Headquarters",
@@ -40,7 +41,8 @@
   "SeccionBlog":{
     "h2":"Blog",
     "p":"Learn about essential topics to improve your English.",
-    "data":"dataEN"
+    "data":"dataEN",
+    "vertodos":"See all"
   },
   "Footer":{
     "li":"Online",
@@ -56,7 +58,9 @@
       "button":"Send"
     },
     "h2":"Visit us",
-    "h2b":"Subscribe"
+    "h2b":"Subscribe",
+    "pp":"Privacy Policies",
+    "p2":"Follow us"
   },
   "AboutUs":{
     "HeroAboutUs":{
@@ -80,8 +84,11 @@
     "NuestrosTeachers":{
       "data": "dataEN",
       "h2":"Meet our teachers",
+      "h4":"Previous projects",
       "p":"Learning English is easy if you have the right help.",
-      "verPerfil":"SEE PROFILE"
+      "verPerfil":"SEE PROFILE",
+      "boton1":"about me",
+      "boton2":"Skills"
     }
   },
   "contactUs":{
@@ -213,6 +220,12 @@
       "next":"Next",
       "end":"Finish",
       "error":"You must select an answer to advance."
+    },
+    "vercursos":"Ver Cursos",
+    "ResumeTest":{
+      "p":"Do you want to know the correct answer?",
+      "pb":"Select the question of your interest",
+      "correct":"Correct Answer:"
     }
   },
   "nuestraMision":{
@@ -236,7 +249,8 @@
     "CursosOnlineHome":{
       "data":"dataEN",
       "h2":"Live a memorable learning experience",
-      "p":"Each student is a life project to fulfill. That is why we offer you a course adapted to your interests and needs."
+      "p":"Each student is a life project to fulfill. That is why we offer you a course adapted to your interests and needs.",
+      "boton":"See more"
     },
     "DiferenciadoresOnline":{
       "h2":"How will you learn English with us?",
@@ -301,5 +315,67 @@
     "dropDown": "Courses",
     "dd2Item1":"Online",
     "dd2Item2":"Presential"
+  },
+  "BotonFranquicias":{
+    "boton":"Select the country"
+  },
+  "CartModal":{
+    "vacio":"Your cart is empty",
+    "cursosOnline":"Online Courses",
+    "cursosPresenciales":"Presential Courses"
+  },
+  "HeroSingleCourse":{
+    "Comprar":"Buy",
+    "Contacto":"Contact us"
+  },
+  "HorariosCursos":{
+    "h2":"Know our",
+    "h2b":"schedules"
+
+  },
+  "LanguageSelector":{
+    "titulo":"Selecciona un idioma",
+    "ingles":"English",
+    "espanol":"Spanish"
+  },
+  "PersonalizadoSinLimite":{
+    "h2":"There is no age limit, our Personalized Course is the solution you are looking for",
+    "boton":"Contact us"
+  },
+  "PersonalizadoTablas":{
+    "h2":"Know the differences between our Regular Course and Personalized Course",
+    "regular":"Regular",
+    "personalizado":"Personalized",
+    "clases100":"Classes 100% in",
+    "adaptado":"Adapted to your needs",
+    "metodologia":"Unique methodology",
+    "profesor":"Exclusive teacher",
+    "clasesind":"Individual classes",
+    "objetivos":"Custom goals"
+  },
+  "SendedMsg":{
+    "sended":"Message sent successfully"
+  },
+  "SendedMsgfoot":{
+    "sended":"You have successfully subscribed"
+
+  },
+  "SingleCourse":{
+    "boton":"See more"
+  },
+  "ModalIdiomas":{
+    "h2":"Select the study mode",
+    "presencial":"PRESENTIAL"
+  },
+  "ArticulosBlog":{
+    "h2":"Latest Articles"
+  },
+  "Blog":{
+    "h2":"All articles"
+  },
+  "CheckoutSuccessPage":{
+    "h1":"Your payment was successful",
+    "p":"You will shortly receive an email with the details of your purchase and you will be contacted to complete the registration process.",
+    "p2":"If you have any questions you can call us at"
   }
 }

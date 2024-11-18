@@ -31,7 +31,7 @@ export default function ResultTestSection({
         href={`/${locale}/sedes`}
         className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit"
       >
-        Ver Cursos
+        {t("vercursos")}
         <span className="p-2 rounded-full bg-[#9ee701]">
           <GoArrowRight className="text-gray-800" />
         </span>

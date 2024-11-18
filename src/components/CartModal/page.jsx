@@ -8,9 +8,10 @@ import { RiDeleteBin6Line } from "react-icons/ri"
 import Image from "next/image"
 import Link from "next/link"
 import { handleCheckout } from "@/checkoutCart"
-import { useLocale } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 export default function CartModal() {
+  const t = useTranslations("CartModal")
   const locale = useLocale()
   const { isOpen, setIsOpen, setCantCart, cartInfo, setCartInfo } =
     useContext(OpenModalContext)
@@ -157,19 +158,19 @@ export default function CartModal() {
           ) : (
             <div className="flex flex-col">
               <p className="text-[#000b7a] text-lg font-bold p-2">
-                Your cart is empty
+                {t("vacio")}
               </p>
               <Link
                 href={`/${locale}/online/courses`}
                 className="w-full bg-[#ffa101] hover:bg-[#000b7a] text-white py-2 px-5 rounded-md mt-3 mb-3 transition-all duration-300 text-center"
               >
-                Cursos Online
+                {t("cursosOnline")}
               </Link>
               <Link
                 href={`/${locale}/sedes`}
                 className="w-full bg-[#ffa101] hover:bg-[#000b7a] text-white py-2 px-5 rounded-md mt-3 transition-all duration-300 text-center"
               >
-                Cursos Presencial
+                {t("cursosPresenciales")}
               </Link>
             </div>
           )}

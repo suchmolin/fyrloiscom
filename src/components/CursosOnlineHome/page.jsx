@@ -126,7 +126,7 @@ export default function CursosOnlineHome({
           href={`/${locale}/online/courses?langCourse=${idioma}`}
           className="py-2 px-4 bg-[#9ee701] text-white rounded-full"
         >
-          Ver más
+          {t("boton")}
         </Link>
       </div>
     </div>

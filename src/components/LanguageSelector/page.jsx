@@ -4,8 +4,10 @@ import { Dropdown } from "flowbite-react"
 import Image from "next/image"
 import { usePathname, useSearchParams } from "next/navigation"
 import { MdOutlineShoppingCart } from "react-icons/md"
+import { useTranslations } from "next-intl"
 
 export function LanguageSelector({ locale }) {
+  const t = useTranslations("LanguageSelector")
   const path = usePathname()
   const searchParams = useSearchParams()
   const sede = searchParams.get("s")
@@ -26,9 +28,7 @@ export function LanguageSelector({ locale }) {
     <div className="fixed lg:absolute bottom-5 lg:top-5 left-5 lg:left-auto lg:right-5 xl:right-10 text-[#001A70] text-xl z-50 flex gap-3 flex-col lg:flex-row h-fit items-center ">
       <Dropdown label={mundo} inline>
         <Dropdown.Header className="w-[200px]">
-          <span className="block text-sm text-[#001A70]">
-            Selecciona un idioma
-          </span>
+          <span className="block text-sm text-[#001A70]">{t("titulo")}</span>
         </Dropdown.Header>
 
         <Dropdown.Item
@@ -42,7 +42,7 @@ export function LanguageSelector({ locale }) {
             height={20}
             alt="english"
           />
-          English
+          {t("ingles")}
         </Dropdown.Item>
         <Dropdown.Item
           onClick={() => handleRedirect("es")}
@@ -50,7 +50,7 @@ export function LanguageSelector({ locale }) {
         >
           <Image src="/img/spanish.png" width={20} height={20} alt="spanish" />
           {"   "}
-          Español
+          {t("espanol")}
         </Dropdown.Item>
       </Dropdown>
     </div>

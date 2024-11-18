@@ -1,12 +1,13 @@
 import { Dropdown } from "flowbite-react"
-import Link from "next/link"
+import { useTranslations } from "next-intl"
 import { IoIosArrowDown } from "react-icons/io"
 
 export default function BotonFranquicias({ data, seter }) {
+  const t = useTranslations("BotonFranquicias")
   const boton = (
     <div className="px-5 w-full mt-2 flex justify-center md:justify-end">
       <div className="pr-1 pl-4 py-1 text-black bg-white rounded-full flex gap-3 justify-between items-center transition-all duration-300 w-fit">
-        Selecciona el Pais
+        {t("boton")}
         <span className="p-2 rounded-full bg-[#9ee701]">
           <IoIosArrowDown className="text-gray-800" />
         </span>
