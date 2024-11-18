@@ -3,6 +3,7 @@ import { data } from "@/data/blog.js"
 import BlogUltimosArticulos from "@/components/BlogUltimosArticulos/page"
 
 export default function ArticulosBlog({ params }) {
+  const t = useTranslations("ArticulosBlog")
   const { blogArticle } = params
   const blog = data.find((item) => item.id === blogArticle)
 
@@ -81,7 +82,7 @@ export default function ArticulosBlog({ params }) {
       </div>
       <div className="w-full flex flex-col">
         <h2 className="text-[#001A70] text-5xl py-10 px-5 text-center">
-          Últimos Artículos
+          {t("h2")}
         </h2>
         <BlogUltimosArticulos />
       </div>

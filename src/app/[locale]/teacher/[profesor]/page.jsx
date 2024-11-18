@@ -55,7 +55,7 @@ export default function Profesor({ params }) {
                 aria-label="Acerca de Nosotros"
                 className={`py-2  px-2 md:px-7 whitespace-nowrap hover:mb-1 rounded-full text-bold transition-all duration-300 font-bold text-xs md:text-base ${selected === "acercaDeMi" ? "bg-[#001a70] text-white" : "bg-gradient-to-b from-white to-gray-100 dropShadow3"} `}
               >
-                Acerca de mí
+                {t("boton1")}
               </button>
 
               <button
@@ -63,7 +63,7 @@ export default function Profesor({ params }) {
                 aria-label="Acerca de Nosotros"
                 className={`py-2  px-2 md:px-7 whitespace-nowrap hover:mb-1 rounded-full text-bold transition-all duration-300 font-bold text-xs md:text-base ${selected === "habilidades" ? "bg-[#001a70] text-white" : "bg-gradient-to-b from-white to-gray-100 dropShadow3"} `}
               >
-                Habilidades
+                {t("boton2")}
               </button>
             </div>
             <div className="px-2 sm:px-10">
@@ -83,7 +83,7 @@ export default function Profesor({ params }) {
                   ))}
 
                   <h4 className="text-[#000b7a] text-2xl font-bold py-5">
-                    Proyectos anteriores
+                    {t("h4")}
                   </h4>
                   {data?.proyectos?.map((item, index) => (
                     <p key={index} className="text-gray-500 text-lg py-2">
@@ -100,7 +100,7 @@ export default function Profesor({ params }) {
               {selected === "habilidades" && (
                 <>
                   <h4 className="text-[#000b7a] text-2xl font-bold py-5">
-                    Habilidades
+                    {t("boton2")}
                   </h4>
                   <ul className="list-disc pl-0 md:pl-10">
                     {data?.habilidades?.map((item, index) => (

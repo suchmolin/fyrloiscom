@@ -2,6 +2,7 @@ import { Modal, Spinner } from "flowbite-react"
 import { useLocale } from "next-intl"
 import Image from "next/image"
 export default function ModalIdiomas({ openModal, setOpenModal, selected }) {
+  const t = useTranslations("ModalIdiomas")
   const locale = useLocale()
   return (
     <Modal
@@ -14,7 +15,7 @@ export default function ModalIdiomas({ openModal, setOpenModal, selected }) {
         <>
           <div className="flex gap-5 w-full text-center justify-center items-center">
             <h2 className="text-lg sm:text-2xl text-[#001A70] text-center font-bold">
-              Selecciona el modo de estudio
+              {t("h2")}
             </h2>
             <Image
               src={`/img/${selected === "es" ? "spanish" : "united-states"}.png`}

@@ -34,7 +34,7 @@ export default function BlogUltimosArticulos({ full }) {
           return (
             <div
               key={item.id}
-              className={`dropShadow2 relative flex flex-col  min-h-[400px]  rounded-lg  overflow-hidden hover:scale-[0.98] transition-all duration-300 w-[280px] xs:w-[330px]`}
+              className={`dropShadow2 relative flex flex-col pt-3  min-h-[400px]  rounded-lg  overflow-hidden hover:scale-[0.98] transition-all duration-300 w-[280px] xs:w-[330px]`}
             >
               <h3 className="h-[55px] text-lg font-bold text-[#001A70] py-2 px-4 leading-[22px]">
                 {item?.tarjeta?.titulo}
@@ -67,7 +67,7 @@ export default function BlogUltimosArticulos({ full }) {
                   href={`/${locale}/blog/${item.id}`}
                   className="dropShadow2 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit"
                 >
-                  LEER MÁS
+                  {t("boton")}
                   <span className="p-2 rounded-full bg-[#9ee701]">
                     <GoArrowRight className="text-gray-800" />
                   </span>

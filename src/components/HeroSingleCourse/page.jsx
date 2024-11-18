@@ -6,9 +6,10 @@ import { useContext } from "react"
 import { OpenModalContext } from "@/context/openModal"
 import addCart from "@/addcart"
 import { handleCheckout } from "@/checkoutCart"
-import { useLocale } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 export default function HeroSingleCourse({ courseData }) {
+  const t = useTranslations("HeroSingleCourse")
   const locale = useLocale()
   const { setIsOpen, setCartInfo, setCantCart } = useContext(OpenModalContext)
   return courseData ? (
@@ -69,7 +70,7 @@ export default function HeroSingleCourse({ courseData }) {
                 }}
                 className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black disabled:opacity-50 disabled:cursor-wait"
               >
-                Comprar
+                {t("Comprar")}
                 <span className="p-2 rounded-full bg-[#9ee701]">
                   <GoArrowRight className="text-gray-800" />
                 </span>
@@ -95,7 +96,7 @@ export default function HeroSingleCourse({ courseData }) {
               href={`/${locale}/contactUs`}
               className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black disabled:opacity-50 disabled:cursor-wait"
             >
-              Contáctanos
+              {t("Contacto")}
               <span className="p-2 rounded-full bg-[#9ee701]">
                 <GoArrowRight className="text-gray-800" />
               </span>

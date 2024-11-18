@@ -22,7 +22,8 @@
   "Diferenciadores":{
     "h2": "¿Por qué elegirnos?",
     "p":"Creamos una metodología única que te permite aprender un nuevo idioma de una manera divertida y diferente.",
-    "data":"data"
+    "data":"data",
+    "boton":"Leer más"
   },
   "SedePrincipal":{
     "h2":"Sede Principal",
@@ -40,7 +41,8 @@
   "SeccionBlog":{
     "h2":"Blog",
     "p":"Aprende acerca de temas imprescindibles para mejorar tu inglés.",
-    "data":"data"
+    "data":"data",
+    "vertodos":"Ver todos"
   },
   "Footer":{
     "li":"En Linea",
@@ -56,7 +58,9 @@
       "button":"Enviar"
     },
     "h2":"Visítanos",
-    "h2b":"Suscríbete"
+    "h2b":"Suscríbete",
+    "pp":"Políticas de privacidad",
+    "p2":"Síguenos"
   },
   "AboutUs":{
     "HeroAboutUs":{
@@ -80,8 +84,11 @@
     "NuestrosTeachers":{
       "data": "data",
       "h2":"Conoce a nuestros teachers",
+      "h4":"Proyectos anteriores",
       "p":"Aprender inglés es sencillo si cuentas con la ayuda adecuada.",
-      "verPerfil":"VER PERFIL"
+      "verPerfil":"VER PERFIL",
+      "boton1":"Acerca de mí",
+      "boton2":"Habilidades"
     }
   },
   "contactUs":{
@@ -213,6 +220,13 @@
       "next":"Siguiente",
       "end":"Finalizar",
       "error":"Debe seleccionar una respuesta para avanzar."
+    },
+    "vercursos":"Ver Cursos",
+    "ResumeTest":{
+      "p":"¿Quiéres saber la respuesta correcta?",
+      "pb":"Selecciona la pregunta de tu interés",
+      "correct":"Respuesta Correcta:"
+
     }
   },
   "nuestraMision":{
@@ -236,7 +250,8 @@
     "CursosOnlineHome":{
       "data":"data",
       "h2":"Vive una experiencia de aprendizaje memorable",
-      "p":"cada estudiante es un proyecto de vida por cumplir. Por eso te ofrecemos un curso adaptado a tus intereses y necesidades."
+      "p":"cada estudiante es un proyecto de vida por cumplir. Por eso te ofrecemos un curso adaptado a tus intereses y necesidades.",
+      "boton":"Ver más"
     },
     "DiferenciadoresOnline":{
       "h2":"¿Cómo aprenderás inglés con nosotros?",
@@ -301,5 +316,67 @@
     "dropDown": "Cursos",
     "dd2Item1":"Online",
     "dd2Item2":"Presencial"
+  },
+  "BotonFranquicias":{
+    "boton":"Selecciona el país"
+  },
+  "CartModal":{
+    "vacio":"El carrito de compras está vacío",
+    "cursosOnline":"Cursos Online",
+    "cursosPresenciales":"Cursos Presencial"
+  },
+  "HeroSingleCourse":{
+    "Comprar":"Comprar",
+    "Contacto":"Contáctanos"
+
+  },
+  "HorariosCursos":{
+    "h2":"Conoce nuestros",
+    "h2b":"horarios"
+  },
+  "LanguageSelector":{
+    "titulo":"Selecciona un idioma",
+    "ingles":"Inglés",
+    "espanol":"Español"
+  },
+  "PersonalizadoSinLimite":{
+    "h2":"No existe límite de edad, nuestro Curso Personalizado es la solución que buscas",
+    "boton":"Contáctanos"
+  },
+  "PersonalizadoTablas":{
+    "h2":"Conoce las diferencias entre nuestro Curso Regular y Curso Personalizado",
+    "regular":"Regular",
+    "personalizado":"Personalizado",
+    "clases100":"Clases 100% en",
+    "adaptado":"Adaptado a tus necesidades",
+    "metodologia":"Metodología única",
+    "profesor":"Profesor exclusivo",
+    "clasesind":"Clases individuales",
+    "objetivos":"Objetivos personalizados"
+  },
+  "SendedMsg":{
+    "sended":"Mensaje enviado con éxito"
+  },
+  "SendedMsgfoot":{
+    "sended":"Te has suscrito con éxito"
+
+  },
+  "SingleCourse":{
+    "boton":"Ver más"
+  },
+  "ModalIdiomas":{
+    "h2":"Selecciona el modo de estudio",
+    "presencial":"PRESENCIAL"
+  },
+  "ArticulosBlog":{
+    "h2":"Últimos Artículos"
+  },
+  "Blog":{
+    "h2":"Todos los artículos"
+  },
+  "CheckoutSuccessPage":{
+    "h1":"Su pago fue exitoso",
+    "p":" En breve recibirás un email, con los detalles de tu compra y serás contactado para completar el proceso de inscripción.",
+    "p2":" Si tienes alguna duda puedes llamarnos a"
   }
 }
