@@ -327,7 +327,7 @@ export const data = [
       categoria: "VOCABULARY",
       img: "blog3.png",
       fechaPublicado: "September 16, 2022",
-      imgPrincipal: "blog3a.jpg",
+      imgPrincipal: "blog3.png",
     },
     contenido: [
       {
