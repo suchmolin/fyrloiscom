@@ -95,8 +95,11 @@ export default function Sedes() {
             ))}
           </div>
         )}
+
         {countrySelected === "usa" && (
-          <SedesList sedes={sedes.filter((sede) => sede.country === "usa")} />
+          <div className="block sm:hidden">
+            <SedesList sedes={sedes.filter((sede) => sede.country === "usa")} />
+          </div>
         )}
       </div>
     </div>
