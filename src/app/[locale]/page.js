@@ -10,6 +10,7 @@ import { useTranslations } from "next-intl"
 
 export default function Home() {
   const t = useTranslations("SedePrincipal")
+  //deploying production}
   return (
     <main className="flex w-full min-h-screen flex-col font-[lato]">
       <Hero />
