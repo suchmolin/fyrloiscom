@@ -121,14 +121,6 @@ export default function CursosOnlineHome({
           ))}
         </Carousel>
       </div>
-      <div className="w-full flex items-center justify-center pt-10">
-        <Link
-          href={`/${locale}/online/courses?langCourse=${idioma}`}
-          className="py-2 px-4 bg-[#9ee701] text-white rounded-full"
-        >
-          {t("boton")}
-        </Link>
-      </div>
     </div>
   )
 }

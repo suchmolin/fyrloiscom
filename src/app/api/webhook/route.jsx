@@ -57,7 +57,7 @@ export async function POST(request) {
 
 
           <div style="width: 450px; font-size: 12px; line-height: 16px; margin-left: 8px; border-radius: 6px; overflow: hidden;">
-        <img style="width: 100%; height: auto;" src="https://fyrloiscom.vercel.app/_next/image?url=%2Fimg%2FheadEmail.png&w=1920&q=75" alt="" />
+        <img style="width: 100%; height: auto;" src="https://fyrlois.com/_next/image?url=%2Fimg%2FheadEmail.png&w=1920&q=75" alt="" />
         <h2 style="text-align: center;">
           Numero de transaccion: ${idTransaccion}
         </h2>
@@ -95,7 +95,7 @@ export async function POST(request) {
                 <img
                 style="width: 70px; height: 50px; margin-right: 10px;"
                   
-                  src="https://fyrloiscom.vercel.app/_next/image?url=%2Fimg%2F${curso.img}&w=1920&q=75"
+                  src="https://fyrlois.com/_next/image?url=%2Fimg%2F${curso.img}&w=1920&q=75"
                   alt="${curso.title}"
                 />
                 <div style="width: 350px; display:flex;">
@@ -137,7 +137,7 @@ export async function POST(request) {
 
 
           <div style="width: 450px; font-size: 12px; line-height: 16px; margin-left: 8px; border-radius: 6px; overflow: hidden;">
-        <img style="width: 100%; height: auto;" src="https://fyrloiscom.vercel.app/_next/image?url=%2Fimg%2FheadEmail.png&w=1920&q=75" alt="" />
+        <img style="width: 100%; height: auto;" src="https://fyrlois.com/_next/image?url=%2Fimg%2FheadEmail.png&w=1920&q=75" alt="" />
         <h2 style="text-align: center;">
           Numero de transaccion: ${idTransaccion}
         </h2>
@@ -175,7 +175,7 @@ export async function POST(request) {
                 <img
                 style="width: 70px; height: 50px; margin-right: 10px;"
                   
-                  src="https://fyrloiscom.vercel.app/_next/image?url=%2Fimg%2F${curso.img}&w=1920&q=75"
+                  src="https://fyrlois.com/_next/image?url=%2Fimg%2F${curso.img}&w=1920&q=75"
                   alt="${curso.title}"
                 />
                 <div style="width: 350px; display:flex;">
