@@ -476,7 +476,7 @@ export const data = [
     title: "Personalizado",
     description2:
       "Aprende inglés a tu ritmo y con un profesor exclusivo que se adapta a tus necesidades y objetivos. ¡Crea tu propio camino hacia el dominio del inglés!",
-
+    detalles: ["Profesor exclusivo", "Clases individuales"],
     img: "personalizado.png",
     imgAlternative: "personalizadoAlt.png",
     price: 40,
@@ -545,6 +545,7 @@ export const data = [
     title: "Intensivo",
     description2:
       "Un Curso Intensivo de inglés adaptado a tus necesidades. 8 horas a la semana y tan solo mes y medio por nivel, es momento de impulsar tu dominio del idioma.",
+    detalles: ["8 horas a la semana", "Mes y medio por nivel"],
     img: "intensivo.png",
     imgAlternative: "intensivoAlt.png",
     price: 800,
@@ -710,6 +711,7 @@ export const data = [
     title: "Conversacional",
     description2:
       "¿Quieres ampliar tu vocabulario? Inscríbete en nuestro Curso Conversacional donde podrás practicar tu inglés y dejar todos los nervios atrás.",
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     img: "conversacional.png",
     imgAlternative: "conversacionalAlt.png",
     condicion: "C1 en adelante",
@@ -764,7 +766,7 @@ export const data = [
     title: "Inglés para Negocios",
     description2:
       "¿Necesitas mejorar tu vocabulario para desenvolverte con éxito en un entorno profesional internacional? Nuestro Curso de Inglés para Negocios es tu mejor opción.",
-
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     img: "inglesparanegocios.png",
     imgAlternative: "inglesparanegociosAlt.png",
     condicion: "C1 en adelante",
@@ -819,6 +821,7 @@ export const data = [
     title: "Reducción de Acento",
     description2:
       "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar inglés. Empieza hoy y transforma tu manera de hablar inglés.",
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     img: "reducciondeacento.png",
     imgAlternative: "reducciondeacentoAlt.png",
     condicion: "C1 en adelante",
@@ -873,7 +876,11 @@ export const data = [
     title: "Curso de Ciudadanía",
     description2:
       "Olvídate de sentir nervios por tener que comunicarte en inglés en tu examen de Ciudadanía Americana. Practica con ejemplos reales y logra tu sueño.",
-
+    detalles: [
+      "Profesor exclusivo",
+      "Clases individuales",
+      "Práctica de entrevista",
+    ],
     img: "cursoCiudadania.png",
     imgAlternative: "cursoCiudadaniaAlt.png",
     price: 40,
@@ -885,24 +892,24 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Clases 100% en inglés",
-        src: "/img/difAdult.png",
+        title: "Práctica de entrevista",
+        src: "/img/difCiudadaniaOnline.png",
         width: 60,
         height: 60,
         alt: "difAdult",
       },
       {
         id: "2",
-        title: "Metodología alineada al Marco Común Europeo",
-        src: "/img/difAdult2.png",
+        title: "Apoyo continuo",
+        src: "/img/difCiudadaniaOnline2.png",
         width: 60,
         height: 60,
         alt: "difAdult",
       },
       {
         id: "3",
-        title: "Grupos reducidos",
-        src: "/img/difAdult3.png",
+        title: "Clases flexibles",
+        src: "/img/difCiudadaniaOnline3.png",
         width: 60,
         height: 60,
         alt: "difAdult",
@@ -1131,6 +1138,7 @@ export const data = [
     img: "personalizadoOnline.png",
     imgAlternative: "personalizadoOnlineAlt.png",
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales"],
     price: 40,
     etapa: "Todas las edades. ",
     personalized: [
@@ -1194,6 +1202,7 @@ export const data = [
     imgAlternative: "intensivoOnlineAlt.png",
     price: 800,
     compra: true,
+    detalles: ["8 horas a la semana", "Mes y medio por nivel"],
     difBlanco2: true,
     lang: "english",
     difCourses: [
@@ -1336,6 +1345,7 @@ export const data = [
     modalityPayment: "hora",
     price: 40,
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     lang: "english",
     modalidad: "online",
     difCourses: [
@@ -1391,6 +1401,7 @@ export const data = [
     modalityPayment: "hora",
     price: 40,
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     lang: "english",
     modalidad: "online",
     difCourses: [
@@ -1445,6 +1456,7 @@ export const data = [
     modalityPayment: "hora",
     price: 40,
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     lang: "english",
     modalidad: "online",
     difCourses: [
@@ -1498,7 +1510,11 @@ export const data = [
     imgAlternative: "cursoCiudadaniaOnlineAlt.png",
     price: 40,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: [
+      "Profesor exclusivo",
+      "Clases individuales",
+      "Práctica de entrevista",
+    ],
     difBlanco: true,
     lang: "english",
     modalidad: "online",
@@ -1729,6 +1745,7 @@ export const data = [
     imgAlternative: "intensivoEspanolAlt.png",
     price: 800,
     compra: true,
+    detalles: ["8 horas a la semana", "Mes y medio por nivel"],
     intensivo: true,
     difBlanco2: true,
     lang: "spanish",
@@ -1787,6 +1804,7 @@ export const data = [
     imgAlternative: "personalizadoEspanolAlt.png",
     price: 40,
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales"],
     personalized: [
       {
         img: "/img/persoEdad4.png",
@@ -1900,6 +1918,7 @@ export const data = [
     modalityPayment: "hora",
     price: 40,
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     lang: "spanish",
     modalidad: "presencial",
     difCourses: [
@@ -1955,6 +1974,7 @@ export const data = [
     modalityPayment: "hora",
     price: 40,
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     lang: "spanish",
     modalidad: "presencial",
     difCourses: [
@@ -2009,6 +2029,7 @@ export const data = [
     modalityPayment: "hora",
     price: 40,
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     lang: "spanish",
     modalidad: "presencial",
     difCourses: [
@@ -2263,6 +2284,7 @@ export const data = [
     imgAlternative: "personalizadoEspanolOnlineAlt.png",
     price: 40,
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales"],
     personalized: [
       {
         img: "/img/persoEdad4.png",
@@ -2324,6 +2346,7 @@ export const data = [
     imgAlternative: "intensivoEspanolOnlineAlt.png",
     price: 800,
     compra: true,
+    detalles: ["8 horas a la semana", "Mes y medio por nivel"],
     difBlanco2: true,
     lang: "spanish",
     difCourses: [
@@ -2465,6 +2488,7 @@ export const data = [
     modalityPayment: "hora",
     price: 40,
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     lang: "spanish",
     modalidad: "online",
     difCourses: [
@@ -2521,6 +2545,7 @@ export const data = [
     modalityPayment: "hora",
     price: 40,
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     lang: "spanish",
     modalidad: "online",
     difCourses: [
@@ -2577,6 +2602,7 @@ export const data = [
     modalityPayment: "hora",
     price: 40,
     compra: true,
+    detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     lang: "spanish",
     modalidad: "online",
     difCourses: [

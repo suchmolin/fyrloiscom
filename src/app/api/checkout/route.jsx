@@ -18,7 +18,7 @@ export async function POST(req, res) {
         }
       }
     })
-    const detalles = `${curso.detalles.join(", ")}, ${curso.etapa}`
+    const detalles = `${curso.detalles.join(", ")}, ${curso.etapa || ""}`
     return {
       price_data: {
         currency: "usd",
