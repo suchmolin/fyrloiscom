@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Eastman';
+    src: url('/fonts/Eastman-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'EastmanBold';
+    src: url('/fonts/Eastman-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'Londrina';
+    src: url('/fonts/LondrinaSolid-Regular.otf');
+  }
+  

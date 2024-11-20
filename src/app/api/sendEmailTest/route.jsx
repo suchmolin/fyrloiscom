@@ -28,5 +28,23 @@ export async function POST(req, res) {
             </html>
       `,
   })
+  await resend.emails.send({
+    from: "info@fyrlois.com",
+    to: personal.email,
+    subject: `Test de nivelacion Pagina web Fyr Lois - ${personal.name}`,
+    html: `
+            <html>
+              <head>
+              </head>
+              <body>
+                <h1>${personal.name} ha completado el test de nivelacion en la Pagina Web de FyrLois</h1>
+                
+                <h2>Resultado: ${result} / ${answer.length}</h2>
+                <p>Pronto sera contactado por nuestros agentes de atención al cliente para brindarle la información necesaria.</p>
+                
+              </body>
+            </html>
+      `,
+  })
   return respuesta
 }

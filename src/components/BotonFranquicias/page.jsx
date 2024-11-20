@@ -19,7 +19,14 @@ export default function BotonFranquicias({ data, seter }) {
     <div className="py-1 px-3 rounded-lg bg-[#001a70] text-white w-fit">
       <Dropdown label={boton} arrowIcon={false} inline>
         {data.map((country, i) => (
-          <button onClick={() => seter(country)} key={i} className="w-full">
+          <button
+            onClick={() => {
+              seter(country)
+              document.getElementById("franquicias").scrollIntoView()
+            }}
+            key={i}
+            className="w-full"
+          >
             <Dropdown.Item className="flex gap-2 mr-4">
               {country.toUpperCase()}
             </Dropdown.Item>

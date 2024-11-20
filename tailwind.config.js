@@ -18,7 +18,14 @@ module.exports = {
       xxxl: "2000px",
     },
     fontFamily: {
-      customFont: ["lato", "latoblack", "eastmanromanblack"],
+      customFont: [
+        "lato",
+        "latoblack",
+        "eastmanromanblack",
+        "Eastman",
+        "EastmanBold",
+        "Londrina",
+      ],
       // Add more custom font families as needed
     },
   },

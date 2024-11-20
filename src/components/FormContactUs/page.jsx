@@ -22,6 +22,7 @@ export default function FormContactUs() {
 
     document.getElementById("BtnEnviar").disabled = true
 
+    setSended(true)
     if (data.sede === "kissimmee") {
       try {
         await fetch(urlGS, { method: "POST", body: formData })
@@ -40,7 +41,6 @@ export default function FormContactUs() {
 
     document.getElementById("myForm").reset()
 
-    setSended(true)
     document.getElementById("BtnEnviar").disabled = false
 
     setTimeout(() => {
