@@ -2,9 +2,8 @@ import { NextResponse } from "next/server"
 import Stripe from "stripe"
 import { data as cursosInfo } from "@/data/cursos"
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
-
 export async function POST(req, res) {
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
   const data = await req.json()
 
   const items = data.map((item) => {
