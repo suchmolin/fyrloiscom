@@ -3,6 +3,7 @@ import { Spinner } from "flowbite-react"
 import { useTranslations } from "next-intl"
 import Image from "next/image"
 import { useEffect, useState } from "react"
+
 export default function FAQSection() {
   const t = useTranslations("FAQSection")
 
@@ -35,7 +36,7 @@ export default function FAQSection() {
           <div className="w-full flex flex-col lg:flex-row lg:gap-20 justify-center items-center lg:items-start">
             <div className="relative w-[290px] xs:w-[350px] sm:w-[400px] 2xl:w-[500px] aspect-square mt-10">
               <Image
-                src="/img/faq.png"
+                src="/img/faqnueva.png"
                 layout="fill"
                 objectFit="contain"
                 alt="faq"

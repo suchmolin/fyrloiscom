@@ -624,7 +624,7 @@ export const data = [
     id: "corporativo",
     title: "Corporativo",
     description2:
-      "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo puedan dominar el inglés.",
+      "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo pueda dominar el inglés.",
 
     img: "corporativo.png",
     imgAlternative: "corporativoAlt.png",
@@ -754,11 +754,7 @@ export const data = [
     subCursos: {
       titulo:
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
-      subCurso: [
-        "conversacional",
-        "ingles-para-negocios",
-        "reduccion-de-acento",
-      ],
+      subCurso: ["ingles-para-negocios", "reduccion-de-acento"],
     },
   },
   {
@@ -809,18 +805,14 @@ export const data = [
     subCursos: {
       titulo:
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
-      subCurso: [
-        "conversacional",
-        "ingles-para-negocios",
-        "reduccion-de-acento",
-      ],
+      subCurso: ["conversacional", "reduccion-de-acento"],
     },
   },
   {
     id: "reduccion-de-acento",
     title: "Reducción de Acento",
     description2:
-      "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar inglés. Empieza hoy y transforma tu manera de hablar inglés.",
+      "Enfocate en mejorar tu pronunciación  y tu fluidez en inglés. Empieza hoy y transforma tu manera de hablar el idioma.",
     detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     img: "reducciondeacento.png",
     imgAlternative: "reducciondeacentoAlt.png",
@@ -864,11 +856,7 @@ export const data = [
     subCursos: {
       titulo:
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
-      subCurso: [
-        "conversacional",
-        "ingles-para-negocios",
-        "reduccion-de-acento",
-      ],
+      subCurso: ["conversacional", "ingles-para-negocios"],
     },
   },
   {
@@ -1251,7 +1239,7 @@ export const data = [
     id: "corporativo-online",
     title: "Corporativo Online",
     description2:
-      "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo puedan dominar el inglés.",
+      "Un programa flexible y adaptable a las necesidades de tu empresa. Ofrecemos soluciones a medida para que tu equipo pueda dominar el inglés.",
 
     img: "corporativoOnline.png",
     imgAlternative: "corporativoOnlineAlt.png",
@@ -1382,11 +1370,7 @@ export const data = [
     subCursos: {
       titulo:
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
-      subCurso: [
-        "conversacional-online",
-        "ingles-para-negocios-online",
-        "reduccion-de-acento-online",
-      ],
+      subCurso: ["ingles-para-negocios-online", "reduccion-de-acento-online"],
     },
   },
   {
@@ -1438,18 +1422,14 @@ export const data = [
     subCursos: {
       titulo:
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
-      subCurso: [
-        "conversacional-online",
-        "ingles-para-negocios-online",
-        "reduccion-de-acento-online",
-      ],
+      subCurso: ["conversacional-online", "reduccion-de-acento-online"],
     },
   },
   {
     id: "reduccion-de-acento-online",
     title: "Reducción de Acento Online",
     description2:
-      "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar inglés. Empieza hoy y transforma tu manera de hablar inglés.",
+      "Enfocate en mejorar tu pronunciación  y tu fluidez en inglés. Empieza hoy y transforma tu manera de hablar el idioma.",
     img: "reducciondeacentoOnline.png",
     imgAlternative: "reducciondeacentoOnlineAlt.png",
     condicion: "C1 en adelante",
@@ -1493,11 +1473,7 @@ export const data = [
     subCursos: {
       titulo:
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
-      subCurso: [
-        "conversacional-online",
-        "ingles-para-negocios-online",
-        "reduccion-de-acento-online",
-      ],
+      subCurso: ["conversacional-online", "ingles-para-negocios-online"],
     },
   },
   {
@@ -1955,11 +1931,7 @@ export const data = [
     subCursos: {
       titulo:
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu espanol",
-      subCurso: [
-        "conversacional-espanol",
-        "espanol-para-negocios",
-        "reduccion-de-acento-espanol",
-      ],
+      subCurso: ["espanol-para-negocios", "reduccion-de-acento-espanol"],
     },
   },
   {
@@ -2011,18 +1983,14 @@ export const data = [
     subCursos: {
       titulo:
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
-      subCurso: [
-        "conversacional-espanol",
-        "espanol-para-negocios",
-        "reduccion-de-acento-espanol",
-      ],
+      subCurso: ["conversacional-espanol", "reduccion-de-acento-espanol"],
     },
   },
   {
     id: "reduccion-de-acento-espanol",
     title: "Reducción de Acento Español",
     description2:
-      "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar español. Empieza hoy y transforma tu manera de hablar español.",
+      "Enfocate en mejorar tu pronunciación  y tu fluidez en español. Empieza hoy y transforma tu manera de hablar el idioma.",
     img: "reducciondeacentoEspanol.png",
     imgAlternative: "reducciondeacentoEspanolAlt.png",
     condicion: "C1 en adelante",
@@ -2066,11 +2034,7 @@ export const data = [
     subCursos: {
       titulo:
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
-      subCurso: [
-        "conversacional-espanol",
-        "espanol-para-negocios",
-        "reduccion-de-acento-espanol",
-      ],
+      subCurso: ["conversacional-espanol", "espanol-para-negocios"],
     },
   },
   {
@@ -2527,7 +2491,6 @@ export const data = [
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
 
       subCurso: [
-        "conversacional-espanol-online",
         "espanol-para-negocios-online",
         "reduccion-de-acento-espanol-online",
       ],
@@ -2585,7 +2548,6 @@ export const data = [
 
       subCurso: [
         "conversacional-espanol-online",
-        "espanol-para-negocios-online",
         "reduccion-de-acento-espanol-online",
       ],
     },
@@ -2594,7 +2556,7 @@ export const data = [
     id: "reduccion-de-acento-espanol-online",
     title: "Reducción de Acento Español Online",
     description2:
-      "Enfocate en mejorar tu pronunciación  y tu fluidez al hablar español. Empieza hoy y transforma tu manera de hablar español.",
+      "Enfocate en mejorar tu pronunciación  y tu fluidez en español. Empieza hoy y transforma tu manera de hablar el idioma.",
     img: "reducciondeacentoEspanolOnline.png",
     imgAlternative: "reducciondeacentoEspanolOnlineAlt.png",
 
@@ -2639,11 +2601,7 @@ export const data = [
     subCursos: {
       titulo:
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
-      subCurso: [
-        "conversacional-online",
-        "ingles-para-negocios-online",
-        "reduccion-de-acento-online",
-      ],
+      subCurso: ["conversacional-online", "ingles-para-negocios-online"],
     },
   },
 ]

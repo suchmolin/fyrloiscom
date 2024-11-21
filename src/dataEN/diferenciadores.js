@@ -26,7 +26,8 @@ export const data = [
     height: 70,
     alt: "Diferenciador",
     title: "Customized schedules",
-    subtitle: "You can learn at the time of your choice to suit your schedule.",
+    subtitle:
+      "You can learn at the time of your choice thats suits to your schedule.",
   },
   {
     id: 4,

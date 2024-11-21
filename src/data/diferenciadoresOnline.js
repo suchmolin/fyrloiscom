@@ -20,8 +20,28 @@ export const data = [
       "Aprenderás con una metodología reconocida internacionalmente. Todos nuestros cursos están alineados al Marco Común Europeo de Referencia para las Lenguas.",
   },
   {
-    id: "4",
+    id: "3",
     src: "/img/difOnline3.png",
+    width: 60,
+    height: 60,
+    alt: "Diferenciador",
+    title: "Acompañamiento calificado",
+    subtitle:
+      "Apuntamos a que vivas una experiencia de primer nivel. Para ello trabajamos en preparar a nuestros profesores. Contamos con profesores certificados TEFL.",
+  },
+  {
+    id: "4",
+    src: "/img/difKids.png",
+    width: 60,
+    height: 60,
+    alt: "difKids",
+    title: "Aprendizaje divertido",
+    subtitle:
+      "Acercarte a tu meta es un proceso que debes disfrutar, por ello nos encargamos de que te diviertas mientras lo haces, a través de clases dinámicas e interactivas.",
+  },
+  {
+    id: "5",
+    src: "/img/difOnline5.png",
     width: 60,
     height: 60,
     alt: "Diferenciador",

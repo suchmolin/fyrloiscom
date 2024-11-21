@@ -21,7 +21,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Gives you access to global educational resources",
+        title: "Gives their access to global educational resources",
         src: "/img/difElem.png",
         width: 60,
         height: 60,
@@ -29,7 +29,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Improves your academic performance at school",
+        title: "Improves their academic performance at school",
         src: "/img/difElem2.png",
         width: 60,
         height: 60,
@@ -37,7 +37,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Develops your ability to adapt to new environments",
+        title: "Develops their ability to adapt to new environments",
         src: "/img/difElem3.png",
         width: 60,
         height: 60,
@@ -197,7 +197,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Fun methodology designed for your learning stage",
+        title: "Fun methodology designed for their learning stage",
         src: "/img/difKids.png",
         width: 60,
         height: 60,
@@ -206,7 +206,7 @@ export const data = [
       {
         id: "2",
         title:
-          "Take advantage of the plasticity of your brain to learn the language",
+          "Take advantage of the plasticity of their brain to learn the language",
         src: "/img/difKids2.png",
         width: 60,
         height: 60,
@@ -268,7 +268,7 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Gives you access to global educational resources",
+        title: "Gives their access to global educational resources",
         src: "/img/difElem.png",
         width: 60,
         height: 60,
@@ -276,7 +276,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Improves your academic performance at school",
+        title: "Improves their academic performance at school",
         src: "/img/difElem2.png",
         width: 60,
         height: 60,
@@ -284,7 +284,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Develops your ability to adapt to new environments",
+        title: "Develops their ability to adapt to new environments",
         src: "/img/difElem3.png",
         width: 60,
         height: 60,
@@ -354,7 +354,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Boost your scholarship and study opportunities abroad",
+        title: "Boost their scholarship and study opportunities abroad",
         src: "/img/difHS3.png",
         width: 60,
         height: 60,
@@ -474,7 +474,7 @@ export const data = [
     id: "personalizado",
     title: "Personalizado",
     description2:
-      " Learn English at your own pace and with an exclusive teacher who adapts to your needs and objectives. Create your own path to English proficiency!",
+      " Learn English at your own pace with an exclusive teacher, who adapts to your needs and objectives. Create your own path to English proficiency!",
 
     img: "personalizado.png",
     imgAlternative: "personalizadoAlt.png",
@@ -751,11 +751,7 @@ export const data = [
     subCursos: {
       titulo:
         "It's time to take that step in your professional career and improve your English",
-      subCurso: [
-        "conversacional",
-        "ingles-para-negocios",
-        "reduccion-de-acento",
-      ],
+      subCurso: ["ingles-para-negocios", "reduccion-de-acento"],
     },
   },
   {
@@ -806,18 +802,14 @@ export const data = [
     subCursos: {
       titulo:
         "It's time to take that step in your professional career and improve your English",
-      subCurso: [
-        "conversacional",
-        "ingles-para-negocios",
-        "reduccion-de-acento",
-      ],
+      subCurso: ["conversacional", "reduccion-de-acento"],
     },
   },
   {
     id: "reduccion-de-acento",
     title: "Reducción de Acento",
     description2:
-      "Focus on improving your pronunciation and fluency when speaking English. Start today and transform the way you speak English.",
+      "Focus on improving your pronunciation and fluency in English. Start today and transform the way you speak this language.",
     img: "reducciondeacento.png",
     imgAlternative: "reducciondeacentoAlt.png",
     condicion: "C1 onwards",
@@ -860,11 +852,7 @@ export const data = [
     subCursos: {
       titulo:
         "It's time to take that step in your professional career and improve your English",
-      subCurso: [
-        "conversacional",
-        "ingles-para-negocios",
-        "reduccion-de-acento",
-      ],
+      subCurso: ["conversacional", "ingles-para-negocios"],
     },
   },
   {
@@ -936,7 +924,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Improves your academic performance at school",
+        title: "Improves their academic performance at school",
         src: "/img/difElem2.png",
         width: 60,
         height: 60,
@@ -1006,7 +994,7 @@ export const data = [
       },
       {
         id: "2",
-        title: "Improves your academic performance at school",
+        title: "Improves their academic performance at school",
         src: "/img/difHSO2.png",
         width: 60,
         height: 60,
@@ -1124,7 +1112,7 @@ export const data = [
     id: "personalizado-online",
     title: "Personalizado Online",
     description2:
-      "Learn English at your own pace and with an exclusive teacher who adapts to your needs and objectives. Create your own path to English proficiency!",
+      "Learn English at your own pace with an exclusive teacher, who adapts to your needs and objectives. Create your own path to English proficiency!",
     modalidad: "online",
     modalityPayment: "hora",
     img: "personalizadoOnline.png",
@@ -1371,11 +1359,7 @@ export const data = [
     subCursos: {
       titulo:
         "It's time to take that step in your professional career and improve your English",
-      subCurso: [
-        "conversacional-online",
-        "ingles-para-negocios-online",
-        "reduccion-de-acento-online",
-      ],
+      subCurso: ["ingles-para-negocios-online", "reduccion-de-acento-online"],
     },
   },
   {
@@ -1426,18 +1410,14 @@ export const data = [
     subCursos: {
       titulo:
         "It's time to take that step in your professional career and improve your English",
-      subCurso: [
-        "conversacional-online",
-        "ingles-para-negocios-online",
-        "reduccion-de-acento-online",
-      ],
+      subCurso: ["conversacional-online", "reduccion-de-acento-online"],
     },
   },
   {
     id: "reduccion-de-acento-online",
     title: "Reducción de Acento Online",
     description2:
-      "Focus on improving your pronunciation and fluency when speaking English. Start today and transform the way you speak English.",
+      "Focus on improving your pronunciation and fluency in English. Start today and transform the way you speak this language.",
     img: "reducciondeacentoOnline.png",
     imgAlternative: "reducciondeacentoOnlineAlt.png",
     condicion: "C1 onwards",
@@ -1480,11 +1460,7 @@ export const data = [
     subCursos: {
       titulo:
         "It's time to take that step in your professional career and improve your English",
-      subCurso: [
-        "conversacional-online",
-        "ingles-para-negocios-online",
-        "reduccion-de-acento-online",
-      ],
+      subCurso: ["conversacional-online", "ingles-para-negocios-online"],
     },
   },
   {
@@ -1577,7 +1553,7 @@ export const data = [
     id: "elementary-espanol",
     title: "Elementary Español",
     description2:
-      "With songs, games and crafts, learning will be an unforgettable experience! With our program your child acquires the basics of Spanish in a solid and fun way",
+      "With songs and games, learning will be an unforgettable experience! With our program your child acquires the basics of Spanish in a solid and fun way",
     etapa: "6-11 years old. ",
     img: "elementaryEspanol.png",
     imgAlternative: "elementaryEspanolAlt.png",
@@ -1591,7 +1567,7 @@ export const data = [
     difCourses: [
       {
         id: "2",
-        title: "Improves your academic performance at school",
+        title: "Improves their academic performance at school",
         src: "/img/difElem2.png",
         width: 60,
         height: 60,
@@ -1936,11 +1912,7 @@ export const data = [
     subCursos: {
       titulo:
         "It's time to take that step in your professional career and improve your Spanish.",
-      subCurso: [
-        "conversacional-espanol",
-        "espanol-para-negocios",
-        "reduccion-de-acento-espanol",
-      ],
+      subCurso: ["espanol-para-negocios", "reduccion-de-acento-espanol"],
     },
   },
   {
@@ -1991,11 +1963,7 @@ export const data = [
     subCursos: {
       titulo:
         "It's time to take that step in your professional career and improve your Spanish",
-      subCurso: [
-        "conversacional-espanol",
-        "espanol-para-negocios",
-        "reduccion-de-acento-espanol",
-      ],
+      subCurso: ["conversacional-espanol", "reduccion-de-acento-espanol"],
     },
   },
   {
@@ -2045,11 +2013,7 @@ export const data = [
     subCursos: {
       titulo:
         "It's time to take that step in your professional career and improve your Spanish",
-      subCurso: [
-        "conversacional-espanol",
-        "espanol-para-negocios",
-        "reduccion-de-acento-espanol",
-      ],
+      subCurso: ["conversacional-espanol", "espanol-para-negocios"],
     },
   },
   {
@@ -2096,7 +2060,7 @@ export const data = [
     id: "elementary-espanol-online",
     title: "Elementary Español Online",
     description2:
-      "With songs, games and crafts, learning will be an unforgettable experience! With our program your child acquires the basics of Spanish in a solid and fun way.",
+      "With songs and games, learning will be an unforgettable experience! With our program your child acquires the basics of Spanish in a solid and fun way.",
     etapa: "6-11 years old. ",
     img: "elementaryEspanolOnline.png",
     imgAlternative: "elementaryEspanolOnlineAlt.png",
@@ -2111,7 +2075,7 @@ export const data = [
     difCourses: [
       {
         id: "2",
-        title: "Improves your academic performance at school",
+        title: "Improves their academic performance at school",
         src: "/img/difElem2.png",
         width: 60,
         height: 60,
@@ -2503,7 +2467,6 @@ export const data = [
         "It's time to take that step in your professional career and improve your Spanish",
 
       subCurso: [
-        "conversacional-espanol-online",
         "espanol-para-negocios-online",
         "reduccion-de-acento-espanol-online",
       ],
@@ -2560,7 +2523,6 @@ export const data = [
 
       subCurso: [
         "conversacional-espanol-online",
-        "espanol-para-negocios-online",
         "reduccion-de-acento-espanol-online",
       ],
     },
@@ -2613,11 +2575,7 @@ export const data = [
     subCursos: {
       titulo:
         "It's time to take that step in your professional career and improve your Spanish",
-      subCurso: [
-        "conversacional-online",
-        "ingles-para-negocios-online",
-        "reduccion-de-acento-online",
-      ],
+      subCurso: ["conversacional-online", "ingles-para-negocios-online"],
     },
   },
 ]

@@ -27,7 +27,7 @@ export default function Navbar() {
       </div>
       <Slide
         triggerOnce
-        className="w-[200px] sm:w-[260px] h-[75px] sm:h-[100px] lg:w-[200px] lg:h-[77px] mt-3 lg:mt-0 xl:mt-0 absolute left-3 sm:left-3 md:left-16 xl:left-28 flex items-center mb-3 md:mb-0"
+        className="w-[150px] xs:w-[200px] sm:w-[260px] h-[60px] xs:h-[75px] sm:h-[100px] lg:w-[200px] lg:h-[77px] mt-3 lg:mt-0 xl:mt-0 absolute left-3 sm:left-3 md:left-16 xl:left-28 flex items-center mb-3 md:mb-0"
       >
         <Link
           onClick={() => {
@@ -49,13 +49,13 @@ export default function Navbar() {
           >
             <TfiClose />
           </button>
-          <div className="lg:hidden block z-50">
-            <LanguageSelector locale={locale} />
-          </div>
         </>
       )}
       {!open && (
         <>
+          <div className="lg:hidden block z-50">
+            <LanguageSelector locale={locale} />
+          </div>
           <button
             aria-label="menu"
             onClick={() => setOpen(true)}
@@ -63,7 +63,7 @@ export default function Navbar() {
           >
             <GrMenu />
           </button>
-          <div className="absolute block lg:hidden top-[70px] xs:top-7 right-6 xs:right-20">
+          <div className="absolute block lg:hidden top-[70px] right-6">
             <CartButtonPage
               cantCart={cantCart}
               setIsOpen={setIsOpen}

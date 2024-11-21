@@ -17,7 +17,7 @@ export default function Hero() {
   return (
     <div className="relative flex items-start lg:items-center md:justify-start w-full h-[750px] sm:h-[790px] lg:h-[600px] xl:h-[800px] xxl:h-[1000px] overflow-hidden">
       <figure id="projectosvg"></figure>
-      <div className="flex flex-col justify-center sm:pl-16 ml-1 xs:ml-5 md:ml-0 pr-[20%] xs:pr-[30%] sm:pr-0 text-[#001a70] z-10 mt-28 lg:mt-0">
+      <div className="flex flex-col justify-center sm:pl-16 ml-4 xs:ml-5 md:ml-0 pr-[20%] xs:pr-[30%] sm:pr-0 text-[#001a70] z-10 mt-28 lg:mt-0">
         <h1 className="text-4xl xs:text-5xl sm:text-6xl xl:text-7xl font-[latoblack] mb-2 text-nowrap">
           {t("h1a")} <br /> {t("h1b")} <br /> {t("h1c")}
         </h1>

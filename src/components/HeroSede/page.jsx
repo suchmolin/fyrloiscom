@@ -22,7 +22,7 @@ export default function HeroSede({ sedeData }) {
           </div>
           <div className="w-full lg:w-7/12 flex flex-col justify-center text-white text-lg lg:-mt-20 px-5 sm:px-0 text-center sm:text-start items-center sm:items-start">
             <h2 className="text-4xl text-[#001A70] font-bold mb-3">
-              Sede {sedeData.title}
+              {t("sede")} {sedeData.title}
             </h2>
 
             <p className="text-sm sm:text-2xl text-[#001A70] flex gap-2 py-2 items-start">

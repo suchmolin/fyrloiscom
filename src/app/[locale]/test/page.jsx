@@ -66,7 +66,7 @@ export default function Test() {
               {t("p")}
             </p>
           </div>
-          <div className="w-11/12 sm:w-[630px] h-[550px] sm:h-[450px] relative rounded-2xl border dropShadow2 my-10 px-7 py-7 sm:p-7 overflow-hidden bg-gradient-to-b from-white to-[#E5E8E0]">
+          <div className="w-11/12 sm:w-[630px] h-[580px] sm:h-[450px] relative rounded-2xl border dropShadow2 my-10 px-7 py-7 sm:p-7 overflow-hidden bg-gradient-to-b from-white to-[#E5E8E0]">
             <h4 className="text-lg text-[#001A70] text center mt-7">
               {t("h4")}
             </h4>

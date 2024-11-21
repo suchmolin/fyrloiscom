@@ -27,7 +27,8 @@
   },
   "SedePrincipal":{
     "h2":"Sede Principal",
-    "button":"Todas las Sedes"
+    "button":"Todas las Sedes",
+    "sede":"Sede"
   },
   "Customers":{
     "h2":"Nuestros Clientes",
@@ -205,7 +206,7 @@
     "p":"Responde las preguntas del siguiente exámen según tus conocimientos, así podremos brindarte el resultado real de tu nivel de inglés.",
     "pb":"Obstuviste un resultado de: ",
     "pb2":" de ",
-    "h4":"Answer the following questions",
+    "h4":"Responde las siguientes preguntas",
     "pc":"Pregunta",
     "pc2":" ode ",
     "PersonalDataTest":{
@@ -255,7 +256,7 @@
       "boton":"Ver más"
     },
     "DiferenciadoresOnline":{
-      "h2":"¿Cómo aprenderás inglés con nosotros?",
+      "h2":"¿Cómo aprenderás un idioma con nosotros?",
       "data":"data"
     },
     "YaEsHora":{

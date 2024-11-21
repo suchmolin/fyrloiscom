@@ -27,7 +27,8 @@
   },
   "SedePrincipal":{
     "h2":"Headquarters",
-    "button":"All Headquarters"
+    "button":"All Headquarters",
+    "sede":"Headquarter"
   },
   "Customers":{
     "h2":"Our Clients",
@@ -151,13 +152,13 @@
     }
   },
   "SeccionMiss":{
-    "h3":"“Me siento muy orgulloso de pertenecer a Fyr Lois. Para mí representa la mejor academia de idiomas que he encontrado.",
-    "p":"Había intentando estudiar inglés muchas veces, pero nunca había podido encontrar un lugar donde me sintiera tan a gusto, donde sintiera que mi avance es importante y donde realmente viera resultados.”",
-    "p2": "Héctor Sandarti - Presentador y Actor",
+    "h3":"Fyr Lois is the best language academy I have ever come across.",
+    "p":"I had previously tried to learn English on numerous occasions, but I had never found a place where I felt so at ease, where I felt valued, and where I could make such significant progress.”",
+    "p2": "Héctor Sandarti - Host and actor",
     
-    "h3b":"“Sin duda, Fyr Lois es la academia de inglés que estaba buscando.",
-    "pb":"Las clases que tuve con el profesor Jesús Prato fueron muy enriquecedoras. Su paciencia y conocimientos me permitieron superar mis miedos y alcanzar un nivel de inglés que nunca pensé que lograría. Recomiendo ampliamente Fyr Lois a quienes deseen mejorar su dominio del idioma.”",
-    "p2b": "George Harris- Comediante, periodista y presentador, ",
+    "h3b":"“Fyr Lois was exactly the English academy I needed.",
+    "pb":"The classes I took with Professor Jesús Prato were invaluable. His patience and expertise helped me to overcome my language barriers and achieve a level of English I never thought possible. I highly recommend Fyr Lois to anyone looking to improve their language skills. ”",
+    "p2b": "George Harris- Comedian, Journalist and Host",
     
     
     "link":"ABOUT US"

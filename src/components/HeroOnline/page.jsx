@@ -8,7 +8,7 @@ export default function HeroOnline({ idioma, setIdioma, pressed, setPressed }) {
   const locale = useLocale()
   return (
     <div className="flex items-center md:justify-start w-full h-screen bg-[url('/img/headerFondoSmOnline.png')] sm:bg-[url('/img/headerFondoMidOnline.png')] lg:bg-[url('/img/headerFondoOnline.png')] bg-cover bg-right-top sm:bg-top bg-no-repeat">
-      <div className="flex flex-col justify-center md:px-14 xl:px-28 md:pt-[70px] ml-1 xs:ml-2 md:ml-0 pr-[25%] xs:pr-[30%] sm:pr-0 -mt-20 xs:mt-0">
+      <div className="flex flex-col justify-center md:px-14 xl:px-28 md:pt-[70px] ml-4 xs:ml-4 md:ml-0 pr-[25%] xs:pr-[30%] sm:pr-0 -mt-20 xs:mt-0">
         <h1 className="hidden sm:block text-5xl lg:text-6xl text-[#001a70] font-[latoblack] mb-2">
           {t("h1")} <br /> {t("h1b")}
         </h1>
