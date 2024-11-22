@@ -41,6 +41,9 @@ export default function Hero() {
                   alt="fyrloisicon"
                 />
               </div>
+              <h3 className="textnowrap absolute -bottom-3 -left-7 font-bold text-sm sm:text-base text-[#001a70] text-center text-nowrap opacity-0 group-hover:opacity-100 transition-all duration-300">
+                Fyr Lois USA
+              </h3>
             </div>
           </a>
           <a
@@ -59,6 +62,9 @@ export default function Hero() {
                   alt="fyrloisicon"
                 />
               </div>
+              <h3 className="textnowrap absolute -bottom-5 -left-7 font-bold text-sm sm:text-base text-[#001a70] text-center text-nowrap opacity-0 group-hover:opacity-100 transition-all duration-300">
+                Fyr Lois Venezuela
+              </h3>
             </div>
           </a>
           <button

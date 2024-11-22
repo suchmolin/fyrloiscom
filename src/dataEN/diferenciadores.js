@@ -7,7 +7,7 @@ export const data = [
     alt: "Diferenciador",
     title: "25 years of experience",
     subtitle:
-      "We are a language school where you will learn in a dynamic way and with a methodology focused on living the language.",
+      "Our more than two decades teaching languages has allowed us to develop a unique and effective methodology.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const data = [
     alt: "Diferenciador",
     title: "Small groups, maximum of 8 students",
     subtitle:
-      "You will have a teacher who will accompany you throughout your learning process.",
+      "We focus on personalized attention to each student, providing more effective learning.",
   },
   {
     id: 3,
@@ -25,9 +25,9 @@ export const data = [
     width: 70,
     height: 70,
     alt: "Diferenciador",
-    title: "Customized schedules",
+    title: "Schedules adapted to you",
     subtitle:
-      "You can learn at the time of your choice thats suits to your schedule.",
+      "You can learn at the time of your choice adapted to your schedule.",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const data = [
     alt: "Diferenciador",
     title: "Learning adapted to student's age",
     subtitle:
-      "Our classes are designed in a fun, dynamic and age-appropriate way.",
+      "Our classes are designed in a fun, dynamic way and according to your age.",
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const data = [
     alt: "Diferenciador",
     title: "CELTA - TEFL certified teachers",
     subtitle:
-      "Our teachers are highly qualified, which allows them to provide you with a first class experience.",
+      "Our teachers are prepared to provide you with a first-class experience.",
   },
   {
     id: 6,
@@ -57,6 +57,6 @@ export const data = [
     alt: "Diferenciador",
     title: "Methodology aligned to the Common European Framework",
     subtitle:
-      "Each of our levels is designed to develop language skills from A1 to C1.",
+      "Our course is structured according to the CEFR levels, which will allow you to advance progressively.",
   },
 ]

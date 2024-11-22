@@ -54,7 +54,7 @@ export default function Diferenciadores({ curva, filtro, fondoBlanco }) {
           {t("h2")}
         </h2>
         <p
-          className={`w-10/12 sm:w-6/12 text-center text-sm sm:text-lg md:text-xl ${fondoBlanco ? "text-black" : "text-white"}  mb-10 px-10 xl:px-28`}
+          className={`w-[360px] sm:w-[600px] text-center text-lg sm:text-xl ${fondoBlanco ? "text-black" : "text-white"}  mb-10 `}
         >
           {t("p")}
         </p>

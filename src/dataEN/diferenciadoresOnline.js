@@ -21,13 +21,13 @@ export const data = [
   },
   {
     id: "4",
-    src: "/img/difOnline3.png",
+    src: "/img/difCursosOnline.png",
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Qualified support",
+    title: "Practical teaching",
     subtitle:
-      "We aim for you to live a first class experience. For this we work hard to prepare our teachers. We have TEFL certified teachers.",
+      "Learning without practice is just theory. That is why we teach you the language with experiential situations and a conversational approach, so that you know how to use the knowledge.",
   },
   {
     id: "4",

@@ -14,7 +14,10 @@ export default function Customers() {
       </p>
       <div className="w-10/12 flex justify-center flex-wrap items-center gap-x-14 gap-y-2">
         {data.map((item) => (
-          <div key={item.id} className={`relative w-[100px] h-[50px]`}>
+          <div
+            key={item.id}
+            className={`relative w-[${item.w}px] h-[${item.h}px]`}
+          >
             <Image
               src={item.img}
               objectFit="contain"

@@ -21,13 +21,13 @@ export const data = [
   },
   {
     id: "3",
-    src: "/img/difOnline3.png",
+    src: "/img/difCursosOnline.png",
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "Acompañamiento calificado",
+    title: "Enseñanza práctica",
     subtitle:
-      "Apuntamos a que vivas una experiencia de primer nivel. Para ello trabajamos en preparar a nuestros profesores. Contamos con profesores certificados TEFL.",
+      "El aprendizaje sin práctica es solo teoría. Por eso te enseñamos el idioma con situaciones vivenciales y un enfoque conversacional, para que sepas cómo emplear los conocimientos.",
   },
   {
     id: "4",

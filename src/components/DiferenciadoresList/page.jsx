@@ -4,14 +4,25 @@ import Image from "next/image"
 export default function DiferenciadoresList({ data, sombra }) {
   if (!data) return null
   return (
-    <div className={`w-11/12  flex justify-center flex-wrap gap-5`}>
+    <div
+      className={`w-11/12 flex flex-wrap justify-center lg:grid grid-cols-6 justify-items-center gap-7 just`}
+    >
       {data?.length !== 0 ? (
-        data?.map((item) => {
+        data?.map((item, index) => {
           if (!item) return null
+
+          const isLastRow = index >= Math.floor(data.length / 3) * 3
+          const isLastRowIncomplete = data.length % 3 !== 0
+          const isLastItemInRow = index === data.length - 2
+
           return (
             <div
               key={item.id}
-              className={`w-[400px] ${sombra ? "dropShadow3" : ""} xxl:w-[430px] bg-white flex flex-col items-center px-12 rounded-2xl py-5 hover:scale-[101%] transition-all duration-300`}
+              className={`w-[310px] xs:w-[340px] sm:w-[360px] lg:w-[300px] xl:w-[380px] ${sombra ? "dropShadow3" : ""} xxl:w-[430px] bg-white flex flex-col items-center px-5 xs:px-7 lg:px-6 xl:px-10 xxl:px-12 rounded-2xl py-5 hover:scale-[101%] transition-all duration-300 col-span-2 ${
+                isLastRow && isLastRowIncomplete && isLastItemInRow
+                  ? "col-start-2"
+                  : ""
+              }`}
             >
               <div className="w-[90px] xxl:w-[120px] aspect-square rounded-full bg-gray-100 flex justify-center items-center mb-4">
                 <Image

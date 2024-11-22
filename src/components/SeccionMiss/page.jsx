@@ -26,7 +26,7 @@ export default function SeccionMiss() {
         </ul>
         <div className="h-[950px] sm:h-[1000px] lg:h-[650px] w-full bg-[#001A70] flex  flex-col lg:flex-row justify-center items-center py-10 lg:py-0 ">
           <Carousel pauseOnHover>
-            <div className="flex w-full h-full justify-center items-center">
+            <div className="flex w-full h-full justify-center items-center pb-10">
               <div className="w-11/12 md:w-10/12 lg:w-6/12 px-0 md:px-10 lg:pr-20 flex flex-col items-center lg:items-start">
                 <h3 className="text-3xl md:text-5xl text-white font-bold pb-5 text-center sm:text-start">
                   {t("h3b")}
