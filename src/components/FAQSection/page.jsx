@@ -26,10 +26,10 @@ export default function FAQSection() {
       <div className="relative w-full xl:w-10/12 bg-white pt-10 pb-8 sm:mt-8 sm:px-10 sm:mb-10">
         <div className="w-full lg:w-fit mx-auto px-5 sm:px-0">
           <div className="flex flex-col items-center mb-3 lg:mb-10">
-            <h2 className="mt-5 text-center text-3xl font-bold tracking-tight md:text-5xl text-[#001A70]">
+            <h2 className="mt-5 text-center fontTitulo font-bold tracking-tight text-[#001A70]">
               {t("h2")}
             </h2>
-            <p className="mt-3 text-lg text-neutral-500 md:text-2xl">
+            <p className="mt-3 fontSubtitulo text-neutral-500 ">
               {t("p")}
             </p>
           </div>
@@ -48,7 +48,7 @@ export default function FAQSection() {
                   <div key={item.id} className="flex flex-col justify-center">
                     <details className="group">
                       <summary className="flex cursor-pointer list-none items-center justify-between font-medium py-2 rounded-full dropShadow pr-2 pl-5">
-                        <span className="text-sm sm:text-xl"> {item.ask}</span>
+                        <span className="text-sm sm:text-xl font-normal"> {item.ask}</span>
                         <span className="transition group-open:rotate-180 bg-[#9ee701] rounded-full p-1 sm:p-3 group-open:bg-[#001A70] group-open:text-white">
                           <svg
                             fill="none"

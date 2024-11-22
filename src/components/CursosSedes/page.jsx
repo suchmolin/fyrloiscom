@@ -70,11 +70,11 @@ export default function CursosSedes({ sedeData }) {
       >
         <div className="flex flex-col md:flex-row gap-10 justify-center items-center mb-10 ">
           <div className="flex flex-col justify-center">
-            <h2 className="text-center text-5xl font-bold">
+            <h2 className="text-center fontTitulo font-bold">
               {t("h2")}
               {sedeData.title}
             </h2>
-            <p className="text-center text-2xl">{t("p")}</p>
+            <p className="text-center fontSubtitulo">{t("p")}</p>
           </div>
           {sedeData.language.length > 1 && (
             <IdiomaCursosButton setState={setIdioma} />

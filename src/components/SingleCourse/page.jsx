@@ -15,8 +15,8 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
       key={item.id}
       className={`${sombra ? "dropShadow3" : ""} relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3 z-0 ${shrink ? "flex-shrink-0" : ""}`}
     >
-      <div className="h-[24px] flex justify-between">
-        <h4 className="text-[#001A70] font-bold">{item.title}</h4>
+      <div className="w-full h-[24px] flex justify-between">
+        <h4 className={`w-full text-[#001A70] font-bold ${item.price ? "text-start":"text-center"}`}>{item.title}</h4>
       </div>
       <div className="w-full flex justify-end items-end">
         {item.modalityPayment && (

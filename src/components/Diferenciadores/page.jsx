@@ -49,12 +49,12 @@ export default function Diferenciadores({ curva, filtro, fondoBlanco }) {
         className={`relative ${fondoBlanco ? "bg-white" : "bg-[#001A70]"} pb-20 w-full flex flex-col items-center justify-center overflow-hidden`}
       >
         <h2
-          className={`text-4xl font-bold ${fondoBlanco ? "text-[#001a70]" : "text-white"} text-center mt-10 mb-2`}
+          className={`fontTitulo font-bold ${fondoBlanco ? "text-[#001a70]" : "text-white"} text-center mt-10 mb-2`}
         >
           {t("h2")}
         </h2>
         <p
-          className={`w-[360px] sm:w-[600px] text-center text-lg sm:text-xl ${fondoBlanco ? "text-black" : "text-white"}  mb-10 `}
+          className={`w-[360px] sm:w-[600px] fontSubtitulo text-center fontSubtitulo ${fondoBlanco ? "text-black" : "text-white"}  mb-10 `}
         >
           {t("p")}
         </p>

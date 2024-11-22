@@ -7,7 +7,7 @@ export default function MasInfoContactUs({ titulo, data, mt }) {
         className={`relative w-full pb-20 flex flex-col-reverse lg:flex-row justify-center items-center pt-10  bg-[#001a70] text-white ${mt}`}
       >
         <div className="lg:w-6/12 flex gap-5 flex-col items-center lg:items-start">
-          <h2 className="w-full text-4xl sm:text-5xl font-bold py-4 px-3 sm:px-0 text-center md:text-start">
+          <h2 className="w-full fontTitulo font-bold py-4 px-3 sm:px-0 text-center md:text-start">
             {titulo}
           </h2>
           <div className="flex flex-col items-center sm:flex-row gap-5 text-black">

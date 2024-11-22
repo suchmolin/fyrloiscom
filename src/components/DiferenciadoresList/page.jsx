@@ -36,7 +36,7 @@ export default function DiferenciadoresList({ data, sombra }) {
                 {item.title}
               </h1>
               {item.subtitle && (
-                <p className="text-xl text-gray-500 text-center">
+                <p className="fontdescripcion text-gray-500 text-center">
                   {item.subtitle}
                 </p>
               )}

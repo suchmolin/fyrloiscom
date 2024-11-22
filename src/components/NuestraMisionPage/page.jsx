@@ -23,7 +23,7 @@ export default function NuestraMisionPage() {
   return (
     <>
       <div className="relative bg-[#001A70] pb-10 w-full flex flex-col items-center justify-center overflow-hidden">
-        <h2 className="text-4xl font-bold text-white text-center mt-10 mb-10">
+        <h2 className="fontTitulo font-bold text-white text-center mt-10 mb-10">
           {t("h2")}
         </h2>
 

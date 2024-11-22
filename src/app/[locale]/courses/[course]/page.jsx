@@ -81,7 +81,7 @@ export default function CoursePage({ params }) {
       </div>
       <div className="w-full flex justify-center pt-10 pb-20 bg-[#001a70] -mt-2  md:-mt-20">
         <div className="w-full flex flex-col gap-2 -mt-5 md:-mt-32 z-10">
-          <h2 className="text-3xl font bold text-white pb-2 text-center font-bold mb-5">
+          <h2 className="fontTitulo font bold text-white pb-2 text-center font-bold mb-5">
             {t("h2c")}
           </h2>
           <div className="w-full flex gap-2 justify-center flex-wrap">

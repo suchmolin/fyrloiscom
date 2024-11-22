@@ -39,7 +39,7 @@ export default function SubCourses({ sub }) {
   return (
     <div className="w-full bg-gray-100 flex justify-center py-10">
       <div className="w-full md:w-11/12 xl:w-10/12 flex flex-col lg:flex-row justify-center items-center">
-        <div className="w-11/12 md:w-7/12 lg:w-5/12 xxl:w-4/12 flex items-center text-center lg:text-start justify-end mb-7 lg:mb-0 pr-4">
+        <div className="w-11/12 md:w-7/12 lg:w-5/12 xxl:w-4/12 flex items-center text-center lg:text-start justify-end pr-4">
           <h2 className="text-2xl xs:text-3xl sm:text-4xl font-bold text-[#001a70]">
             {sub.subtitulo && (
               <>
@@ -62,7 +62,7 @@ export default function SubCourses({ sub }) {
                       <SingleCourse sede={sede} comprar={true} item={item} />
                     )}
 
-                    <div className="w-[270px] h-[300px] sm:h-[370px] bg-[#ADC823] rounded-b-2xl sm:rounded-r-2xl sm:rounded-es-none  p-5 flex flex-col justify-between py-10">
+                    <div className="w-[250px] h-[300px] sm:h-[370px] bg-[#ADC823] rounded-b-2xl sm:rounded-r-2xl sm:rounded-es-none  px-3 flex flex-col justify-between py-10">
                       {item?.difTarjeta?.map((dif) => (
                         <div key={dif} className="flex">
                           <div className="w-[50px]">

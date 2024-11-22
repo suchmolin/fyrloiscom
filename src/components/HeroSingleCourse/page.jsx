@@ -19,7 +19,7 @@ export default function HeroSingleCourse({ courseData }) {
           <h1 className="text-4xl font-bold text-[#001A70] mb-2">
             {courseData.title}
           </h1>
-          <div className="flex gap-2 text-[#020203] font-bold items-center mt-2">
+          <div className="flex gap-4 text-[#020203] font-bold items-center mt-2">
             {courseData.etapa && (
               <>
                 <div className="relative w-[30px] aspect-square">
@@ -30,7 +30,7 @@ export default function HeroSingleCourse({ courseData }) {
                     alt="image"
                   />
                 </div>
-                <p className="text-[#001a70]">{courseData.etapa}</p>
+                <p className="text-[#001a70] text-start ">{courseData.etapa}</p>
               </>
             )}
 
@@ -47,7 +47,7 @@ export default function HeroSingleCourse({ courseData }) {
                     alt="image"
                   />
                 </div>
-                <p className="text-[#001a70]">{`Por ${courseData.modalityPayment} $${courseData.price}.00`}</p>
+                <p className="text-[#001a70] text-start">{`Por ${courseData.modalityPayment} $${courseData.price}.00`}</p>
               </>
             )}
           </div>

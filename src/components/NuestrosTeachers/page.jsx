@@ -27,10 +27,10 @@ export default function NuestrosTeachers({ current, titleAlt }) {
   return (
     <div className="w-11/12 flex flex-col items-center py-20">
       <div className="w-11/12 text-center">
-        <h2 className="text-3xl font-bold text-[#001A70] py-4">
+        <h2 className="fontTitulo font-bold text-[#001A70] py-4">
           {titleAlt ? titleAlt : t("h2")}
         </h2>
-        <p className="text-gray-500 text-2xl">{t("p")}</p>
+        <p className="text-gray-500 fontSubtitulo">{t("p")}</p>
       </div>
       <div className="w-11/12 flex justify-center flex-wrap gap-7 gap-y-20 pt-28">
         {data?.map((item, index) => (

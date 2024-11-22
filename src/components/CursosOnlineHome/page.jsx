@@ -78,10 +78,10 @@ export default function CursosOnlineHome({
     >
       <div className="w-10/12 text-center flex flex-col items-center mb-7">
         <div className="w-11/12 md:w-8/12 flex flex-col">
-          <h2 className=" text-3xl sm:text-4xl font-bold text-[#001a70] mb-3">
+          <h2 className=" fontTitulo font-bold text-[#001a70] mb-3">
             {t("h2")}
           </h2>
-          <p className=" text-lg sm:text-xl text-gray-600 mb-2">{t("p")}</p>
+          <p className="fontSubtitulo text-gray-600 mb-2">{t("p")}</p>
         </div>
         <div className="w-fit">
           {console.log(idioma)}

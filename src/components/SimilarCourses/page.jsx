@@ -71,7 +71,7 @@ export default function SimilarCourses({ online }) {
                   (item) => item.id === curso && item.lang === langCourse
                 )
                 return course ? (
-                  <div key={course.id}>
+                  <div key={course.id}  className=" flex justify-center">
                     <SingleCourse
                       item={course}
                       sede={sedeData?.id}
@@ -81,7 +81,10 @@ export default function SimilarCourses({ online }) {
                 ) : null
               })
             : cursosOnline.map((item) => (
-                <SingleCourse key={item.id} item={item} comprar={true} />
+              <div key={item.id}  className=" flex justify-center">
+
+                <SingleCourse item={item} comprar={true} />
+              </div>
               ))}
         </Slider>
       </div>

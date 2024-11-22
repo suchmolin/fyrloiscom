@@ -16,10 +16,10 @@ export default function HeroAboutUs() {
                 {t("h1Span")}
               </span>
             </h1>
-            <p className="text-xs sm:text-sm lg:text-xl xxxl:text-3xl text-center sm:text-start">
+            <p className="fontSubtitulo text-center sm:text-start">
               {t("p")}
             </p>
-            <p className="mb-4 text-xs sm:text-sm lg:text-xl xxxl:text-3xl">
+            <p className="mb-4 fontSubtitulo text-center sm:text-start">
               {t("p2")}
             </p>
             <div className="w-full flex justify-center sm:justify-start ">

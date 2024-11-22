@@ -59,10 +59,10 @@ export default function Test() {
                 alt="test"
               />
             </div>
-            <h1 className="text-2xl font-bold text-[#001A70] px-1 text-center sm:text-start">
+            <h1 className="fontTitulo font-bold text-[#001A70] px-1 text-center sm:text-start">
               {t("h1")}
             </h1>
-            <p className="text-lg text-gray-500 px-1 text-center sm:text-start">
+            <p className="fontSubtitulo text-gray-500 px-1 text-center sm:text-start">
               {t("p")}
             </p>
           </div>

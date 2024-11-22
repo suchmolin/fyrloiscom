@@ -6,10 +6,10 @@ export default function Customers() {
   const t = useTranslations("Customers")
   return (
     <div className="relative flex flex-col items-center bg-gray-100 w-full overflow-hidden py-10">
-      <h2 className="text-center text-3xl text-[#001A70] font-bold mb-2">
+      <h2 className="text-center fontTitulo text-[#001A70] font-bold mb-2">
         {t("h2")}
       </h2>
-      <p className="w-10/12 sm:w-6/12 text-center text-lg text-gray-500 mb-10">
+      <p className="w-[290px] xs:w-[350px] sm:w-[600px] md:w-[700px] fontSubtitulo text-center text-lg text-gray-500 mb-10">
         {t("p")}
       </p>
       <div className="w-10/12 flex justify-center flex-wrap items-center gap-x-14 gap-y-2">

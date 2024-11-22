@@ -11,7 +11,7 @@ export default function PersonalizadoTablas() {
 
   return (
     <div className="w-full flex flex-col items-center justify-center py-20">
-      <h2 className="w-11/12 md:w-7/12 xl:w-5/12 text-2xl sm:text-4xl text-[#001a70] font-bold mb-10 text-center">
+      <h2 className="w-11/12 md:w-7/12 xl:w-5/12 fontTitulo text-[#001a70] font-bold mb-10 text-center">
         {t("h2")}
       </h2>
       <div className="w-[350px] sm:w-[640px] lg:w-[1000px] dropShadow3 bg-gray-100 text-[#001a70] rounded-2xl p-3 sm:p-10 font-bold text-xl sm:text-2xl h-[420px] sm:h-fit">

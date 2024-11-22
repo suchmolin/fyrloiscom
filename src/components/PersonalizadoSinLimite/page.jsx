@@ -8,7 +8,7 @@ export default function PersonalizadoSinLimite({ data }) {
 
   return (
     <div className="w-full bg-gray-100 flex flex-col items-center py-20">
-      <h2 className="w-11/12 md:w-7/12 xl:w-6/12 xxl:w-5/12 text-2xl sm:text-4xl mb-10 text-center text-[#001a70] font-bold">
+      <h2 className="w-11/12 md:w-7/12 xl:w-6/12 xxl:w-5/12 fontTitulo mb-10 text-center text-[#001a70] font-bold">
         {t("h2")}
       </h2>
       <div className="w-full lg:w-10/12 xl:w-8/12 flex justify-center  md:justify-between flex-wrap md:flex-nowrap text-[#001a70] font-bold gap-y-7">

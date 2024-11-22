@@ -8,8 +8,8 @@ export default function YaEsHora() {
   const locale = useLocale()
   return (
     <>
-      <div className=" w-full min-h-screen font-[lato] flex flex-col items-center justify-center pt-10 bg-gray-100">
-        <div className="flex flex-col sm:flex-row items-center justify-center w-full h-screen font-[lato]">
+      <div className=" w-full  font-[lato] flex flex-col items-center justify-center pt-10 bg-gray-100 pb-10">
+        <div className="flex flex-col sm:flex-row items-center justify-center w-full font-[lato]">
           <div className="relative w-[300px] sm:w-[350px] md:w-[450px] lg:w-[550px] xxxl:w-[750px] aspect-square">
             <Image
               src="/img/aboutUs.png"
@@ -23,10 +23,10 @@ export default function YaEsHora() {
               <h1 className="flex flex-col text-[#001A70] text-4xl sm:text-5xl lg:text-6xl xxxl:text-6xl font-bold mb-4 text-center sm:text-start">
                 {t("h1")}
               </h1>
-              <p className="text-xs sm:text-sm lg:text-xl xxxl:text-3xl text-center sm:text-start">
+              <p className="fontSubtitulo text-center sm:text-start">
                 {t("p")}
               </p>
-              <p className="text-xs sm:text-sm lg:text-xl xxxl:text-3xl text-center sm:text-start font-bold">
+              <p className="fontSubtitulo text-center sm:text-start font-bold">
                 {t("p2")}
               </p>
               <div className="w-full flex justify-center sm:justify-start mt-5">

@@ -7,7 +7,7 @@ export const data = [
     alt: "Diferenciador",
     title: "Clases 100% en vivo",
     subtitle:
-      "Tendrás acompañamiento durante todo tu proceso de aprendizaje. A través de un profesor que te irá orientando en cada paso.",
+      "Tus clases son completamente en vivo, de esta manera puedes aclarar tus dudas o realizar preguntas con respuesta inmediata de tu profesor",
   },
   {
     id: "2",

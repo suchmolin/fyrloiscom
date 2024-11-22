@@ -21,7 +21,7 @@
   },
   "Diferenciadores":{
     "h2": "Why choose us?",
-    "p":"We create a unique methodology that allows you to learn a new language in a fun and different way.",
+    "p":"We created a unique methodology that allows you to learn a new language in a fun and different way.",
     "data":"dataEN",
     "boton":"Learn more"
   },
@@ -95,7 +95,7 @@
   "contactUs":{
     "FormContactUs":{
       "h2":"Contact us",
-      "p":"If you want to know more information about our courses, complete your information and we will answer all your questions.",
+      "p":"If you want to know more information about our courses, complete the following questions and we will get in contact with you soon",
       "fullname":"First and last name",
       "email":"Email",
       "tellphone":"Telephone Number",
@@ -183,7 +183,7 @@
     "button":"Take your test now"
   },
   "CursosSedes":{
-    "h2":"Courses taught in ",
+    "h2":"Courses offered in ",
     "p":"Choose the course that best suits your needs",
     "data":"dataEN"
   },
@@ -304,8 +304,7 @@
 
   },
   "ReviewsSection":{
-    "h2":"Know the opinion",
-    "h2b":"of our students",
+    "h2":"Know the opinion of our students",
     "data":"dataEN"
   },
   "IdiomaCursosButton":{

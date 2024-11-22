@@ -53,7 +53,7 @@ export default function FormContactUs() {
       <div className="w-11/12 sm:w-10/12 lg:w-3/12 flex flex-col items-center lg:items-start mt-32 lg:mt-0">
         <div className="relative w-[200px] aspect-square">
           <Image
-            src="/img/contactUs.png"
+            src="/img/contactUsnueva.png"
             objectFit="contain"
             layout="fill"
             alt="message"

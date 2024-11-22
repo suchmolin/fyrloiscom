@@ -24,8 +24,8 @@ export default function ReviewsSection({ modalidad }) {
 
   return (
     <div className="w-full flex flex-col justify-center items-center py-20">
-      <h2 className="text-3xl text-[#001a70] text-center font-bold">
-        {t("h2")} <br /> {t("h2b")}
+      <h2 className="w-[290px] xs:w-[360px] sm:w-[600px] md:w-[800px] fontTitulo text-[#001a70] text-center font-bold">
+        {t("h2")}
       </h2>
       <div className="flex flex-col xl:flex-row gap-x-10 items-center justify-center">
         <div className="w-[270px] xs:w-[350px] sm:w-[450px]  aspect-square relative">

@@ -10,12 +10,12 @@ export default function NuestraHistoriaPage() {
       className="w-full flex flex-coll items-center justify-center text-center sm:text-left"
     >
       <div id="nuestraHistoria" className="w-9/12 pt-20 border-gray-300 ">
-        <h2 className="text-[#001A70] text-4xl font-bold pb-5">{t("h2")}</h2>
+        <h2 className="text-[#001A70] fontTitulo font-bold pb-5">{t("h2")}</h2>
 
         <div className="w-full flex flex-col md:flex-row gap-5 items-center mb-10">
           <div className="relative w-[150px] sm:w-[250px] aspect-square">
             <Image
-              src="/img/25aniversaryAlt.png"
+              src="/img/25aniversaryAltnueva.png"
               objectFit="contain"
               layout="fill"
               alt="nuestra historia"
@@ -26,7 +26,7 @@ export default function NuestraHistoriaPage() {
         <div className="w-full flex flex-col md:flex-row gap-5 items-center mb-10">
           <div className="relative w-[150px] sm:w-[250px] aspect-square">
             <Image
-              src="/img/nuestraHistoria.png"
+              src="/img/nuestraHistorianueva.png"
               objectFit="contain"
               layout="fill"
               alt="nuestra historia"
@@ -37,7 +37,7 @@ export default function NuestraHistoriaPage() {
         <div className="w-full flex flex-col md:flex-row gap-5 items-center mt-4">
           <div className="relative w-[150px] sm:w-[250px] aspect-square pt-10">
             <Image
-              src="/img/nuestraHistoria2.png"
+              src="/img/nuestraHistoria2nueva.png"
               objectFit="contain"
               layout="fill"
               alt="nuestra historia"

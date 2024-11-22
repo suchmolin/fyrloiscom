@@ -24,8 +24,8 @@ export default function ViveUnaExperiencia() {
   return (
     <div className="w-full flex flex-col justify-center items-center  md:-mt-32 pb-10">
       <div className="w-11/12 md:w-5/12 text-center">
-        <h2 className="text-3xl text-[#001A70] font-bold mb-4">{t("h2")}</h2>
-        <p className="text-xl text-gray-600">{t("p")}</p>
+        <h2 className="fontTitulo text-[#001A70] font-bold mb-4">{t("h2")}</h2>
+        <p className="fontSubtitulo text-gray-600">{t("p")}</p>
       </div>
 
       <DifAlt data={data} />

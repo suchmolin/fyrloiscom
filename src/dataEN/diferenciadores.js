@@ -7,7 +7,7 @@ export const data = [
     alt: "Diferenciador",
     title: "25 years of experience",
     subtitle:
-      "Our more than two decades teaching languages has allowed us to develop a unique and effective methodology.",
+      "We have more than two decades teaching languages, this allow us to create a unique and efective methology",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const data = [
     alt: "Diferenciador",
     title: "Small groups, maximum of 8 students",
     subtitle:
-      "We focus on personalized attention to each student, providing more effective learning.",
+      "Our focus is on individualized learning, ensuring that each student receives the attention they need",
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ export const data = [
     alt: "Diferenciador",
     title: "CELTA - TEFL certified teachers",
     subtitle:
-      "Our teachers are prepared to provide you with a first-class experience.",
+      "Our teachers are ready to provide you with a top-notch experience",
   },
   {
     id: 6,
@@ -57,6 +57,6 @@ export const data = [
     alt: "Diferenciador",
     title: "Methodology aligned to the Common European Framework",
     subtitle:
-      "Our course is structured according to the CEFR levels, which will allow you to advance progressively.",
+      "Progress step by step with our course aligned with the CEFR levels.",
   },
 ]
