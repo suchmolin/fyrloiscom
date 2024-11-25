@@ -14,14 +14,14 @@ export default function HeroSingleCourse({ courseData }) {
   const { setIsOpen, setCartInfo, setCantCart } = useContext(OpenModalContext)
   return courseData ? (
     <div className="w-full pt-32 pb-20 flex justify-center">
-      <div className="w-10/12 flex flex-col-reverse md:flex-row gap-5 md:gap-20 justify-center items-center">
-        <div className="sm:w-5/12 lg:w-4/12 flex flex-col text-center md:text-start items-center md:items-start">
+      <div className="w-11/12 flex flex-col-reverse md:flex-row gap-5 md:gap-20 justify-center items-center">
+        <div className="sm:w-5/12 lg:w-4/12 flex flex-col text-center md:text-start items-center md:items-start justify-center">
           <h1 className="text-4xl font-bold text-[#001A70] mb-2">
             {courseData.title}
           </h1>
-          <div className="flex gap-4 text-[#020203] font-bold items-center mt-2">
+          <div className="flex flex-col md:flex-row gap-2 text-[#020203] font-bold items-center mt-2 justify-center">
             {courseData.etapa && (
-              <>
+              <div className="flex gap-4 items-center">
                 <div className="relative w-[30px] aspect-square">
                   <Image
                     src="/img/singleCourse.png"
@@ -30,15 +30,15 @@ export default function HeroSingleCourse({ courseData }) {
                     alt="image"
                   />
                 </div>
-                <p className="text-[#001a70] text-start ">{courseData.etapa}</p>
-              </>
+                <p className="w-fit text-[#001a70] text-center md:text-start">{courseData.etapa}</p>
+              </div>
             )}
 
             {courseData.condicion && (
-              <p className="text-2xl text-[#001a70]">{courseData.condicion}</p>
+              <p className="text-[#001a70]">{courseData.condicion}</p>
             )}
             {courseData.price && (
-              <>
+              <div className="flex gap-4 items-center">
                 <div className="relative w-[30px] aspect-square">
                   <Image
                     src="/img/singleCourse2.png"
@@ -47,8 +47,8 @@ export default function HeroSingleCourse({ courseData }) {
                     alt="image"
                   />
                 </div>
-                <p className="text-[#001a70] text-start">{`Por ${courseData.modalityPayment} $${courseData.price}.00`}</p>
-              </>
+                <p className="w-fit text-[#001a70] text-center md:text-start">{`Por ${courseData.modalityPayment} $${courseData.price}.00`}</p>
+              </div>
             )}
           </div>
           <p className="text-lg text-[#001A70] mb-4">

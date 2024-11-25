@@ -79,7 +79,7 @@ export default function MasInfoContactUs({ titulo, data, mt }) {
             </a>
           </div>
         </div>
-        <div className="relative w-[290px] xs:w-[350px] aspect-square">
+        <div className="relative w-[230px] xs:8-[280px] sm:w-[350px] aspect-square">
           <Image
             src="/img/masInfo.png"
             layout="fill"

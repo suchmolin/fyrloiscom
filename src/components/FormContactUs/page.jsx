@@ -50,8 +50,8 @@ export default function FormContactUs() {
 
   return (
     <div className="w-full flex flex-col lg:flex-row justify-between items-center sm:px-16 xl:px-32">
-      <div className="w-11/12 sm:w-10/12 lg:w-3/12 flex flex-col items-center lg:items-start mt-32 lg:mt-0">
-        <div className="relative w-[200px] aspect-square">
+      <div className="w-[290px] xs:w-[350px] sm:w-[600px] lg:w-[400px] xxl:w-[600px] flex flex-col items-center lg:items-start mt-32 lg:mt-0 text-center lg:text-start">
+        <div className="relative w-[250px] aspect-square mb-7">
           <Image
             src="/img/contactUsnueva.png"
             objectFit="contain"
@@ -59,10 +59,10 @@ export default function FormContactUs() {
             alt="message"
           />
         </div>
-        <h2 className="text-3xl text-[#001a70] text-center lg:text-start">
+        <h2 className="fontTitulo font-bold text-[#001a70] text-center lg:text-start">
           {t("h2")}
         </h2>
-        <p>{t("p")}</p>
+        <p className="fontSubtitulo">{t("p")}</p>
       </div>
       <form
         id="myForm"
@@ -207,7 +207,7 @@ export default function FormContactUs() {
             <IoIosArrowDown className="text-gray-800" />
           </span>
         </div>
-        <input type="hidden" value="Pagina Web Fyr Lois" name="social_media" />
+        <input type="hidden" value="Pagina Web Fyr Lois" name="social_media" /> {/*map odoo*/}
         <input type="hidden" value="Fyr Lois English Institute" name="from" />
         <input type="hidden" value={new Date().toLocaleString()} name="Fecha" />
         <input type="hidden" value={datags.nombre} name="Nombre" />

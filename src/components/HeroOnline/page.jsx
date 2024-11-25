@@ -16,7 +16,7 @@ export default function HeroOnline({ idioma, setIdioma, pressed, setPressed }) {
           {t("h1a")} <br /> {t("h1a2")} <br /> {t("h1b2")}
         </h1>
         <div className=" mb-4 pr-20 xs:pr-0">
-          <h2 className="text-sm xs:text-base sm:text-2xl lg:text-xl">
+          <h2 className="fontSubtitulo">
             {t("h2")} <br /> {t("h2b")}
           </h2>
         </div>

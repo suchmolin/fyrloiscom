@@ -51,7 +51,7 @@ export default function Test() {
       {result < 0 && (
         <>
           <div className="w-11/12 sm:w-7/12 lg:w-4/12 flex flex-col px-10 items-center lg:items-start">
-            <div className="relative w-[200px] aspect-square">
+            <div className="relative w-[240px] aspect-square mb-7">
               <Image
                 src="/img/test.png"
                 objectFit="contain"

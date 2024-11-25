@@ -27,7 +27,7 @@ export default function Navbar() {
       </div>
       <Slide
         triggerOnce
-        className="w-[150px] xs:w-[200px] sm:w-[260px] h-[58px] xs:h-[75px] sm:h-[100px] lg:w-[200px] lg:h-[77px] mt-3 lg:mt-0 xl:mt-0 absolute left-3 sm:left-3 md:left-16 xl:left-28 flex items-center mb-3 md:mb-0"
+        className="w-[150px] xs:w-[200px] sm:w-[260px] h-[58px] xs:h-[75px] sm:h-[100px] lg:w-[200px] lg:h-[77px] mt-5 xs:mt-3 lg:mt-0 xl:mt-0 absolute left-3 sm:left-3 md:left-16 xl:left-28 flex items-center mb-3 md:mb-0"
       >
         <Link
           onClick={() => {

@@ -3,10 +3,10 @@ import { FaStar } from "react-icons/fa"
 
 export default function ReviewCard({ item }) {
   return (
-    <div className="w-full h-full py-10">
+    <div className="w-full h-full py-10 flex justify-center">
       <div className="dropShadow2 w-11/12 rounded-xl bg-gradient-to-b from-white to-gray-100 p-4 flex justify-between items-center">
         <div
-          className={`${item.img ? "w-12/12 sm:w-7/12" : "w-12/12"} flex flex-col justify-center items-center h-full`}
+          className={`${item.img ? "sm:w-7/12" : ""} flex flex-col justify-center items-center h-full`}
         >
           {item.opinion.map((op, i) => (
             <p key={i} className="text-gray-600 p-2 text-sm">

@@ -81,10 +81,10 @@ export default function CursosOnlineHome({
           <h2 className=" fontTitulo font-bold text-[#001a70] mb-3">
             {t("h2")}
           </h2>
-          <p className="fontSubtitulo text-gray-600 mb-2">{t("p")}</p>
+          <p className="fontSubtitulo text-gray-600 mb-5">{t("p")}</p>
         </div>
         <div className="w-fit">
-          {console.log(idioma)}
+          
           <IdiomaCursosButton
             idioma={idioma}
             setState={setIdioma}

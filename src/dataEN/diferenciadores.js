@@ -7,7 +7,7 @@ export const data = [
     alt: "Diferenciador",
     title: "25 years of experience",
     subtitle:
-      "We have more than two decades teaching languages, this allow us to create a unique and efective methology",
+      "We have more than two decades teaching languages, this allow us to create a unique and efective methodology",
   },
   {
     id: 2,

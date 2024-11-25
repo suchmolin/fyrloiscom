@@ -28,7 +28,7 @@ export function LanguageSelector({ locale }) {
     </span>
   )
   return (
-    <div className="absolute bottom-auto top-8 lg:top-5 right-16 lg:right-5 xl:right-10 text-[#001A70] text-xl z-50 flex gap-3 flex-col lg:flex-row h-fit items-center ">
+    <div className="absolute bottom-auto top-8 lg:top-5 right-[75px] lg:right-5 xl:right-10 text-[#001A70] text-xl z-50 flex gap-3 flex-col lg:flex-row h-fit items-center ">
       <Dropdown label={mundo} inline>
         <Dropdown.Header className="w-[200px]">
           <span className="block text-sm text-[#001A70]">{t("titulo")}</span>
