@@ -37,7 +37,7 @@ export default function HeroAboutUs() {
         </div>
         <div className="relative w-[300px] sm:w-[350px] md:w-[450px] lg:w-[550px] xxxl:w-[750px] aspect-square mt-32 md:mt-32 mb-10 sm:mb-0">
           <Image
-            src="/img/aboutUs.png"
+            src="/img/aboutUs2.png"
             layout="fill"
             objectFit="contain"
             alt="aboutUs"

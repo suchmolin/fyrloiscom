@@ -74,10 +74,10 @@ export default function CursosOnlineHome({
   return (
     <div
       id="cursosonline"
-      className="w-full flex flex-col items-center justify-center py-20"
+      className="w-full flex flex-col items-center justify-center py-10 sm:py-20"
     >
-      <div className="w-10/12 text-center flex flex-col items-center mb-7">
-        <div className="w-11/12 md:w-8/12 flex flex-col">
+      <div className="w-full text-center flex flex-col items-center sm:mb-7">
+        <div className="w-full flex flex-col px-5">
           <h2 className=" fontTitulo font-bold text-[#001a70] mb-3">
             {t("h2")}
           </h2>
