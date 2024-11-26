@@ -5,7 +5,7 @@ import { useTranslations, useLocale } from "next-intl"
 import { IoIosArrowDown } from "react-icons/io"
 
 export default function SedesList({ sedes }) {
-  console.log(sedes)
+  
   const locale = useLocale()
   const t = useTranslations("sedes.SedesList")
 

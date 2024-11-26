@@ -8,9 +8,7 @@ export default function ResumeTest({ answer, result }) {
   const t = useTranslations("Test.ResumeTest")
   const [selected, setSelected] = useState({})
 
-  useEffect(() => {
-    console.log(selected)
-  }, [selected])
+ 
   return (
     <div className="w-full flex gap-5 flex-col items-center">
       {result < 60 && (

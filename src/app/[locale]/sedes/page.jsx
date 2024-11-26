@@ -64,11 +64,11 @@ export default function Sedes() {
         {/*****SEDES MOBILE****** */}
         {countrySelected === "Venezuela" && (
           <div className="w-11/12 block sm:hidden pb-20">
-            {sedesArray.map((item, i) => (
-              <div key={i} className="flex flex-col justify-center">
+            {sedesArray.map((item) => (
+              <div key={item} className="flex flex-col justify-center">
                 <details className="group">
                   <summary className="flex cursor-pointer list-none items-center justify-between font-medium py-2 rounded-full dropShadow pr-2 pl-5 bg-white">
-                    <span className="text-sm sm:text-xl"> {item}</span>
+                    <span className="text-sm sm:text-xl">{item}</span>
                     <span className="transition group-open:rotate-180 bg-[#9ee701] rounded-full p-1 sm:p-3 group-open:bg-[#001A70] group-open:text-white">
                       <svg
                         fill="none"
@@ -81,15 +81,15 @@ export default function Sedes() {
                         viewBox="0 0 24 24"
                         width="27"
                       >
-                        <path d="M6 9l6 6 6-6"></path>
+                        <path className="" d="M6 9l6 6 6-6"></path>
                       </svg>
                     </span>
                   </summary>
-                  <p className="group-open:animate-fadeIn mt-3 text-neutral-600 px-10 transition-all duration-300">
+                  <div className="group-open:animate-fadeIn mt-3 text-neutral-600 px-10 transition-all duration-300">
                     <SedesList
                       sedes={sedes.filter((sede) => sede.sector === item)}
                     />
-                  </p>
+                  </div>
                 </details>
               </div>
             ))}
