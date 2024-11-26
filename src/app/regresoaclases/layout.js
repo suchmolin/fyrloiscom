@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function AnoEscolarLayout({ children }) {
   return (
-    <html translate="no" lang="es">
+    <html translate="no" lang="es"  suppressHydrationWarning>
       <body>{children}</body>
     </html>
   )
