@@ -21,7 +21,7 @@ export async function POST(request) {
       process.env.STRIPE_WEBHOOK_SECRET
     )
   } catch (error) {
-    console.console.log(error.message)
+    console.log(error.message)
     return NextResponse.error({ error: error.message })
   }
 

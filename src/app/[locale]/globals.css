@@ -18,6 +18,7 @@
   font-family: 'latoblack';
   src: url('/fonts/Lato-Black.ttf');
 }
+
 figure::after {
   position: absolute;
   width: 0;
