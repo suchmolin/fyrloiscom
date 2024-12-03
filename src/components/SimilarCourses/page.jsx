@@ -12,7 +12,7 @@ import { Carousel } from "flowbite-react"
 export default function SimilarCourses({ online }) {
   const [dataCourse, setDataCourse] = useState([])
   const searchParams = useSearchParams()
-  const sede = searchParams.get("s")
+  const sede = searchParams.get("s") || "2"
   const langCourse = searchParams.get("langCourse") || "english"
   const sedeData = data.find((item) => item.id === sede)
   const cursosOnline = dataCourse.filter(

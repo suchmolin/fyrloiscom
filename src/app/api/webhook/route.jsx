@@ -28,6 +28,7 @@ export async function POST(request) {
   switch (event.type) {
     case "checkout.session.completed":
       const session = event.data.object
+      if(!session.metadata.data){return new Response(null, { status: 203 })}
       const productos = JSON.parse(session.metadata.data)
       const nombreCliente = session.customer_details.name
       const correoCliente = session.customer_details.email
@@ -204,6 +205,7 @@ export async function POST(request) {
       break
     default:
       console.log(`Unhandled event type ${event.type}`)
+      
   }
 
   return new Response(null, { status: 200 })
