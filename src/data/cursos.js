@@ -47,11 +47,11 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "12", titulo: "SEMANAS POR LAPSO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
@@ -103,11 +103,11 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "12", titulo: "SEMANAS POR LAPSO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
@@ -153,31 +153,33 @@ export const data = [
         alt: "difAdult",
       },
     ],
-    horarios2: [
-      {
-        titulo: "Nivel 1 (Básico)",
-        dia: "SÁBADOS",
-        horas: ["9:00 am - 12:25 pm"],
-      },
-      {
-        titulo: "Intermedio",
-        dia: "MARTES Y JUEVES",
-        horas: ["9:00 - 10:40 am", "6:50 - 8:30 am"],
-      },
-      {
-        titulo: "Avanzado",
-        dia: "SÁBADOS",
-        horas: ["9:00 am - 12:20 pm"],
-      },
-    ],
+    horarios2: {
+      horario: [
+        {
+          titulo: "Nivel 1 (Básico)",
+          dia: "SÁBADOS",
+          horas: ["9:00 am - 12:25 pm"],
+        },
+        {
+          titulo: "Intermedio",
+          dia: "MARTES Y JUEVES",
+          horas: ["9:00 - 10:40 am", "6:50 - 8:30 am"],
+        },
+        {
+          titulo: "Avanzado",
+          dia: "SÁBADOS",
+          horas: ["9:00 am - 12:20 pm"],
+        },
+      ],
+    },
     time: [
       { num: "6", titulo: "NIVELES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "12", titulo: "SEMANAS POR NIVEL" },
     ],
     subCursos: {
       titulo: "tenemos estos cursos especializados para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
     promo: ["essential-level", "deluxe-level", "extra-level"],
@@ -224,32 +226,34 @@ export const data = [
         alt: "dif kids",
       },
     ],
-    horarios: [
-      {
-        dia: "LUNES Y MIÉRCOLES",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-      },
-      {
-        dia: "MARTES Y JUEVES",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-      },
-      {
-        dia: "VIERNES",
-        horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
-      },
-      {
-        dia: "SÁBADOS",
-        horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
-      },
-    ],
+    horarios: {
+      horario: [
+        {
+          dia: "LUNES Y MIÉRCOLES",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "MARTES Y JUEVES",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "VIERNES",
+          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+        },
+        {
+          dia: "SÁBADOS",
+          horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+        },
+      ],
+    },
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "12", titulo: "SEMANAS POR LAPSO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
@@ -295,32 +299,34 @@ export const data = [
         alt: "difElem",
       },
     ],
-    horarios: [
-      {
-        dia: "LUNES Y MIÉRCOLES",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-      },
-      {
-        dia: "MARTES Y JUEVES",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-      },
-      {
-        dia: "VIERNES",
-        horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
-      },
-      {
-        dia: "SÁBADOS",
-        horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
-      },
-    ],
+    horarios: {
+      horario: [
+        {
+          dia: "LUNES Y MIÉRCOLES",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "MARTES Y JUEVES",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "VIERNES",
+          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+        },
+        {
+          dia: "SÁBADOS",
+          horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+        },
+      ],
+    },
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "12", titulo: "SEMANAS POR LAPSO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
@@ -367,32 +373,36 @@ export const data = [
         alt: "difHS",
       },
     ],
-    horarios: [
-      {
-        dia: "LUNES Y MIÉRCOLES",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+    horarios: {
+      horario: {
+        horario: [
+          {
+            dia: "LUNES Y MIÉRCOLES",
+            horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+          },
+          {
+            dia: "MARTES Y JUEVES",
+            horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+          },
+          {
+            dia: "VIERNES",
+            horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+          },
+          {
+            dia: "SÁBADOS",
+            horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+          },
+        ],
       },
-      {
-        dia: "MARTES Y JUEVES",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+      time: [
+        { num: "3", titulo: "LAPSOS" },
+        { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
+        { num: "12", titulo: "SEMANAS POR LAPSO" },
+      ],
+      subCursos: {
+        titulo: "nuestro Curso Personalizado es para ti",
+        subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       },
-      {
-        dia: "VIERNES",
-        horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
-      },
-      {
-        dia: "SÁBADOS",
-        horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
-      },
-    ],
-    time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
-    ],
-    subCursos: {
-      titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
       subCurso: ["personalizado"],
     },
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
@@ -438,42 +448,44 @@ export const data = [
         alt: "difAdult",
       },
     ],
-    horarios: [
-      {
-        dia: "MIÉRCOLES Y VIERNES",
-        horas: [
-          "7:00 - 8:20 am",
-          "8:30 - 9:50 am",
-          "10:00 - 11:20 am",
-          "12:30 - 1:50 am",
-        ],
-      },
-      {
-        dia: "MARTES Y JUEVES",
-        horas: [
-          "7:00 - 8:20 am",
-          "8:30 - 9:50 am",
-          "10:00 - 11:20 am",
-          "12:30 - 1:50 am",
-        ],
-      },
-      {
-        dia: "LUNES Y MIÉRCOLES",
-        horas: ["6:30 - 7:50 pm"],
-      },
-      {
-        dia: "MARTES Y JUEVES",
-        horas: ["6:30 - 7:50 pm"],
-      },
-    ],
+    horarios: {
+      horario: [
+        {
+          dia: "MIÉRCOLES Y VIERNES",
+          horas: [
+            "7:00 - 8:20 am",
+            "8:30 - 9:50 am",
+            "10:00 - 11:20 am",
+            "12:30 - 1:50 am",
+          ],
+        },
+        {
+          dia: "MARTES Y JUEVES",
+          horas: [
+            "7:00 - 8:20 am",
+            "8:30 - 9:50 am",
+            "10:00 - 11:20 am",
+            "12:30 - 1:50 am",
+          ],
+        },
+        {
+          dia: "LUNES Y MIÉRCOLES",
+          horas: ["6:30 - 7:50 pm"],
+        },
+        {
+          dia: "MARTES Y JUEVES",
+          horas: ["6:30 - 7:50 pm"],
+        },
+      ],
+    },
     time: [
       { num: "6", titulo: "NIVELES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "12", titulo: "SEMANAS POR NIVEL" },
     ],
     subCursos: {
       titulo: "tenemos estos cursos especializados para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado", "intensivo"],
     },
     promo: ["essential-level", "deluxe-level", "extra-level"],
@@ -594,34 +606,36 @@ export const data = [
       "Mes y medio por nivel",
       "Práctica constante",
     ],
-    horarios: [
-      {
-        dia: "MIÉRCOLES Y VIERNES",
-        horas: [
-          "7:00 - 8:20 am",
-          "8:30 - 9:50 am",
-          "10:00 - 11:20 am",
-          "12:30 - 1:50 am",
-        ],
-      },
-      {
-        dia: "MARTES Y JUEVES",
-        horas: [
-          "7:00 - 8:20 am",
-          "8:30 - 9:50 am",
-          "10:00 - 11:20 am",
-          "12:30 - 1:50 am",
-        ],
-      },
-      {
-        dia: "LUNES Y MIÉRCOLES",
-        horas: ["6:30 - 7:50 pm"],
-      },
-      {
-        dia: "MARTES Y JUEVES",
-        horas: ["6:30 - 7:50 pm"],
-      },
-    ],
+    horarios: {
+      horario: [
+        {
+          dia: "MIÉRCOLES Y VIERNES",
+          horas: [
+            "7:00 - 8:20 am",
+            "8:30 - 9:50 am",
+            "10:00 - 11:20 am",
+            "12:30 - 1:50 am",
+          ],
+        },
+        {
+          dia: "MARTES Y JUEVES",
+          horas: [
+            "7:00 - 8:20 am",
+            "8:30 - 9:50 am",
+            "10:00 - 11:20 am",
+            "12:30 - 1:50 am",
+          ],
+        },
+        {
+          dia: "LUNES Y MIÉRCOLES",
+          horas: ["6:30 - 7:50 pm"],
+        },
+        {
+          dia: "MARTES Y JUEVES",
+          horas: ["6:30 - 7:50 pm"],
+        },
+      ],
+    },
     time: [
       { num: "8", titulo: "HORAS POR SEMANA" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
@@ -955,32 +969,23 @@ export const data = [
         alt: "difElem",
       },
     ],
-    horarios: [
-      {
-        dia: "LUNES",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "MARTES",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "MIERCOLES",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "JUEVES",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-    ],
+    horarios: {
+      titulo: "Horarios disponibles",
+      horario: [
+        {
+          dia: "LUNES A JUEVES",
+          horas: ["3:00 - 3:50 pm", "(Huso Horario Venezuela)"],
+        },
+      ],
+    },
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "12", titulo: "SEMANAS POR LAPSO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-online"],
     },
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
@@ -1026,32 +1031,23 @@ export const data = [
         alt: "difHSO",
       },
     ],
-    horarios: [
-      {
-        dia: "LUNES",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "MARTES",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "MIERCOLES",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "JUEVES",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-    ],
+    horarios: {
+      titulo: "Horarios disponibles",
+      horario: [
+        {
+          dia: "LUNES A JUEVES",
+          horas: ["3:00 - 3:50 pm", "(Huso Horario Venezuela)"],
+        },
+      ],
+    },
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "12", titulo: "SEMANAS POR LAPSO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-online"],
     },
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
@@ -1097,32 +1093,27 @@ export const data = [
         alt: "difAdult",
       },
     ],
-    horarios: [
-      {
-        dia: "LUNES",
-        horas: ["8:00 - 9:50 pm", "(EST)"],
-      },
-      {
-        dia: "MARTES",
-        horas: ["6:00 - 7:50 pm", "(EST)"],
-      },
-      {
-        dia: "MIERCOLES",
-        horas: ["8:00 - 9:50 pm", "(EST)"],
-      },
-      {
-        dia: "JUEVES",
-        horas: ["6:00 - 7:50 pm", "(EST)"],
-      },
-    ],
+    horarios: {
+      titulo: "Horarios disponibles",
+      horario: [
+        {
+          dia: "MARTES Y JUEVES",
+          horas: ["9:00 am - 10:50 pm", "(EST)"],
+        },
+        {
+          dia: "MARTES A JUEVES",
+          horas: ["8:00 pm - 9:50 pm", "(EST)"],
+        },
+      ],
+    },
     time: [
       { num: "6", titulo: "NIVELES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "12", titulo: "SEMANAS POR NIVEL" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-online", "intensivo-online"],
     },
     promo: ["essential-level", "deluxe-level", "extra-level"],
@@ -1239,11 +1230,11 @@ export const data = [
     time: [
       { num: "6", titulo: "NIVELES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "12", titulo: "SEMANAS POR NIVEL" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-online", "intensivo-online"],
     },
   },
@@ -1621,7 +1612,7 @@ export const data = [
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol"],
     },
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
@@ -1669,7 +1660,7 @@ export const data = [
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol"],
     },
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
@@ -1719,11 +1710,11 @@ export const data = [
     time: [
       { num: "6", titulo: "NIVELES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "12", titulo: "SEMANAS POR NIVEL" },
     ],
     subCursos: {
       titulo: "tenemos estos cursos especializados para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol", "intensivo-espanol"],
     },
     promo: ["essential-level", "deluxe-level", "extra-level"],
@@ -1782,7 +1773,7 @@ export const data = [
     ],
     subCursos: {
       titulo: "tenemos estos cursos especializados para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol", "intensivo-espanol"],
     },
   },
@@ -2139,11 +2130,11 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "12", titulo: "SEMANAS POR LAPSO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol-online"],
     },
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
@@ -2193,11 +2184,11 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSOS" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "6", titulo: "NIVELES" },
+      { num: "12", titulo: "SEMANAS POR LAPSO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol-online"],
     },
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
@@ -2247,11 +2238,11 @@ export const data = [
     time: [
       { num: "6", titulo: "NIVELES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "12", titulo: "SEMANAS POR NIVEL" },
     ],
     subCursos: {
       titulo: "tenemos estos cursos especializados para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol-online", "intensivo-espanol-online"],
     },
     promo: ["essential-level", "deluxe-level", "extra-level"],
@@ -2368,11 +2359,11 @@ export const data = [
     time: [
       { num: "6", titulo: "NIVELES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "18", titulo: "MESES" },
+      { num: "12", titulo: "SEMANAS POR NIVEL" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
-      subtitulo: "Si estás buscando algo más enfocado hacia tus necesidades,",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol-online"],
     },
   },

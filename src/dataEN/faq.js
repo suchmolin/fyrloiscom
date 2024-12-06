@@ -12,7 +12,7 @@ export const data = [
   {
     id: "3",
     ask: "Can I pay for the course in installments?",
-    ans: "Yes, we have different plans to make it easier for you to study with us.",
+    ans: "We offer different payment options so you can choose the one that best suits you.",
   },
   {
     id: "4",

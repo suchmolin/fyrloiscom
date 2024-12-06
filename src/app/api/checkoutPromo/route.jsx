@@ -17,7 +17,7 @@ export async function POST(req, res) {
           name: prom.titulo,
           description: detalles,
           images: [
-            `https://fyrloiscom.vercel.app/img/${prom.img}`, //CAMBIO EN PRODUCCION
+            `https://fyrlois.com./img/${prom.img}`, //CAMBIO EN PRODUCCION
           ],
         },
         unit_amount: item.precio * 100,
@@ -27,7 +27,7 @@ export async function POST(req, res) {
   })
 
   const session = await stripe.checkout.sessions.create({
-    success_url: "https://fyrloiscom.vercel.app/es/checkout-success", //CAMBIO EN PRODUCCION
+    success_url: "https://fyrlois.com/es/checkout-success", //CAMBIO EN PRODUCCION
     line_items: items,
     metadata: { data: JSON.stringify(data), date: Date.now(), promocion: true },
     mode: "payment",

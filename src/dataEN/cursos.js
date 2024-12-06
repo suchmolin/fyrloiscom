@@ -47,7 +47,7 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSES" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
-      { num: "6", titulo: "LEVELS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -102,7 +102,7 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSES" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
-      { num: "6", titulo: "LEVELS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -152,27 +152,29 @@ export const data = [
         alt: "difAdult",
       },
     ],
-    horarios2: [
-      {
-        titulo: "Level 1 (Basic)",
-        dia: "SATURDAYS",
-        horas: ["9:00 am - 12:25 pm"],
-      },
-      {
-        titulo: "Intermediate",
-        dia: "TUESDAY AND THURSDAY",
-        horas: ["9:00 - 10:40 am", "6:50 - 8:30 am"],
-      },
-      {
-        titulo: "Advanced",
-        dia: "SATURDAYS",
-        horas: ["9:00 am - 12:20 pm"],
-      },
-    ],
+    horarios2: {
+      horario: [
+        {
+          titulo: "Level 1 (Basic)",
+          dia: "SATURDAYS",
+          horas: ["9:00 am - 12:25 pm"],
+        },
+        {
+          titulo: "Intermediate",
+          dia: "TUESDAY AND THURSDAY",
+          horas: ["9:00 - 10:40 am", "6:50 - 8:30 am"],
+        },
+        {
+          titulo: "Advanced",
+          dia: "SATURDAYS",
+          horas: ["9:00 am - 12:20 pm"],
+        },
+      ],
+    },
     time: [
       { num: "6", titulo: "LEVELS" },
       { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
-      { num: "18", titulo: "MONTHS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "we have these specialized courses for you",
@@ -224,28 +226,30 @@ export const data = [
         alt: "dif kids",
       },
     ],
-    horarios: [
-      {
-        dia: "MONDAY AND WEDNESDAY",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-      },
-      {
-        dia: "TUESDAY AND THURSDAY",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-      },
-      {
-        dia: "FRIDAY",
-        horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
-      },
-      {
-        dia: "SATURDAYS",
-        horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
-      },
-    ],
+    horarios: {
+      horario: [
+        {
+          dia: "MONDAY AND WEDNESDAY",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "TUESDAY AND THURSDAY",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "FRIDAY",
+          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+        },
+        {
+          dia: "SATURDAYS",
+          horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+        },
+      ],
+    },
     time: [
       { num: "3", titulo: "LAPSES" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
-      { num: "6", titulo: "LEVELS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -295,28 +299,30 @@ export const data = [
         alt: "difElem",
       },
     ],
-    horarios: [
-      {
-        dia: "MONDAY AND WEDNESDAY",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-      },
-      {
-        dia: "TUESDAY AND THURSDAY",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-      },
-      {
-        dia: "FRIDAY",
-        horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
-      },
-      {
-        dia: "SATURDAYS",
-        horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
-      },
-    ],
+    horarios: {
+      horario: [
+        {
+          dia: "MONDAY AND WEDNESDAY",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "TUESDAY AND THURSDAY",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "FRIDAY",
+          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+        },
+        {
+          dia: "SATURDAYS",
+          horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+        },
+      ],
+    },
     time: [
       { num: "3", titulo: "LAPSES" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
-      { num: "6", titulo: "LEVELS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -366,28 +372,30 @@ export const data = [
         alt: "difHS",
       },
     ],
-    horarios: [
-      {
-        dia: "MONDAY AND WEDNESDAY",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-      },
-      {
-        dia: "TUESDAY AND THURSDAY",
-        horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-      },
-      {
-        dia: "FRIDAY",
-        horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
-      },
-      {
-        dia: "SATURDAYS",
-        horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
-      },
-    ],
+    horarios: {
+      horario: [
+        {
+          dia: "MONDAY AND WEDNESDAY",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "TUESDAY AND THURSDAY",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "FRIDAY",
+          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+        },
+        {
+          dia: "SATURDAYS",
+          horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+        },
+      ],
+    },
     time: [
       { num: "3", titulo: "LAPSES" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
-      { num: "6", titulo: "LEVELS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -437,38 +445,40 @@ export const data = [
         alt: "difAdult",
       },
     ],
-    horarios: [
-      {
-        dia: "WEDNESDAY AND FRIDAY",
-        horas: [
-          "7:00 - 8:20 am",
-          "8:30 - 9:50 am",
-          "10:00 - 11:20 am",
-          "12:30 - 1:50 am",
-        ],
-      },
-      {
-        dia: "TUESDAY AND THURSDAY",
-        horas: [
-          "7:00 - 8:20 am",
-          "8:30 - 9:50 am",
-          "10:00 - 11:20 am",
-          "12:30 - 1:50 am",
-        ],
-      },
-      {
-        dia: "MONDAY AND WEDNESDAY",
-        horas: ["6:30 - 7:50 pm"],
-      },
-      {
-        dia: "TUESDAY AND THURSDAY",
-        horas: ["6:30 - 7:50 pm"],
-      },
-    ],
+    horarios: {
+      horario: [
+        {
+          dia: "WEDNESDAY AND FRIDAY",
+          horas: [
+            "7:00 - 8:20 am",
+            "8:30 - 9:50 am",
+            "10:00 - 11:20 am",
+            "12:30 - 1:50 am",
+          ],
+        },
+        {
+          dia: "TUESDAY AND THURSDAY",
+          horas: [
+            "7:00 - 8:20 am",
+            "8:30 - 9:50 am",
+            "10:00 - 11:20 am",
+            "12:30 - 1:50 am",
+          ],
+        },
+        {
+          dia: "MONDAY AND WEDNESDAY",
+          horas: ["6:30 - 7:50 pm"],
+        },
+        {
+          dia: "TUESDAY AND THURSDAY",
+          horas: ["6:30 - 7:50 pm"],
+        },
+      ],
+    },
     time: [
       { num: "6", titulo: "LEVELS" },
       { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
-      { num: "18", titulo: "MONTHS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "we have these specialized courses for you",
@@ -591,34 +601,36 @@ export const data = [
       "Month and a half per level",
       "Constant practice",
     ],
-    horarios: [
-      {
-        dia: "WEDNESDAY AND FRIDAY",
-        horas: [
-          "7:00 - 8:20 am",
-          "8:30 - 9:50 am",
-          "10:00 - 11:20 am",
-          "12:30 - 1:50 am",
-        ],
-      },
-      {
-        dia: "TUESDAY AND THURSDAY",
-        horas: [
-          "7:00 - 8:20 am",
-          "8:30 - 9:50 am",
-          "10:00 - 11:20 am",
-          "12:30 - 1:50 am",
-        ],
-      },
-      {
-        dia: "MONDAY AND WEDNESDAY",
-        horas: ["6:30 - 7:50 pm"],
-      },
-      {
-        dia: "TUESDAY AND THURSDAY",
-        horas: ["6:30 - 7:50 pm"],
-      },
-    ],
+    horarios: {
+      horario: [
+        {
+          dia: "WEDNESDAY AND FRIDAY",
+          horas: [
+            "7:00 - 8:20 am",
+            "8:30 - 9:50 am",
+            "10:00 - 11:20 am",
+            "12:30 - 1:50 am",
+          ],
+        },
+        {
+          dia: "TUESDAY AND THURSDAY",
+          horas: [
+            "7:00 - 8:20 am",
+            "8:30 - 9:50 am",
+            "10:00 - 11:20 am",
+            "12:30 - 1:50 am",
+          ],
+        },
+        {
+          dia: "MONDAY AND WEDNESDAY",
+          horas: ["6:30 - 7:50 pm"],
+        },
+        {
+          dia: "TUESDAY AND THURSDAY",
+          horas: ["6:30 - 7:50 pm"],
+        },
+      ],
+    },
     time: [
       { num: "8", titulo: "HOURS PER WEEK" },
       { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
@@ -946,28 +958,19 @@ export const data = [
         alt: "difElem",
       },
     ],
-    horarios: [
-      {
-        dia: "MONDAY",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "TUESDAY",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "WEDNESDAY",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "THURSDAY",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-    ],
+    horarios: {
+      titulo: "Available times",
+      horario: [
+        {
+          dia: "MONDAY TO THURSDAY",
+          horas: ["3:00 - 3:50 pm", "(Venezuela time zone)"],
+        },
+      ],
+    },
     time: [
       { num: "3", titulo: "LAPSES" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
-      { num: "6", titulo: "LEVELS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -1017,28 +1020,19 @@ export const data = [
         alt: "difHSO",
       },
     ],
-    horarios: [
-      {
-        dia: "MONDAY",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "TUESDAY",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "WEDNESDAY",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-      {
-        dia: "THURSDAY",
-        horas: ["3:00 - 3:50 pm", "(EST)"],
-      },
-    ],
+    horarios: {
+      titulo: "Available times",
+      horario: [
+        {
+          dia: "MONDAY TO THURSDAY",
+          horas: ["3:00 - 3:50 pm", "(Venezuela time zone)"],
+        },
+      ],
+    },
     time: [
       { num: "3", titulo: "LAPSES" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
-      { num: "6", titulo: "LEVELS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -1088,28 +1082,23 @@ export const data = [
         alt: "difAdult",
       },
     ],
-    horarios: [
-      {
-        dia: "MONDAY",
-        horas: ["8:00 - 9:50 pm", "(EST)"],
-      },
-      {
-        dia: "TUESDAY",
-        horas: ["6:00 - 7:50 pm", "(EST)"],
-      },
-      {
-        dia: "WEDNESDAY",
-        horas: ["8:00 - 9:50 pm", "(EST)"],
-      },
-      {
-        dia: "THURSDAY",
-        horas: ["6:00 - 7:50 pm", "(EST)"],
-      },
-    ],
+    horarios: {
+      titulo: "Available times",
+      horario: [
+        {
+          dia: "TUESDAY & THURSDAY",
+          horas: ["9:00 am - 10:50 pm", "(Miami time zone)"],
+        },
+        {
+          dia: "TUESDAY & THURSDAY",
+          horas: ["8:00 pm - 9:50 pm", "(Miami time zone)"],
+        },
+      ],
+    },
     time: [
       { num: "6", titulo: "LEVELS" },
       { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
-      { num: "18", titulo: "MONTHS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -1228,7 +1217,7 @@ export const data = [
     time: [
       { num: "6", titulo: "LEVELS" },
       { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
-      { num: "18", titulo: "MONTHS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -1702,7 +1691,7 @@ export const data = [
     time: [
       { num: "6", titulo: "LEVELS" },
       { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
-      { num: "18", titulo: "MONTHS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "we have these specialized courses for you",
@@ -2117,7 +2106,7 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSES" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
-      { num: "6", titulo: "LEVELS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -2171,7 +2160,7 @@ export const data = [
     time: [
       { num: "3", titulo: "LAPSES" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
-      { num: "6", titulo: "LEVELS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -2225,7 +2214,7 @@ export const data = [
     time: [
       { num: "6", titulo: "LEVELS" },
       { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
-      { num: "18", titulo: "MONTHS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "we have these specialized courses for you",
@@ -2344,7 +2333,7 @@ export const data = [
     time: [
       { num: "6", titulo: "LEVELS" },
       { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
-      { num: "18", titulo: "MONTHS" },
+      { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",

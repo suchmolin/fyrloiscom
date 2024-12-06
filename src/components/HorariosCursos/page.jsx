@@ -19,26 +19,36 @@ export default function HorariosCursos({ data }) {
         </h2>
       </div>
       <div className="w-full md:w-11/12 lg:w-8/12 grid grid-cols-1 sm:grid-cols-2 justify-items-center gap-y-7 mt-7 lg:mt-0">
-        {data.map((item, index) => (
-          <div
-            key={index}
-            className={`flex flex-col items-center ${index === data.length - 1 && data.length % 2 !== 0 ? "col-span-2" : ""}`}
-          >
-            {item.titulo && (
-              <h3 className="text-3xl text-[#001a70]  mb-5 ">{item.titulo}</h3>
-            )}
-            <div className="w-[285px] xs:w-[300px] xxl:w-[330px] dropShadow3 bg-gray-100 rounded-2xl py-6 px-6 xxl:py-8 flex flex-col items-center text-center">
-              <p className="text-xl xs:text-2xl text-[#001a70] font-bold mb-5">
-                {item.dia}
-              </p>
-              {item.horas.map((hora, i) => (
-                <p key={`parrafo${i}`} className="text-xl font-bold mb-1">
-                  {hora}
+        {data.titulo && (
+          <h3 className="w-full col-span-2 text-center text-3xl text-[#001a70] font-bold">
+            {data.titulo}
+          </h3>
+        )}
+        {data.horario.map((item, index) => {
+          console.log(data.length - 1)
+          return (
+            <div
+              key={index}
+              className={`flex flex-col items-center ${index === data.horario.length - 1 && data.horario.length % 2 !== 0 ? "col-span-2" : ""}`}
+            >
+              {item.titulo && (
+                <h3 className="text-3xl text-[#001a70]  mb-5 ">
+                  {item.titulo}
+                </h3>
+              )}
+              <div className="w-[285px] xs:w-[300px] xxl:w-[330px] dropShadow3 bg-gray-100 rounded-2xl py-6 px-6 xxl:py-8 flex flex-col items-center text-center">
+                <p className="text-xl xs:text-2xl text-[#001a70] font-bold mb-5">
+                  {item.dia}
                 </p>
-              ))}
+                {item.horas.map((hora, i) => (
+                  <p key={`parrafo${i}`} className="text-xl font-bold mb-1">
+                    {hora}
+                  </p>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          )
+        })}
       </div>
     </div>
   )

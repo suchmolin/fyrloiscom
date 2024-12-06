@@ -7,7 +7,7 @@ export const data = [
     alt: "Diferenciador",
     title: "25 years of experience",
     subtitle:
-      "We have more than two decades teaching languages, this allow us to create a unique and efective methodology",
+      "Our experience of more than two decades in language teaching has led us to develop a unique and effective methodology.",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const data = [
     alt: "Diferenciador",
     title: "Small groups, maximum of 8 students",
     subtitle:
-      "Our focus is on individualized learning, ensuring that each student receives the attention they need",
+      "Our focus is on individualized learning, ensuring that each student receives the attention they need.",
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ export const data = [
     alt: "Diferenciador",
     title: "CELTA - TEFL certified teachers",
     subtitle:
-      "Our teachers are ready to provide you with a top-notch experience",
+      "Our teachers are ready to provide you with a top-notch experience.",
   },
   {
     id: 6,

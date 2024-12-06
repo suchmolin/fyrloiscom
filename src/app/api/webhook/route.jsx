@@ -94,7 +94,7 @@ export async function POST(request) {
                 <img
                 style="width: 70px; height: 50px; margin-right: 10px;"
                   
-                  src="https://fyrloiscom.vercel.app/img/${prom.img}"
+                  src="https://fyrlois.com/img/${prom.img}"
                   alt="${prom.titulo}"
                 />
                 <div style="width: 350px; display:flex;">
@@ -201,7 +201,7 @@ export async function POST(request) {
                 <img
                 style="width: 70px; height: 50px; margin-right: 10px;"
                   
-                  src="https://fyrloiscom.vercel.app/img/${prom.img}"
+                  src="https://fyrlois.com/img/${prom.img}"
                   alt="${prom.titulo}"
                 />
                 <div style="width: 350px; display:flex;">

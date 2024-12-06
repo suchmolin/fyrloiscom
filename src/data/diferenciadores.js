@@ -7,7 +7,7 @@ export const data = [
     alt: "Diferenciador",
     title: "25 años de trayectoria",
     subtitle:
-      "Nuestras más de dos decadas enseñando idiomas, nos ha permitido desarrollar una metodología única y efectiva.",
+      "Nuestra experiencia de más de dos décadas en la enseñanza de idiomas nos ha llevado a desarrollar una metodología única y efectiva.",
   },
   {
     id: 2,
@@ -57,6 +57,6 @@ export const data = [
     alt: "Diferenciador",
     title: "Metodología alineada al Marco Común Europeo",
     subtitle:
-      "Nuestro curso esta estructurado segun los niveles de MCER,  lo que te permitirá avanzar de manera progresiva",
+      "Nuestro curso esta estructurado segun los niveles de MCER,  lo que te permitirá avanzar de manera progresiva.",
   },
 ]
