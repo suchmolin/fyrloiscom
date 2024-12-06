@@ -25,7 +25,6 @@ export default function HorariosCursos({ data }) {
           </h3>
         )}
         {data.horario.map((item, index) => {
-          console.log(data.length - 1)
           return (
             <div
               key={index}

@@ -22,7 +22,7 @@ export default function CardPromo({ item, curso }) {
           <p
             className={`flex flex-col items-center justify-center text-3xl  font-[latoblack] ${destacar ? "text-[#001a70]" : "text-white"}`}
           >
-            <span className="text-6xl">
+            <span className={`${destacar ? "scale-125" : ""} text-6xl`}>
               {item.descuento}
               <span className="text-5xl">%</span>
             </span>
