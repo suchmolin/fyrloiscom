@@ -374,37 +374,36 @@ export const data = [
       },
     ],
     horarios: {
-      horario: {
-        horario: [
-          {
-            dia: "LUNES Y MIÉRCOLES",
-            horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-          },
-          {
-            dia: "MARTES Y JUEVES",
-            horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
-          },
-          {
-            dia: "VIERNES",
-            horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
-          },
-          {
-            dia: "SÁBADOS",
-            horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
-          },
-        ],
-      },
-      time: [
-        { num: "3", titulo: "LAPSOS" },
-        { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-        { num: "12", titulo: "SEMANAS POR LAPSO" },
+      horario: [
+        {
+          dia: "LUNES Y MIÉRCOLES",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "MARTES Y JUEVES",
+          horas: ["2:00 - 3:20 pm", "3:30 - 4:50 pm", "5:00 - 6:20 pm"],
+        },
+        {
+          dia: "VIERNES",
+          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+        },
+        {
+          dia: "SÁBADOS",
+          horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+        },
       ],
-      subCursos: {
-        titulo: "nuestro Curso Personalizado es para ti",
-        subtitulo: "Si buscas algo más enfocado en tus necesidades,",
-      },
+    },
+    time: [
+      { num: "3", titulo: "LAPSOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
+      { num: "12", titulo: "SEMANAS POR LAPSO" },
+    ],
+    subCursos: {
+      titulo: "nuestro Curso Personalizado es para ti",
+      subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
+
     promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
