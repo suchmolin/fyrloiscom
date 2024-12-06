@@ -20,7 +20,7 @@ export default function CardPromo({ item, curso }) {
           className={` flex items-center justify-center text-white ${destacar ? "bg-[#97D700] w-[102%] md:w-[103%] lg:w-[102%] -ml-1 -mt-1 rounded-t-lg" : "bg-[#001a70] w-full"} py-7`}
         >
           <p
-            className={`flex flex-col items-center justify-center text-3xl  font-bold ${destacar ? "text-[#001a70]" : "text-white"}`}
+            className={`flex flex-col items-center justify-center text-3xl  font-[latoblack] ${destacar ? "text-[#001a70]" : "text-white"}`}
           >
             <span className="text-6xl">
               {item.descuento}
@@ -43,11 +43,11 @@ export default function CardPromo({ item, curso }) {
             <p className="text-center text-[#001a70]">
               Antes:{" "}
               <span className="line-through font-bold">
-                {item.precioAnterior}
+                ${item.precioAnterior}.00
               </span>
             </p>
             <p className="text-center text-3xl md:text-2xl lg:text-3xl font-bold text-[#001a70]">
-              Total: {item.precioPromo}
+              Total: ${item.precioPromo}.00
             </p>
           </div>
         </div>
