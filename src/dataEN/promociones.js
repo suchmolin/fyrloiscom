@@ -44,7 +44,6 @@ export const data = [
     descuento: 50,
     precioAnterior: 2400,
     precioPromo: 1200,
-    destacar: true,
   },
   {
     id: "recomendado-lapso",
@@ -54,7 +53,7 @@ export const data = [
     descuento: 40,
     precioAnterior: 1600,
     precioPromo: 960,
-    recomendado: true,
+    destacar: true,
   },
   {
     id: "essential-hora",

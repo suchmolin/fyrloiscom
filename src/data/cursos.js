@@ -54,7 +54,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "high-school-kissimmee",
@@ -110,7 +110,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "adults-kissimmee",
@@ -256,7 +256,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "elementary",
@@ -329,7 +329,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "high-school",
@@ -404,7 +404,7 @@ export const data = [
       subCurso: ["personalizado"],
     },
 
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "adults",
@@ -987,7 +987,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-online"],
     },
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "high-school-online",
@@ -1049,7 +1049,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-online"],
     },
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "adults-online",
@@ -1096,12 +1096,17 @@ export const data = [
       titulo: "Horarios disponibles",
       horario: [
         {
-          dia: "MARTES Y JUEVES",
-          horas: ["9:00 am - 10:50 pm", "(EST)"],
+          dia: "LUNES Y MIERCOLES",
+          horas: ["8:00pm - 9:50pm", "(EST)"],
         },
         {
-          dia: "MARTES A JUEVES",
-          horas: ["8:00 pm - 9:50 pm", "(EST)"],
+          dia: "MARTES Y JUEVES",
+          horas: [
+            "9:00 am - 10:50 pm",
+            "6:00 am - 7:50 pm",
+            "8:00 pm - 9:50 pm",
+            "(EST)",
+          ],
         },
       ],
     },
@@ -1566,7 +1571,7 @@ export const data = [
         alt: "dif kids",
       },
     ],
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "elementary-espanol",
@@ -1614,7 +1619,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol"],
     },
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "high-school-espanol",
@@ -1662,7 +1667,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol"],
     },
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "adults-espanol",
@@ -2136,7 +2141,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol-online"],
     },
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "high-school-espanol-online",
@@ -2190,7 +2195,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol-online"],
     },
-    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
+    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
   },
   {
     id: "adults-espanol-online",
