@@ -25,9 +25,6 @@ export async function POST(req, res) {
       quantity: item.cantidad,
     }
   })
-  console.log({ items })
-  console.log(items[0].price_data)
-  console.log(items[0].price_data.product_data)
 
   const session = await stripe.checkout.sessions.create({
     success_url: "https://fyrloiscom.vercel.app/es/checkout-success", //CAMBIO EN PRODUCCION

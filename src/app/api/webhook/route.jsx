@@ -3,6 +3,7 @@ import Stripe from "stripe"
 import { headers } from "next/headers"
 import { Resend } from "resend"
 import { data as cursosInfo } from "@/data/cursos"
+import { data as promoInfo } from "@/data/promociones"
 
 export async function POST(request) {
   const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
@@ -28,7 +29,9 @@ export async function POST(request) {
   switch (event.type) {
     case "checkout.session.completed":
       const session = event.data.object
-      if(!session.metadata.data){return new Response(null, { status: 203 })}
+      if (!session.metadata.data) {
+        return new Response(null, { status: 203 })
+      }
       const productos = JSON.parse(session.metadata.data)
       const nombreCliente = session.customer_details.name
       const correoCliente = session.customer_details.email
@@ -80,18 +83,44 @@ export async function POST(request) {
         </div>
 
         <div style="width: 100%; background-color: rgb(241 245 249); font-size: 14px; line-height: 16px; padding: 12px 16px; margin-top: 12px;">
-          ${productos.map((producto) => {
-            let curso
-            cursosInfo.forEach((cur) => {
-              if (cur.id === producto.id) {
-                curso = cur
-              } else {
-                if (cur.subCourse?.some((sub) => sub.id === producto.id)) {
-                  curso = cur.subCourse.find((sub) => sub.id === producto.id)
-                }
-              }
-            })
-            return `
+          ${
+            session.metadata.promocion
+              ? productos.map((producto) => {
+                  const prom = promoInfo.find(
+                    (promo) => promo.id === producto.id
+                  )
+                  return `
+                <div style="display: flex; gap: 16px; align-items: center; padding-top: 16px; padding-bottom: 16px;" >
+                <img
+                style="width: 70px; height: 50px; margin-right: 10px;"
+                  
+                  src="https://fyrloiscom.vercel.app/img/${prom.img}"
+                  alt="${prom.titulo}"
+                />
+                <div style="width: 350px; display:flex;">
+                  <p style="display:inline-block; margin-right: auto; margin-left: 0;">${prom.titulo} x ${producto.cantidad} <br/> ${prom.detalles.join(", ") + ", " + producto.curso}</p>
+                  <p style="display:inline-block; margin-left: auto; margin-right: 0;">$${prom.precioPromo}.00</p>
+                  
+                </div>
+              </div>
+                `
+                })
+              : productos.map((producto) => {
+                  let curso
+                  cursosInfo.forEach((cur) => {
+                    if (cur.id === producto.id) {
+                      curso = cur
+                    } else {
+                      if (
+                        cur.subCourse?.some((sub) => sub.id === producto.id)
+                      ) {
+                        curso = cur.subCourse.find(
+                          (sub) => sub.id === producto.id
+                        )
+                      }
+                    }
+                  })
+                  return `
               <div style="display: flex; gap: 16px; align-items: center; padding-top: 16px; padding-bottom: 16px;" >
                 <img
                 style="width: 70px; height: 50px; margin-right: 10px;"
@@ -106,7 +135,8 @@ export async function POST(request) {
                 </div>
               </div>
               `
-          })}
+                })
+          }
           
           <hr />
           <div style="display:flex; padding: 12px 0; font-weight: bold; color: rgb(21 94 117); width:350px;" >
@@ -127,7 +157,7 @@ export async function POST(request) {
         to: "info@fyrlois.com",
         subject: "PAGO ONLINE Fyr Lois Online",
         html: `
-              <html>
+            <html>
               <head>
               </head>
               <body>
@@ -160,18 +190,44 @@ export async function POST(request) {
         </div>
 
         <div style="width: 100%; background-color: rgb(241 245 249); font-size: 14px; line-height: 16px; padding: 12px 16px; margin-top: 12px;">
-          ${productos.map((producto) => {
-            let curso
-            cursosInfo.forEach((cur) => {
-              if (cur.id === producto.id) {
-                curso = cur
-              } else {
-                if (cur.subCourse?.some((sub) => sub.id === producto.id)) {
-                  curso = cur.subCourse.find((sub) => sub.id === producto.id)
-                }
-              }
-            })
-            return `
+          ${
+            session.metadata.promocion
+              ? productos.map((producto) => {
+                  const prom = promoInfo.find(
+                    (promo) => promo.id === producto.id
+                  )
+                  return `
+                <div style="display: flex; gap: 16px; align-items: center; padding-top: 16px; padding-bottom: 16px;" >
+                <img
+                style="width: 70px; height: 50px; margin-right: 10px;"
+                  
+                  src="https://fyrloiscom.vercel.app/img/${prom.img}"
+                  alt="${prom.titulo}"
+                />
+                <div style="width: 350px; display:flex;">
+                  <p style="display:inline-block; margin-right: auto; margin-left: 0;">${prom.titulo} x ${producto.cantidad} <br/> ${prom.detalles.join(", ") + ", " + producto.curso}</p>
+                  <p style="display:inline-block; margin-left: auto; margin-right: 0;">$${prom.precioPromo}.00</p>
+                  
+                </div>
+              </div>
+                `
+                })
+              : productos.map((producto) => {
+                  let curso
+                  cursosInfo.forEach((cur) => {
+                    if (cur.id === producto.id) {
+                      curso = cur
+                    } else {
+                      if (
+                        cur.subCourse?.some((sub) => sub.id === producto.id)
+                      ) {
+                        curso = cur.subCourse.find(
+                          (sub) => sub.id === producto.id
+                        )
+                      }
+                    }
+                  })
+                  return `
               <div style="display: flex; gap: 16px; align-items: center; padding-top: 16px; padding-bottom: 16px;" >
                 <img
                 style="width: 70px; height: 50px; margin-right: 10px;"
@@ -186,7 +242,8 @@ export async function POST(request) {
                 </div>
               </div>
               `
-          })}
+                })
+          }
           
           <hr />
           <div style="display:flex; padding: 12px 0; font-weight: bold; color: rgb(21 94 117); width:350px;" >
@@ -199,13 +256,13 @@ export async function POST(request) {
         <p>Para más información, puedes comunicarte con nosotros, vía WhatsApp, por el número telefónico: +1 (786) 626-6559</p>
       </div>
       </body>
-      </html>`,
+      </html>
+      `,
       })
 
       break
     default:
       console.log(`Unhandled event type ${event.type}`)
-      
   }
 
   return new Response(null, { status: 200 })
