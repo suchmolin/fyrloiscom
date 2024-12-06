@@ -23,7 +23,7 @@ export default function ReviewsSection({ modalidad }) {
   }, [t])
 
   return (
-    <div className="w-full flex flex-col justify-center items-center py-20">
+    <div className="w-full flex flex-col justify-center items-center py-20 overflow-hidden">
       <h2 className="w-[290px] xs:w-[360px] sm:w-[600px] md:w-[800px] fontTitulo text-[#001a70] text-center font-bold">
         {t("h2")}
       </h2>

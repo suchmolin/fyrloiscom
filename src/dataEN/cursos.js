@@ -54,6 +54,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "high-school-kissimmee",
@@ -108,6 +109,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "adults-kissimmee",
@@ -177,6 +179,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
+    promo: ["essential-level", "deluxe-level", "extra-level"],
   },
   //*****************************CURSOS PRESENCIAL */
   {
@@ -249,6 +252,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "elementary",
@@ -319,6 +323,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "high-school",
@@ -389,6 +394,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "adults",
@@ -469,6 +475,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado", "intensivo"],
     },
+    promo: ["essential-level", "deluxe-level", "extra-level"],
   },
   {
     id: "personalizado",
@@ -506,7 +513,6 @@ export const data = [
     lang: "english",
     modalidad: "presencial",
     modalityPayment: "hora",
-
     difCourses: [
       {
         id: "1",
@@ -538,6 +544,7 @@ export const data = [
       "Exclusive teacher",
       "Adapted to your needs and objectives",
     ],
+    promo: ["essential-hora", "deluxe-hora", "extra-hora"],
   },
   {
     id: "intensivo",
@@ -967,6 +974,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online"],
     },
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "high-school-online",
@@ -1037,6 +1045,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online"],
     },
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "adults-online",
@@ -1107,6 +1116,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online", "intensivo-online"],
     },
+    promo: ["essential-level", "deluxe-level", "extra-level"],
   },
   {
     id: "personalizado-online",
@@ -1169,6 +1179,7 @@ export const data = [
       "Exclusive teacher",
       "Adapted to your needs and objectives",
     ],
+    promo: ["essential-hora", "deluxe-hora", "extra-hora"],
   },
   {
     id: "intensivo-online",
@@ -1548,6 +1559,7 @@ export const data = [
         alt: "dif kids",
       },
     ],
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "elementary-espanol",
@@ -1595,6 +1607,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol"],
     },
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "high-school-espanol",
@@ -1642,6 +1655,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol"],
     },
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "adults-espanol",
@@ -1695,6 +1709,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol", "intensivo-espanol"],
     },
+    promo: ["essential-level", "deluxe-level", "extra-level"],
   },
   {
     id: "intensivo-espanol",
@@ -1815,6 +1830,7 @@ export const data = [
       "Exclusive teacher",
       "Adapted to your needs and objectives",
     ],
+    promo: ["essential-hora", "deluxe-hora", "extra-hora"],
   },
   {
     id: "profesional-espanol",
@@ -2108,6 +2124,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol-online"],
     },
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "high-school-espanol-online",
@@ -2161,6 +2178,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol-online"],
     },
+    promo: ["essential-lapso", "deluxe-lapso", "recomendado-lapso"],
   },
   {
     id: "adults-espanol-online",
@@ -2214,6 +2232,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol-online", "intensivo-espanol-online"],
     },
+    promo: ["essential-level", "deluxe-level", "extra-level"],
   },
   {
     id: "personalizado-espanol-online",
@@ -2276,6 +2295,7 @@ export const data = [
       "Exclusive teacher",
       "Adapted to your needs and objectives",
     ],
+    promo: ["essential-hora", "deluxe-hora", "extra-hora"],
   },
   {
     id: "intensivo-espanol-online",

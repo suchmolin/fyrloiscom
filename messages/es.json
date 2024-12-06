@@ -380,5 +380,8 @@
     "h1":"Su pago fue exitoso",
     "p":" En breve recibirás un email, con los detalles de tu compra y serás contactado para completar el proceso de inscripción.",
     "p2":" Si tienes alguna duda puedes llamarnos a"
+  },
+  "promo":{
+    "data":"data"
   }
 }

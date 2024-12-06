@@ -37,7 +37,7 @@ export default function SubCourses({ sub }) {
   }, [data, sub])
 
   return (
-    <div className="w-full bg-gray-100 flex justify-center py-10">
+    <div className="w-full bg-gray-100 flex justify-center py-10 overflow-hidden">
       <div className="w-full md:w-11/12 xl:w-10/12 flex flex-col lg:flex-row justify-center items-center">
         <div className="w-11/12 md:w-7/12 lg:w-5/12 xxl:w-4/12 flex items-center text-center lg:text-start justify-end pr-4">
           <h2 className="text-2xl xs:text-3xl sm:text-4xl font-bold text-[#001a70]">

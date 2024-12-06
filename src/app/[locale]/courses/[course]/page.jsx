@@ -12,6 +12,7 @@ import TimeCursos from "@/components/TimeCursos/page"
 import SubCourses from "@/components/SubCourses/page"
 import Diferenciadores from "@/components/Diferenciadores/page"
 import PersonalizadoDif from "@/components/PersonalizadoDif/page"
+import PromocionesCursos from "@/components/PromocionesCursos/page"
 
 export default function CoursePage({ params }) {
   const { course } = params
@@ -47,6 +48,9 @@ export default function CoursePage({ params }) {
         <div className="w-full flex justify-center">
           <TimeCursos data={data.time} fondoBlanco={data.difBlanco2} />
         </div>
+      )}
+      {data.promo && (
+        <PromocionesCursos promoList={data.promo} cursoId={data.id} />
       )}
       {data.subCursos && (
         <>

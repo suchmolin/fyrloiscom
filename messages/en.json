@@ -380,5 +380,8 @@
     "h1":"Your payment was successful",
     "p":"You will shortly receive an email with the details of your purchase and you will be contacted to complete the registration process.",
     "p2":"If you have any questions you can call us at"
+  },
+  "promo":{
+    "data":"dataEN"
   }
 }
