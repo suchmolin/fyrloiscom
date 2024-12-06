@@ -33,7 +33,7 @@ export default function CoursePage({ params }) {
   }, [t, course])
 
   return (
-    <>
+    <div className="font-[lato]">
       <HeroSingleCourse courseData={data} />
       <div className="w-full h-fit flex justify-center bg-[#001a70] py-20">
         <DiferenciadoresList data={data.difCourses} />
@@ -93,6 +93,6 @@ export default function CoursePage({ params }) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
