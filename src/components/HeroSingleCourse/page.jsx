@@ -36,7 +36,7 @@ export default function HeroSingleCourse({ courseData }) {
               </div>
             )}
 
-            {courseData.price && (
+            {courseData.price && !courseData.promo && (
               <div className="flex gap-4 items-center">
                 <div className="relative w-[30px] aspect-square">
                   <Image
