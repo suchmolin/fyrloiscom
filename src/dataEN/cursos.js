@@ -677,53 +677,6 @@ export const data = [
     ],
   },
   {
-    id: "profesional",
-    title: "Profesional",
-    description2:
-      "Have you already reached level C1? It's time to take a step forward and reach a higher professional level. Learn about our Professional Courses and practice what you need to improve your English.",
-    img: "profesional.png",
-    imgAlternative: "profesionalAlt.png",
-    condicion: "C1 onwards",
-    lang: "english",
-    modalidad: "presencial",
-    difCourses: [
-      {
-        id: "1",
-        title: "Improvement in pronunciation",
-        src: "/img/difProfesionalEspanol.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalEspanol",
-      },
-      {
-        id: "2",
-        title: "Grammar applied to your professional branch",
-        src: "/img/difProfesionalEspanol2.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalEspanol",
-      },
-      {
-        id: "3",
-        title: "Intonation and rhythm",
-        src: "/img/difProfesionalEspanol3.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalEspanol",
-      },
-    ],
-    subCursos: {
-      titulo:
-        "It's time to take that step in your professional career and improve your English",
-
-      subCurso: [
-        "conversacional",
-        "ingles-para-negocios",
-        "reduccion-de-acento",
-      ],
-    },
-  },
-  {
     id: "conversacional",
     title: "Conversacional",
     description2:
@@ -1270,54 +1223,6 @@ export const data = [
     ],
   },
   {
-    id: "profesional-online",
-    title: "Profesional Online",
-    description2:
-      "Have you already reached level C1? It's time to take a step forward and reach a higher professional level. Learn about our Professional Courses and practice what you need to improve your English.",
-    condicion: "C1 onwards",
-    img: "profesionalOnline.png",
-    imgAlternative: "profesionalOnlineAlt.png",
-    lang: "english",
-    modalidad: "online",
-
-    difCourses: [
-      {
-        id: "1",
-        title: "Improvement in pronunciation",
-        src: "/img/difProfesionalOnline.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalOnline",
-      },
-      {
-        id: "2",
-        title: "Grammar applied to your professional branch",
-        src: "/img/difProfesionalOnline2.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalOnline",
-      },
-      {
-        id: "3",
-        title: "Intonation and rhythm",
-        src: "/img/difProfesionalOnline3.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalOnline",
-      },
-    ],
-    subCursos: {
-      titulo:
-        "It's time to take that step in your professional career and improve your English",
-
-      subCurso: [
-        "conversacional-online",
-        "ingles-para-negocios-online",
-        "reduccion-de-acento-online",
-      ],
-    },
-  },
-  {
     id: "conversacional-online",
     title: "Conversacional Online",
     description2:
@@ -1825,55 +1730,6 @@ export const data = [
       "Adapted to your needs and objectives",
     ],
     promo: ["essential-hora", "deluxe-hora", "extra-hora"],
-  },
-  {
-    id: "profesional-espanol",
-    title: "Profesional Español",
-    description2:
-      "If you speak Spanish at an advanced level, it is time to take a step forward in your professional learning. Improve your level of Spanish and achieve your professional goals",
-    condicion: "C1 onwards",
-    img: "profesionalEspanol.png",
-    imgAlternative: "profesionalEspanolAlt.png",
-
-    lang: "spanish",
-    modalidad: "presencial",
-
-    difCourses: [
-      {
-        id: "1",
-        title: "Improvement in pronunciation",
-        src: "/img/difProfesionalEspanol.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalEspanol",
-      },
-      {
-        id: "2",
-        title: "Grammar applied to your professional branch",
-        src: "/img/difProfesionalEspanol2.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalEspanol",
-      },
-      {
-        id: "3",
-        title: "Intonation and rhythm",
-        src: "/img/difProfesionalEspanol3.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalEspanol",
-      },
-    ],
-    subCursos: {
-      titulo:
-        "It's time to take that step in your professional career and improve your English",
-
-      subCurso: [
-        "conversacional-espanol",
-        "espanol-para-negocios",
-        "reduccion-de-acento-espanol",
-      ],
-    },
   },
   {
     id: "conversacional-espanol",
@@ -2384,53 +2240,6 @@ export const data = [
         alt: "difCorporativoOnline",
       },
     ],
-  },
-  {
-    id: "profesional-espanol-online",
-    title: "Profesional Español Online",
-    description2:
-      "If you speak Spanish at an advanced level, it is time to take a step forward in your professional learning. Improve your level of Spanish and achieve your professional goals.",
-    img: "profesionalEspanolOnline.png",
-    imgAlternative: "profesionalEspanolOnlineAlt.png",
-    condicion: "C1 onwards",
-    lang: "spanish",
-    modalidad: "online",
-    difCourses: [
-      {
-        id: "1",
-        title: "Improvement in pronunciation",
-        src: "/img/difProfesionalOnline.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalOnline",
-      },
-      {
-        id: "2",
-        title: "Grammar applied to your professional branch",
-        src: "/img/difProfesionalOnline2.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalOnline",
-      },
-      {
-        id: "3",
-        title: "Intonation and rhythm",
-        src: "/img/difProfesionalOnline3.png",
-        width: 60,
-        height: 60,
-        alt: "difProfesionalOnline",
-      },
-    ],
-    subCursos: {
-      titulo:
-        "It's time to take that step in your professional career and improve your Spanish",
-
-      subCurso: [
-        "conversacional-espanol-online",
-        "espanol-para-negocios-online",
-        "reduccion-de-acento-espanol-online",
-      ],
-    },
   },
   {
     id: "conversacional-espanol-online",

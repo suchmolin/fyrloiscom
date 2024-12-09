@@ -49,9 +49,9 @@ export default function CoursePage({ params }) {
           <TimeCursos data={data.time} fondoBlanco={data.difBlanco2} />
         </div>
       )}
-      {data.promo && (
+      {/*data.promo && (
         <PromocionesCursos promoList={data.promo} cursoId={data.id} />
-      )}
+      )*/}
       {data.subCursos && (
         <>
           <SubCourses sub={data.subCursos} />
