@@ -30,13 +30,12 @@ export default function HeroSingleCourse({ courseData }) {
                     alt="image"
                   />
                 </div>
-                <p className="w-fit text-[#001a70] text-center md:text-start">{courseData.etapa}</p>
+                <p className="w-fit text-[#001a70] text-center md:text-start">
+                  {courseData.etapa}
+                </p>
               </div>
             )}
 
-            {courseData.condicion && (
-              <p className="text-[#001a70]">{courseData.condicion}</p>
-            )}
             {courseData.price && (
               <div className="flex gap-4 items-center">
                 <div className="relative w-[30px] aspect-square">
