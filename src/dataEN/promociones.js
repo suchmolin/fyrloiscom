@@ -9,9 +9,9 @@ export const data = [
     precioAnterior: 800,
     precioPromo: 240,
     financiado: {
-      descripcion: "Inscription: 240$",
-      descripcion2: " +  2 installments of: 240$",
-      boton: "INSCRIPTION 240$",
+      descripcion: "Inscription: $240",
+      descripcion2: " +  2 installments of: $240",
+      boton: "INSCRIPTION $240",
     },
     detalles: [
       "3 Months",
@@ -24,7 +24,7 @@ export const data = [
     id: "recomendado-level",
     titulo: "RECOMENDED",
     tiempoUnitario: "3 Months",
-    tiempoTotal: "1 Levels",
+    tiempoTotal: "1 Level",
     descuento: 30,
     precioAnterior: 800,
     precioPromo: 560,
@@ -53,9 +53,9 @@ export const data = [
     precioAnterior: 800,
     precioPromo: 240,
     financiado: {
-      descripcion: "Inscription: 240$",
-      descripcion2: " +  2 installments of: 240$",
-      boton: "INSCRIPTION 240$",
+      descripcion: "Inscription: $240",
+      descripcion2: " +  2 installments of: $240",
+      boton: "INSCRIPTION $240",
     },
     detalles: [
       "3 Months",
@@ -65,10 +65,10 @@ export const data = [
     img: "financiadomodulo.png",
   },
   {
-    id: "recomendado-lapso",
+    id: "recomendado-modulo",
     titulo: "RECOMENDED",
     tiempoUnitario: "3 Months",
-    tiempoTotal: "1 Lapsos",
+    tiempoTotal: "1 Module",
     descuento: 30,
     precioAnterior: 800,
     precioPromo: 560,
@@ -77,7 +77,7 @@ export const data = [
     img: "recomendadomodulo.png",
   },
   {
-    id: "deluxe-lapso",
+    id: "deluxe-modulo",
     titulo: "DELUXE",
     tiempoUnitario: "6 Months",
     tiempoTotal: "2 Modules",

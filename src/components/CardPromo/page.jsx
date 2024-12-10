@@ -40,7 +40,9 @@ export default function CardPromo({ item, curso }) {
             <p>{item.tiempoTotal}</p>
           </div>
           <div className="flex flex-col text-center mt-4">
-            <p className="text-center text-[#001a70]">
+            <p
+              className={`text-center text-[#001a70] ${item.financiado ? "text-xs" : ""}`}
+            >
               Antes:{" "}
               <span className="line-through font-bold">
                 ${item.precioAnterior}.00
@@ -48,8 +50,8 @@ export default function CardPromo({ item, curso }) {
             </p>
             {item.financiado ? (
               <>
-                <p className=" text-sm">{item.financiado.descripcion}</p>
-                <p className=" text-sm">{item.financiado.descripcion2}</p>
+                <p className="">{item.financiado.descripcion}</p>
+                <p className="">{item.financiado.descripcion2}</p>
               </>
             ) : (
               <p className="text-center text-3xl md:text-2xl lg:text-3xl font-bold text-[#001a70]">

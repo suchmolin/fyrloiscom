@@ -17,7 +17,7 @@ export const data = [
     difBlanco2: true,
     lang: "english",
     modalidad: "presencial",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     difCourses: [
       {
         id: "1",
@@ -45,9 +45,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "12", titulo: "SEMANAS POR LAPSO" },
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -71,7 +71,7 @@ export const data = [
     difBlanco2: true,
     lang: "english",
     modalidad: "presencial",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     difCourses: [
       {
         id: "1",
@@ -101,9 +101,9 @@ export const data = [
     ],
 
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "12", titulo: "SEMANAS POR LAPSO" },
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -199,7 +199,7 @@ export const data = [
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     difCourses: [
       {
         id: "1",
@@ -247,9 +247,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "12", titulo: "SEMANAS POR LAPSO" },
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -272,7 +272,7 @@ export const data = [
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     difCourses: [
       {
         id: "1",
@@ -320,9 +320,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "12", titulo: "SEMANAS POR LAPSO" },
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -345,7 +345,7 @@ export const data = [
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     difCourses: [
       {
         id: "1",
@@ -394,9 +394,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "12", titulo: "SEMANAS POR LAPSO" },
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -894,7 +894,7 @@ export const data = [
       "¡Impulsa a tu hijo a descubrir un mundo de posibilidades! A través de un aprendizaje divertido, se enamorará del inglés.",
     etapa: "6-11 años. ",
     modalidad: "online",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     img: "elementaryOnline.png",
     imgAlternative: "elementaryOnlineAlt.png",
     price: 800,
@@ -938,9 +938,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "12", titulo: "SEMANAS POR LAPSO" },
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -956,7 +956,7 @@ export const data = [
       "Prepara a tu hijo para el futuro, con un curso adaptado a su edad. Una perfecta combinación de temas y retos adaptados a sus intereses.",
     etapa: "12-16 años. ",
     modalidad: "online",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     img: "highSchoolOnline.png",
     imgAlternative: "highSchoolOnlineAlt.png",
     price: 800,
@@ -1000,9 +1000,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "12", titulo: "SEMANAS POR LAPSO" },
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -1463,7 +1463,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     difCourses: [
       {
         id: "1",
@@ -1506,7 +1506,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     difCourses: [
       {
         id: "2",
@@ -1554,7 +1554,7 @@ export const data = [
     inscripcion: 200,
     lang: "spanish",
     modalidad: "presencial",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     difCourses: [
       {
         id: "1",
@@ -1980,7 +1980,7 @@ export const data = [
     difBlanco2: true,
     lang: "spanish",
     modalidad: "online",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     difCourses: [
       {
         id: "2",
@@ -2008,9 +2008,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "12", titulo: "SEMANAS POR LAPSO" },
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -2034,7 +2034,7 @@ export const data = [
     difBlanco2: true,
     lang: "spanish",
     modalidad: "online",
-    modalityPayment: "lapso",
+    modalityPayment: "módulo",
     difCourses: [
       {
         id: "1",
@@ -2062,9 +2062,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSOS" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR LAPSO" },
-      { num: "12", titulo: "SEMANAS POR LAPSO" },
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
