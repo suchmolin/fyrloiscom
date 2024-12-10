@@ -54,7 +54,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "high-school-kissimmee",
@@ -110,7 +110,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "adults-kissimmee",
@@ -182,7 +182,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-level", "deluxe-level", "extra-level"],
+    promo: ["financiado-level", "recomendado-level", "deluxe-level"],
   },
   //*****************************CURSOS PRESENCIAL */
   {
@@ -256,7 +256,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "elementary",
@@ -329,7 +329,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "high-school",
@@ -404,7 +404,7 @@ export const data = [
       subCurso: ["personalizado"],
     },
 
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "adults",
@@ -487,7 +487,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado", "intensivo"],
     },
-    promo: ["essential-level", "deluxe-level", "extra-level"],
+    promo: ["financiado-level", "recomendado-level", "deluxe-level"],
   },
   {
     id: "personalizado",
@@ -557,7 +557,7 @@ export const data = [
       "Profesor exclusivo",
       "Adaptado a tus necesidades y objetivos",
     ],
-    promo: ["essential-hora", "deluxe-hora", "extra-hora"],
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "intensivo",
@@ -731,6 +731,7 @@ export const data = [
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
       subCurso: ["ingles-para-negocios", "reduccion-de-acento"],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "ingles-para-negocios",
@@ -783,6 +784,7 @@ export const data = [
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
       subCurso: ["conversacional", "reduccion-de-acento"],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "reduccion-de-acento",
@@ -835,6 +837,7 @@ export const data = [
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
       subCurso: ["conversacional", "ingles-para-negocios"],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "ciudadania-americana",
@@ -880,6 +883,7 @@ export const data = [
         alt: "difAdult",
       },
     ],
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
 
   //***********************ONLINE COURSES
@@ -943,7 +947,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-online"],
     },
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "high-school-online",
@@ -1005,7 +1009,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-online"],
     },
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "adults-online",
@@ -1076,7 +1080,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-online", "intensivo-online"],
     },
-    promo: ["essential-level", "deluxe-level", "extra-level"],
+    promo: ["financiado-level", "recomendado-level", "deluxe-level"],
   },
   {
     id: "personalizado-online",
@@ -1140,7 +1144,7 @@ export const data = [
       "Profesor exclusivo",
       "Adaptado a tus necesidades y objetivos",
     ],
-    promo: ["essential-hora", "deluxe-hora", "extra-hora"],
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "intensivo-online",
@@ -1288,6 +1292,7 @@ export const data = [
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
       subCurso: ["ingles-para-negocios-online", "reduccion-de-acento-online"],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "ingles-para-negocios-online",
@@ -1341,6 +1346,7 @@ export const data = [
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
       subCurso: ["conversacional-online", "reduccion-de-acento-online"],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "reduccion-de-acento-online",
@@ -1393,6 +1399,7 @@ export const data = [
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu inglés",
       subCurso: ["conversacional-online", "ingles-para-negocios-online"],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "ciudadania-americana-online",
@@ -1439,8 +1446,9 @@ export const data = [
         alt: "difCiudadaniaOnline",
       },
     ],
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
-  //*******************CURSOS ESPAÑOL
+  //*******************CURSOS ESPAÑOL*****************************************************************
   {
     id: "kids-espanol",
     title: "Kids Español",
@@ -1482,7 +1490,7 @@ export const data = [
         alt: "dif kids",
       },
     ],
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "elementary-espanol",
@@ -1530,7 +1538,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol"],
     },
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "high-school-espanol",
@@ -1578,7 +1586,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol"],
     },
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "adults-espanol",
@@ -1632,7 +1640,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol", "intensivo-espanol"],
     },
-    promo: ["essential-level", "deluxe-level", "extra-level"],
+    promo: ["financiado-level", "recomendado-level", "deluxe-level"],
   },
   {
     id: "intensivo-espanol",
@@ -1755,7 +1763,7 @@ export const data = [
       "Profesor exclusivo",
       "Adaptado a tus necesidades y objetivos",
     ],
-    promo: ["essential-hora", "deluxe-hora", "extra-hora"],
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "conversacional-espanol",
@@ -1808,6 +1816,7 @@ export const data = [
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu espanol",
       subCurso: ["espanol-para-negocios", "reduccion-de-acento-espanol"],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "espanol-para-negocios",
@@ -1861,6 +1870,7 @@ export const data = [
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
       subCurso: ["conversacional-espanol", "reduccion-de-acento-espanol"],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "reduccion-de-acento-espanol",
@@ -1913,6 +1923,7 @@ export const data = [
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
       subCurso: ["conversacional-espanol", "espanol-para-negocios"],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "corporativo-espanol",
@@ -2006,7 +2017,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol-online"],
     },
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "high-school-espanol-online",
@@ -2060,7 +2071,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol-online"],
     },
-    promo: ["essential-lapso", "recomendado-lapso", "deluxe-lapso"],
+    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
     id: "adults-espanol-online",
@@ -2114,7 +2125,7 @@ export const data = [
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado-espanol-online", "intensivo-espanol-online"],
     },
-    promo: ["essential-level", "deluxe-level", "extra-level"],
+    promo: ["financiado-level", "recomendado-level", "deluxe-level"],
   },
   {
     id: "personalizado-espanol-online",
@@ -2178,7 +2189,7 @@ export const data = [
       "Profesor exclusivo",
       "Adaptado a tus necesidades y objetivos",
     ],
-    promo: ["essential-hora", "deluxe-hora", "extra-hora"],
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "intensivo-espanol-online",
@@ -2330,6 +2341,7 @@ export const data = [
         "reduccion-de-acento-espanol-online",
       ],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "espanol-para-negocios-online",
@@ -2387,6 +2399,7 @@ export const data = [
         "reduccion-de-acento-espanol-online",
       ],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
   {
     id: "reduccion-de-acento-espanol-online",
@@ -2439,5 +2452,6 @@ export const data = [
         "Es hora de dar ese paso en tu carrera profesional y mejorar tu español",
       subCurso: ["conversacional-online", "ingles-para-negocios-online"],
     },
+    promo: ["essential-hora", "recomendado-hora", "deluxe-hora"],
   },
 ]

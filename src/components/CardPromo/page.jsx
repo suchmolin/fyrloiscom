@@ -46,9 +46,16 @@ export default function CardPromo({ item, curso }) {
                 ${item.precioAnterior}.00
               </span>
             </p>
-            <p className="text-center text-3xl md:text-2xl lg:text-3xl font-bold text-[#001a70]">
-              Total: ${item.precioPromo}.00
-            </p>
+            {item.financiado ? (
+              <>
+                <p className=" text-sm">{item.financiado.descripcion}</p>
+                <p className=" text-sm">{item.financiado.descripcion2}</p>
+              </>
+            ) : (
+              <p className="text-center text-3xl md:text-2xl lg:text-3xl font-bold text-[#001a70]">
+                Total: ${item.precioPromo}.00
+              </p>
+            )}
           </div>
         </div>
         <div className="w-full absolute bottom-0 py-7 flex justify-center">
@@ -64,9 +71,9 @@ export default function CardPromo({ item, curso }) {
                 },
               ])
             }}
-            className="text-white py-1 font-bold px-4 w-fit bg-[#001a70] rounded-lg"
+            className={`text-white ${item.financiado ? "py-2 text-lg" : "py-1"} font-bold px-4 w-fit bg-[#001a70] rounded-lg`}
           >
-            COMPRAR
+            {item.financiado ? `${item.financiado.boton}` : "COMPRAR"}
           </button>
         </div>
       </div>
