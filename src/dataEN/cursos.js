@@ -1472,6 +1472,11 @@ export const data = [
         alt: "dif kids",
       },
     ],
+    time: [
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
+    ],
     promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
@@ -1520,8 +1525,14 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol"],
     },
+    time: [
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
+    ],
     promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
+
   {
     id: "high-school-espanol",
     title: "High School Español",
@@ -1568,6 +1579,11 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol"],
     },
+    time: [
+      { num: "3", titulo: "MÓDULOS" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "12", titulo: "SEMANAS POR MÓDULO" },
+    ],
     promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
   },
   {
