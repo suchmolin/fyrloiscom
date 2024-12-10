@@ -50,7 +50,9 @@ export default function CardPromo({ item, curso }) {
             </p>
             {item.financiado ? (
               <>
-                <p className="">{item.financiado.descripcion}</p>
+                <p className="text-center text-2xl md:text-xl lg:text-2xl font-bold text-[#001a70]">
+                  {item.financiado.descripcion}
+                </p>
                 <p className="">{item.financiado.descripcion2}</p>
               </>
             ) : (
