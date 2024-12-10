@@ -9,9 +9,9 @@ export const data = [
     precioAnterior: 800,
     precioPromo: 240,
     financiado: {
-      descripcion: "Inscription: $240",
-      descripcion2: " +  2 installments of: $240",
-      boton: "INSCRIPTION $240",
+      descripcion: "2 installments of $240",
+      descripcion2: "",
+      boton: "BUY",
     },
     detalles: [
       "3 Months",
@@ -53,9 +53,9 @@ export const data = [
     precioAnterior: 800,
     precioPromo: 240,
     financiado: {
-      descripcion: "Inscription: $240",
-      descripcion2: " +  2 installments of: $240",
-      boton: "INSCRIPTION $240",
+      descripcion: "2 installments of $240",
+      descripcion2: "",
+      boton: "BUY",
     },
     detalles: [
       "3 Months",

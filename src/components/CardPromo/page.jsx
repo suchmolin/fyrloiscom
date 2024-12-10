@@ -1,6 +1,8 @@
 import { handleCheckoutPromo } from "@/checkoutPromo"
+import { useTranslations } from "next-intl"
 import { FaRegCheckCircle } from "react-icons/fa"
 export default function CardPromo({ item, curso }) {
+  const t = useTranslations("promo")
   const { destacar, recomendado } = item
   return (
     <div
@@ -40,10 +42,8 @@ export default function CardPromo({ item, curso }) {
             <p>{item.tiempoTotal}</p>
           </div>
           <div className="flex flex-col text-center mt-4">
-            <p
-              className={`text-center text-[#001a70] ${item.financiado ? "text-xs" : ""}`}
-            >
-              Antes:{" "}
+            <p className={`text-center text-[#001a70] `}>
+              {t("antes")}:{" "}
               <span className="line-through font-bold">
                 ${item.precioAnterior}.00
               </span>
@@ -73,9 +73,9 @@ export default function CardPromo({ item, curso }) {
                 },
               ])
             }}
-            className={`text-white ${item.financiado ? "py-2 text-lg" : "py-1"} font-bold px-4 w-fit bg-[#001a70] rounded-lg`}
+            className={`text-white py-1 font-bold px-4 w-fit bg-[#001a70] rounded-lg`}
           >
-            {item.financiado ? `${item.financiado.boton}` : "COMPRAR"}
+            {item.financiado ? `${item.financiado.boton}` : t("boton")}
           </button>
         </div>
       </div>

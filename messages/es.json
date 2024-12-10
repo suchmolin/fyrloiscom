@@ -382,6 +382,8 @@
     "p2":" Si tienes alguna duda puedes llamarnos a"
   },
   "promo":{
-    "data":"data"
+    "data":"data",
+    "boton":"COMPRAR",
+    "antes":"Antes"
   }
 }
