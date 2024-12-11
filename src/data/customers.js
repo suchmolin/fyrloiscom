@@ -17,10 +17,10 @@ export const data = [
     w: 180,
     h: 50,
   },
-  {
+  /* {
     id: "avior",
     img: "/img/avior.png",
     w: 180,
     h: 50,
-  },
+  }, */
 ]
