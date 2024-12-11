@@ -15,10 +15,14 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
       key={item.id}
       className={`${sombra ? "dropShadow3" : ""} relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3 z-0 ${shrink ? "flex-shrink-0" : ""}`}
     >
-      <div className="w-full h-[24px] flex justify-between">
-        <h4 className={`w-full text-[#001A70] font-bold ${item.price ? "text-start":"text-center"}`}>{item.title}</h4>
+      <div className="w-full h-[44px] flex justify-between">
+        <h4
+          className={`w-full text-[#001A70] font-bold ${item.price ? "text-center" : "text-center"}`}
+        >
+          {item.title}
+        </h4>
       </div>
-      <div className="w-full flex justify-end items-end">
+      {/* <div className="w-full flex justify-end items-end">
         {item.modalityPayment && (
           <p className="text-gray-400 mb-1 mr-3 text-lg">
             Por {item.modalityPayment}:
@@ -31,7 +35,7 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
         ) : (
           <div className="h-[44px]"></div>
         )}
-      </div>
+      </div> */}
       <div className="relative w-full aspect-video rounded-s-[20px] rounded-b-xl overflow-hidden">
         <Image src={`/img/${item.img}`} fill objectFit="cover" alt="curso" />
       </div>
