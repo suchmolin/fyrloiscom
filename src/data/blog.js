@@ -29,8 +29,9 @@ export const data = [
       {
         texto: [
           "Para dominar el uso de “wish”, practica creando oraciones sobre situaciones personales. Recuerda, la clave es la repetición constante y que emplees situaciones reales donde puedas aplicar lo aprendido.",
-          "¡Empieza a usar “wish” hoy y lleva tu inglés al siguiente nivel! Si quieres aprender más acerca de cómo emplear correctamente los verbos, visita nuestra sección de cursos: www.fyrlois.com/es/cursos e inscríbete para que inicies tu camino hacia el dominio del idioma.",
+          "¡Empieza a usar “wish” hoy y lleva tu inglés al siguiente nivel! Si quieres aprender más acerca de cómo emplear correctamente los verbos, visita nuestra sección de <<Cursos Online==https://fyrlois.com/es/online#cursosonline>> e inscríbete para que inicies tu camino hacia el dominio del idioma.",
         ],
+        link: true,
       },
     ],
   },
@@ -96,7 +97,7 @@ export const data = [
       {
         texto: [
           "Sigue estos consejos y mejora tu habilidad escrita en inglés y ya sabes ¡A escribir!",
-          "Si te interesa iniciar tu camino hacia el dominio del inglés, te invitamos a que eches un vistazo a nuestros cursos a través de: www.fyrlois.com/es/cursos y observes todas las increíbles opciones que tenemos para ti.",
+          "Si te interesa iniciar tu camino hacia el dominio del inglés, te invitamos a que eches un vistazo a nuestros <<Cursos Online==https://fyrlois.com/es/online#cursosonline>> y observes todas las increíbles opciones que tenemos para ti.",
         ],
       },
     ],
@@ -153,7 +154,7 @@ export const data = [
 
       {
         texto: [
-          "Si te interesa empezar a sumergirte en este mundo, te invitamos a que eches un vistazo a nuestros cursos a través de: www.fyrlois.com/es/cursos y observes todas las increíbles opciones que tenemos para ti.",
+          "Si te interesa empezar a sumergirte en este mundo, te invitamos a que eches un vistazo a nuestros <<Cursos Online==https://fyrlois.com/es/online#cursosonline>> y observes todas las increíbles opciones que tenemos para ti.",
         ],
       },
     ],

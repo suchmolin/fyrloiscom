@@ -2,7 +2,7 @@ export const data = [
   {
     id: "1",
     ask: "Do you want to know our payment methods?",
-    ans: "You can pay by credit or debit card, bank transfer, Zelle, Paypal, WesternUnion or Moneygram.",
+    ans: "You can pay by credit or debit card, bank transfer, Zelle, PayPal, WesternUnion or Moneygram.",
   },
   {
     id: "2",

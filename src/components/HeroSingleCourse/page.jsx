@@ -50,7 +50,7 @@ export default function HeroSingleCourse({ courseData }) {
               </div>
             )}
           </div>
-          <p className="text-lg text-[#001A70] mb-4">
+          <p className="text-lg text-[#001A70] mb-4 pr-3">
             {courseData.description2}
           </p>
 

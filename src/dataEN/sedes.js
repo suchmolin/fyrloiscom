@@ -4,7 +4,7 @@ export const data = [
     src: "/img/sedePrincipal.png",
     href: "kissimmee",
     title: "Kissimmee",
-    direccion: "928 East Osceola Parkway, Kissimmee, FL 34744",
+    direccion: "928 East Osceola Parkway, Kissimmee, FL 34744.",
     sector: "USA",
     country: "usa",
     direccionhref: "#",
@@ -121,7 +121,8 @@ export const data = [
     src: "/img/gpde.png",
     href: "caracas-prados-del-este",
     title: "Caracas (Prados del Este)",
-    direccion: "Centro Comercial Galerías Prados del Este, Mezzanina, local M2",
+    direccion:
+      "Centro Comercial Galerías Prados del Este, Mezzanina, local M2.",
     sector: "Caracas",
     country: "Venezuela",
     language: ["en"],
@@ -230,7 +231,7 @@ export const data = [
     href: "barquisimeto",
     title: "Barquisimeto",
     direccion:
-      "Av Terepaima, Multicentro Empresarial Crystal Plaza, Torre B, 1er piso, Local 1-B",
+      "Av Terepaima, Multicentro Empresarial Crystal Plaza, Torre B, 1er piso, Local 1-B.",
     sector: "Barquisimeto",
     country: "Venezuela",
     language: ["en"],

@@ -790,7 +790,7 @@ export const data = [
     id: "reduccion-de-acento",
     title: "Reducción de Acento",
     description2:
-      "Enfocate en mejorar tu pronunciación  y tu fluidez en inglés. Empieza hoy y transforma tu manera de hablar el idioma.",
+      "Enfócate en mejorar tu pronunciación  y tu fluidez en inglés. Empieza hoy y transforma tu manera de hablar el idioma.",
     detalles: ["Profesor exclusivo", "Clases individuales", "C1 en adelante"],
     img: "reducciondeacento.png",
     imgAlternative: "reducciondeacentoAlt.png",
@@ -921,7 +921,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrolla su capacidad para adaptarse a nuevos entorno",
+        title: "Desarrolla su capacidad para adaptarse a nuevos entornos",
         src: "/img/difElem3.png",
         width: 60,
         height: 60,
@@ -983,7 +983,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrolla su capacidad para adaptarse a nuevos entorno",
+        title: "Desarrolla su capacidad para adaptarse a nuevos entornos",
         src: "/img/difHSO3.png",
         width: 60,
         height: 60,
@@ -1056,7 +1056,7 @@ export const data = [
       titulo: "Horarios disponibles",
       horario: [
         {
-          dia: "LUNES Y MIERCOLES",
+          dia: "LUNES Y MIÉRCOLES",
           horas: ["8:00pm - 9:50pm", "(EST)"],
         },
         {
@@ -1352,7 +1352,7 @@ export const data = [
     id: "reduccion-de-acento-online",
     title: "Reducción de Acento Online",
     description2:
-      "Enfocate en mejorar tu pronunciación  y tu fluidez en inglés. Empieza hoy y transforma tu manera de hablar el idioma.",
+      "Enfócate en mejorar tu pronunciación  y tu fluidez en inglés. Empieza hoy y transforma tu manera de hablar el idioma.",
     img: "reducciondeacentoOnline.png",
     imgAlternative: "reducciondeacentoOnlineAlt.png",
     condicion: "C1 en adelante",
@@ -1501,7 +1501,7 @@ export const data = [
     id: "elementary-espanol",
     title: "Elementary Español",
     description2:
-      "¡Con canciones, juegos y manualidades, el aprendizaje será una experiencia inolvidable! Con nuestro programa tu hijo adquiere las bases del español de manera sólida y divertida",
+      "¡Con canciones y juegos el aprendizaje será una experiencia inolvidable! Con nuestro programa tu hijo adquiere las bases del español de manera sólida y divertida.",
     etapa: "6-11 años. ",
     img: "elementaryEspanol.png",
     imgAlternative: "elementaryEspanolAlt.png",
@@ -1584,7 +1584,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrollo de habilidades Linguísticas avanzadas",
+        title: "Desarrollo de habilidades linguísticas avanzadas",
         src: "/img/difEspa3.png",
         width: 60,
         height: 60,
@@ -1891,7 +1891,7 @@ export const data = [
     id: "reduccion-de-acento-espanol",
     title: "Reducción de Acento Español",
     description2:
-      "Enfocate en mejorar tu pronunciación  y tu fluidez en español. Empieza hoy y transforma tu manera de hablar el idioma.",
+      "Enfócate en mejorar tu pronunciación  y tu fluidez en español. Empieza hoy y transforma tu manera de hablar el idioma.",
     img: "reducciondeacentoEspanol.png",
     imgAlternative: "reducciondeacentoEspanolAlt.png",
     condicion: "C1 en adelante",
@@ -1984,7 +1984,7 @@ export const data = [
     id: "elementary-espanol-online",
     title: "Elementary Español Online",
     description2:
-      "¡Con canciones, juegos y manualidades, el aprendizaje será una experiencia inolvidable! Con nuestro programa tu hijo adquiere las bases del español de manera sólida y divertida.",
+      "¡Con canciones y juegos el aprendizaje será una experiencia inolvidable! Con nuestro programa tu hijo adquiere las bases del español de manera sólida y divertida.",
     etapa: "6-11 años. ",
     img: "elementaryEspanolOnline.png",
     imgAlternative: "elementaryEspanolOnlineAlt.png",
@@ -2069,7 +2069,7 @@ export const data = [
       },
       {
         id: "3",
-        title: "Desarrollo de habilidades Linguísticas avanzadas",
+        title: "Desarrollo de habilidades linguísticas avanzadas",
         src: "/img/difEspa3.png",
         width: 60,
         height: 60,

@@ -26,8 +26,8 @@ export default function ArticulosBlog({ params }) {
   return blog.length === 0 ? (
     <div className="h-[600px]"></div>
   ) : (
-    <div className="w-full flex flex-col items-center pt-44 pb-10">
-      <div className="relative w-10/12 h-[300px] sm:h-[600px] rounded-2xl overflow-hidden">
+    <div className="w-full flex flex-col items-center pt-36 pb-10">
+      <div className="relative w-10/12 h-[300px] sm:h-[400px] rounded-2xl overflow-hidden">
         <Image
           layout="fill"
           objectFit="cover"
@@ -35,7 +35,7 @@ export default function ArticulosBlog({ params }) {
           alt={blog.tarjeta?.titulo}
         />
       </div>
-      <div className="w-11/12 lg:w-7/12 py-10  border-b-2 border-gray-200">
+      <div className="w-11/12 lg:w-7/12 py-5  border-b-2 border-gray-200">
         <h2 className="text-[#001A70] text-3xl sm:text-5xl lg:text-6xl py-10 px-5 text-center font-bold">
           {blog.tarjeta.titulo}
         </h2>
@@ -75,14 +75,37 @@ export default function ArticulosBlog({ params }) {
               </h3>
             )}
             {item.texto &&
-              item.texto.map((item, i) => (
-                <p
-                  key={"texto" + i}
-                  className="text-gray-500 text-lg py-5 px-1 md:px-5"
-                >
-                  {item}
-                </p>
-              ))}
+              item.texto.map((parr, i) => {
+                return parr.indexOf("<<") >= 0 ? (
+                  <p
+                    key={"texto" + i}
+                    className="text-gray-500 text-lg py-5 px-1 md:px-5"
+                  >
+                    {parr.slice(0, parr.indexOf("<<"))}
+
+                    {
+                      <a
+                        className="text-[#001A70] font-bold transition-all duration-300"
+                        href={parr.slice(
+                          parr.indexOf("==") + 2,
+                          parr.indexOf(">>")
+                        )}
+                      >
+                        {parr.slice(parr.indexOf("<<") + 2, parr.indexOf("=="))}
+                      </a>
+                    }
+
+                    {parr.slice(parr.indexOf(">>") + 2, parr.lenght)}
+                  </p>
+                ) : (
+                  <p
+                    key={"texto" + i}
+                    className="text-gray-500 text-lg py-5 px-1 md:px-5"
+                  >
+                    {parr}
+                  </p>
+                )
+              })}
             {item.img && (
               <div className="w-full flex justify-center">
                 <Image
@@ -99,7 +122,7 @@ export default function ArticulosBlog({ params }) {
         ))}
       </div>
       <div className="w-full flex flex-col">
-        <h2 className="text-[#001A70] text-5xl py-10 px-5 text-center">
+        <h2 className="text-[#001A70] font-bold text-5xl py-10 px-5 text-center">
           {t("h2")}
         </h2>
         <BlogUltimosArticulos />

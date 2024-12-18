@@ -27,7 +27,7 @@
   },
   "SedePrincipal":{
     "h2":"Sede Principal",
-    "button":"Todas las Sedes",
+    "button":"Todas las sedes",
     "sede":"Sede"
   },
   "Customers":{
@@ -67,8 +67,8 @@
     "HeroAboutUs":{
       "h1":"25 años ",
       "h1Span":"enseñando idiomas",
-      "p":"Te ayudamos a alcanzar tus sueños.",
-      "p2":"Alcanza mejores oportunidades de crecimiento personal y profesional.",
+      "p":"¡Te ayudamos a alcanzar tus sueños!",
+      "p2":"Consigue mejores oportunidades de crecimiento",
       "button":"Conoce más",
       "counter":{
         "p":"Egresados",
@@ -163,7 +163,7 @@
     "link":"ACERCA DE NOSOTROS"
   },
   "aboutUs":{
-    "h2":"Nuestra Misión",
+    "h2":"Nuestra misión",
     "item1":{
       "h4":"Hacer realidad proyectos de vida",
       "p":"Generar más y mejores oportunidades de crecimiento personal y profesional para quien está decidido a construir su proyecto de vida."
@@ -183,7 +183,7 @@
   },
   "CursosSedes":{
     "h2":"Cursos dictados en ",
-    "p":"Elige el curso que mas se adapte a tus necesidades",
+    "p":"Elige el curso que más se adapte a tus necesidades",
     "data":"data"
   },
   "MasInfoContactUs":{
@@ -203,7 +203,7 @@
   },
   "Test":{
     "h1":"Descubre tu nivel de inglés",
-    "p":"Responde las preguntas del siguiente exámen según tus conocimientos, así podremos brindarte el resultado real de tu nivel de inglés.",
+    "p":"Responde las preguntas del siguiente examen según tus conocimientos, así podremos brindarte el resultado real de tu nivel de inglés.",
     "pb":"Obstuviste un resultado de: ",
     "pb2":" de ",
     "h4":"Responde las siguientes preguntas",
@@ -232,7 +232,7 @@
     }
   },
   "nuestraMision":{
-    "h2":"Nuestra Misión",
+    "h2":"Nuestra misión",
     "data":"data"
   },
   "online":{

@@ -17,7 +17,7 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
     >
       <div className="w-full h-[44px] flex justify-between">
         <h4
-          className={`w-full text-[#001A70] font-bold ${item.price ? "text-center" : "text-center"}`}
+          className={`w-full text-[#001A70] font-black ${item.price ? "text-center" : "text-center"}`}
         >
           {item.title}
         </h4>
