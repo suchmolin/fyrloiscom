@@ -1,5 +1,40 @@
 export const data = [
   {
+    id: "como-usar-el-verbo-wish",
+    tarjeta: {
+      titulo: "Cómo usar el verbo “Wish” en Inglés",
+      descripcion:
+        "El verbo “wish” es una herramienta poderosa en el inglés que permite expresar deseos, situaciones hipotéticas y anhelos. Entender su uso te ayudará a comunicarte de manera más precisa y efectiva.",
+      autor: "Fyr Lois",
+      fotoAutor: "fyrloisautor.png",
+      categoria: "GRAMÁTICA",
+      img: "verbowishtarjeta.png",
+      fechaPublicado: "Diciembre 18, 2024",
+      imgPrincipal:
+        "closeup-hands-businessman-working-office-man-typing-keyboard-laptop-computer.png",
+    },
+    contenido: [
+      {
+        texto: [
+          "El verbo “wish” es una herramienta poderosa en el inglés que permite expresar deseos, situaciones hipotéticas y anhelos. Entender su uso te ayudará a comunicarte de manera más precisa y efectiva.",
+        ],
+      },
+      {
+        titulo: "Por eso, te los mostramos a continuación:",
+        img: "infografia-blog_wish.png",
+      },
+      {
+        img: "wish2-100.png",
+      },
+      {
+        texto: [
+          "Para dominar el uso de “wish”, practica creando oraciones sobre situaciones personales. Recuerda, la clave es la repetición constante y que emplees situaciones reales donde puedas aplicar lo aprendido.",
+          "¡Empieza a usar “wish” hoy y lleva tu inglés al siguiente nivel! Si quieres aprender más acerca de cómo emplear correctamente los verbos, visita nuestra sección de cursos: www.fyrlois.com/es/cursos e inscríbete para que inicies tu camino hacia el dominio del idioma.",
+        ],
+      },
+    ],
+  },
+  {
     id: "como-mejorar-tu-escritura-en-ingles",
     tarjeta: {
       titulo: "Cómo Mejorar Tu Escritura En Inglés",
