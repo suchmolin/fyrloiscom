@@ -8,7 +8,7 @@ export default function Footer() {
   const t = useTranslations("Footer")
   const locale = useLocale()
   return (
-    <div className="relative dropShadow3 bg-gradient-to-b from-white to-gray-200 w-full font-[lato]">
+    <div className="relative dropShadow3 bg-gradient-to-b from-white to-gray-200 w-full font-[lato]  overflow-hidden">
       <div className=" w-full min-h-[350px] flex justify-center py-10">
         <div className="w-11/12 lg:w-10/12 flex flex-col lg:flex-row gap-10 justify-between">
           <div className="flex flex-col sm:flex-row w-full lg:w-7/12 justify-between">
@@ -28,7 +28,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="sm:flex flex-col gap-2 min-w-[300px] w-12/12 sm:w-fit hidden">
+            <div className="flex flex-col gap-2 min-w-[300px] w-12/12 sm:w-fit px-4 xs:px-7 sm:px-0 -ml-2 xs:ml-0">
               <h2 className="text-2xl text-[#001A70] text-center sm:text-start font-bold">
                 {t("h2b")}
               </h2>

@@ -1,5 +1,41 @@
 export const data = [
   {
+    id: "como-usar-el-verbo-wish",
+    tarjeta: {
+      titulo: "How to use the verb “Wish” in English",
+      descripcion:
+        "The verb “wish” is a powerful tool in English that allows you to express wishes, hypothetical situations and desires. Understanding its use will help you communicate more accurately and effectively.",
+      autor: "Fyr Lois",
+      fotoAutor: "fyrloisautor.png",
+      categoria: "GRAMMAR",
+      img: "verbowishtarjeta.png",
+      fechaPublicado: "December 18, 2024",
+      imgPrincipal:
+        "closeup-hands-businessman-working-office-man-typing-keyboard-laptop-computer.png",
+    },
+    contenido: [
+      {
+        texto: [
+          "The verb “wish” is a powerful tool in English that allows you to express wishes, hypothetical situations and desires. Understanding its use will help you communicate more accurately and effectively.",
+        ],
+      },
+      {
+        titulo: "Therefore, we show them to you below:",
+        img: "infografia-blog_wish.png",
+      },
+      {
+        img: "wish2-100.png",
+      },
+      {
+        texto: [
+          "To master using “wish,” practice creating sentences about personal situations. Remember, the key is constant repetition and using real situations where you can apply what you have learned.",
+          "Start using “wish” today and take your English to the next level! If you want to learn more about how to use verbs correctly, visit our <<Online Courses==https://fyrlois.com/es/online#cursosonline>> section and sign up to start your path to mastering the language.",
+        ],
+        link: true,
+      },
+    ],
+  },
+  {
     id: "como-mejorar-tu-escritura-en-ingles",
     tarjeta: {
       titulo: "How to improve your english writing skills",
