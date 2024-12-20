@@ -24,9 +24,22 @@ export default function BlogUltimosArticulos({ full }) {
   }, [t])
 
   useEffect(() => {
-    const blogs = full ? data : data.slice(0, 3)
+    const hoy = new Date().getTime()
+    const navidad = new Date("2024-12-25T00:00:00").getTime()
+    const anonuevo = new Date("2024-01-01T00:00:00").getTime()
+    let blogs
+    if (hoy > anonuevo) {
+      blogs = full ? data : data.slice(0, 3)
+    } else {
+      if (hoy > navidad) {
+        blogs = full ? data.slice(1, data.length) : data.slice(1, 4)
+      } else {
+        blogs = full ? data.slice(2, data.length) : data.slice(2, 5)
+      }
+    }
     setBlogs(blogs)
   }, [data])
+
   return (
     <div className="w-full justify-center flex flex-wrap gap-10">
       {data.length !== 0 ? (

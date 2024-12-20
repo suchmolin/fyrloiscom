@@ -1,5 +1,126 @@
 export const data = [
   {
+    id: "conoce-el-metodo-pomodoro",
+    tarjeta: {
+      titulo: "Aprende inglés de forma efectiva: ¡Conoce el método Pomodoro!",
+      descripcion:
+        "Aprender inglés no tiene que ser un proceso lento y aburrido. Si lo complementas con un método adecuado, puedes disfrutar de toda la magia que tiene este idioma.",
+      autor: "Fyr Lois",
+      fotoAutor: "fyrloisautor.png",
+      categoria: "GRAMÁTICA",
+      img: "pomodorotarjeta.png",
+      fechaPublicado: "Enero 01, 2025",
+      imgPrincipal: "pomodoroheader.png",
+    },
+    contenido: [
+      {
+        texto: [
+          "Aprender inglés no tiene que ser un proceso lento y aburrido. Si lo complementas con un método adecuado, puedes disfrutar de toda la magia que tiene este idioma. Hoy te recomendamos un método muy útil para que aprendas a gusto y avances hacia tu meta.",
+        ],
+      },
+      {
+        titulo: "El método Pomodoro",
+        texto: [
+          "Es una técnica de gestión de tiempo desarrollada por Francisco Cirillo. Se basa en la idea de dividir el trabajo en períodos cortos, seguidos de breves descansos.",
+          "Cómo aplicarlo para aprender inglés",
+          "1. Elige una actividad: escoge qué te gustaría hacer, como practicar gramática, leer un libro para mejorar tu vocabulario o hacer un ejercicio de escucha.",
+          "2. Establece un intervalo de 25 minutos: utiliza una aplicación o un cronómetro para marcar el inicio del intervalo.",
+          "3. Máxima concentración: durante estos 25 minutos concéntrate totalmente en la actividad que escogiste. Aléjate por completo del teléfono, redes sociales o cualquier otra cosa que te pueda interrumpir.",
+          "4. Descansa 5 minutos: Una vez se cumplan los 25 minutos, toma un breve descanso. Puedes tomar un poco de agua o simplemente levantarte de tu asiento.",
+          "5. Repita el ciclo: Realiza cuatro ciclos y al terminar el cuarto, toma un descanso más largo de 15 a 30 minutos.",
+        ],
+        img: "pomodoro.png",
+      },
+      {
+        titulo: "¿Por qué este método es efectivo?",
+        texto: [
+          "Al dividir el trabajo en intervalos cortos, te permite mantener mejor la concentración y evitar la fatiga mental. Además, los descansos regulares ayudan a recargar las energías y mantener un ritmo constante.",
+          "Al concentrarte en períodos cortos el cerebro asimila mejor los conocimientos.",
+          "El método Pomodoro ayuda a desarrollar hábitos de estudio más organizados y eficientes.",
+          "Como todo método lo más importante es la práctica, mientras más lo uses, mejores resultados obtendrás. También puedes adaptar los intervalos a márgenes de tiempo más acordes para ti y puedes utilizar aplicaciones que te ayuden a implementarlo.",
+          "Si quieres aprender inglés con una ayuda especializada para guiarte a alcanzar tu meta, visita nuestra sección de <<Cursos Online==/es/online#cursosonline>> y conoce todas las opciones que tenemos para ti.",
+        ],
+      },
+    ],
+  },
+  {
+    id: "conoce-palabras-navidenas-en-ingles",
+    tarjeta: {
+      titulo:
+        "Conoce las palabras en inglés más utilizadas en la época navideña",
+      descripcion:
+        "Navidad es una de las épocas más bonitas y alegres del año, llena de tradiciones, momentos especiales y reuniones familiares. Como toda fecha especial, tiene un vocabulario que solo se emplea durante la temporada.",
+      autor: "Fyr Lois",
+      fotoAutor: "fyrloisautor.png",
+      categoria: "GRAMÁTICA",
+      img: "christmastarjeta.png",
+      fechaPublicado: "Diciembre 25, 2024",
+      imgPrincipal: "christmasheader.png",
+    },
+    contenido: [
+      {
+        texto: [
+          "Navidad es una de las épocas más bonitas y alegres del año, llena de tradiciones, momentos especiales y reuniones familiares.Como toda fecha especial, tiene un vocabulario que solo se emplea durante la temporada.",
+        ],
+      },
+      {
+        titulo:
+          "Por eso te contamos cuáles son algunas de las más importantes:",
+        img: "christmas.png",
+      },
+      {
+        texto: ["E.g., Christmas is the best time of the year."],
+        img: "candycane.png",
+      },
+      {
+        texto: ["E.g., I really like candy cane."],
+        img: "santaclaus.png",
+      },
+      {
+        texto: ["E.g., I have to write the letter to Santa Claus."],
+        img: "gigerbreadhouse.png",
+      },
+      {
+        texto: ["E.g., My son build a gingerbread house."],
+        img: "hotchocolate.png",
+      },
+      {
+        texto: ["E.g., would like some hot chocolate."],
+        img: "christmasdinner.png",
+      },
+      {
+        texto: ["E.g., She organizing a christmas dinner."],
+        img: "snowflake.png",
+      },
+      {
+        texto: ["E.g., The snowflakes are really tiny."],
+        img: "snowball.png",
+      },
+      {
+        texto: ["E.g., Don´t throw me that snowball, Jimmy."],
+        img: "snowman.png",
+      },
+      {
+        texto: ["E.g.,Do you want to build a snowman?."],
+        img: "reindeer.png",
+      },
+      {
+        texto: ["E.g., The reindeer likes to eat carrots."],
+        img: "winter.png",
+      },
+      {
+        texto: ["E.g., Winter is comming, we need to pick wood."],
+        img: "elf.png",
+      },
+      {
+        texto: [
+          "E.g.,The elfs lives in the north pole.",
+          "Con estos términos podrás entender y disfrutar mucho más esta maravillosa época. Si quieres aprender más palabras en inglés inscríbete en nuestros <<Cursos Online==https://fyrlois.com/es/online#cursosonline>> y date la oportunidad de dominar un nuevo idioma.",
+        ],
+      },
+    ],
+  },
+  {
     id: "como-usar-el-verbo-wish",
     tarjeta: {
       titulo: "Cómo usar el verbo “Wish” en Inglés",

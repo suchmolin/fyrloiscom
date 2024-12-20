@@ -97,6 +97,15 @@ export default function ArticulosBlog({ params }) {
 
                     {parr.slice(parr.indexOf(">>") + 2, parr.lenght)}
                   </p>
+                ) : parr.indexOf("<br>") >= 0 ? (
+                  <p
+                    key={"texto" + i}
+                    className="text-gray-500 text-lg py-5 px-1 md:px-5"
+                  >
+                    {parr.slice(0, parr.indexOf("<br>"))}
+                    <br />
+                    {parr.slice(parr.indexOf("<br>") + 4, parr.lenght)}
+                  </p>
                 ) : (
                   <p
                     key={"texto" + i}
