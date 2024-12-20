@@ -27,17 +27,18 @@ export default function BlogUltimosArticulos({ full }) {
     const hoy = new Date().getTime()
     const navidad = new Date("2024-12-25T00:00:00").getTime()
     const anonuevo = new Date("2024-01-01T00:00:00").getTime()
-    let blogs
+    let blogfiltred
     if (hoy > anonuevo) {
-      blogs = full ? data : data.slice(0, 3)
+      blogfiltred = full ? data : data.slice(0, 3)
     } else {
       if (hoy > navidad) {
-        blogs = full ? data.slice(1, data.length) : data.slice(1, 4)
+        blogfiltred = full ? data.slice(1, data.length) : data.slice(1, 4)
       } else {
-        blogs = full ? data.slice(2, data.length) : data.slice(2, 5)
+        blogfiltred = full ? data.slice(2, data.length) : data.slice(2, 5)
       }
     }
-    setBlogs(blogs)
+    setBlogs(blogfiltred)
+    console.log({ hoy, navidad, anonuevo, blogfiltred })
   }, [data, full])
 
   return (
