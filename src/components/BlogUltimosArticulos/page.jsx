@@ -38,7 +38,7 @@ export default function BlogUltimosArticulos({ full }) {
       }
     }
     setBlogs(blogs)
-  }, [data])
+  }, [data, full])
 
   return (
     <div className="w-full justify-center flex flex-wrap gap-10">
