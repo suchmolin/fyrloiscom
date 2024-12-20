@@ -25,7 +25,7 @@ export default function BlogUltimosArticulos({ full }) {
 
   useEffect(() => {
     const hoy = new Date().getTime()
-    const navidad = new Date("2023-12-25T00:00:00").getTime()
+    const navidad = new Date("2024-12-25T00:00:00").getTime()
     const anonuevo = new Date("2025-01-01T00:00:00").getTime()
     let blogfiltred
     if (hoy > anonuevo) {
