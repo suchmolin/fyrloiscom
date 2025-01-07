@@ -128,16 +128,16 @@ export default function FormContactUs() {
             className="dropShadow2 border-none ring-0 text-sm rounded-full  block w-full p-2.5 focus:ring-0 focus:border-gray-300 cursor-pointer"
           >
             <option>{t("sedesList.opt1")}</option>
-            <option value="online">{t("sedesList.opt2")}</option>
+            <option value="FYR LOIS ONLINE">{t("sedesList.opt2")}</option>
             <option value="kissimmee">{t("sedesList.opt3")}</option>
-            <option value="Caracas - CCCT">{t("sedesList.opt4")}</option>
-            <option value="Caracas - UCAB">{t("sedesList.opt5")}</option>
-            <option value="Caracas - Prados del Este">
+            <option value="FYR LOIS CCCT">{t("sedesList.opt4")}</option>
+            <option value="FYR LOIS UCAB">{t("sedesList.opt5")}</option>
+            <option value="FYR LOIS PRADOS DEL ESTE">
               {t("sedesList.opt6")}
             </option>
-            <option value="Puerto Ordaz">{t("sedesList.opt7")}</option>
-            <option value="Maturín">{t("sedesList.opt8")}</option>
-            <option value="Barquisimeto">{t("sedesList.opt9")}</option>
+            <option value="FYR LOIS PZO">{t("sedesList.opt7")}</option>
+            <option value="FYR LOIS MATURIN">{t("sedesList.opt8")}</option>
+            <option value="FYR LOIS BQTO">{t("sedesList.opt9")}</option>
           </select>
           <span className="absolute right-2 bottom-1 p-2 rounded-full bg-[#9ee701]">
             <IoIosArrowDown className="text-gray-800" />
@@ -207,7 +207,8 @@ export default function FormContactUs() {
             <IoIosArrowDown className="text-gray-800" />
           </span>
         </div>
-        <input type="hidden" value="Pagina Web Fyr Lois" name="social_media" /> {/*map odoo*/}
+        <input type="hidden" value="Pagina Web Fyr Lois" name="social_media" />{" "}
+        {/*map odoo*/}
         <input type="hidden" value="Fyr Lois English Institute" name="from" />
         <input type="hidden" value={new Date().toLocaleString()} name="Fecha" />
         <input type="hidden" value={datags.nombre} name="Nombre" />
