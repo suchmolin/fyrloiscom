@@ -21,7 +21,7 @@ export default function Profesor({ params }) {
       }
     }
     fetchData()
-  }, [profesor])
+  }, [profesor, t])
 
   return (
     <>
