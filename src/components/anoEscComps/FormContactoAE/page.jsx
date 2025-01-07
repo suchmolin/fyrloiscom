@@ -83,7 +83,7 @@ export default function FormContactoAE() {
           required
         >
           <option value="">Seleccione la Sede</option>
-          <option value="online">Online</option>
+          <option value="FYR LOIS ONLINE">Online</option>
           <option value="FYR LOIS CCCT">Caracas - CCCT</option>
           <option value="FYR LOIS UCAB">Caracas - UCAB</option>
           <option value="FYR LOIS PRADOS DEL ESTE">
