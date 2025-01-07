@@ -23,6 +23,7 @@ export default function WhatsappButton() {
             <FaWhatsapp className="text-2xl text-white" />
           </button>
           <a
+            id="whatsappOnline"
             aria-label="whatsapp"
             target="_blank"
             className={`absolute ${waButton ? "-top-16 left-2 opacity-100" : "top-2 left-2 opacity-0"} transition-all duration-300 flex flex-col items-center`}
@@ -34,6 +35,7 @@ export default function WhatsappButton() {
             </p>
           </a>
           <a
+            id="whatsappUSA"
             aria-label="whatsapp"
             target="_blank"
             className={`absolute ${waButton ? "-top-9 -left-11 opacity-100" : "top-2 left-2 opacity-0"} transition-all duration-300 flex flex-col items-center`}
@@ -45,6 +47,7 @@ export default function WhatsappButton() {
             </p>
           </a>
           <a
+            id="whatsappVenezuela"
             aria-label="whatsapp"
             target="_blank"
             className={`absolute ${waButton ? "top-5 -left-20 opacity-100" : "top-2 left-2 opacity-0"} transition-all duration-300 flex flex-col items-center`}
