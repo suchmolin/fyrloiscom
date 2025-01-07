@@ -84,14 +84,14 @@ export default function FormContactoAE() {
         >
           <option value="">Seleccione la Sede</option>
           <option value="online">Online</option>
-          <option value="Caracas - CCCT">Caracas - CCCT</option>
-          <option value="Caracas - UCAB">Caracas - UCAB</option>
-          <option value="Caracas - Prados del Este">
+          <option value="FYR LOIS CCCT">Caracas - CCCT</option>
+          <option value="FYR LOIS UCAB">Caracas - UCAB</option>
+          <option value="FYR LOIS PRADOS DEL ESTE">
             Caracas - Prados del Este
           </option>
-          <option value="Puerto Ordaz">Puerto Ordaz</option>
-          <option value="Barquisimeto">Barquisimeto</option>
-          <option value="Maturín">Maturín</option>
+          <option value="FYR LOIS PZO">Puerto Ordaz</option>
+          <option value="FYR LOIS BQTO">Barquisimeto</option>
+          <option value="FYR LOIS MATURIN">Maturín</option>
         </Select>
         <Textarea
           id="comment"
