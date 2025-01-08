@@ -207,7 +207,7 @@ export default function FormContactUs() {
             <IoIosArrowDown className="text-gray-800" />
           </span>
         </div>
-        <input type="hidden" value="Pagina Web Fyr Lois" name="social_media" />{" "}
+        <input type="hidden" value="Página Web Fyr Lois" name="social_media" />{" "}
         {/*map odoo*/}
         <input type="hidden" value="Fyr Lois English Institute" name="from" />
         <input type="hidden" value={new Date().toLocaleString()} name="Fecha" />

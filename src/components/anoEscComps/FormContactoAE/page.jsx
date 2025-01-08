@@ -100,7 +100,11 @@ export default function FormContactoAE() {
           required
           rows={4}
         />
-        <input type="hidden" value="landing Año Escolar" name="social_media" />
+        <input
+          type="hidden"
+          value="Landing Regreso a Clases Fyr Lois"
+          name="social_media"
+        />
         <input type="hidden" value="Fyr Lois English Institute" name="from" />
         <button
           id="BtnEnviar"
