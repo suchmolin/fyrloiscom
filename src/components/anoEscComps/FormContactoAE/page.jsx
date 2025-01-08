@@ -86,9 +86,7 @@ export default function FormContactoAE() {
           <option value="FYR LOIS ONLINE">Online</option>
           <option value="FYR LOIS CCCT">Caracas - CCCT</option>
           <option value="FYR LOIS UCAB">Caracas - UCAB</option>
-          <option value="FYR LOIS PRADOS DEL ESTE">
-            Caracas - Prados del Este
-          </option>
+          <option value="FYR LOIS PRADOS">Caracas - Prados del Este</option>
           <option value="FYR LOIS PZO">Puerto Ordaz</option>
           <option value="FYR LOIS BQTO">Barquisimeto</option>
           <option value="FYR LOIS MATURIN">Maturín</option>

@@ -132,9 +132,7 @@ export default function FormContactUs() {
             <option value="kissimmee">{t("sedesList.opt3")}</option>
             <option value="FYR LOIS CCCT">{t("sedesList.opt4")}</option>
             <option value="FYR LOIS UCAB">{t("sedesList.opt5")}</option>
-            <option value="FYR LOIS PRADOS DEL ESTE">
-              {t("sedesList.opt6")}
-            </option>
+            <option value="FYR LOIS PRADOS">{t("sedesList.opt6")}</option>
             <option value="FYR LOIS PZO">{t("sedesList.opt7")}</option>
             <option value="FYR LOIS MATURIN">{t("sedesList.opt8")}</option>
             <option value="FYR LOIS BQTO">{t("sedesList.opt9")}</option>
