@@ -1,5 +1,86 @@
 export const data = [
   {
+    id: "las-Palabras-que-necesitas-conocer-antes-de-viajar",
+    tarjeta: {
+      titulo: "Las Palabras que Necesitas Conocer Antes de Viajar",
+      descripcion:
+        "Inició el año y probablemente estás planificando un viaje con tu familia y/o amigos para aprovechar tu primer fin de semana libre, hoy te presentamos términos que puedes utilizar al momento de realizar una excursión.",
+      autor: "Fyr Lois",
+      fotoAutor: "fyrloisautor.png",
+      categoria: "GRAMÁTICA",
+      img: "blog/palabrasparaviajartarjeta.png",
+      fechaPublicado: "Enero 08, 2025",
+      imgPrincipal: "blog/palabrasparaviajarheader.png",
+    },
+    contenido: [
+      {
+        texto: [
+          "Inició el año y probablemente estás planificando un viaje con tu familia y/o amigos para aprovechar tu primer fin de semana libre, hoy te presentamos términos que puedes utilizar al momento de realizar una excursión.<br> Conoce el vocabulario que es comúnmente usado al momento de hacer un viaje:",
+          "",
+        ],
+      },
+      {
+        titulo: "1. Preparación del viaje:",
+        texto: [
+          "Al planear un viaje, necesitas pensar bien tus elecciones, irás a un lugar todo pago, viajaras fuera del país, organizaras todo con un agente de viaje. Conocé las palabras que se utilizan frecuentemente.",
+        ],
+        img: "blog/viaje1.png",
+      },
+      {
+        texto: ["E.g., I would like to go on a journey."],
+        img: "blog/viaje2.png",
+      },
+      {
+        texto: ["E.g., I book a ticket for my travel."],
+        img: "blog/viaje3.png",
+      },
+      {
+        texto: ["E.g., He like to go sightseeing."],
+        img: "blog/viaje4.png",
+      },
+      {
+        texto: ["E.g., She will travel abroad this vacations."],
+        img: "blog/viaje5.png",
+      },
+      {
+        texto: ["E.g., They booked their trip with a travel agency."],
+        img: "blog/viaje6.png",
+      },
+      {
+        texto: ["E.g., He won a paid vacation to Aruba."],
+      },
+      {
+        titulo: "2. Medios de transporte:",
+        texto: [
+          "El medio que vas a utilizar puede variar mucho, si es un viaje largo puede ser en avión, barco o tren, y si son distancias cortas puedes usar tu vehículo personal.",
+        ],
+        img: "blog/viaje7.png",
+      },
+      {
+        texto: ["E.g., I love to travel on train."],
+        img: "blog/viaje8.png",
+      },
+      {
+        texto: ["E.g., She bought her airplane ticket."],
+        img: "blog/viaje9.png",
+      },
+      {
+        texto: ["E.g., They will travel by car."],
+        img: "blog/viaje10.png",
+      },
+      {
+        texto: ["E.g., His boat is amazing."],
+        img: "blog/viaje11.png",
+      },
+      {
+        texto: [
+          "E.g., I will love to go on a cruice to The Bahamas.",
+          "Con estas frases y palabras podrás disfrutar tu viaje al máximo estas vacaciones. Si quieres aprender más palabras nuevas, visita nuestra sección de <<Cursos Online==/es/online#cursosonline>> y ve todo lo que tenemos disponible para ti.",
+        ],
+      },
+    ],
+  },
+  {
     id: "conoce-el-metodo-pomodoro",
     tarjeta: {
       titulo: "Aprende inglés de forma efectiva: ¡Conoce el método Pomodoro!",

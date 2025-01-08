@@ -36,9 +36,10 @@ export default function FooterAE() {
     {
       titulo: "Maturín",
       img: "/img/AE/maturinmap.png",
-      direccion: "Centro Comercial Servimas Monterrey, piso 1, oficina 08.",
+      direccion:
+        "Carrera 4, Con Calle 1, Quinta Fyr Lois Nro. 06 Sector Campo Obrero Maturin Monagas Zona Postal 6201.",
       redir:
-        "https://www.google.com/maps/place/Centro+Comercial+Servimas/@9.8025324,-63.2080666,17z/data=!3m1!4b1!4m6!3m5!1s0x8c333f000d7326e9:0xcd01792c8eabc90!8m2!3d9.8025271!4d-63.2054917!16s%2Fg%2F11ld456s2l?entry=ttu&g_ep=EgoyMDI0MDkxMC4wIKXMDSoASAFQAw%3D%3D",
+        "https://www.google.com/maps/search/Carrera+4,+Con+Calle+1,+Quinta+Fyr+Lois+Nro.+06+Sector+Campo+Obrero+Maturin+Monagas+Zona+Postal+6201./@9.7411928,-63.1777558,14.25z?entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D",
     },
     {
       titulo: "Puerto Ordaz",

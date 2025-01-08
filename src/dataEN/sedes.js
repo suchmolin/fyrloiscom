@@ -194,7 +194,8 @@ export const data = [
     src: "/img/maturin.png",
     href: "maturin",
     title: "Maturín",
-    direccion: "Centro Comercial Servimas Monterrey, piso 1, oficina 08.",
+    direccion:
+      "Carrera 4, Con Calle 1, Quinta Fyr Lois Nro. 06 Sector Campo Obrero Maturin Monagas Zona Postal 6201.",
     sector: "Maturín",
     country: "Venezuela",
     language: ["en"],
