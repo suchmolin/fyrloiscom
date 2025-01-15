@@ -17,7 +17,7 @@ export default function Test() {
     phone: "",
   }
   const [answer, setAnswer] = useState([])
-  const [position, setPosition] = useState(0)
+  const [position, setPosition] = useState(58)
   const [personal, setPersonal] = useState(initialData)
   const [result, setResult] = useState(-1)
 
@@ -25,9 +25,28 @@ export default function Test() {
     const fetchData = async () => {
       if (result >= 0) {
         const data = { personal, answer, result }
-        const resp = await fetch("/api/sendEmailTest", {
+        /*const resp = await fetch("/api/sendEmailTest", {
           method: "POST",
           body: JSON.stringify(data),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
+*/
+
+        const forOdoo = {
+          name: personal.name,
+          email: personal.email,
+          phone: personal.cel,
+          sede: "FYR LOIS ONLINE",
+          from: "Fyr Lois English Institute",
+          modality: "Online",
+          social_media: "Test",
+          description: `resultado del test: ${result}/${answer.length}`,
+        }
+        const resp2 = await fetch("/api/fetchOdoo", {
+          method: "POST",
+          body: JSON.stringify(forOdoo),
           headers: {
             "Content-Type": "application/json",
           },
