@@ -25,14 +25,13 @@ export default function Test() {
     const fetchData = async () => {
       if (result >= 0) {
         const data = { personal, answer, result }
-        /*const resp = await fetch("/api/sendEmailTest", {
+        const resp = await fetch("/api/sendEmailTest", {
           method: "POST",
           body: JSON.stringify(data),
           headers: {
             "Content-Type": "application/json",
           },
         })
-*/
 
         const forOdoo = {
           name: personal.name,
