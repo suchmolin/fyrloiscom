@@ -1,5 +1,5 @@
 export const data = [
-  {
+  /*{
     id: "jesus-prato",
     name: "Jesús Prato",
     cargo: "ACADEMIC VICE PRESIDENT",
@@ -34,7 +34,7 @@ export const data = [
       "Customer service",
       "Marketing",
     ],
-  },
+  },*/
   {
     id: "yheissi-blanco",
     name: "Yheissi Blanco",

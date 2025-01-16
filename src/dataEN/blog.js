@@ -1,5 +1,88 @@
 export const data = [
   {
+    id: "como-usar-correctamente-las-preposiciones",
+    tarjeta: {
+      titulo: "Conoce el uso de las preposiciones en inglés",
+      descripcion:
+        "En inglés, las preposiciones son clave para describir la ubicación de personas, objetos o lugares. Sin embargo, algunas preposiciones pueden resultar confusas cuando estás aprendiendo el idioma, especialmente cuando se trata de “in”, “on”, “next to” y “under.”",
+      autor: "Fyr Lois",
+      fotoAutor: "fyrloisautor.png",
+      categoria: "GRAMÁTICA",
+      img: "blog/close-up-hand-choosing-book-from-bookshelf.png",
+      fechaPublicado: "Enero 15, 2025",
+      imgPrincipal: "blog/close-up-hand-choosing-book-from-bookshelf.png",
+    },
+    contenido: [
+      {
+        titulo:
+          "¿Cómo Usar Correctamente las Preposiciones “in”, “on”, “next to” y “under.” en Inglés?",
+        texto: [
+          "En inglés, las preposiciones son clave para describir la ubicación de personas, objetos o lugares.",
+          "Sin embargo, algunas preposiciones pueden resultar confusas cuando estás aprendiendo el idioma, especialmente cuando se trata de “in”, “on”, “next to” y “under.”",
+          "Aquí te explicamos cómo usarlas correctamente, junto con ejemplos prácticos para que no te queden dudas.",
+        ],
+      },
+      {
+        titulo: "1. “In”",
+        texto: [
+          "La preposición “in” se utiliza para indicar que algo está dentro de un espacio cerrado o limitado. Es común cuando se habla de edificios, habitaciones, ciudades, y otros lugares que tienen una delimitación clara.",
+          "E.g.,",
+          "- She lives in New York.",
+          "- There’s a cat in the box.",
+        ],
+        img: "blog/egin.png",
+      },
+      {
+        texto: [
+          "En general, se utiliza “in” cuando se quiere expresar que algo o alguien está rodeado por límites físicos.",
+        ],
+      },
+      {
+        titulo: "2. “On”",
+        texto: [
+          "“On” se usa cuando algo está encima de una superficie. Puede ser una mesa, una pared, el suelo o cualquier otra superficie plana o que soporte algo sobre ella.",
+          "E.g.,",
+          "- He wrote a note on the wall.",
+          "- My phone is on the bed.",
+        ],
+        img: "blog/egon.png",
+      },
+      {
+        texto: [
+          "“On” también se utiliza cuando se habla de medios de transporte como trenes, aviones o autobuses, en los que se está “sobre” el vehículo.",
+        ],
+      },
+      {
+        titulo: "3. “Next to”",
+        texto: [
+          "“Next to” indica que algo o alguien está junto a o al lado de otra cosa. Esta preposición es ideal para describir ubicaciones cercanas en un espacio físico.",
+          "E.g.,",
+          "- The store is next to the bank.",
+          "- There’s a park next to the school.",
+        ],
+        img: "blog/egnextto.png",
+      },
+      {
+        titulo: "4. “Under”",
+        texto: [
+          "Por último, “Under” se usa para señalar que algo está debajo o cubierto por otro objeto. Esta preposición es común cuando se quiere describir que algo está directamente bajo otra cosa.",
+          "E.g.,",
+          "- There’s a box under the bed.",
+        ],
+        img: "blog/egunder.png",
+      },
+      {
+        titulo: "Para recordar estas preposiciones, aquí un cuadro resumido:",
+        img: "blog/in-on-under-next-to.png",
+      },
+      {
+        texto: [
+          "Con un poco de práctica y los ejemplos correctos, podrás aprender a usar las preposiciones de manera natural en tus conversaciones en inglés. ¡Sigue practicando y podrás ver los resultados!. Si quieres aprender mejor el idioma visita nuestra sección de <<Cursos Online==/es/online#cursosonline>> y ve todo lo que tenemos disponible para ti.",
+        ],
+      },
+    ],
+  },
+  {
     id: "las-Palabras-que-necesitas-conocer-antes-de-viajar",
     tarjeta: {
       titulo: "Las Palabras que Necesitas Conocer Antes de Viajar",
