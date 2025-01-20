@@ -1,8 +1,8 @@
 "use client"
 import { useSearchParams } from "next/navigation"
-import React, { useEffect } from "react"
+import React, { Suspense, useEffect } from "react"
 
-export default function TestRedirect() {
+function TestComponent() {
   const searchParams = useSearchParams()
   const from = searchParams.get("from")
   useEffect(() => {
@@ -12,4 +12,12 @@ export default function TestRedirect() {
   }, [from])
 
   return null
+}
+
+export default function TestRedirect() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <TestComponent />
+    </Suspense>
+  )
 }
