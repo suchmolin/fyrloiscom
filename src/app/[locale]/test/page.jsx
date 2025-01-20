@@ -2,13 +2,13 @@
 import PersonalDataTest from "@/components/PersonalDataTest/page"
 import QuestionsTest from "@/components/QuestionsTest/page"
 import { testdata } from "@/data/testdata"
-import { useState, useEffect } from "react"
+import { useState, useEffect, Suspense } from "react"
 import { useTranslations } from "next-intl"
 import Image from "next/image"
 import ResultTestSection from "@/components/ResultTestSection/page"
 import { useSearchParams } from "next/navigation"
 
-export default function Test() {
+function TestComp() {
   const searchParams = useSearchParams()
   const campFrom = searchParams.get("from")
   const t = useTranslations("Test")
@@ -122,5 +122,13 @@ export default function Test() {
         </>
       )}
     </div>
+  )
+}
+
+export default function Test() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <TestComp />
+    </Suspense>
   )
 }
