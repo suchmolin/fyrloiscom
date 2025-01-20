@@ -10,7 +10,7 @@ import { useSearchParams } from "next/navigation"
 
 export default function Test() {
   const searchParams = useSearchParams()
-  const from = searchParams.get("from")
+  const campFrom = searchParams.get("from")
   const t = useTranslations("Test")
   const initialData = {
     email: "",
@@ -45,7 +45,7 @@ export default function Test() {
           modality: "Online",
           social_media: "Test",
           description: `resultado del test: ${result}/${answer.length}`,
-          camp: from || "page",
+          camp: campFrom || "page",
         }
         const resp2 = await fetch("/api/fetchOdoo", {
           method: "POST",
