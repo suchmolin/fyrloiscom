@@ -20,7 +20,7 @@ function TestComp() {
     phone: "",
   }
   const [answer, setAnswer] = useState([])
-  const [position, setPosition] = useState(0)
+  const [position, setPosition] = useState(59)
   const [personal, setPersonal] = useState(initialData)
   const [result, setResult] = useState(-1)
 
@@ -28,13 +28,13 @@ function TestComp() {
     const fetchData = async () => {
       if (result >= 0) {
         const data = { personal, answer, result }
-        const resp = await fetch("/api/sendEmailTest", {
+        /*const resp = await fetch("/api/sendEmailTest", {
           method: "POST",
           body: JSON.stringify(data),
           headers: {
             "Content-Type": "application/json",
           },
-        })
+        })*/
 
         const forOdoo = {
           name: personal.name,
