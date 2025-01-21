@@ -6,9 +6,7 @@ function TestComponent() {
   const searchParams = useSearchParams()
   const from = searchParams.get("from")
   useEffect(() => {
-    window.location.replace(
-      from == "testigcamp" ? `/es/test?from=testigcamp` : "/es/test"
-    )
+    window.location.replace(from ? `/es/test?from=${from}` : "/es/test")
   }, [from])
 
   return null
