@@ -1,5 +1,123 @@
 export const data = [
   {
+    id: "conoce-este-metodo-de-practicar-ingles-sin-aburrirte",
+    tarjeta: {
+      titulo: " Conoce esté método de practicar inglés sin aburrirte",
+      descripcion:
+        "Al momento de practicar inglés la mayoría de las veces crees que es un proceso lento y aburrido, pero eso es solo porque no utilizas el método adecuado. Puedes aprender vocabulario y entender mejor el inglés con tus películas y series favoritas, de está manera te mantendrás entretenido mientras lo haces.",
+      autor: "Fyr Lois",
+      fotoAutor: "fyrloisautor.png",
+      categoria: "GRAMÁTICA",
+      img: "blog/blogaprendeinglestarjeta.png",
+      fechaPublicado: "Enero 15, 2025",
+      imgPrincipal: "blog/blogaprendeinglestarjeta.png",
+    },
+    contenido: [
+      {
+        titulo: " Conoce esté método de practicar inglés sin aburrirte",
+        texto: [
+          "Al momento de practicar inglés la mayoría de las veces crees que es un proceso lento y aburrido, pero eso es solo porque no utilizas el método adecuado.",
+          "Puedes aprender vocabulario y entender mejor el inglés con tus películas y series favoritas, de está manera te mantendrás entretenido mientras lo haces.",
+        ],
+      },
+      {
+        titulo:
+          "Dependiendo de tu nivel de inglés puedes utilizar estás series y películas para practicar",
+        subtitulo: "Nivel Bás​ico",
+      },
+      {
+        subtitulo: "Finding Nemo",
+        texto: [
+          "Está película esta llena de expresiones y diálogos simples convirtiéndola en una de las mejores opciones para cuando estás comenzando tu estudio del idioma.",
+        ],
+      },
+      {
+        subtitulo: "Harry Potter and the Philosopher´s Stone",
+        texto: [
+          "Un clásico de fantasía con un lenguaje sencillo y fácil, y con personajes carismáticos que te permitirán practicar y desarrollar tu inglés.",
+          "También puedes utilizar series si quieres practicar, algunas que son recomendables son:",
+        ],
+      },
+      {
+        subtitulo: "SpongeBob SquarePants:",
+        texto: [
+          "Tiene diálogos sencillos y repetitivos lo que permite mejor la memorización, además tiene personajes divertidos y entrañables.",
+        ],
+      },
+      {
+        subtitulo: "Friends: ",
+        texto: [
+          "Contiene diálogos fáciles de entender y con personajes muy queridos, también esta basado en situaciones cotidianas que pueden ocurrir en la vida real y te ayuda a comprender mejor el idioma.",
+        ],
+        img: "blog/blogaprendeingles1.png",
+      },
+      { subtitulo: "Nivel intermedio" },
+      {
+        subtitulo: "The Dark Knight:",
+        texto: [
+          "Un drama de superhéroes con una trama intrincada y personajes profundos, también hace uso de un diálogo más complejo que requiere un nivel más alto de inglés.",
+        ],
+      },
+      {
+        subtitulo: "Bridesmaids:",
+        texto: [
+          "Una comedia con situaciones divertidas y un lenguaje coloquial. Te ayudará a agudizar el oído y a entender mejor la jerga americana.",
+          "Algunas series que puedes utilizar para practicar son:",
+        ],
+      },
+      {
+        subtitulo: "The Office (US):",
+        texto: [
+          "Una comedia de oficina con humor muy particular y diálogos rápidos y llenos de jerga, es ideal para practicar y mejorar la comprensión auditiva del inglés.",
+        ],
+      },
+      {
+        subtitulo: "House MD:",
+        texto: [
+          "Una serie médica con un protagonista peculiar y diálogos llenos de sarcasmo y jerga médica. Necesitas un nivel de inglés más avanzado debido a los términos utilizados en la misma.",
+        ],
+        img: "blog/blogaprendeingles2.png",
+      },
+      { subtitulo: "Nivel Avanzado" },
+      {
+        subtitulo: "The Matrix:",
+        texto: [
+          "Una película de ciencia ficción, basada en un futuro distópico, tiene una trama compleja y utiliza diálogos sofisticados con muchas referencias culturales.",
+        ],
+      },
+      {
+        subtitulo: "The Lord of the Rings:",
+        texto: [
+          "Esta película basada en los libros de Tolkien, es una gran opción para practicar tu inglés, debido a que cuenta con diálogos profundos y filosóficos que te permite explorar temas complejos.",
+          "También puedes utilizar algunas series, algunas son:",
+        ],
+      },
+      {
+        subtitulo: "Stranger Things:",
+        texto: [
+          "Una serie basada en los años 80 y llena de referencias culturales hacia esa época, con una trama intrincada y que requiere mucha atención.",
+        ],
+      },
+      {
+        subtitulo: "The Big Bang Theory:",
+        texto: [
+          "Una serie de comedía basada en la vida de cuatro amigos científicos que viven en California y su dificultad para enfrentar las situaciones cotidianas de la vida, cuenta con un diálogo complejo y personajes carismáticos.",
+        ],
+        img: "blog/blogaprendeingles3.png",
+      },
+      {
+        titulo: "Recomendaciones para practicar inglés con series y películas",
+        texto: [
+          "<b>1. Verlas sin subtítulos:</b> de esta manera estarás obligado a concentrarte en el audio y prestar mucha atención, si es necesario retrocede el contenido varias veces hasta que entiendas que están diciendo.",
+          "<b>2. Busca en un diccionario las palabras que no conozcas:</b> Si escuchas palabras cuyo significado desconozcas, toma nota y búscalas en el diccionario, así iras ampliando tu vocabulario poco a poco",
+          "<b>3. Discute la serie con otras personas:</b> Intercambia opiniones y analiza el contenido que has visto, y si puedes hacerlo en inglés mucho mejor.",
+          "<b>4. Disfruta el proceso:</b> Lo más importante es que escojas series o películas de tu interés para que realmente puedas divertirte mientras practicas.",
+          "Si quieres aprender más vocabulario en inglés, visita nuestra sección de <<Cursos Online==/es/online#cursosonline>> y elige que opción se adapta mejor a tus necesidades.",
+        ],
+      },
+    ],
+  },
+  {
     id: "como-usar-correctamente-las-preposiciones",
     tarjeta: {
       titulo: "Conoce el uso de las preposiciones en inglés",
