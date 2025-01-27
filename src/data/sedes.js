@@ -194,8 +194,7 @@ export const data = [
     src: "/img/maturin.png",
     href: "maturin",
     title: "Maturín",
-    direccion:
-      "Carrera 4, Con Calle 1, Quinta Fyr Lois Nro. 06 Sector Campo Obrero Maturin Monagas Zona Postal 6201.",
+    direccion: "Quinta Fyr Lois, Carrera 4 con calle 1, Sector Campo Obrero.",
     sector: "Maturín",
     country: "Venezuela",
     language: ["en"],

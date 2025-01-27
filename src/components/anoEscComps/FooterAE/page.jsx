@@ -36,8 +36,7 @@ export default function FooterAE() {
     {
       titulo: "Maturín",
       img: "/img/AE/maturinmap.png",
-      direccion:
-        "Carrera 4, Con Calle 1, Quinta Fyr Lois Nro. 06 Sector Campo Obrero Maturin Monagas Zona Postal 6201.",
+      direccion: "Quinta Fyr Lois, Carrera 4 con calle 1, Sector Campo Obrero.",
       redir:
         "https://www.google.com/maps/search/Carrera+4,+Con+Calle+1,+Quinta+Fyr+Lois+Nro.+06+Sector+Campo+Obrero+Maturin+Monagas+Zona+Postal+6201./@9.7411928,-63.1777558,14.25z?entry=ttu&g_ep=EgoyMDI1MDEwMi4wIKXMDSoASAFQAw%3D%3D",
     },
