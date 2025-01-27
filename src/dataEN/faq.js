@@ -7,7 +7,7 @@ export const data = [
   {
     id: "2",
     ask: "Do you know when the academy was founded?",
-    ans: "Fyr Lois was founded on January 11, 1999, we have more than 25 years of experience in language teaching.",
+    ans: "Fyr Lois was founded on January 11, 1999, we have more than 26 years of experience in language teaching.",
   },
   {
     id: "3",

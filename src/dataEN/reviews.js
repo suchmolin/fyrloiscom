@@ -68,7 +68,7 @@ export const data = [
     name: "Dilan Rivero",
     descripcion: "Estudiante del nivel 5",
     opinion: [
-      "Hello, my name is Dilan Rivero, I am 25 years old, I am from Venezuela, but I currently live in NewYork, The United States. In November of last year I made the best decision to join this great family called Fyr Lois, where I have been learning English with excellent teachers, online classes with very flexible schedules. Before starting my classes, I felt very limited in my days because I really wanted to talk, understand and share with my coworkers in the kitchen where I work. Today I am about to start my level 5 b1+ and I am very satisfied with the results of this process, it has been very dynamic and fun in which I have met excellent teachers and classmates from many countries.",
+      "Hello, my name is Dilan Rivero, I am 26 years old, I am from Venezuela, but I currently live in NewYork, The United States. In November of last year I made the best decision to join this great family called Fyr Lois, where I have been learning English with excellent teachers, online classes with very flexible schedules. Before starting my classes, I felt very limited in my days because I really wanted to talk, understand and share with my coworkers in the kitchen where I work. Today I am about to start my level 5 b1+ and I am very satisfied with the results of this process, it has been very dynamic and fun in which I have met excellent teachers and classmates from many countries.",
     ],
     modalidad: "online",
   },

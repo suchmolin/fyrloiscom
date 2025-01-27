@@ -5,7 +5,7 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "25 years of experience",
+    title: "26 years of experience",
     subtitle:
       "Our experience of more than two decades in language teaching has led us to develop a unique and effective methodology.",
   },

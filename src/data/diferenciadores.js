@@ -5,7 +5,7 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "25 años de trayectoria",
+    title: "26 años de trayectoria",
     subtitle:
       "Nuestra experiencia de más de dos décadas en la enseñanza de idiomas nos ha llevado a desarrollar una metodología única y efectiva.",
   },

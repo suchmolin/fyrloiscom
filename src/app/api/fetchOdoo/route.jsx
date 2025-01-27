@@ -1,6 +1,7 @@
 export async function POST(req, res) {
   const data = await req.json()
   const url = process.env.URL_ODOO_CRM
+  console.log(data)
 
   const response = await fetch(url, {
     method: "POST",

@@ -1,12 +1,15 @@
 "use client"
-import { FloatingLabel, Label, Select } from "flowbite-react"
+
 import Image from "next/image"
 import { useState } from "react"
 import { useTranslations } from "next-intl"
 import { IoIosArrowDown } from "react-icons/io"
 import SendedMsg from "../SendedMsg/page"
+import { useSearchParams } from "next/navigation"
 
 export default function FormContactUs() {
+  const searchParams = useSearchParams()
+  const campFrom = searchParams.get("from")
   const t = useTranslations("contactUs.FormContactUs")
   const [sended, setSended] = useState(false)
   const [datags, setDatags] = useState({ nombre: "", numero: "", email: "" })
@@ -19,6 +22,7 @@ export default function FormContactUs() {
     const data = Object.fromEntries(formData)
     data.modality = data.sede !== "online" ? "presencial" : "online"
     data.description = `como nos conociste : ${data.comoNosConociste}. has estudiado antes: ${data.hasEstudiadoAntes}. porque aprender: ${data.porqueAprender}`
+    data.camp = campFrom || "page"
 
     document.getElementById("BtnEnviar").disabled = true
 
@@ -26,9 +30,7 @@ export default function FormContactUs() {
     if (data.sede === "kissimmee") {
       try {
         await fetch(urlGS, { method: "POST", body: formData })
-      } catch (error) {
-        console.log(error)
-      }
+      } catch (error) {}
     } else {
       const resp = await fetch("/api/fetchOdoo", {
         method: "POST",

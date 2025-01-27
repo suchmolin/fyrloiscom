@@ -9,7 +9,7 @@ export default function DifAE() {
       </h2>
       <div className="flex flex-wrap gap-x-4 justify-center items-center">
         <div className=" w-[100px] lg:w-[150px] h-[200px] lg:h-[230px] bg-[url('/img/AE/cuadro-blanco.png')] bg-contain bg-no-repeat bg-center flex flex-col gap-3 justify-center items-center font-[EastmanBold] text-[#000b7a]">
-          <p className="text-6xl lg:text-8xl leading-[60px]">25</p>
+          <p className="text-6xl lg:text-8xl leading-[60px]">26</p>
           <p className="text-sm lg:text-xl leading-[20px]">
             años de <br /> experiencia.
           </p>

@@ -5,7 +5,7 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "25 years of experience",
+    title: "26 years of experience",
     subtitle:
       "We are not a new English course, we have experience and the support of graduates.",
   },
@@ -15,7 +15,7 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "25 years of experience",
+    title: "26 years of experience",
     subtitle:
       "We are not a new English course, we have experience and the support of graduates.",
   },
@@ -25,7 +25,7 @@ export const data = [
     width: 60,
     height: 60,
     alt: "Diferenciador",
-    title: "25 years of experience",
+    title: "26 years of experience",
     subtitle:
       "We are not a new English course, we have experience and the support of graduates.",
   },

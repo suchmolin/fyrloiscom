@@ -41,7 +41,7 @@ export const data = [
       {
         subtitulo: "SpongeBob SquarePants:",
         texto: [
-          "Tiene diálogos sencillos y repetitivos lo que permite mejor la memorización, además tiene personajes divertidos y entrañables.",
+          "Tiene diálogos sencillos y repetitivos lo que permite mejorar la memorización, además tiene personajes divertidos y entrañables.",
         ],
       },
       {
