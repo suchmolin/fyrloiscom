@@ -9,7 +9,6 @@ import { useSearchParams } from "next/navigation"
 
 export default function FormContactUs() {
   const searchParams = useSearchParams()
-  const campFrom = searchParams.get("from")
   const t = useTranslations("contactUs.FormContactUs")
   const [sended, setSended] = useState(false)
   const [datags, setDatags] = useState({ nombre: "", numero: "", email: "" })
@@ -22,7 +21,7 @@ export default function FormContactUs() {
     const data = Object.fromEntries(formData)
     data.modality = data.sede !== "online" ? "presencial" : "online"
     data.description = `como nos conociste : ${data.comoNosConociste}. has estudiado antes: ${data.hasEstudiadoAntes}. porque aprender: ${data.porqueAprender}`
-    data.camp = campFrom || "page"
+    data.camp = (await searchParams.get("from")) || "page"
 
     document.getElementById("BtnEnviar").disabled = true
 
