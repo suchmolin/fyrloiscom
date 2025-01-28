@@ -45,7 +45,7 @@ export const data = [
   },
   {
     id: "2",
-    src: "/img/ccct.png",
+    src: "/img/ccct2.png",
     href: "caracas-ccct",
     title: "Caracas (CCCT)",
     direccion:
@@ -191,7 +191,7 @@ export const data = [
   },
   {
     id: "6",
-    src: "/img/maturin.png",
+    src: "/img/maturin2.png",
     href: "maturin",
     title: "Maturín",
     direccion: "Quinta Fyr Lois, Carrera 4 con calle 1, Sector Campo Obrero.",
