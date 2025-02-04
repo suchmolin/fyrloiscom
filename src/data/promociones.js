@@ -47,20 +47,20 @@ export const data = [
   {
     id: "essential-modulo",
     titulo: "FINANCIADO",
-    tiempoUnitario: "3 Meses",
+    tiempoUnitario: "5 Meses",
     tiempoTotal: "1 Módulo",
     descuento: 10,
-    precioAnterior: 800,
+    precioAnterior: 1333,
     precioPromo: 240,
     financiado: {
-      descripcion: "3 Cuotas de $240",
+      descripcion: "5 Cuotas de $240",
       descripcion2: "",
       boton: "COMPRAR",
     },
     detalles: [
-      "3 Meses",
+      "5 Meses",
       "1 Módulo",
-      "Promo Financiado por módulo, 3 cuotas: $240.00$",
+      "Promo Financiado por módulo, 5 cuotas: $240.00$",
     ],
     img: "financiadomodulo.png",
   },
@@ -87,6 +87,19 @@ export const data = [
     detalles: ["6 Meses", "2 Módulos", "Promo Deluxe por Módulo"],
     img: "deluxemodulo.png",
   },
+  {
+    id: "un-modulo",
+    titulo: "Módulo",
+    tiempoUnitario: "3 Meses",
+    tiempoTotal: "1 Módulos",
+    descuento: false,
+    sindescuento: "1",
+    precioAnterior: false,
+    precioPromo: 800,
+    detalles: ["3 Meses", "1 Módulos", "Promo Nivel por Módulo"],
+    img: "1modulo.png",
+  },
+
   /*PROMO POR HORA ******************************************/
   {
     id: "essential-hora",

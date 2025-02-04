@@ -54,7 +54,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
   {
     id: "high-school-kissimmee",
@@ -109,7 +109,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
   {
     id: "adults-kissimmee",
@@ -256,7 +256,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
   {
     id: "elementary",
@@ -329,7 +329,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
   {
     id: "high-school",
@@ -402,7 +402,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
   {
     id: "adults",
@@ -937,7 +937,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online"],
     },
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
   {
     id: "high-school-online",
@@ -999,7 +999,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online"],
     },
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
   {
     id: "adults-online",
@@ -1477,7 +1477,7 @@ export const data = [
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
   {
     id: "elementary-espanol",
@@ -1530,7 +1530,7 @@ export const data = [
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
 
   {
@@ -1584,7 +1584,7 @@ export const data = [
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
   {
     id: "adults-espanol",
@@ -2010,7 +2010,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol-online"],
     },
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
   {
     id: "high-school-espanol-online",
@@ -2064,7 +2064,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-espanol-online"],
     },
-    promo: ["essential-modulo", "recomendado-modulo", "deluxe-modulo"],
+    promo: ["un-modulo", "recomendado-modulo", "essential-modulo"],
   },
   {
     id: "adults-espanol-online",

@@ -24,11 +24,19 @@ export default function CardPromo({ item, curso }) {
           <p
             className={`flex flex-col items-center justify-center text-3xl  font-[latoblack] ${destacar ? "text-[#001a70]" : "text-white"}`}
           >
-            <span className={`${destacar ? "scale-125" : ""} text-6xl`}>
-              {item.descuento}
-              <span className="text-5xl">%</span>
-            </span>
-            Descuento
+            {item.descuento ? (
+              <>
+                <span className={`${destacar ? "scale-125" : ""} text-6xl`}>
+                  {item.descuento}
+                  <span className="text-5xl">%</span>
+                </span>
+                Descuento
+              </>
+            ) : (
+              <span className="text-6xl flex flex-col items-center">
+                {item.sindescuento} <span className="text-5xl">Módulo</span>
+              </span>
+            )}
           </p>
         </div>
         <div className="flex flex-col gap-3 pt-10 px-7 ">
@@ -42,12 +50,14 @@ export default function CardPromo({ item, curso }) {
             <p>{item.tiempoTotal}</p>
           </div>
           <div className="flex flex-col text-center mt-4">
-            <p className={`text-center text-[#001a70] `}>
-              {t("antes")}:{" "}
-              <span className="line-through font-bold">
-                ${item.precioAnterior}.00
-              </span>
-            </p>
+            {item.descuento && (
+              <p className={`text-center text-[#001a70] `}>
+                {t("antes")}:{" "}
+                <span className="line-through font-bold">
+                  ${item.precioAnterior}.00
+                </span>
+              </p>
+            )}
             {item.financiado ? (
               <>
                 <p className="text-center text-2xl md:text-xl lg:text-2xl font-bold text-[#001a70]">
