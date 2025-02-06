@@ -16,9 +16,7 @@ export default function HeroAboutUs() {
                 {t("h1Span")}
               </span>
             </h1>
-            <p className="fontSubtitulo text-center sm:text-start">
-              {t("p")}
-            </p>
+            <p className="fontSubtitulo text-center sm:text-start">{t("p")}</p>
             <p className="mb-4 fontSubtitulo text-center sm:text-start">
               {t("p2")}
             </p>
@@ -37,7 +35,7 @@ export default function HeroAboutUs() {
         </div>
         <div className="relative w-[300px] sm:w-[350px] md:w-[450px] lg:w-[550px] xxxl:w-[750px] aspect-square mt-32 md:mt-32 mb-10 sm:mb-0">
           <Image
-            src="/img/aboutUs2.png"
+            src="/img/aboutUs26.png"
             layout="fill"
             objectFit="contain"
             alt="aboutUs"

@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    src: "/img/dif25.png",
+    src: "/img/dif26.png",
     width: 60,
     height: 60,
     alt: "Diferenciador",

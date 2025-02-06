@@ -12,7 +12,7 @@ export default function YaEsHora() {
         <div className="flex flex-col sm:flex-row items-center justify-center w-full font-[lato]">
           <div className="relative w-[300px] sm:w-[350px] md:w-[450px] lg:w-[550px] xxxl:w-[750px] aspect-square">
             <Image
-              src="/img/aboutUs2.png"
+              src="/img/aboutUs26.png"
               layout="fill"
               objectFit="contain"
               alt="aboutUs"

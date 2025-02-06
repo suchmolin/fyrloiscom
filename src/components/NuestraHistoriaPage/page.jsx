@@ -15,7 +15,7 @@ export default function NuestraHistoriaPage() {
         <div className="w-full flex flex-col md:flex-row gap-5 items-center mb-10">
           <div className="relative w-[150px] sm:w-[250px] aspect-square">
             <Image
-              src="/img/25aniversaryAltnueva.png"
+              src="/img/26aniversaryAltnueva.png"
               objectFit="contain"
               layout="fill"
               alt="nuestra historia"
