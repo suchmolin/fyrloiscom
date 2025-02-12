@@ -33,8 +33,8 @@ export default function CardPromo({ item, curso }) {
                 Descuento
               </>
             ) : (
-              <span className="text-6xl flex flex-col items-center">
-                {item.sindescuento} <span className="text-5xl">Módulo</span>
+              <span className="text-5xl flex flex-col items-center text-center">
+                {item.sindescuento}
               </span>
             )}
           </p>
@@ -45,10 +45,12 @@ export default function CardPromo({ item, curso }) {
             <FaRegCheckCircle className="text-2xl text-[#ADC823]" />
             <p>{item.tiempoUnitario}</p>
           </div>
-          <div className="flex gap-4 items-center">
-            <FaRegCheckCircle className="text-2xl text-[#ADC823]" />
-            <p>{item.tiempoTotal}</p>
-          </div>
+          {item.tiempoTotal && (
+            <div className="flex gap-4 items-center">
+              <FaRegCheckCircle className="text-2xl text-[#ADC823]" />
+              <p>{item.tiempoTotal}</p>
+            </div>
+          )}
           <div className="flex flex-col text-center mt-4">
             {item.descuento && (
               <p className={`text-center text-[#001a70] `}>
