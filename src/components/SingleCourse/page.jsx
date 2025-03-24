@@ -1,19 +1,19 @@
-import addCart from "@/addcart"
-import { OpenModalContext } from "@/context/openModal"
-import { useLocale, useTranslations } from "next-intl"
-import Image from "next/image"
-import { GoArrowRight } from "react-icons/go"
-import { useContext } from "react"
-import { handleCheckout } from "@/checkoutCart"
+import addCart from "@/addcart";
+import { OpenModalContext } from "@/context/openModal";
+import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
+import { GoArrowRight } from "react-icons/go";
+import { useContext } from "react";
+import { handleCheckout } from "@/checkoutCart";
 
 export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
-  const t = useTranslations("SingleCourse")
-  const locale = useLocale()
-  const { setIsOpen, setCartInfo, setCantCart } = useContext(OpenModalContext)
+  const t = useTranslations("SingleCourse");
+  const locale = useLocale();
+  const { setIsOpen, setCartInfo, setCantCart } = useContext(OpenModalContext);
   return (
     <div
       key={item.id}
-      className={`${sombra ? "dropShadow3" : ""} relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3 z-0 ${shrink ? "flex-shrink-0" : ""}`}
+      className={`${sombra ? "dropShadow3" : ""} relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3 z-0 scale-90 xs:scale-100 ${shrink ? "flex-shrink-0" : ""}`}
     >
       <div className="w-full h-[44px] flex justify-between">
         <h4
@@ -83,5 +83,5 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
         )}
       </div>
     </div>
-  )
+  );
 }
