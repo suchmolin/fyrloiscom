@@ -11,7 +11,8 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
   const locale = useLocale();
   const { setIsOpen, setCartInfo, setCantCart } = useContext(OpenModalContext);
   return (
-    <div
+    <a
+      href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`}
       key={item.id}
       className={`${sombra ? "dropShadow3" : ""} relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3 z-0 scale-90 xs:scale-100 ${shrink ? "flex-shrink-0" : ""}`}
     >
@@ -51,7 +52,7 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
         </div>
 
         {comprar && (
-          <div className="flex justify-between ">
+          <div className="flex justify-center ">
             <a
               href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`}
               className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
@@ -62,7 +63,7 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
               </span>
             </a>
 
-            {item.compra && (
+            {/* {item.compra && (
               <button
                 onClick={() =>
                   addCart(item.id, setIsOpen, setCartInfo, setCantCart)
@@ -78,10 +79,10 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
                   />
                 </div>
               </button>
-            )}
+            )} */}
           </div>
         )}
       </div>
-    </div>
+    </a>
   );
 }

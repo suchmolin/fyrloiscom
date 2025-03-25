@@ -56,7 +56,7 @@ export const data = [
     tiempoTotal: "1 Módulo",
     descuento: false,
     sindescuento: "Inscripción $240",
-    precioAnterior: 960,
+    precioAnterior: false,
     precioPromo: 240,
     financiado: {
       descripcion: "3 Cuotas de $240",

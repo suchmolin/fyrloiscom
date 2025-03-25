@@ -45,7 +45,7 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSES" },
+      { num: "3", titulo: "MONTHS" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
@@ -100,7 +100,7 @@ export const data = [
     ],
 
     time: [
-      { num: "3", titulo: "LAPSES" },
+      { num: "3", titulo: "MONTHS" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
@@ -238,7 +238,7 @@ export const data = [
         },
         {
           dia: "FRIDAY",
-          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+          horas: ["2:00 - 5:00 pm"],
         },
         {
           dia: "SATURDAYS",
@@ -247,7 +247,7 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "LAPSES" },
+      { num: "3", titulo: "MONTHS" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
@@ -311,7 +311,7 @@ export const data = [
         },
         {
           dia: "FRIDAY",
-          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+          horas: ["2:00 - 5:00 pm"],
         },
         {
           dia: "SATURDAYS",
@@ -320,7 +320,7 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "LAPSES" },
+      { num: "3", titulo: "MONTHS" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
@@ -384,7 +384,7 @@ export const data = [
         },
         {
           dia: "FRIDAY",
-          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+          horas: ["2:00 - 5:00 pm"],
         },
         {
           dia: "SATURDAYS",
@@ -393,7 +393,7 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "LAPSES" },
+      { num: "3", titulo: "MONTHS" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
@@ -928,7 +928,7 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "LAPSES" },
+      { num: "3", titulo: "MONTHS" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
@@ -990,7 +990,7 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "LAPSES" },
+      { num: "3", titulo: "MONTHS" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
@@ -2001,7 +2001,7 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSES" },
+      { num: "3", titulo: "MONTHS" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
     ],
@@ -2055,7 +2055,7 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "LAPSES" },
+      { num: "3", titulo: "MONTHS" },
       { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
     ],

@@ -1,14 +1,14 @@
-"use client"
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-import { useLocale, useTranslations } from "next-intl"
-import SingleCourse from "../SingleCourse/page"
-import { useState, useEffect } from "react"
-import Link from "next/link"
-import { useSearchParams } from "next/navigation"
-import IdiomaCursosButton from "../IdiomaCursosButton/page"
-import Slider from "react-slick"
-import { Carousel } from "flowbite-react"
+"use client";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { useLocale, useTranslations } from "next-intl";
+import SingleCourse from "../SingleCourse/page";
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import IdiomaCursosButton from "../IdiomaCursosButton/page";
+import Slider from "react-slick";
+import { Carousel } from "flowbite-react";
 
 export default function CursosOnlineHome({
   idioma,
@@ -16,29 +16,29 @@ export default function CursosOnlineHome({
   pressed,
   setPressed,
 }) {
-  const searchParams = useSearchParams()
-  const langCourse = searchParams.get("langCourse")
-  const [data, setData] = useState([])
+  const searchParams = useSearchParams();
+  const langCourse = searchParams.get("langCourse");
+  const [data, setData] = useState([]);
 
-  const t = useTranslations("online.CursosOnlineHome")
-  const locale = useLocale()
+  const t = useTranslations("online.CursosOnlineHome");
+  const locale = useLocale();
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const { data } = await import(`/src/${t("data")}/cursos`)
+        const { data } = await import(`/src/${t("data")}/cursos`);
 
-        setData(data)
+        setData(data);
       } catch (error) {
-        console.log("Error importing data", error)
+        console.log("Error importing data", error);
       }
-    }
-    fetchData()
-  }, [t])
+    };
+    fetchData();
+  }, [t]);
 
   const CursosOnline = data.filter(
     (item) => item.modalidad === "online" && item.lang === idioma
-  )
+  );
 
   const settings = {
     speed: 500,
@@ -69,7 +69,7 @@ export default function CursosOnlineHome({
         },
       },
     ],
-  }
+  };
 
   return (
     <div
@@ -84,7 +84,6 @@ export default function CursosOnlineHome({
           <p className="fontSubtitulo text-gray-600 mb-5">{t("p")}</p>
         </div>
         <div className="w-fit">
-          
           <IdiomaCursosButton
             idioma={idioma}
             setState={setIdioma}
@@ -96,13 +95,15 @@ export default function CursosOnlineHome({
       <div className="hidden md:block w-11/12 xxl:w-10/12 slider-container">
         <Slider {...settings} className="carrusel2 pl-10">
           {CursosOnline.map((item) => (
-            <div key={item.id} className="p-5">
-              <SingleCourse
-                item={item}
-                comprar={true}
-                sombra={true}
-                lang={langCourse}
-              />
+            <div key={item.id}>
+              <div className="p-5 flex justify-center">
+                <SingleCourse
+                  item={item}
+                  comprar={true}
+                  sombra={true}
+                  lang={langCourse}
+                />
+              </div>
             </div>
           ))}
         </Slider>
@@ -122,5 +123,5 @@ export default function CursosOnlineHome({
         </Carousel>
       </div>
     </div>
-  )
+  );
 }

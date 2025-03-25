@@ -45,7 +45,7 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
@@ -101,7 +101,7 @@ export const data = [
     ],
 
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
@@ -238,7 +238,7 @@ export const data = [
         },
         {
           dia: "VIERNES",
-          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+          horas: ["2:00 - 5:00 pm"],
         },
         {
           dia: "SÁBADOS",
@@ -247,7 +247,7 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
@@ -311,7 +311,7 @@ export const data = [
         },
         {
           dia: "VIERNES",
-          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+          horas: ["2:00 - 5:00 pm"],
         },
         {
           dia: "SÁBADOS",
@@ -320,7 +320,7 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
@@ -385,7 +385,7 @@ export const data = [
         },
         {
           dia: "VIERNES",
-          horas: ["2:00 - 5:00 pm", "5:00 - 8:00 pm"],
+          horas: ["2:00 - 5:00 pm"],
         },
         {
           dia: "SÁBADOS",
@@ -394,7 +394,7 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
@@ -938,7 +938,7 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
@@ -1000,7 +1000,7 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
@@ -1491,7 +1491,7 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
@@ -1544,7 +1544,7 @@ export const data = [
       subCurso: ["personalizado-espanol"],
     },
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
@@ -1597,7 +1597,7 @@ export const data = [
       subCurso: ["personalizado-espanol"],
     },
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
@@ -2023,7 +2023,7 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],
@@ -2077,7 +2077,7 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "MÓDULOS" },
+      { num: "3", titulo: "MESES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
     ],

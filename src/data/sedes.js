@@ -62,9 +62,6 @@ export const data = [
       "personalizado",
       "corporativo",
       "conversacional",
-      "ingles-para-negocios",
-      "reduccion-de-acento",
-      "ciudadania-americana",
     ],
     email: "info@fyrlois.com",
     social: {
@@ -98,9 +95,6 @@ export const data = [
       "personalizado",
       "corporativo",
       "conversacional",
-      "ingles-para-negocios",
-      "reduccion-de-acento",
-      "ciudadania-americana",
     ],
     email: "info@fyrlois.com",
     social: {
@@ -135,9 +129,6 @@ export const data = [
       "personalizado",
       "corporativo",
       "conversacional",
-      "ingles-para-negocios",
-      "reduccion-de-acento",
-      "ciudadania-americana",
     ],
     email: "info@fyrlois.com",
     social: {
@@ -171,9 +162,6 @@ export const data = [
       "personalizado",
       "corporativo",
       "conversacional",
-      "ingles-para-negocios",
-      "reduccion-de-acento",
-      "ciudadania-americana",
     ],
     email: "info@fyrlois.com",
     social: {
@@ -207,9 +195,6 @@ export const data = [
       "personalizado",
       "corporativo",
       "conversacional",
-      "ingles-para-negocios",
-      "reduccion-de-acento",
-      "ciudadania-americana",
     ],
     email: "info@fyrlois.com",
     social: {
@@ -244,9 +229,6 @@ export const data = [
       "personalizado",
       "corporativo",
       "conversacional",
-      "ingles-para-negocios",
-      "reduccion-de-acento",
-      "ciudadania-americana",
     ],
     email: "info@fyrlois.com",
     social: {
@@ -262,4 +244,4 @@ export const data = [
       },
     },
   },
-]
+];
