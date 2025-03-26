@@ -1182,7 +1182,7 @@ export const data = [
     time: [
       { num: "6", titulo: "LEVELS" },
       { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
-      { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "6", titulo: "WEEKS PER LEVEL" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",

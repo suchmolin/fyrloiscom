@@ -7,9 +7,7 @@ export default function CardPromo({ item, curso, horizontal }) {
   const { destacar, recomendado } = item;
 
   return (
-    <div
-      className={`${destacar || recomendado ? "scale-[120%] order-1 md:order-2" : "order-2"}`}
-    >
+    <div className={`${destacar || recomendado ? "scale-[120%] " : ""}`}>
       <div className="w-full">
         <div
           className={`bg-[#001a70] px-5 py-1 font-bold text-2xl text-white rounded-t-3xl w-fit ${recomendado ? "w-full" : ""}`}

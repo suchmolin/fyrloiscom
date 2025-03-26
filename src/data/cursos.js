@@ -1194,7 +1194,7 @@ export const data = [
     time: [
       { num: "6", titulo: "NIVELES" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "12", titulo: "SEMANAS POR NIVEL" },
+      { num: "6", titulo: "SEMANAS POR NIVEL" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",

@@ -6,8 +6,8 @@ export const data = [
     tiempoUnitario: "3 Meses",
     tiempoTotal: "1 Nivel",
     descuento: false,
-    sindescuento: "Inscripción $240",
-    precioAnterior: 960,
+    sindescuento: "Price $960.00",
+    precioAnterior: false,
     precioPromo: 240,
     financiado: {
       descripcion: "3 Cuotas de $240",
@@ -55,8 +55,8 @@ export const data = [
     tiempoUnitario: "3 Meses",
     tiempoTotal: "1 Módulo",
     descuento: false,
-    sindescuento: "Inscripción $240",
-    precioAnterior: 960,
+    sindescuento: "Price $960.00",
+    precioAnterior: false,
     precioPromo: 240,
     financiado: {
       descripcion: "3 Cuotas de $240",
