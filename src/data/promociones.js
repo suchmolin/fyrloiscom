@@ -17,9 +17,9 @@ export const data = [
     detalles: [
       "3 Meses",
       "1 Nivel",
-      "Promo Financiado por nivel, 3 cuotas: $240.00$",
+      "Promo Financiado por nivel, 3 cuotas: $240.00$ + inscripcion $240",
     ],
-    img: "financiadonivel.png",
+    img: "1modulo.png",
   },
   {
     id: "recomendado-level",
@@ -68,7 +68,7 @@ export const data = [
       "1 Módulo",
       "Promo Financiado por módulo, 3 cuotas: $240.00$ + inscripcion $240",
     ],
-    img: "financiadomodulo.png",
+    img: "1modulo.png",
   },
   {
     id: "recomendado-modulo",
