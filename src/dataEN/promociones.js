@@ -17,9 +17,9 @@ export const data = [
     detalles: [
       "3 Meses",
       "1 Nivel",
-      "Promo Financiado por nivel, 3 cuotas: $240.00$",
+      "Promo Financiado por nivel, 3 cuotas: $240.00$ + inscripcion $240",
     ],
-    img: "financiadonivel.png",
+    img: "1modulo.png",
   },
   {
     id: "recomendado-level",
@@ -31,7 +31,7 @@ export const data = [
     precioPromo: 720,
     destacar: true,
     detalles: ["3 Meses", "1 Nivel", "Promo DELUXE por nivel"],
-    img: "recomendadonivel.png",
+    img: "1modulo.png",
   },
   {
     id: "deluxe-level",
@@ -68,7 +68,7 @@ export const data = [
       "1 Módulo",
       "Promo Financiado por módulo, 4 cuotas: $240.00$",
     ],
-    img: "financiadomodulo.png",
+    img: "1modulo.png",
   },
   {
     id: "recomendado-modulo",
@@ -80,7 +80,7 @@ export const data = [
     precioPromo: 720,
     detalles: ["3 Meses", "1 Módulo", "Promo Recomendado por Módulo"],
     destacar: true,
-    img: "recomendadomodulo.png",
+    img: "1modulo.png",
   },
   {
     id: "deluxe-modulo",

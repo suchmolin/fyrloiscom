@@ -1062,8 +1062,8 @@ export const data = [
         {
           dia: "MARTES Y JUEVES",
           horas: [
-            "9:00 am - 10:50 pm",
-            "6:00 am - 7:50 pm",
+            "9:00 am - 10:50 am",
+            "6:00 pm - 7:50 pm",
             "8:00 pm - 9:50 pm",
             "(EST)",
           ],

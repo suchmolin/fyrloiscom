@@ -66,7 +66,7 @@ export const data = [
     detalles: [
       "3 Meses",
       "1 Módulo",
-      "Promo Financiado por módulo, 5 cuotas: $240.00$",
+      "Promo Financiado por módulo, 3 cuotas: $240.00$ + inscripcion $240",
     ],
     img: "financiadomodulo.png",
   },
