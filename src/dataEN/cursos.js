@@ -172,9 +172,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "6", titulo: "LEVELS" },
-      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "4", titulo: "ACADEMIC HOURS BY WEEK" },
     ],
     subCursos: {
       titulo: "we have these specialized courses for you",
@@ -476,9 +476,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "6", titulo: "LEVELS" },
-      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "4", titulo: "ACADEMIC HOURS BY WEEK" },
     ],
     subCursos: {
       titulo: "we have these specialized courses for you",
@@ -1061,9 +1061,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "6", titulo: "LEVELS" },
-      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "4", titulo: "ACADEMIC HOURS BY WEEK" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -1629,9 +1629,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "6", titulo: "LEVELS" },
-      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "4", titulo: "ACADEMIC HOURS BY WEEK" },
     ],
     subCursos: {
       titulo: "we have these specialized courses for you",
@@ -2109,9 +2109,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "6", titulo: "LEVELS" },
-      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "4", titulo: "ACADEMIC HOURS BY WEEK" },
     ],
     subCursos: {
       titulo: "we have these specialized courses for you",
@@ -2228,9 +2228,9 @@ export const data = [
       "Constant practice",
     ],
     time: [
-      { num: "6", titulo: "LEVELS" },
-      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
+      { num: "4", titulo: "ACADEMIC HOURS BY WEEK" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
