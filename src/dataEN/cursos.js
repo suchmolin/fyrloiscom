@@ -45,9 +45,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "MONTHS" },
-      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "4", titulo: "ACADEMIC HOURS PER PERIOD" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -100,9 +100,9 @@ export const data = [
     ],
 
     time: [
-      { num: "3", titulo: "MONTHS" },
-      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "4", titulo: "ACADEMIC HOURS PER PERIOD" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -247,9 +247,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MONTHS" },
-      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "4", titulo: "ACADEMIC HOURS PER PERIOD" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -320,9 +320,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MONTHS" },
-      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "4", titulo: "ACADEMIC HOURS PER PERIOD" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -393,9 +393,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MONTHS" },
-      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "4", titulo: "ACADEMIC HOURS PER PERIOD" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -632,9 +632,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "8", titulo: "HOURS PER WEEK" },
+      { num: "6", titulo: "WEEKS" },
       { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
-      { num: "9", titulo: "MONTHS" },
+      { num: "8", titulo: "HOURS PER WEEK" },
     ],
   },
   {
@@ -928,9 +928,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MONTHS" },
-      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "4", titulo: "ACADEMIC HOURS PER PERIOD" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -990,9 +990,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MONTHS" },
-      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "4", titulo: "ACADEMIC HOURS PER PERIOD" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -1687,9 +1687,9 @@ export const data = [
     ],
 
     time: [
-      { num: "8", titulo: "HOURS PER WEEK" },
+      { num: "6", titulo: "WEEKS" },
       { num: "48", titulo: "ACADEMIC HOURS BY LEVEL" },
-      { num: "9", titulo: "MONTHS" },
+      { num: "8", titulo: "HOURS PER WEEK" },
     ],
     subCursos: {
       titulo: "we have these specialized courses for you",
@@ -2001,9 +2001,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "MONTHS" },
-      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "4", titulo: "ACADEMIC HOURS PER PERIOD" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",
@@ -2055,9 +2055,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "MONTHS" },
-      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
       { num: "12", titulo: "WEEKS PER LEVEL" },
+      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "4", titulo: "ACADEMIC HOURS PER PERIOD" },
     ],
     subCursos: {
       titulo: "our Personalized Course is for you",

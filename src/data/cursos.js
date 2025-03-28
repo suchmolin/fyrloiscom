@@ -45,9 +45,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -101,9 +101,9 @@ export const data = [
     ],
 
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -247,9 +247,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -320,9 +320,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -394,9 +394,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -636,9 +636,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "8", titulo: "HORAS POR SEMANA" },
+      { num: "6", titulo: "SEMANAS POR MÓDULO" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "9", titulo: "MESES" },
+      { num: "8", titulo: "HORAS ACADÉMICAS POR SEMANA" },
     ],
   },
   {
@@ -938,9 +938,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -1000,9 +1000,9 @@ export const data = [
       ],
     },
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -1491,9 +1491,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     promo: ["essential-modulo", "recomendado-modulo"],
   },
@@ -1544,9 +1544,9 @@ export const data = [
       subCurso: ["personalizado-espanol"],
     },
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     promo: ["essential-modulo", "recomendado-modulo"],
   },
@@ -1597,9 +1597,9 @@ export const data = [
       subCurso: ["personalizado-espanol"],
     },
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     promo: ["essential-modulo", "recomendado-modulo"],
   },
@@ -1705,9 +1705,9 @@ export const data = [
     ],
 
     time: [
-      { num: "8", titulo: "HORAS POR SEMANA" },
+      { num: "6", titulo: "SEMANAS POR MÓDULO" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "9", titulo: "MESES" },
+      { num: "8", titulo: "HORAS ACADÉMICAS POR SEMANA" },
     ],
     subCursos: {
       titulo: "tenemos estos cursos especializados para ti",
@@ -2023,9 +2023,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -2077,9 +2077,9 @@ export const data = [
       },
     ],
     time: [
-      { num: "3", titulo: "MESES" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "12", titulo: "SEMANAS POR MÓDULO" },
+      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
