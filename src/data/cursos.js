@@ -175,7 +175,7 @@ export const data = [
     time: [
       { num: "12", titulo: "SEMANAS POR NIVEL" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "4", titulo: "HORAS ACADÉMICAS POR NIVEL" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "tenemos estos cursos especializados para ti",
@@ -480,7 +480,7 @@ export const data = [
     time: [
       { num: "12", titulo: "SEMANAS POR NIVEL" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "4", titulo: "HORAS ACADÉMICAS POR NIVEL" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "tenemos estos cursos especializados para ti",
@@ -1073,7 +1073,7 @@ export const data = [
     time: [
       { num: "12", titulo: "SEMANAS POR NIVEL" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "4", titulo: "HORAS ACADÉMICAS POR NIVEL" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
@@ -1648,7 +1648,7 @@ export const data = [
     time: [
       { num: "12", titulo: "SEMANAS POR NIVEL" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "4", titulo: "HORAS ACADÉMICAS POR NIVEL" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "tenemos estos cursos especializados para ti",
@@ -2133,7 +2133,7 @@ export const data = [
     time: [
       { num: "12", titulo: "SEMANAS POR NIVEL" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "4", titulo: "HORAS ACADÉMICAS POR NIVEL" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "tenemos estos cursos especializados para ti",
@@ -2254,7 +2254,7 @@ export const data = [
     time: [
       { num: "12", titulo: "SEMANAS POR NIVEL" },
       { num: "48", titulo: "HORAS ACADÉMICAS POR NIVEL" },
-      { num: "4", titulo: "HORAS ACADÉMICAS POR NIVEL" },
+      { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
     ],
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
