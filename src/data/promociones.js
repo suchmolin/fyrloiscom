@@ -139,6 +139,6 @@ export const data = [
     destacar: true,
     precioPromo: 1536,
     detalles: ["48 horas", "Profesor Exclusivo", "Promo DELUXE por hora"],
-    img: "deluxehora.png",
+    img: "recomendado20.png",
   },
 ];
