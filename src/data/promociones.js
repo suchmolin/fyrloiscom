@@ -31,7 +31,7 @@ export const data = [
     precioPromo: 720,
     destacar: true,
     detalles: ["3 Meses", "1 Nivel", "Promo DELUXE por nivel"],
-    img: "recomendadonivel.png",
+    img: "recomendadonivel25.png",
   },
   {
     id: "deluxe-level",
