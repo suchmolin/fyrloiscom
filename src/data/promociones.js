@@ -31,7 +31,7 @@ export const data = [
     precioPromo: 720,
     destacar: true,
     detalles: ["3 Meses", "1 Nivel", "Promo DELUXE por nivel"],
-    img: "recomendadonivel25.png",
+    img: "recomendado25.png",
   },
   {
     id: "deluxe-level",
@@ -80,7 +80,7 @@ export const data = [
     precioPromo: 720,
     detalles: ["3 Meses", "1 Módulo", "Promo Recomendado por Módulo"],
     destacar: true,
-    img: "recomendadomodulo.png",
+    img: "recomendado25.png",
   },
   {
     id: "deluxe-modulo",
@@ -127,7 +127,7 @@ export const data = [
     precioAnterior: 960,
     precioPromo: 816,
     detalles: ["24 horas", "Profesor Exclusivo", "Promo RECOMENDADO por hora"],
-    img: "recomendadohora.png",
+    img: "recomendado20.png",
   },
   {
     id: "deluxe-hora",
