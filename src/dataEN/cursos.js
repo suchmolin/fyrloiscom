@@ -242,7 +242,7 @@ export const data = [
         },
         {
           dia: "SATURDAYS",
-          horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+          horas: ["9:00 - 12:00 pm", "2:00 - 5:00 pm"],
         },
       ],
     },
@@ -315,7 +315,7 @@ export const data = [
         },
         {
           dia: "SATURDAYS",
-          horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+          horas: ["9:00 - 12:00 pm", "2:00 - 5:00 pm"],
         },
       ],
     },
@@ -388,7 +388,7 @@ export const data = [
         },
         {
           dia: "SATURDAYS",
-          horas: ["9:00 - 12:00 m", "2:00 - 5:00 pm"],
+          horas: ["9:00 - 12:00 pm", "2:00 - 5:00 pm"],
         },
       ],
     },
