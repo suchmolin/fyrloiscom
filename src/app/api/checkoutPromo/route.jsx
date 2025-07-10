@@ -2,6 +2,17 @@ import { NextResponse } from "next/server"
 import Stripe from "stripe"
 import { data as dataPromos } from "@/data/promociones"
 
+export async function OPTIONS() {
+  return new NextResponse(null, {
+    status: 204,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type, Authorization",
+    },
+  })
+}
+
 export async function POST(req, res) {
   const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
   const data = await req.json()
@@ -46,5 +57,14 @@ export async function POST(req, res) {
     },
   })
 
-  return NextResponse.json({ data: session, message: "datos recibidos" })
+  return new NextResponse(
+    JSON.stringify({ data: session, message: "datos recibidos" }),
+    {
+      status: 200,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/json",
+      },
+    }
+  )
 }
