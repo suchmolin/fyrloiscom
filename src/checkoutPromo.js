@@ -1,7 +1,7 @@
 export async function handleCheckoutPromo(data) {
   const resp = await fetch("/api/checkoutPromo", {
     method: "POST",
-    body: JSON.stringify(data),
+    body: JSON.stringify({data : [...data]}),
     headers: {
       "Content-Type": "application/json",
     },
