@@ -15,7 +15,7 @@ export async function OPTIONS() {
 
 export async function POST(req, res) {
   const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
-  const data = await req.json()
+  const { data, promCode } = await req.json()
 
   const items = data.map((item) => {
     const prom = dataPromos.find((promo) => promo.id === item.id)
@@ -55,6 +55,7 @@ export async function POST(req, res) {
     payment_intent_data: {
       description: "Pagina Web Fyr Lois PROMOCION",
     },
+    allow_promotion_codes: promCode ? true : false,
   })
 
   return new NextResponse(
