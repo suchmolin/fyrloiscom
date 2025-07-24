@@ -145,6 +145,6 @@ export const data = [
     id: "summer-2025",
     titulo: "Summer. Plan Vacacional",
     detalles: ["60 horas. ", "1 mes", "3-16 Años"],
-    img: "summer2025.jpg", //ajuste
+    img: "summer2025.jpg", 
   },
 ];
