@@ -147,4 +147,10 @@ export const data = [
     detalles: ["60 horas. ", "1 mes", "3-16 Años"],
     img: "summer2025.jpg", //ajuste prod
   },
+  {
+    id: "regreso-a-clases-2025",
+    titulo: "Regreso a Clases 2025",
+    detalles: ["Año Escolar","1 lapso","48 horas"],
+    img: "imagendepagoANOESCOLAR.jpg", //ajuste prod
+  },
 ];
