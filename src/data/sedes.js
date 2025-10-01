@@ -76,6 +76,7 @@ export const data = [
         href: "https://www.linkedin.com/company/fyr-lois-language-institute",
       },
     },
+    pc:"bs"
   },
   {
     id: "3",
@@ -109,6 +110,7 @@ export const data = [
         href: "https://www.linkedin.com/company/fyr-lois-language-institute",
       },
     },
+    pc:"bs"
   },
   {
     id: "4",
@@ -143,6 +145,7 @@ export const data = [
         href: "https://www.linkedin.com/company/fyr-lois-language-institute",
       },
     },
+    pc:"bs"
   },
   {
     id: "5",
@@ -176,6 +179,7 @@ export const data = [
         href: "https://www.linkedin.com/company/fyr-lois-language-institute",
       },
     },
+    pc:"bs"
   },
   {
     id: "6",
@@ -209,6 +213,7 @@ export const data = [
         href: "https://www.linkedin.com/company/fyr-lois-language-institute",
       },
     },
+    pc:"bs"
   },
   {
     id: "7",
@@ -243,5 +248,6 @@ export const data = [
         href: "https://www.linkedin.com/company/fyr-lois-language-institute",
       },
     },
+    pc:"bs"
   },
 ];

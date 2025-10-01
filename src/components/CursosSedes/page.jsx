@@ -20,6 +20,7 @@ export default function CursosSedes({ sedeData }) {
     (item) => sedeData.cursos.includes(item.id) && item.lang === idioma
   );
 
+
   const settings = {
     speed: 500,
     infinite: true,
@@ -91,6 +92,7 @@ export default function CursosSedes({ sedeData }) {
                     sede={sedeData.id}
                     comprar={true}
                     lang={langCourse}
+                    pc={sedeData.pc}
                   />
                 </div>
               </div>

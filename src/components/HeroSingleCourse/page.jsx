@@ -7,11 +7,14 @@ import { OpenModalContext } from "@/context/openModal"
 import addCart from "@/addcart"
 import { handleCheckout } from "@/checkoutCart"
 import { useLocale, useTranslations } from "next-intl"
+import { useSearchParams } from "next/navigation"
 
 export default function HeroSingleCourse({ courseData }) {
   const t = useTranslations("HeroSingleCourse")
   const locale = useLocale()
   const { setIsOpen, setCartInfo, setCantCart } = useContext(OpenModalContext)
+  const searchParams = useSearchParams();
+  const pc = searchParams.get("pc");
   return courseData ? (
     <div className="w-full pt-32 pb-20 flex justify-center">
       <div className="w-11/12 flex flex-col-reverse md:flex-row gap-5 md:gap-20 justify-center items-center">
@@ -54,7 +57,7 @@ export default function HeroSingleCourse({ courseData }) {
             {courseData.description2}
           </p>
 
-          {courseData.compra ? (
+          {courseData.compra && pc != "bs" ? (
             <div className="flex gap-4">
               <button
                 onClick={(e) => {

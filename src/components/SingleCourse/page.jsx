@@ -6,13 +6,15 @@ import { GoArrowRight } from "react-icons/go";
 import { useContext } from "react";
 import { handleCheckout } from "@/checkoutCart";
 
-export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
+export default function SingleCourse({ item, comprar, sede, shrink, sombra, pc }) {
   const t = useTranslations("SingleCourse");
   const locale = useLocale();
   const { setIsOpen, setCartInfo, setCantCart } = useContext(OpenModalContext);
+
   return (
     <a
-      href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`}
+      href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}${pc ? `&pc=${pc}` : ""}
+      `}
       key={item.id}
       className={`${sombra ? "dropShadow3" : ""} relative w-[280px] xs:w-[300px] rounded-xl bg-white py-3 px-3 z-0 scale-90 xs:scale-100 ${shrink ? "flex-shrink-0" : ""}`}
     >
@@ -54,7 +56,7 @@ export default function SingleCourse({ item, comprar, sede, shrink, sombra }) {
         {comprar && (
           <div className="flex justify-center ">
             <a
-              href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}`}
+              href={`/${locale}/courses/${item.id}${sede ? `?s=${sede}&langCourse=${item.lang}` : `?langCourse=${item.lang}`}${pc ? `&pc=${pc}` : ""}`}
               className="dropShadow3 pr-1 pl-4 py-1 bg-white/80 rounded-full flex gap-3 justify-between items-center hover:bg-white transition-all duration-300 w-fit text-black"
             >
               {t("boton")}

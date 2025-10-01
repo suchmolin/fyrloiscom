@@ -13,10 +13,14 @@ import SubCourses from "@/components/SubCourses/page"
 import Diferenciadores from "@/components/Diferenciadores/page"
 import PersonalizadoDif from "@/components/PersonalizadoDif/page"
 import PromocionesCursos from "@/components/PromocionesCursos/page"
+import { useSearchParams } from "next/navigation"
 
 export default function CoursePage({ params }) {
   const { course } = params
   const [data, setData] = useState([])
+  const searchParams = useSearchParams();
+  const pricing = searchParams.get("pc");
+  const dataPromo = pricing == "bs" ? data.promoBs : data.promo;
 
   const t = useTranslations("CoursePage")
 
@@ -50,7 +54,7 @@ export default function CoursePage({ params }) {
         </div>
       )}
       {data.promo && (
-        <PromocionesCursos promoList={data.promo} cursoId={data.id} />
+        <PromocionesCursos promoList={dataPromo} cursoId={data.id} />
       )}
       {data.subCursos && (
         <>

@@ -67,28 +67,29 @@ export default function SimilarCourses({ online }) {
         <Slider {...settings} className="sm:pl-10 centercarrusel">
           {!online
             ? sedeData?.cursos.map((curso) => {
-                const course = dataCourse.find(
-                  (item) => item.id === curso && item.lang === langCourse
-                );
-                return course ? (
-                  <div key={course.id}>
-                    <div className=" flex justify-center">
-                      <SingleCourse
-                        item={course}
-                        sede={sedeData?.id}
-                        comprar={true}
-                      />
-                    </div>
-                  </div>
-                ) : null;
-              })
-            : cursosOnline.map((item) => (
-                <div key={item.id}>
+              const course = dataCourse.find(
+                (item) => item.id === curso && item.lang === langCourse
+              );
+              return course ? (
+                <div key={course.id}>
                   <div className=" flex justify-center">
-                    <SingleCourse item={item} comprar={true} />
+                    <SingleCourse
+                      item={course}
+                      sede={sedeData?.id}
+                      comprar={true}
+                      pc={sedeData.pc}
+                    />
                   </div>
                 </div>
-              ))}
+              ) : null;
+            })
+            : cursosOnline.map((item) => (
+              <div key={item.id}>
+                <div className=" flex justify-center">
+                  <SingleCourse item={item} comprar={true} />
+                </div>
+              </div>
+            ))}
         </Slider>
       </div>
     </>

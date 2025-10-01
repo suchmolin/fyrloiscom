@@ -257,6 +257,7 @@ export const data = [
       subCurso: ["personalizado"],
     },
     promo: ["essential-modulo", "recomendado-modulo"],
+    promoBs: ["essential-modulo-bs", "recomendado-modulo-bs"],
   },
   {
     id: "elementary",
@@ -330,6 +331,7 @@ export const data = [
       subCurso: ["personalizado"],
     },
     promo: ["essential-modulo", "recomendado-modulo"],
+    promoBs: ["essential-modulo-bs", "recomendado-modulo-bs"],
   },
   {
     id: "high-school",
@@ -405,6 +407,7 @@ export const data = [
     },
 
     promo: ["essential-modulo", "recomendado-modulo"],
+    promoBs: ["essential-modulo-bs", "recomendado-modulo-bs"],
   },
   {
     id: "adults",
@@ -488,6 +491,7 @@ export const data = [
       subCurso: ["personalizado", "intensivo"],
     },
     promo: ["financiado-level", "recomendado-level"],
+    promoBs: ["financiado-level-bs", "recomendado-level-bs"],
   },
   {
     id: "personalizado",
@@ -558,6 +562,7 @@ export const data = [
       "Adaptado a tus necesidades y objetivos",
     ],
     promo: ["essential-hora", "deluxe-hora"],
+    promoBs: ["essential-hora-bs", "deluxe-hora-bs"],
   },
   {
     id: "intensivo",
@@ -732,6 +737,7 @@ export const data = [
       subCurso: ["ingles-para-negocios", "reduccion-de-acento"],
     },
     promo: ["essential-hora", "deluxe-hora"],
+    promoBs: ["essential-hora-bs", "deluxe-hora-bs"],
   },
   {
     id: "ingles-para-negocios",
@@ -785,6 +791,7 @@ export const data = [
       subCurso: ["conversacional", "reduccion-de-acento"],
     },
     promo: ["essential-hora", "deluxe-hora"],
+    promoBs: ["essential-hora-bs", "deluxe-hora-bs"],
   },
   {
     id: "reduccion-de-acento",
@@ -838,6 +845,7 @@ export const data = [
       subCurso: ["conversacional", "ingles-para-negocios"],
     },
     promo: ["essential-hora", "deluxe-hora"],
+    promoBs: ["essential-hora-bs", "deluxe-hora-bs"],
   },
   {
     id: "ciudadania-americana",
@@ -884,6 +892,7 @@ export const data = [
       },
     ],
     promo: ["essential-hora", "deluxe-hora"],
+    promoBs: ["essential-hora-bs", "deluxe-hora-bs"],
   },
 
   //***********************ONLINE COURSES
