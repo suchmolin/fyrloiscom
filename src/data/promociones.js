@@ -59,7 +59,7 @@ export const data = [
     titulo: "RECOMENDADO",
     tiempoUnitario: "3 Meses",
     tiempoTotal: "1 Nivel",
-    descuento: 25,
+    descuento: 10,
     precioAnterior: 252000,
     precioPromo: 226800,
     detalles: ["3 Meses", "1 Nivel", "Promo DELUXE por nivel"],
