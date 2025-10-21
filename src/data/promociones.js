@@ -114,7 +114,7 @@ export const data = [
     precioPromo: 240,
     financiado: {
       descripcion: "3 Cuotas de 63.000 Bs",
-      descripcion2: "+ inscripcion $63.000 Bs",
+      descripcion2: "+ inscripcion 63.000 Bs",
       boton: "COMPRAR",
     },
     detalles: [

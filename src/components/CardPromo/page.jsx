@@ -23,7 +23,7 @@ export default function CardPromo({ item, curso, horizontal }) {
         className={`${horizontal ? "w-[270px] sm:w-[500px] lg:w-[450px] xl:w-[500px] flex-col sm:flex-row" : "w-[270px] md:w-[220px] lg:w-[270px] flex-col pb-20 "}  relative rounded-b-xl ${recomendado ? "" : "rounded-tr-xl"}  flex  border-[#97D700] ${destacar ? "border-4 " : "overflow-hidden"} bg-white dropShadow3`}
       >
         <div
-          className={` flex items-center justify-center text-white  ${destacar ? "bg-[#97D700] -ml-1 -mt-1 rounded-t-lg sm:w-[300px]" : "bg-[#001a70] w-[300px]"} py-7`}
+          className={` flex items-center justify-center text-white  ${destacar ? "bg-[#97D700] -ml-1 -mt-1 rounded-t-lg sm:w-[300px]" : "bg-[#001a70] "} py-7`}
         >
           <p
             className={`flex flex-col items-center justify-center text-3xl  font-[latoblack] ${destacar ? "text-[#001a70]" : "text-white"}`}
@@ -37,7 +37,7 @@ export default function CardPromo({ item, curso, horizontal }) {
                 Descuento
               </>
             ) : (
-              <span className="text-5xl flex flex-col items-center text-center">
+              <span className={`flex flex-col items-center text-center ${pricing == 'bs' ? "text-5xl sm:text-5xl lg:text-4xl xl:text-5xl" : "text-5xl"}`}>
                 {item.sindescuento}
               </span>
             )}
@@ -67,7 +67,7 @@ export default function CardPromo({ item, curso, horizontal }) {
             )}
             {item.financiado ? (
               <>
-                <p className="text-center text-2xl md:text-xl lg:text-2xl font-bold text-[#001a70]">
+                <p className={`text-center md:text-xl lg:text-2xl font-bold text-[#001a70] ${pricing == 'bs' ? "text-3xl sm:text-2xl" : "text-2xl"}`}>
                   {item.financiado.descripcion}
                 </p>
                 <p className="">{item.financiado.descripcion2}</p>
