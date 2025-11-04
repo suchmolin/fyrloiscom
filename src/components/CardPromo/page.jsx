@@ -30,14 +30,14 @@ export default function CardPromo({ item, curso, horizontal }) {
           >
             {item.descuento ? (
               <>
-                <span className={`${destacar ? "scale-125" : ""} text-6xl`}>
+                <span className={`${destacar ? "scale-125" : ""} text-6xl px-12`}>
                   {item.descuento}
                   <span className="text-5xl">%</span>
                 </span>
                 Descuento
               </>
             ) : (
-              <span className={`flex flex-col items-center text-center ${pricing == 'bs' ? "text-5xl sm:text-5xl lg:text-4xl xl:text-5xl" : "text-5xl"}`}>
+              <span className={`flex flex-col items-center text-center ${pricing == 'bs*' ? "text-5xl sm:text-5xl lg:text-4xl xl:text-5xl" : "text-5xl"}`}>
                 {item.sindescuento}
               </span>
             )}
@@ -56,33 +56,37 @@ export default function CardPromo({ item, curso, horizontal }) {
             </div>
           )}
           <div className="flex flex-col text-center mt-4">
-            {item.precioAnterior && (
+            {(item.precioAnterior || item.precioAnteriorString) && (
               <p className={`text-center text-[#001a70] `}>
-                {t("antes")}:{" "}
+                {t("antes")}
                 <span className="line-through font-bold">
-                  {pricing == "bs" ? "" : "$"}
-                  {pricing == "bs" ? item.precioAnterior.toLocaleString() + " Bs" : `${item.precioAnterior}.00`}
+                  {pricing == "bs*" ? "" : item.precioAnteriorString ? "" : "$"}
+                  {pricing == "bs*"
+                    ? item.precioAnterior.toLocaleString() + " Bs"
+                    : item.precioAnterior
+                      ? `${item.precioAnterior}.00`
+                      : `${item.precioAnteriorString}`}
                 </span>
               </p>
             )}
             {item.financiado ? (
               <>
-                <p className={`text-center md:text-xl lg:text-2xl font-bold text-[#001a70] ${pricing == 'bs' ? "text-3xl sm:text-2xl" : "text-2xl"}`}>
+                <p className={`text-center md:text-xl lg:text-2xl font-bold text-[#001a70] ${pricing == 'bs*' ? "text-3xl sm:text-2xl" : "text-2xl"}`}>
                   {item.financiado.descripcion}
                 </p>
                 <p className="">{item.financiado.descripcion2}</p>
               </>
             ) : (
               <p className="text-center text-2xl md:text-xl lg:text-2xl font-bold text-[#001a70]">
-                {pricing == "bs" ? "" : "$"}
-                {pricing == "bs" ? item.precioPromo.toLocaleString() + " Bs" : `${item.precioPromo}.00`}
+                {pricing == "bs*" ? "" : "$"}
+                {pricing == "bs*" ? item.precioPromo.toLocaleString() + " Bs" : `${item.precioPromo}.00`}
               </p>
             )}
           </div>
           <div
             className={`w-full ${horizontal ? "" : "absolute"} bottom-0 py-7 flex justify-center`}
           >
-            {pricing === "bs" ? (
+            {pricing === "bs*" ? (
               <a
                 href={`https://wa.me/13055105259?text=Hola, me interesa la promoción: ${item.titulo} - ${curso.title}`}
                 target="_blank"

@@ -20,7 +20,7 @@ export default function CoursePage({ params }) {
   const [data, setData] = useState([])
   const searchParams = useSearchParams();
   const pricing = searchParams.get("pc");
-  const dataPromo = pricing == "bs" ? data.promoBs : data.promo;
+  const dataPromo = pricing == "bs" ? data.promo : data.promo;
 
   const t = useTranslations("CoursePage")
 
