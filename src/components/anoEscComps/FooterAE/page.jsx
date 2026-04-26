@@ -138,7 +138,7 @@ export default function FooterAE() {
           <a
             href="https://wa.me/584242760113"
             aria-label="Whatsapp"
-            className="hover:scale-110 hover:text-green-500 transition-all duration-300"
+            className="whatsapp-link hover:scale-110 hover:text-green-500 transition-all duration-300"
           >
             <FaWhatsapp />
           </a>

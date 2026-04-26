@@ -15,7 +15,7 @@ export default function SocialMenuAE() {
         aria-label="Whatsapp"
         href="https://wa.me/584242760113"
         target="_blank"
-        className="w-[35px] sm:w-[45px] h-[40px] sm:h-[50px] text-white text-2xl sm:text-3xl flex items-center justify-center bg-[#f37eb5] rounded-l-md hover:w-[47px] transition-all duration-300"
+        className="whatsapp-link w-[35px] sm:w-[45px] h-[40px] sm:h-[50px] text-white text-2xl sm:text-3xl flex items-center justify-center bg-[#f37eb5] rounded-l-md hover:w-[47px] transition-all duration-300"
       >
         <FaWhatsapp />
       </a>

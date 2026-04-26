@@ -26,7 +26,7 @@ export default function WhatsappButton() {
             id="whatsappOnline"
             aria-label="whatsapp"
             target="_blank"
-            className={`absolute ${waButton ? "-top-16 left-2 opacity-100" : "top-2 left-2 opacity-0"} transition-all duration-300 flex flex-col items-center`}
+            className={`whatsapp-link absolute ${waButton ? "-top-16 left-2 opacity-100" : "top-2 left-2 opacity-0"} transition-all duration-300 flex flex-col items-center`}
             href="https://wa.me/13055105259"
           >
             <IoLogoWhatsapp
@@ -44,7 +44,7 @@ export default function WhatsappButton() {
             id="whatsappUSA"
             aria-label="whatsapp"
             target="_blank"
-            className={`absolute ${waButton ? "-top-9 -left-11 opacity-100" : "top-2 left-2 opacity-0"} transition-all duration-300 flex flex-col items-center`}
+            className={`whatsapp-link absolute ${waButton ? "-top-9 -left-11 opacity-100" : "top-2 left-2 opacity-0"} transition-all duration-300 flex flex-col items-center`}
             href="https://wa.me/13055105259"
           >
             <IoLogoWhatsapp
@@ -62,7 +62,7 @@ export default function WhatsappButton() {
             id="whatsappVenezuela"
             aria-label="whatsapp"
             target="_blank"
-            className={`absolute ${waButton ? "top-5 -left-20 opacity-100" : "top-2 left-2 opacity-0"} transition-all duration-300 flex flex-col items-center`}
+            className={`whatsapp-link absolute ${waButton ? "top-5 -left-20 opacity-100" : "top-2 left-2 opacity-0"} transition-all duration-300 flex flex-col items-center`}
             href="https://wa.me/message/UO55JH5EAKQZN1"
           >
             <IoLogoWhatsapp

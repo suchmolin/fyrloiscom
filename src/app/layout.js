@@ -9,7 +9,7 @@ export const metadata = {
 export default async function RootLayout({ children, params: { locale } }) {
   return (
     <html lang={locale}>
-      <GoogleTagManager gtmId="GTM-T7XPF2MQ" />
+      <GoogleTagManager gtmId="GTM-M5B53KKW" />
       <body>{children}</body>
     </html>
   )

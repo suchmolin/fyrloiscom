@@ -91,7 +91,7 @@ export default function CardPromo({ item, curso, horizontal }) {
                 href={`https://wa.me/13055105259?text=Hola, me interesa la promoción: ${item.titulo} - ${curso.title}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white font-bold px-4 w-fit bg-[#25D366] rounded-lg hover:bg-[#20b358] transition-colors text-sm text-nowrap py-2 duration-200 flex items-center gap-2"
+                className="whatsapp-link text-white font-bold px-4 w-fit bg-[#25D366] rounded-lg hover:bg-[#20b358] transition-colors text-sm text-nowrap py-2 duration-200 flex items-center gap-2"
               >
                 Más Información
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
