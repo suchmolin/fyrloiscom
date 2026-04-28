@@ -7,6 +7,7 @@ import "./globals.css"
 import WhatsappButton from "@/components/WhatsappButton/page"
 import { OpenModalProvider } from "@/context/openModal"
 import ModalTransition from "@/components/ModalTransition/page"
+import { GoogleTagManager } from "@next/third-parties/google"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -22,6 +23,7 @@ export default async function RootLayout({ children, params: { locale } }) {
   return (
     <html lang={locale}>
       <body className={inter.className}>
+        <GoogleTagManager gtmId="GTM-M5B53KKW" />
         <NextIntlClientProvider messages={messages}>
           <OpenModalProvider>
             <ModalTransition />
