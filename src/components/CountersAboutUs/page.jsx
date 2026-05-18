@@ -20,7 +20,7 @@ export default function CountersAboutUs() {
         <CountUp
           className="text-5xl font-bold"
           prefix="+"
-          end={26}
+          end={27}
           duration={5}
         />
         <p className="text-xl px-2">{t("p2")}</p>
