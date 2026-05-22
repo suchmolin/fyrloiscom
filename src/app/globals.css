@@ -333,12 +333,3 @@ textarea {
   border-left: 0px;
   border-right: 0px;
 }
-
-@keyframes fadeToWhite {
-  0% {
-    background-color: rgba(255, 255, 255, 0);
-  }
-  100% {
-    background-color: rgba(255, 255, 255, 1);
-  }
-}
