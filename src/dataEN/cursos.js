@@ -937,7 +937,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online"],
     },
-    promo: ["essential-modulo", "recomendado-modulo"],
+    promo: ["essential-modulo-online", "recomendado-modulo"],
   },
   {
     id: "high-school-online",
@@ -999,7 +999,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online"],
     },
-    promo: ["essential-modulo", "recomendado-modulo"],
+    promo: ["essential-modulo-online", "recomendado-modulo"],
   },
   {
     id: "adults-online",
@@ -1070,7 +1070,7 @@ export const data = [
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado-online", "intensivo-online"],
     },
-    promo: ["financiado-level", "recomendado-level"],
+    promo: ["financiado-level-online", "recomendado-level"],
   },
   {
     id: "personalizado-online",
