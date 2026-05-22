@@ -3,15 +3,342 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Eastman';
-    src: url('/fonts/Eastman-Regular.ttf');
+  font-family: "Eastman";
+  src: url("/fonts/Eastman-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "EastmanBold";
+  src: url("/fonts/Eastman-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Londrina";
+  src: url("/fonts/LondrinaSolid-Regular.otf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "lato";
+  src: url("/fonts/Lato-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "latolight";
+  src: url("/fonts/Lato-Light.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "latobold";
+  src: url("/fonts/Lato-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "latoblack";
+  src: url("/fonts/Lato-Black.ttf") format("truetype");
+  font-display: swap;
+}
+
+figure::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url("/img/mapaHeader.png") url("/img/mapaheaderhover.png");
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+textarea {
+  resize: none;
+}
+.fontTitulo {
+  font-size: 40px;
+  line-height: 42px;
+}
+.fontSubtitulo {
+  font-size: 24px;
+  line-height: 32px;
+}
+.fontdescripcion {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@media (max-width: 374px) {
+  .fontTitulo {
+    font-size: 32px;
+    line-height: 34px;
   }
-  @font-face {
-    font-family: 'EastmanBold';
-    src: url('/fonts/Eastman-Bold.ttf');
+  .fontSubtitulo {
+    font-size: 18px;
+    line-height: 28px;
   }
-  @font-face {
-    font-family: 'Londrina';
-    src: url('/fonts/LondrinaSolid-Regular.otf');
+  .fontdescripcion {
+    font-size: 18px;
+    line-height: 28px;
   }
-  
+}
+
+.gradient {
+  mask-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 80%, transparent);
+}
+
+.textShadow {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.textShadowWhite {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+.textShadowBold {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.textBorder {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #001a70;
+}
+
+.top2 {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 70px), 0 100%);
+}
+
+.topCustomer {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 80px));
+}
+.bottomCustomer {
+  clip-path: polygon(0 0, 100% 80px, 100% 100%, 0 100%);
+  margin-top: -80px;
+}
+
+.top2 {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 80px), 0 100%);
+}
+
+@media (min-width: 1px) and (max-width: 768px) {
+  .textBorder {
+    -webkit-text-stroke-width: 2px;
+  }
+  .gradient {
+    mask-image: linear-gradient(90deg, rgba(0, 0, 0, 1) 100%, transparent);
+  }
+}
+
+.website-divider-container-812536 {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.divider-img-812536 {
+  position: absolute;
+  width: 278%;
+  height: 132px;
+
+  transform: scale(1, -1);
+  top: 0px;
+  left: 0px;
+  fill: rgb(255, 255, 255);
+}
+
+.dropShadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.dropShadow2 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dropShadow3 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dropShadow4 {
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.area1 {
+  background: #fff;
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+  width: 100%;
+  position: relative;
+}
+
+.circles1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles1 li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.circles1 li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles1 li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles1 li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles1 li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles1 li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles1 li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles1 li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles1 li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles1 li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles1 li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+#zIndex {
+  z-index: 100 !important;
+}
+
+#mtAnimation {
+  animation-duration: 1s;
+  animation-name: moveDown;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes moveDown {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: 20px;
+  }
+}
+.textnowrap {
+  white-space: nowrap !important;
+}
+
+.mapaheader {
+  background-image: url("/img/mapaHeader.png");
+}
+.carrusel > div > button {
+  border-radius: 50%;
+  background-color: #001a70 !important;
+}
+.carrusel > div > button:hover {
+  background-color: #001a70 !important;
+}
+.carrusel2 > button {
+  border-radius: 50%;
+  background-color: #001a70 !important;
+  padding-top: 3px;
+  width: 30px;
+  height: 30px;
+}
+.carrusel2 > button:hover {
+  background-color: #001a70 !important;
+}
+.centercarrusel .slick-slide > div > div {
+  justify-items: center;
+}
+
+.tablaPersonalizado {
+  width: 100%;
+}
+.tablaPersonalizado td {
+  padding: 10px 15px;
+
+  width: 100%;
+  justify-items: center;
+}
+.tablaPersonalizado tr {
+  width: 100%;
+  border: 1px solid #bfbdbd;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+@keyframes fadeToWhite {
+  0% {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 1);
+  }
+}

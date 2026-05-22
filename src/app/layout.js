@@ -16,6 +16,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang={locale}>
       <head>
+        <link
+          rel="preload"
+          href="/fonts/Lato-Black.ttf"
+          as="font"
+          type="font/ttf"
+          crossOrigin="anonymous"
+        />
+        <link rel="preload" href="/img/mapaHeader.png" as="image" />
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

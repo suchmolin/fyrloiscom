@@ -1,18 +1,16 @@
 "use client"
+import { useState } from "react"
 import { useLocale, useTranslations } from "next-intl"
 
 import Image from "next/image"
 
+const MAPA_DEFAULT = "/img/mapaHeader.png"
+const MAPA_HOVER = "/img/mapaheaderhover.png"
+
 export default function Hero() {
   const t = useTranslations("hero")
   const locale = useLocale()
-
-  const onHoverOnline = (action) => {
-    const divMapa = document.querySelector(".mapaheader")
-    action === "enter"
-      ? (divMapa.style.backgroundImage = "url(/img/mapaheaderhover.png)")
-      : (divMapa.style.backgroundImage = "url(/img/mapaHeader.png)")
-  }
+  const [mapaHover, setMapaHover] = useState(false)
 
   return (
     <div className="relative flex items-start lg:items-center md:justify-start w-full h-[750px] sm:h-[790px] lg:h-[600px] xl:h-[800px] xxl:h-[1000px] overflow-hidden">
@@ -27,7 +25,12 @@ export default function Hero() {
         </div>
       </div>
       <div className=" absolute top-[210px] sm:top-[260px] lg:top-0 -left-5 sm:left-auto sm:right-0 w-[130%] xs:w-[125%] sm:w-[700px] xl:w-[900px] xxl:w-[1200px] h-[600px] lg:h-full overflow-x-scroll sm:overflow-auto">
-        <div className="mapaheader relative w-[660px] sm:w-full h-full  bg-contain bg-no-repeat bg-center">
+        <div
+          className="mapaheader relative w-[660px] sm:w-full h-full bg-contain bg-no-repeat bg-center"
+          style={{
+            backgroundImage: `url(${mapaHover ? MAPA_HOVER : MAPA_DEFAULT})`,
+          }}
+        >
           <a
             href={`/${locale}/sedes/kissimmee`}
             className="absolute top-[286px] xl:top-[385px] xxl:top-[476px] left-[160px] sm:left-[170px] xl:left-[215px] xxl:left-[288px] cursor-pointer group"
@@ -68,8 +71,8 @@ export default function Hero() {
             </div>
           </a>
           <button
-            onMouseOver={() => onHoverOnline("enter")}
-            onMouseLeave={() => onHoverOnline("leave")}
+            onMouseEnter={() => setMapaHover(true)}
+            onMouseLeave={() => setMapaHover(false)}
             onClick={() => window.location.replace(`/${locale}/online`)}
             className="relative hoveronline w-[55px] xl:w-[70px] xxl:w-[90px] aspect-square top-[230px] xl:top-[270px] xxl:top-[360px] left-[260px] sm:left-[280px] xl:left-[380px] xxl:left-[480px] group hover:scale-105 xxl:group-hover:scale-110 transition-all duration-300 cursor-pointer"
           >
