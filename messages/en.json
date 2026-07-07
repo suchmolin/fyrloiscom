@@ -256,7 +256,8 @@
       "boton":"See more"
     },
     "DiferenciadoresOnline":{
-      "h2":"How will you learn English with us?",
+      "h2English":"How will you learn English with us?",
+      "h2Spanish":"How will you learn Spanish with us?",
       "data":"dataEN"
     },
     "YaEsHora":{

@@ -29,7 +29,7 @@ export default function OnlinePage() {
         pressed={pressed}
         setPressed={setPressed}
       />
-      <DiferenciadoresOnline />
+      <DiferenciadoresOnline idioma={idioma} />
       <YaEsHora />
       <ViveUnaExperiencia />
       <Customers />

@@ -3,9 +3,10 @@ import { useState, useEffect } from "react"
 import { useTranslations } from "next-intl"
 import DiferenciadoresList from "../DiferenciadoresList/page"
 
-export default function DiferenciadoresOnline() {
+export default function DiferenciadoresOnline({ idioma = "english" }) {
   const t = useTranslations("online.DiferenciadoresOnline")
   const [data, setData] = useState([])
+  const h2Key = idioma === "spanish" ? "h2Spanish" : "h2English"
 
   useEffect(() => {
     const fetchData = async () => {
@@ -23,7 +24,7 @@ export default function DiferenciadoresOnline() {
     <>
       <div className="relative bg-[#001A70] pb-20 w-full flex flex-col items-center justify-center overflow-hidden">
         <h2 className="fontTitulo font-bold text-white text-center mt-10 mb-7">
-          {t("h2")}
+          {t(h2Key)}
         </h2>
 
         <DiferenciadoresList data={data} />
