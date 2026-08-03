@@ -195,7 +195,7 @@ export const data = [
     etapa: "3 a 5 años",
     img: "kidsCourse.png",
     imgAlternative: "kidsCourseAlt.png",
-    price: 960,
+    price: 16,
     compra: true,
     detalles: [
       "Programa anual · Septiembre a Julio",
@@ -205,7 +205,7 @@ export const data = [
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
-    modalityPayment: "módulo",
+    modalityPayment: "hora académica",
     difCourses: [
       {
         id: "1",
