@@ -13,6 +13,7 @@ import SubCourses from "@/components/SubCourses/page"
 import Diferenciadores from "@/components/Diferenciadores/page"
 import PersonalizadoDif from "@/components/PersonalizadoDif/page"
 import PromocionesCursos from "@/components/PromocionesCursos/page"
+import CourseExtraContent from "@/components/CourseExtraContent/page"
 import { useSearchParams } from "next/navigation"
 
 export default function CoursePage({ params }) {
@@ -43,16 +44,45 @@ export default function CoursePage({ params }) {
         <DiferenciadoresList data={data.difCourses} />
       </div>
 
+      {(data.recorrido ||
+        data.programa ||
+        data.metodologia ||
+        data.programaAcademico ||
+        data.inversion ||
+        data.faqCurso) && (
+        <CourseExtraContent
+          data={data}
+          sections={[
+            "recorrido",
+            "programa",
+            "metodologia",
+            "programaAcademico",
+            "inversion",
+            "faqCurso",
+          ]}
+        />
+      )}
+
+      {data.time &&
+        !(
+          data.recorrido ||
+          data.programa ||
+          data.metodologia ||
+          data.programaAcademico ||
+          data.inversion ||
+          data.faqCurso
+        ) && (
+        <div className="w-full flex justify-center">
+          <TimeCursos data={data.time} fondoBlanco={data.difBlanco2} />
+        </div>
+      )}
+
       {(data.horarios || data.horarios2) && (
         <div className="w-full flex justify-center">
           <HorariosCursos data={data.horarios || data.horarios2} />
         </div>
       )}
-      {data.time && (
-        <div className="w-full flex justify-center">
-          <TimeCursos data={data.time} fondoBlanco={data.difBlanco2} />
-        </div>
-      )}
+
       {data.promo && (
         <PromocionesCursos promoList={dataPromo} cursoId={data.id} />
       )}
@@ -87,6 +117,7 @@ export default function CoursePage({ params }) {
 
         <div className="w-full h-[80px] md:h-[250px]  xxl:h-[300px] xxxl:h-[280px] bg-[url('/img/curvaAzul.png')] bg-cover bg-no-repeat bg-bottom -mt-1"></div>
       </div>
+
       <div className="w-full flex justify-center pt-10 pb-20 bg-[#001a70] -mt-2  md:-mt-20">
         <div className="w-full flex flex-col gap-2 -mt-5 md:-mt-32 z-10">
           <h2 className="fontTitulo font bold text-white pb-2 text-center font-bold mb-5">

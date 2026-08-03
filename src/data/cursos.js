@@ -188,14 +188,20 @@ export const data = [
   {
     id: "kids",
     title: "Kids",
+    eyebrow: "Programa anual de inglés · 3 a 5 años",
+    headline: "El futuro comienza hoy",
     description2:
-      "Un aprendizaje seguro y diferente. A través de juegos, canciones y actividades creativas, tu hijo aprende inglés de forma divertida y efectiva.",
-    etapa: "3-5 años. ",
+      "Una experiencia educativa diseñada para que tu hijo aprenda inglés mediante juegos, historias, canciones y comunicación, dentro de un recorrido que puede acompañarlo hasta el final del bachillerato.",
+    etapa: "3 a 5 años",
     img: "kidsCourse.png",
     imgAlternative: "kidsCourseAlt.png",
     price: 960,
     compra: true,
-    detalles: ["48 horas académicas", "3 meses por nivel"],
+    detalles: [
+      "Programa anual · Septiembre a Julio",
+      "4 horas académicas semanales",
+      "144 horas académicas al año",
+    ],
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
@@ -203,29 +209,225 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Metodología divertida pensada para su etapa de aprendizaje",
+        title: "Aprenden disfrutando",
+        subtitle: "Clases dinámicas y apropiadas para su edad.",
         src: "/img/difKids.png",
         width: 60,
         height: 60,
-        alt: "dif kids",
+        alt: "aprenden disfrutando",
       },
       {
         id: "2",
-        title: "Aprovecha la plasticidad de su cerebro para aprender el idioma",
+        title: "Docentes comprometidos",
+        subtitle: "Acompañamiento cercano y motivador.",
         src: "/img/difKids2.png",
         width: 60,
         height: 60,
-        alt: "dif kids",
+        alt: "docentes comprometidos",
       },
       {
         id: "3",
-        title: "Logra una pronunciación más precisa desde temprana edad",
+        title: "Programa estructurado",
+        subtitle: "Objetivos claros y seguimiento continuo.",
         src: "/img/difKids3.png",
         width: 60,
         height: 60,
-        alt: "dif kids",
+        alt: "programa estructurado",
+      },
+      {
+        id: "4",
+        title: "Experiencia integral",
+        subtitle: "Inglés, creatividad, valores y confianza.",
+        src: "/img/difCerebro.png",
+        width: 60,
+        height: 60,
+        alt: "experiencia integral",
+      },
+      {
+        id: "5",
+        title: "Continuidad",
+        subtitle: "Desde los 3 años hasta bachillerato.",
+        src: "/img/difBirrete.png",
+        width: 60,
+        height: 60,
+        alt: "continuidad académica",
+      },
+      {
+        id: "6",
+        title: "Ambiente seguro",
+        subtitle: "Espacios pensados para aprender y crecer.",
+        src: "/img/difGrupo.png",
+        width: 60,
+        height: 60,
+        alt: "ambiente seguro",
       },
     ],
+    recorrido: {
+      eyebrow: "Continuidad académica",
+      title: "Un camino que",
+      titleHighlight: "crece con tu hijo",
+      description:
+        "Más que cursos aislados: un mismo proyecto educativo y una ruta de largo plazo.",
+      steps: [
+        {
+          age: "3 AÑOS",
+          icon: "📕",
+          title: "Big Fun 1",
+          description: "Primer contacto divertido con el inglés.",
+        },
+        {
+          age: "4 AÑOS",
+          icon: "📗",
+          title: "Big Fun 2",
+          description: "Mayor comprensión y participación.",
+        },
+        {
+          age: "5 AÑOS",
+          icon: "📘",
+          title: "Big Fun 3",
+          description: "Más autonomía y preparación.",
+        },
+        {
+          age: "6–11",
+          icon: "🎒",
+          title: "Elementary",
+          description: "Habilidades y proyectos comunicativos.",
+        },
+        {
+          age: "12–17",
+          icon: "🎓",
+          title: "High School",
+          description: "Inglés académico para un mundo global.",
+        },
+        {
+          age: "META",
+          icon: "🌍",
+          title: "Graduación",
+          description: "Preparación para nuevas oportunidades.",
+        },
+      ],
+    },
+    programa: {
+      eyebrow: "Una extracurricular con propósito",
+      title: "Aprender inglés también puede ser su momento favorito de la semana",
+      description:
+        "Cada actividad mantiene su interés, favorece la participación y convierte el idioma en una experiencia significativa.",
+      items: [
+        {
+          icon: "🎵",
+          title: "Canciones y rutinas",
+          description:
+            "Ritmo, pronunciación y vocabulario dentro de dinámicas memorables.",
+        },
+        {
+          icon: "📖",
+          title: "Storytelling",
+          description:
+            "Historias que despiertan imaginación, comprensión y deseo de comunicarse.",
+        },
+        {
+          icon: "🎲",
+          title: "Juegos",
+          description:
+            "Experiencias guiadas para practicar instrucciones, vocabulario e interacción.",
+        },
+        {
+          icon: "🎨",
+          title: "Creatividad",
+          description:
+            "Actividades artísticas que integran lenguaje, exploración y expresión.",
+        },
+        {
+          icon: "🤝",
+          title: "Trabajo en equipo",
+          description: "Colaboración, respeto y participación con otros niños.",
+        },
+        {
+          icon: "🗣️",
+          title: "Comunicación",
+          description:
+            "Uso progresivo del inglés en situaciones sencillas y apropiadas para la edad.",
+        },
+        {
+          icon: "🏃",
+          title: "Movimiento",
+          description:
+            "Actividades motrices que conectan el cuerpo con el aprendizaje.",
+        },
+        {
+          icon: "🌎",
+          title: "Descubrimiento",
+          description:
+            "Temas del mundo real que amplían su curiosidad y conocimiento.",
+        },
+      ],
+    },
+    metodologia: {
+      eyebrow: "Metodología Fyr Lois",
+      title: "Un idioma se aprende utilizándolo",
+      description:
+        "Nuestra metodología propia se complementa con Big Fun de Pearson y una planificación alineada con el MCER. El libro es una herramienta; la experiencia la construyen nuestros docentes.",
+      quote:
+        "No buscamos que memorice palabras. Buscamos que disfrute usar el inglés.",
+      quoteSupport:
+        "La metodología Fyr Lois convierte la curiosidad natural del niño en experiencias de comunicación.",
+      checks: [
+        {
+          title: "Aprendizaje comunicativo",
+          description:
+            "El inglés tiene un propósito real dentro de cada actividad.",
+        },
+        {
+          title: "Juego, música y movimiento",
+          description: "Una dinámica acorde con el desarrollo infantil.",
+        },
+        {
+          title: "Storytelling y creatividad",
+          description: "Comprensión, imaginación, expresión y confianza.",
+        },
+        {
+          title: "Evaluación continua",
+          description:
+            "Seguimiento del progreso sin convertir la experiencia en presión.",
+        },
+      ],
+    },
+    inversion: {
+      eyebrow: "Inversión educativa",
+      title: "Elige la modalidad que mejor se adapte a tu familia",
+      price: "USD 16",
+      priceLabel: "por hora académica",
+      discount: "30% DE DESCUENTO",
+      discountLabel: "Al adquirir el nivel completo",
+      note: "Consulta disponibilidad de horarios, sedes, condiciones y formas de pago.",
+      cta: "Solicitar información",
+    },
+    faqCurso: {
+      eyebrow: "Preguntas frecuentes",
+      title: "Todo lo que necesitas saber",
+      items: [
+        {
+          ask: "¿Desde qué edad pueden comenzar?",
+          ans: "El programa Fyr Lois Kids está diseñado para niños de 3, 4 y 5 años.",
+        },
+        {
+          ask: "¿Mi hijo necesita conocimientos previos?",
+          ans: "No. Puede comenzar desde cero. Las actividades se ajustan al nivel y a la etapa de desarrollo del grupo.",
+        },
+        {
+          ask: "¿Qué material utilizan?",
+          ans: "Big Fun de Pearson, complementado con la metodología propia Fyr Lois y actividades desarrolladas por el equipo académico.",
+        },
+        {
+          ask: "¿Cuánto dura el programa?",
+          ans: "Es un programa anual que sigue el calendario escolar: desde la segunda semana de septiembre hasta la segunda semana de julio.",
+        },
+        {
+          ask: "¿Cómo puedo conocer las instalaciones?",
+          ans: "Completa el formulario de contacto o escríbenos por WhatsApp para coordinar una visita y conocer los horarios disponibles.",
+        },
+      ],
+    },
     horarios: {
       horario: [
         {
@@ -247,17 +449,43 @@ export const data = [
       ],
     },
     time: [
-      { num: "12", titulo: "SEMANAS POR MÓDULO" },
-      { num: "48", titulo: "HORAS ACADÉMICAS POR MÓDULO" },
       { num: "4", titulo: "HORAS ACADÉMICAS SEMANALES" },
+      { num: "16", titulo: "HORAS ACADÉMICAS MENSUALES" },
+      { num: "144", titulo: "HORAS ACADÉMICAS ANUALES" },
     ],
+    programaAcademico: {
+      eyebrow: "Programa académico",
+      title: "Una rutina constante durante el año escolar",
+      metrics: [
+        {
+          label: "Calendario",
+          value: "Septiembre–Julio",
+          description:
+            "Desde la segunda semana de septiembre hasta la segunda semana de julio.",
+        },
+        {
+          label: "Intensidad semanal",
+          value: "4 horas",
+          description:
+            "El inglés se incorpora a la rutina extracurricular del niño.",
+        },
+        {
+          label: "Intensidad mensual",
+          value: "16 horas",
+          description: "Continuidad para favorecer la práctica y el progreso.",
+        },
+        {
+          label: "Total anual",
+          value: "144 horas",
+          description: "Un recorrido académico completo por año escolar.",
+        },
+      ],
+    },
     subCursos: {
       titulo: "nuestro Curso Personalizado es para ti",
       subtitulo: "Si buscas algo más enfocado en tus necesidades,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-modulo", "recomendado-modulo"],
-    promoBs: ["essential-modulo-bs", "recomendado-modulo-bs"],
   },
   {
     id: "elementary",

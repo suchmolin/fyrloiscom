@@ -19,9 +19,19 @@ export default function HeroSingleCourse({ courseData }) {
     <div className="w-full pt-32 pb-20 flex justify-center">
       <div className="w-11/12 flex flex-col-reverse md:flex-row gap-5 md:gap-20 justify-center items-center">
         <div className="sm:w-5/12 lg:w-4/12 flex flex-col text-center md:text-start items-center md:items-start justify-center">
+          {courseData.eyebrow && (
+            <p className="text-[#001a70]/70 text-xs sm:text-sm font-bold tracking-[0.14em] uppercase mb-2">
+              {courseData.eyebrow}
+            </p>
+          )}
           <h1 className="text-4xl font-bold text-[#001A70] mb-2">
             {courseData.title}
           </h1>
+          {courseData.headline && (
+            <p className="text-2xl sm:text-3xl font-bold text-[#001A70] mb-2 leading-tight">
+              {courseData.headline}
+            </p>
+          )}
           <div className="flex flex-col md:flex-row gap-2 text-[#020203] font-bold items-center mt-2 justify-center">
             {courseData.etapa && (
               <div className="flex gap-4 items-center">

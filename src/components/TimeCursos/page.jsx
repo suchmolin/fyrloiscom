@@ -9,7 +9,13 @@ export default function TimeCursos({ data, fondoBlanco }) {
             key={item.titulo}
             className="w-[270px] flex flex-col text-center items-center"
           >
-            <p className="rounded-full w-24 lg:w-32 aspect-square border-[5px] lg:border-[7px] border-[#9ee701] flex justify-center items-center text-5xl lg:text-7xl font-[latoblack] mb-4">
+            <p
+              className={`rounded-full w-24 lg:w-32 aspect-square border-[5px] lg:border-[7px] border-[#9ee701] flex justify-center items-center font-[latoblack] mb-4 ${
+                String(item.num).length > 2
+                  ? "text-3xl lg:text-4xl"
+                  : "text-5xl lg:text-7xl"
+              }`}
+            >
               {item.num}
             </p>
             <p className="text-xl lg:text-2xl font-bold">{item.titulo}</p>

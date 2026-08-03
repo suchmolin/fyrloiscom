@@ -187,14 +187,20 @@ export const data = [
   {
     id: "kids",
     title: "Kids",
+    eyebrow: "Annual English program · Ages 3 to 5",
+    headline: "The future begins today",
     description2:
-      "Safe and different learning. Through games, songs and creative activities, your child learns English in a fun and effective way.",
-    etapa: "3-5 years old. ",
+      "An educational experience designed so your child learns English through games, stories, songs and communication, within a path that can accompany them through the end of high school.",
+    etapa: "3 to 5 years old",
     img: "kidsCourse.png",
     imgAlternative: "kidsCourseAlt.png",
     price: 800,
     compra: true,
-    detalles: ["48 academic hours", "3 months per level"],
+    detalles: [
+      "Annual program · September to July",
+      "4 academic hours per week",
+      "144 academic hours per year",
+    ],
     inscripcion: 200,
     lang: "english",
     modalidad: "presencial",
@@ -202,30 +208,225 @@ export const data = [
     difCourses: [
       {
         id: "1",
-        title: "Fun methodology designed for their learning stage",
+        title: "They learn while having fun",
+        subtitle: "Dynamic classes tailored to their age.",
         src: "/img/difKids.png",
         width: 60,
         height: 60,
-        alt: "dif kids",
+        alt: "learn while having fun",
       },
       {
         id: "2",
-        title:
-          "Take advantage of the plasticity of their brain to learn the language",
+        title: "Committed teachers",
+        subtitle: "Close and motivating support.",
         src: "/img/difKids2.png",
         width: 60,
         height: 60,
-        alt: "dif kids",
+        alt: "committed teachers",
       },
       {
         id: "3",
-        title: "Achieve more accurate pronunciation from an early age",
+        title: "Structured program",
+        subtitle: "Clear goals and continuous follow-up.",
         src: "/img/difKids3.png",
         width: 60,
         height: 60,
-        alt: "dif kids",
+        alt: "structured program",
+      },
+      {
+        id: "4",
+        title: "Complete experience",
+        subtitle: "English, creativity, values and confidence.",
+        src: "/img/difCerebro.png",
+        width: 60,
+        height: 60,
+        alt: "complete experience",
+      },
+      {
+        id: "5",
+        title: "Continuity",
+        subtitle: "From age 3 through high school.",
+        src: "/img/difBirrete.png",
+        width: 60,
+        height: 60,
+        alt: "academic continuity",
+      },
+      {
+        id: "6",
+        title: "Safe environment",
+        subtitle: "Spaces designed to learn and grow.",
+        src: "/img/difGrupo.png",
+        width: 60,
+        height: 60,
+        alt: "safe environment",
       },
     ],
+    recorrido: {
+      eyebrow: "Academic continuity",
+      title: "A path that",
+      titleHighlight: "grows with your child",
+      description:
+        "More than isolated courses: one educational project and a long-term route.",
+      steps: [
+        {
+          age: "AGE 3",
+          icon: "📕",
+          title: "Big Fun 1",
+          description: "A fun first contact with English.",
+        },
+        {
+          age: "AGE 4",
+          icon: "📗",
+          title: "Big Fun 2",
+          description: "Greater comprehension and participation.",
+        },
+        {
+          age: "AGE 5",
+          icon: "📘",
+          title: "Big Fun 3",
+          description: "More autonomy and preparation.",
+        },
+        {
+          age: "6–11",
+          icon: "🎒",
+          title: "Elementary",
+          description: "Skills and communicative projects.",
+        },
+        {
+          age: "12–17",
+          icon: "🎓",
+          title: "High School",
+          description: "Academic English for a global world.",
+        },
+        {
+          age: "GOAL",
+          icon: "🌍",
+          title: "Graduation",
+          description: "Preparation for new opportunities.",
+        },
+      ],
+    },
+    programa: {
+      eyebrow: "An extracurricular with purpose",
+      title: "Learning English can also be their favorite time of the week",
+      description:
+        "Every activity keeps their interest, encourages participation and turns the language into a meaningful experience.",
+      items: [
+        {
+          icon: "🎵",
+          title: "Songs and routines",
+          description:
+            "Rhythm, pronunciation and vocabulary within memorable dynamics.",
+        },
+        {
+          icon: "📖",
+          title: "Storytelling",
+          description:
+            "Stories that awaken imagination, comprehension and the desire to communicate.",
+        },
+        {
+          icon: "🎲",
+          title: "Games",
+          description:
+            "Guided experiences to practice instructions, vocabulary and interaction.",
+        },
+        {
+          icon: "🎨",
+          title: "Creativity",
+          description:
+            "Artistic activities that integrate language, exploration and expression.",
+        },
+        {
+          icon: "🤝",
+          title: "Teamwork",
+          description: "Collaboration, respect and participation with other children.",
+        },
+        {
+          icon: "🗣️",
+          title: "Communication",
+          description:
+            "Progressive use of English in simple, age-appropriate situations.",
+        },
+        {
+          icon: "🏃",
+          title: "Movement",
+          description:
+            "Motor activities that connect the body with learning.",
+        },
+        {
+          icon: "🌎",
+          title: "Discovery",
+          description:
+            "Real-world topics that expand their curiosity and knowledge.",
+        },
+      ],
+    },
+    metodologia: {
+      eyebrow: "Fyr Lois Methodology",
+      title: "A language is learned by using it",
+      description:
+        "Our own methodology is complemented by Pearson's Big Fun and planning aligned with the CEFR. The book is a tool; the experience is built by our teachers.",
+      quote:
+        "We don't want them to memorize words. We want them to enjoy using English.",
+      quoteSupport:
+        "The Fyr Lois methodology turns a child's natural curiosity into communication experiences.",
+      checks: [
+        {
+          title: "Communicative learning",
+          description:
+            "English has a real purpose within every activity.",
+        },
+        {
+          title: "Play, music and movement",
+          description: "A dynamic suited to child development.",
+        },
+        {
+          title: "Storytelling and creativity",
+          description: "Comprehension, imagination, expression and confidence.",
+        },
+        {
+          title: "Continuous assessment",
+          description:
+            "Progress tracking without turning the experience into pressure.",
+        },
+      ],
+    },
+    inversion: {
+      eyebrow: "Educational investment",
+      title: "Choose the option that best fits your family",
+      price: "USD 16",
+      priceLabel: "per academic hour",
+      discount: "30% OFF",
+      discountLabel: "When purchasing the full level",
+      note: "Ask about schedule availability, campuses, conditions and payment options.",
+      cta: "Request information",
+    },
+    faqCurso: {
+      eyebrow: "Frequently asked questions",
+      title: "Everything you need to know",
+      items: [
+        {
+          ask: "From what age can they start?",
+          ans: "The Fyr Lois Kids program is designed for children ages 3, 4 and 5.",
+        },
+        {
+          ask: "Does my child need prior knowledge?",
+          ans: "No. They can start from scratch. Activities are adjusted to the group's level and developmental stage.",
+        },
+        {
+          ask: "What materials do you use?",
+          ans: "Pearson's Big Fun, complemented by Fyr Lois's own methodology and activities developed by the academic team.",
+        },
+        {
+          ask: "How long does the program last?",
+          ans: "It is an annual program that follows the school calendar: from the second week of September to the second week of July.",
+        },
+        {
+          ask: "How can I visit the facilities?",
+          ans: "Fill out the contact form or write to us on WhatsApp to schedule a visit and learn about available schedules.",
+        },
+      ],
+    },
     horarios: {
       horario: [
         {
@@ -247,16 +448,43 @@ export const data = [
       ],
     },
     time: [
-      { num: "12", titulo: "WEEKS PER LEVEL" },
-      { num: "48", titulo: "ACADEMIC HOURS PER PERIOD" },
-      { num: "4", titulo: "ACADEMIC HOURS PER PERIOD" },
+      { num: "4", titulo: "ACADEMIC HOURS PER WEEK" },
+      { num: "16", titulo: "ACADEMIC HOURS PER MONTH" },
+      { num: "144", titulo: "ACADEMIC HOURS PER YEAR" },
     ],
+    programaAcademico: {
+      eyebrow: "Academic program",
+      title: "A constant routine throughout the school year",
+      metrics: [
+        {
+          label: "Calendar",
+          value: "September–July",
+          description:
+            "From the second week of September to the second week of July.",
+        },
+        {
+          label: "Weekly intensity",
+          value: "4 hours",
+          description:
+            "English becomes part of the child's extracurricular routine.",
+        },
+        {
+          label: "Monthly intensity",
+          value: "16 hours",
+          description: "Continuity to support practice and progress.",
+        },
+        {
+          label: "Annual total",
+          value: "144 hours",
+          description: "A complete academic path for each school year.",
+        },
+      ],
+    },
     subCursos: {
       titulo: "our Personalized Course is for you",
       subtitulo: "If you are looking for something more focused on your needs,",
       subCurso: ["personalizado"],
     },
-    promo: ["essential-modulo", "recomendado-modulo"],
   },
   {
     id: "elementary",
